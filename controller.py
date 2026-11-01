@@ -1,4 +1,5 @@
-# controller code
+# Code for the MCU and GUI system connection
+
 import serial
 import time
 
@@ -17,20 +18,6 @@ class HelmholtzController:
 
     def check_mcu(self):
         if self.mcu and self.mcu.is_open:
-            return True
-        return False
-
-    def run_calibration(self):
-        if not self.mcu:
-            return False
-
-        # Send a message to the MCU
-        self.mcu.write(b"CALIBRATE\n")
-
-        # Returns true if successful, False if failed
-        response = self.mcu.readline().decode('utf-8').strip()
-        if response == "CAL":
-            self.is_calibrated = True
             return True
         return False
 
@@ -54,7 +41,6 @@ class HelmholtzController:
         except (ValueError, IndexError) as e:
             print(f"Error parsing MCU data: {e}")
 
-        # Returning dummy data for now
         return {"x": 0, "y": 0, "z": 0}
 
     def send_values(self, x, y, z):

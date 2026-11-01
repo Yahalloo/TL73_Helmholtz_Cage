@@ -1,8 +1,8 @@
-#Name:
-#Group Number:
-#Purpose: 
-#Input:
-#Output
+# Main Code Developer: Maico Lin
+# Group Number: TL-73
+# Purpose: Code for the GUI system that will control the Helmholtz cage
+# Input:
+# Output: 
 
 import sys
 import matplotlib
@@ -19,6 +19,7 @@ from matplotlib.figure import Figure
 import pandas as pd
 
 from controller import HelmholtzController
+from calibration import Helmholtz_Calibration
 
 class MplCanvas(FigureCanvas):
     def __init__(self, parent=None, width=5, height=4, dpi=100):
@@ -34,6 +35,7 @@ class GUI(QWidget):
         self.resize(800,400)
 
         self.backend = HelmholtzController()
+        self.calib = Helmholtz_Calibration()
 
         #Create a Grid Layout
         layout = QGridLayout()
@@ -68,63 +70,69 @@ class GUI(QWidget):
         self.label5 = QLabel("Calibration")
         self.label5.setFont(QFont('Arial', 14))
         layout.addWidget(self.label5, 4, 0)
-        self.calibrate_box = QLineEdit()
-        self.calibrate_box.setReadOnly(True)
-        layout.addWidget(self.calibrate_box, 5, 0, 1, 1)
+
+        self.url_label = QLabel("Phyphox URL")
+        layout.addWidget(self.url_label, 5, 0)
+
+        self.url_entry = QLineEdit()
+        layout.addWidget(self.url_entry, 6, 0, 1, 1)
 
         #Calibration button
         self.calibrate_button = QPushButton("Calibrate Helmholtz Cage")
         self.calibrate_button.clicked.connect(self.calibration)
-        layout.addWidget(self.calibrate_button, 5, 1, 1, 1)
+        layout.addWidget(self.calibrate_button, 6, 1, 1, 1)
+        self.calibrate_box = QLineEdit()
+        self.calibrate_box.setReadOnly(True)
+        layout.addWidget(self.calibrate_box, 6, 2, 1, 1)
 
     #Set Static Values
         self.label6 = QLabel("Static Testing")
         self.label6.setFont(QFont('Arial', 14))
-        layout.addWidget(self.label6, 6, 0)
+        layout.addWidget(self.label6, 7, 0)
 
         #X-axis
         self.label7 = QLabel("X-axis")
-        layout.addWidget(self.label7, 7, 0)
+        layout.addWidget(self.label7, 8, 0)
         self.entry1 = QLineEdit()
-        layout.addWidget(self.entry1, 7, 1)
+        layout.addWidget(self.entry1, 8, 1)
 
         #Y-axis
         self.label8 = QLabel("Y-axis")
-        layout.addWidget(self.label8, 8, 0)
+        layout.addWidget(self.label8, 9, 0)
         self.entry2 = QLineEdit()
-        layout.addWidget(self.entry2, 8, 1)
+        layout.addWidget(self.entry2, 9, 1)
 
         #Z-axis
         self.label9 = QLabel("Z-axis")
-        layout.addWidget(self.label9, 9, 0)
+        layout.addWidget(self.label9, 10, 0)
         self.entry3 = QLineEdit()
-        layout.addWidget(self.entry3, 9, 1)
+        layout.addWidget(self.entry3, 10, 1)
 
         #Submit Button
         self.submit_button = QPushButton("Submit")
         self.submit_button.clicked.connect(self.set_coils)
-        layout.addWidget(self.submit_button, 10, 1, 1, 1)
+        layout.addWidget(self.submit_button, 11, 1, 1, 1)
 
         self.static_box = QLineEdit()
         self.static_box.setReadOnly(True)
-        layout.addWidget(self.static_box, 10, 0, 1, 1)
+        layout.addWidget(self.static_box, 11, 0, 1, 1)
 
     #Dynamic Testing
         self.label10 = QLabel("Dynamic Testing")
         self.label10.setFont(QFont('Arial', 14))
-        layout.addWidget(self.label10, 11, 0)
+        layout.addWidget(self.label10, 12, 0)
 
         self.upload_file = QPushButton("Upload File")
         self.upload_file.clicked.connect(self.upload)
-        layout.addWidget(self.upload_file, 12, 0, 1, 1)
+        layout.addWidget(self.upload_file, 13, 0, 1, 1)
 
         self.submit_file = QPushButton("Submit")
         self.submit_file.clicked.connect(self.file_open)
-        layout.addWidget(self.submit_file, 12, 1, 1, 1)
+        layout.addWidget(self.submit_file, 13, 1, 1, 1)
 
         self.upload_box = QLineEdit()
         self.upload_box.setReadOnly(True)
-        layout.addWidget(self.upload_box, 12, 2, 1, 1)
+        layout.addWidget(self.upload_box, 13, 2, 1, 1)
 
     # MCU box to show connection
         self.mcu_box = QLineEdit()
@@ -152,21 +160,36 @@ class GUI(QWidget):
     def update_routine(self):
         mcu_work = self.backend.check_mcu()
         if mcu_work:
-            self.read_coils
-            self.mcu_box.setText("Connected")
+            self.read_coils()
+            self.mcu_box.setText("MCU Connected")
         else:
-            self.mcu_box.setText("No Connection")
+            self.mcu_box.setText("MCU Not Connected")
+
+        if self.calib.is_connected:
+            data = self.calib.read_mag_data()
+            self.result_X.setText(str(data["x"]))
+            self.result_Y.setText(str(data["y"]))
+            self.result_Z.setText(str(data["z"]))
 
 #Calibration setting that sets up the Helmholtz cage calibration
     def calibration(self):
         self.calibrate_box.clear()
         # Ask backend to run the calibration sequence
-        success = self.backend.run_calibration()
-
-        if success:
-            self.calibrate_box.setText("Success")
+        url = self.url_entry.text()
+        if not url:
+            self.calibrate_box.setText("Enter a URL first")
         else:
-            self.calibrate_box.setText("Error: Check Connection")
+            success = self.calib.set_phyphox_url(url)
+
+            if success:
+                data = self.calib.read_mag_data()
+                self.result_X.setText(str(data["x"]))
+                self.result_Y.setText(str(data["y"]))
+                self.result_Z.setText(str(data["z"]))
+
+                self.calibrate_box.setText("Success")
+            else:
+                self.calibrate_box.setText("Error: Check Connection")
 
 #Read coil values from the MCU
     def read_coils(self):
@@ -175,7 +198,7 @@ class GUI(QWidget):
 
         self.result_X.setText(str(data["x"]))
         self.result_Y.setText(str(data["y"]))
-        self.result_Z.setText(str(data("z")))
+        self.result_Z.setText(str(data["z"]))
 
 #Set coil values for the static test
     def set_coils(self):
