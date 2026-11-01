@@ -6564,7 +6564,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 190.5 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6632,7 +6632,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0189987b-5648-47bb-ac46-6c9d47609667")
-		(property "Reference" "C4"
+		(property "Reference" "C16"
 			(at 173.99 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6654,7 +6654,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 171.1452 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -6696,15 +6696,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "C51")
+					(reference "C52")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "C4")
+					(reference "C16")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "C33")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -6722,7 +6722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c223a5e-c699-415c-89ab-2ea2e7cefea0")
-		(property "Reference" "C6"
+		(property "Reference" "C11"
 			(at 157.48 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6744,7 +6744,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 154.6352 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -6786,15 +6786,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "C46")
+					(reference "C47")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "C6")
+					(reference "C11")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "C28")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -6812,7 +6812,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10fa7ee8-73b3-4839-aa2c-321961317a35")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR011"
 			(at 49.53 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6872,15 +6872,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "#PWR027")
+					(reference "#PWR037")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "#PWR016")
+					(reference "#PWR011")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "#PWR016")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -6898,7 +6898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19261f93-2dbf-4cd2-8f8e-3eb97b9a2437")
-		(property "Reference" "C3"
+		(property "Reference" "C15"
 			(at 173.99 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6920,7 +6920,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 171.1452 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -6962,15 +6962,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "C50")
+					(reference "C51")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "C3")
+					(reference "C15")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "C32")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -6988,7 +6988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c58cf12-e358-42e0-9d81-2d30462dac76")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR023"
 			(at 227.33 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -7048,15 +7048,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "#PWR039")
+					(reference "#PWR049")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "#PWR011")
+					(reference "#PWR023")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "#PWR026")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -7074,7 +7074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e5a1636-dd3c-4dc6-878a-c92e215d9814")
-		(property "Reference" "C12"
+		(property "Reference" "C5"
 			(at 100.33 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7096,7 +7096,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 97.4852 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7138,15 +7138,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "C40")
+					(reference "C41")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "C12")
+					(reference "C5")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "C22")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -7164,7 +7164,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e6f0e07-1842-4f6f-a4c0-e22465aea962")
-		(property "Reference" "C1"
+		(property "Reference" "C13"
 			(at 173.99 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7186,7 +7186,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 171.1452 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7228,15 +7228,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "C48")
+					(reference "C49")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "C1")
+					(reference "C13")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "C30")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -7254,7 +7254,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20ec9db5-db61-4fa3-9f6c-aab25fafe6c4")
-		(property "Reference" "C10"
+		(property "Reference" "C19"
 			(at 209.55 62.6109 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7276,7 +7276,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
 			(at 206.7052 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7318,15 +7318,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "C54")
+					(reference "C55")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "C10")
+					(reference "C19")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "C36")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -7344,7 +7344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c10d4b1-3cc3-430d-91ce-5dca2483001e")
-		(property "Reference" "C8"
+		(property "Reference" "C17"
 			(at 185.42 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7366,7 +7366,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 182.5752 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7408,15 +7408,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "C52")
+					(reference "C53")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "C8")
+					(reference "C17")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "C34")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -7434,7 +7434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33a815d8-ffbb-45df-a184-517aa4d7e7d3")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR018"
 			(at 135.89 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -7494,15 +7494,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "#PWR034")
+					(reference "#PWR044")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "#PWR07")
+					(reference "#PWR018")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "#PWR021")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -7520,7 +7520,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e8c968e-260f-4dad-9c30-e9b6c1657cfd")
-		(property "Reference" "C15"
+		(property "Reference" "C7"
 			(at 114.3 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7542,7 +7542,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 111.4552 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -7584,15 +7584,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "C42")
+					(reference "C43")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "C15")
+					(reference "C7")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "C24")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -7609,7 +7609,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50c0278e-c464-4b41-b827-e0c88621168a")
-		(property "Reference" "C18"
+		(property "Reference" "C8"
 			(at 111.76 117.094 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7629,7 +7629,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 115.57 112.0648 0)
 			(hide yes)
 			(show_name no)
@@ -7671,15 +7671,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "C43")
+					(reference "C44")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "C18")
+					(reference "C8")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "C25")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -7697,7 +7697,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "52f72f6f-960c-499d-901d-e93f439e772f")
-		(property "Reference" "R4"
+		(property "Reference" "R1"
 			(at 52.07 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7719,7 +7719,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 47.752 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -7765,7 +7765,7 @@
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "R4")
+					(reference "R1")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
@@ -7787,7 +7787,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "568b1ab1-02fc-49b6-8fa7-633d0c321c1a")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR015"
 			(at 87.63 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -7847,15 +7847,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "#PWR031")
+					(reference "#PWR041")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "#PWR05")
+					(reference "#PWR015")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "#PWR018")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -7873,7 +7873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5917d6a6-38d7-49a2-9565-9a871e0eb75b")
-		(property "Reference" "C7"
+		(property "Reference" "C12"
 			(at 171.45 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7895,7 +7895,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 168.6052 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7937,15 +7937,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "C47")
+					(reference "C48")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "C7")
+					(reference "C12")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "C29")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -7963,7 +7963,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b1cdd1f-bddc-4439-bddf-49cdd4bd02c6")
-		(property "Reference" "C13"
+		(property "Reference" "C6"
 			(at 114.3 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7985,7 +7985,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 111.4552 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -8027,15 +8027,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "C41")
+					(reference "C42")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "C13")
+					(reference "C6")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "C23")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -8290,7 +8290,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 190.5 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -8378,7 +8378,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 190.5 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -8446,7 +8446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a3ba93c-ad28-42d3-89d0-25dbe9b34e6b")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR017"
 			(at 130.81 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8506,15 +8506,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "#PWR033")
+					(reference "#PWR043")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "#PWR06")
+					(reference "#PWR017")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "#PWR020")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -8532,7 +8532,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85b83fb9-588b-43de-b8c0-386693d7a4a8")
-		(property "Reference" "C5"
+		(property "Reference" "C10"
 			(at 142.24 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8554,7 +8554,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 139.3952 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -8596,15 +8596,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "C45")
+					(reference "C46")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "C5")
+					(reference "C10")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "C27")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -8622,7 +8622,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88e326c4-a10d-4ec4-b1c9-088c34411460")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR020"
 			(at 148.59 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8682,15 +8682,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "#PWR036")
+					(reference "#PWR046")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "#PWR09")
+					(reference "#PWR020")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "#PWR023")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -8708,7 +8708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97cf50ea-4980-4d72-862c-a0b331e3e5ec")
-		(property "Reference" "R3"
+		(property "Reference" "R4"
 			(at 90.17 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8730,7 +8730,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 85.852 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -8776,7 +8776,7 @@
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "R3")
+					(reference "R4")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
@@ -8798,7 +8798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97e4d087-16d2-49ba-bb7e-ffb4a6c430fa")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR012"
 			(at 49.53 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -8858,15 +8858,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "#PWR028")
+					(reference "#PWR038")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "#PWR017")
+					(reference "#PWR012")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "#PWR017")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -8883,7 +8883,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2ec4a83-087b-49a5-b651-1fc4d123ee2b")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR016"
 			(at 111.76 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -8943,15 +8943,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "#PWR032")
+					(reference "#PWR042")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "#PWR04")
+					(reference "#PWR016")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "#PWR019")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -8969,7 +8969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a41886de-cabe-4aa8-af03-6139d2a7030f")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR019"
 			(at 140.97 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -9029,15 +9029,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "#PWR035")
+					(reference "#PWR045")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "#PWR08")
+					(reference "#PWR019")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "#PWR022")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -9055,7 +9055,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5b0d91f-8167-47ea-b8ff-f26631e6de73")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR014"
 			(at 81.28 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -9115,15 +9115,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "#PWR030")
+					(reference "#PWR040")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "#PWR03")
+					(reference "#PWR014")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "#PWR013")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -9141,7 +9141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6ae95b9-5fec-407e-b628-1c7a28d1d472")
-		(property "Reference" "R6"
+		(property "Reference" "R2"
 			(at 52.07 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9163,7 +9163,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 47.752 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -9209,7 +9209,7 @@
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "R6")
+					(reference "R2")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
@@ -9231,7 +9231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae48746a-3a6e-4e95-b641-19952196b286")
-		(property "Reference" "C14"
+		(property "Reference" "C9"
 			(at 128.27 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9253,7 +9253,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 125.4252 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -9295,15 +9295,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "C44")
+					(reference "C45")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "C14")
+					(reference "C9")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "C26")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -9341,7 +9341,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 190.5 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -9409,7 +9409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbc67ba6-3513-400a-8f62-5e6f4f7fe7c1")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR021"
 			(at 195.58 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9469,15 +9469,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "#PWR037")
+					(reference "#PWR047")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "#PWR01")
+					(reference "#PWR021")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "#PWR024")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -9494,7 +9494,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2b8d564-259c-417b-b3f9-6f9fccb266cf")
-		(property "Reference" "JP3"
+		(property "Reference" "JP1"
 			(at 71.374 60.198 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9556,15 +9556,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "JP4")
+					(reference "JP3")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "JP3")
+					(reference "JP1")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "JP3")
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -9582,7 +9582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2ffd09d-9e29-4cc2-9b9e-996b4fceecff")
-		(property "Reference" "R1"
+		(property "Reference" "R6"
 			(at 196.85 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9604,7 +9604,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 192.532 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -9650,7 +9650,7 @@
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "R1")
+					(reference "R6")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
@@ -9672,7 +9672,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c3a0937f-dff6-4a45-bd12-ddfbcf9a97f3")
-		(property "Reference" "R5"
+		(property "Reference" "R3"
 			(at 62.23 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9694,7 +9694,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 57.912 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -9740,7 +9740,7 @@
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "R5")
+					(reference "R3")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
@@ -9762,7 +9762,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d02b4936-2a96-4f78-a9cd-dc30c38904bc")
-		(property "Reference" "C17"
+		(property "Reference" "C3"
 			(at 85.09 58.8009 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9826,15 +9826,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "C38")
+					(reference "C39")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "C17")
+					(reference "C3")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "C20")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -9852,7 +9852,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d40261c5-79bf-4302-a0a7-4fbf37016417")
-		(property "Reference" "C16"
+		(property "Reference" "C4"
 			(at 99.06 58.8009 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9874,7 +9874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 96.2152 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -9916,15 +9916,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "C39")
+					(reference "C40")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "C16")
+					(reference "C4")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "C21")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -9942,7 +9942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6caa97f-92b8-40c8-bfff-802fe186804b")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR022"
 			(at 205.74 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -10002,15 +10002,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "#PWR038")
+					(reference "#PWR048")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "#PWR02")
+					(reference "#PWR022")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "#PWR025")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -10028,7 +10028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8698397-c31a-4add-b8e5-37a7d6fb2cda")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR013"
 			(at 62.23 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -10088,15 +10088,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "#PWR029")
+					(reference "#PWR039")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "#PWR010")
+					(reference "#PWR013")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "#PWR012")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -10114,7 +10114,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5368925-21dc-483b-986a-2a5298758345")
-		(property "Reference" "C9"
+		(property "Reference" "C18"
 			(at 198.12 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10136,7 +10136,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 195.2752 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -10178,15 +10178,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "C53")
+					(reference "C54")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "C9")
+					(reference "C18")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "C35")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -10203,7 +10203,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f604b17b-3b19-4883-ae0d-d5ce6e9f9300")
-		(property "Reference" "R2"
+		(property "Reference" "R5"
 			(at 102.616 111.506 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10223,7 +10223,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 104.14 110.998 90)
 			(hide yes)
 			(show_name no)
@@ -10269,7 +10269,7 @@
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "R2")
+					(reference "R5")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
@@ -10291,7 +10291,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f82d8144-cbde-486d-b67c-62b234dece4a")
-		(property "Reference" "C11"
+		(property "Reference" "C2"
 			(at 85.09 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10313,7 +10313,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 82.2452 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -10355,15 +10355,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "C37")
+					(reference "C38")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "C11")
+					(reference "C2")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "C19")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -10381,7 +10381,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb1d76c3-358c-4a87-bf98-d571166b6ddb")
-		(property "Reference" "C2"
+		(property "Reference" "C14"
 			(at 173.99 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10403,7 +10403,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 171.1452 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -10445,15 +10445,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "C49")
+					(reference "C50")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "C2")
+					(reference "C14")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "C31")
+					(reference "C32")
 					(unit 1)
 				)
 			)

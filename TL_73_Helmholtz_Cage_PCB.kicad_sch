@@ -15621,7 +15621,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b12e44a-ecad-4ea0-ab02-3bb914aed330")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR04"
 			(at 96.52 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -15681,7 +15681,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(reference "#PWR0101")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -15774,7 +15774,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2101b020-6ed2-4a1c-85b4-3003b04b8748")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR08"
 			(at 102.87 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -15834,7 +15834,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(reference "#PWR0107")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -16004,7 +16004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44be69ae-bf07-4e0a-8141-11552c3b0d9b")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR05"
 			(at 96.52 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -16064,7 +16064,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(reference "#PWR0105")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -16081,7 +16081,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4e652212-aaaf-4af0-839e-54f0d68dbdbe")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR010"
 			(at 102.87 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -16141,7 +16141,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(reference "#PWR0103")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -16158,7 +16158,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7aff8bda-2327-4e90-80d4-84636a7c4153")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR07"
 			(at 97.155 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -16218,7 +16218,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(reference "#PWR0108")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -16236,7 +16236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6a99897-f439-46f9-85b0-1fa4dbf6fd16")
-		(property "Reference" "C55"
+		(property "Reference" "C1"
 			(at 106.68 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16258,7 +16258,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
 			(at 103.8352 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -16300,7 +16300,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(reference "C55")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -16318,7 +16318,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aabeea01-4b4c-44df-9b28-499b9c57bd0e")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR03"
 			(at 90.805 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -16378,7 +16378,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(reference "#PWR0106")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -16395,7 +16395,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b0048b39-33e4-48c9-8b30-c3904727d967")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR02"
 			(at 58.42 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -16455,7 +16455,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(reference "#PWR0110")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -16473,7 +16473,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc916391-e41a-4ccb-b4f8-605a58520087")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR09"
 			(at 102.87 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -16533,7 +16533,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(reference "#PWR014")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -16739,7 +16739,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef49d1f6-c54c-47e8-a74d-ef9ff557e60b")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR01"
 			(at 57.15 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -16799,7 +16799,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(reference "#PWR0102")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -16817,7 +16817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1c3e542-9c82-4644-b59b-3b6c159d854a")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR06"
 			(at 96.52 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -16877,7 +16877,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(reference "#PWR0104")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
