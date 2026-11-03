@@ -612,6 +612,12 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -682,7 +688,7 @@
         "uuid": "da5a1e6a-2605-436b-a30c-1027586d5c0a"
       }
     ],
-    "used_designators": "U1-3,C1-55,#PWR1-49,#PWR103,L1-12,J1-2,R1-18,H1-3,JP1-4",
+    "used_designators": "U1-3,C1-55,L1-12,#PWR1-49,#PWR103,R1-18,J1-2,JP1-4,H1-3",
     "variants": []
   },
   "sheets": [

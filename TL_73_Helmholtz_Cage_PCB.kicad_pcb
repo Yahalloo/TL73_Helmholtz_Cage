@@ -155,6 +155,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C84376"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5c569769-7fc0-4f34-a3ac-6fdd846f0e5b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd/c3a0937f-dff6-4a45-bd12-ddfbcf9a97f3")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilX/")
@@ -310,6 +321,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C97946"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "34a18987-2ce8-4b5f-8ad1-3d545eb2f496")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -471,6 +493,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C84376"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "14a4e5f0-c585-40bf-995f-be0c4cd8ba48")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d/c3a0937f-dff6-4a45-bd12-ddfbcf9a97f3")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilZ/")
@@ -629,6 +662,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C326880"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "125d6f4c-a4cf-4af8-9a70-19b580df1ac3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51/c2ffd09d-9e29-4cc2-9b9e-996b4fceecff")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilY/")
@@ -784,6 +828,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C77083"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d283e97f-f8ef-4067-93b0-1f1aaaa48163")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -950,6 +1005,7 @@
 				(pins)
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -1052,6 +1108,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C77083"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "de9e3405-7b6b-4a80-bf80-b06c14049ed9")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -1213,6 +1280,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6b7b6846-b5a4-4395-a0a6-57833ff79c91")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "CP_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51/d40261c5-79bf-4302-a0a7-4fbf37016417")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilY/")
@@ -1368,6 +1446,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C77083"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8401061e-c189-4ef5-9888-aa630a07e261")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -1529,6 +1618,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7071297"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e2f529f6-4f0f-4df1-9d5b-31210d885d24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d/97cf50ea-4980-4d72-862c-a0b331e3e5ec")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilZ/")
@@ -1684,6 +1784,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C7071297"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "246ed63c-2553-4ddf-9b9c-faec2b7ee771")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -1845,6 +1956,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C84376"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3e555037-f2ff-4a58-b3c2-0f73ece8798e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51/52f72f6f-960c-499d-901d-e93f439e772f")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilY/")
@@ -2000,6 +2122,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C97946"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "92d1b955-d9de-4e0a-af01-1a0f90e73f29")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -2161,6 +2294,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C97946"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d3bbc936-dd6d-464e-9546-4007bf42c79c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51/fb1d76c3-358c-4a87-bf98-d571166b6ddb")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilY/")
@@ -2319,6 +2463,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C77083"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "48a6b1c0-d947-4568-968d-d23faee068f2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51/f82d8144-cbde-486d-b67c-62b234dece4a")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilY/")
@@ -2474,6 +2629,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C136227"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cde34aef-11de-4672-a0be-b9382764f900")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -2637,6 +2803,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C326880"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5ac0402a-a22f-43b3-a727-1ed329175dcb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d/c2ffd09d-9e29-4cc2-9b9e-996b4fceecff")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilZ/")
@@ -2733,6 +2910,214 @@
 			)
 		)
 	)
+	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+		(layer "F.Cu")
+		(uuid "3da0f939-2734-430f-9689-906ac1c41411")
+		(at 241.175 92.775)
+		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
+		(tags "solder jumper open")
+		(property "Reference" "JP3"
+			(at 0 -1.8 0)
+			(layer "F.SilkS")
+			(uuid "68c9cbf6-84f5-486e-bcdf-59a073ebd3bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 0 1.9 0)
+			(layer "F.Fab")
+			(uuid "7ed2659b-160d-4fa8-860c-da4aabb08dac")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "45c1cf9e-b3db-4ce0-b756-2237fb93face")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c6edc4e2-cfa6-422f-b9c2-01e90715a231")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "SolderJumper*Open*")
+		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d/c2b8d564-259c-417b-b3f9-6f9fccb266cf")
+		(sheetname "/Current_Driver_Distribution/Hbridge_CoilZ/")
+		(sheetfile "Hbridge.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(zone_connect 1)
+		(attr exclude_from_bom allow_soldermask_bridges)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -1.225 -0.75)
+			(end 1.225 0.75)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Mask")
+			(uuid "ff83f3fd-3431-4538-a53f-13bd0982e265")
+		)
+		(fp_line
+			(start -1.4 -1)
+			(end 1.4 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ab5f4cc8-35de-4427-902f-1350f1460c94")
+		)
+		(fp_line
+			(start -1.4 1)
+			(end -1.4 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "53aad23c-7b62-453f-9319-6d4d54a8d2ef")
+		)
+		(fp_line
+			(start 1.4 -1)
+			(end 1.4 1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "9a6fbff6-52ca-453b-a5a9-f74c9d075427")
+		)
+		(fp_line
+			(start 1.4 1)
+			(end -1.4 1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ee1121f9-89ee-43d6-971a-ea0469cc0dd0")
+		)
+		(fp_line
+			(start -1.65 -1.25)
+			(end -1.65 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4f1e6c60-8834-4446-94ea-5fa4aebab261")
+		)
+		(fp_line
+			(start -1.65 -1.25)
+			(end 1.65 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "fd1cc2de-151c-440f-bef6-1d0bbb1038d3")
+		)
+		(fp_line
+			(start 1.65 1.25)
+			(end -1.65 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "42b7bd86-1d84-4f4c-a10d-d2e43131775b")
+		)
+		(fp_line
+			(start 1.65 1.25)
+			(end 1.65 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "75059046-d5cb-4b79-a310-5d813e0e1be9")
+		)
+		(pad "1" smd custom
+			(at -0.725 0)
+			(size 0.3 0.3)
+			(layers "F.Cu" "F.Mask")
+			(net "+12V")
+			(pinfunction "A_1")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 1 0) (xy 0.5 0.75) (xy -0.5 0.75) (xy -0.5 -0.75) (xy 0.5 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "2da42fff-e35c-42b6-b451-6c15bcc4f9ef")
+		)
+		(pad "2" smd custom
+			(at 0.725 0)
+			(size 0.3 0.3)
+			(layers "F.Cu" "F.Mask")
+			(net "Net-(JP3-B)")
+			(pinfunction "B_2")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.5 0.75) (xy -0.65 0.75) (xy -0.15 0) (xy -0.65 -0.75) (xy 0.5 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "5315bb8f-4ef4-4788-a44c-88ec0aa3fead")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "400b42fe-a32e-4bc4-a3ed-0c0bd20d4590")
@@ -2792,6 +3177,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C77083"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "76040d79-1c8f-4328-a719-a3b9e2a221c4")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -2891,6 +3287,214 @@
 			)
 		)
 	)
+	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+		(layer "F.Cu")
+		(uuid "41af1e1c-7a2e-4788-be79-718448d489eb")
+		(at 247.525 92.775)
+		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
+		(tags "solder jumper open")
+		(property "Reference" "JP2"
+			(at 0 -1.8 0)
+			(layer "F.SilkS")
+			(uuid "dfff5eb7-9da3-4d3d-a683-33e01ad9e6bd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 0 1.9 0)
+			(layer "F.Fab")
+			(uuid "6f8af7ab-22c0-4ae3-abc5-b1cf8c3ab69e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3789bf76-c139-47a8-952b-c1981daa92c7")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "209bcf8f-f603-4826-8477-f3576cd41e2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "SolderJumper*Open*")
+		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51/c2b8d564-259c-417b-b3f9-6f9fccb266cf")
+		(sheetname "/Current_Driver_Distribution/Hbridge_CoilY/")
+		(sheetfile "Hbridge.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(zone_connect 1)
+		(attr exclude_from_bom allow_soldermask_bridges)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -1.225 -0.75)
+			(end 1.225 0.75)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Mask")
+			(uuid "368dfcdc-58ff-46d7-b559-f72ff610dc70")
+		)
+		(fp_line
+			(start -1.4 -1)
+			(end 1.4 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5e700b78-b341-4a6d-95aa-b69cead58bfe")
+		)
+		(fp_line
+			(start -1.4 1)
+			(end -1.4 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "02c0fae7-1a48-4ef8-8246-d1e28ca10f4a")
+		)
+		(fp_line
+			(start 1.4 -1)
+			(end 1.4 1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c8c8c1ae-82d9-4dc1-a5b1-8dffcbf39d36")
+		)
+		(fp_line
+			(start 1.4 1)
+			(end -1.4 1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "c5f50d71-b76b-426c-9d38-3358e6781c76")
+		)
+		(fp_line
+			(start -1.65 -1.25)
+			(end -1.65 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "b32d22f7-8a56-4a7b-bb0e-2b1f3399e794")
+		)
+		(fp_line
+			(start -1.65 -1.25)
+			(end 1.65 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cf7ee074-a34f-460c-9f19-abb546c7a901")
+		)
+		(fp_line
+			(start 1.65 1.25)
+			(end -1.65 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "598fcd70-5e69-4a40-afe1-73fad5a29949")
+		)
+		(fp_line
+			(start 1.65 1.25)
+			(end 1.65 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "dd9b3562-2fd9-4f0e-9e1f-00ce79e03c2a")
+		)
+		(pad "1" smd custom
+			(at -0.725 0)
+			(size 0.3 0.3)
+			(layers "F.Cu" "F.Mask")
+			(net "+12V")
+			(pinfunction "A_1")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 1 0) (xy 0.5 0.75) (xy -0.5 0.75) (xy -0.5 -0.75) (xy 0.5 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "74f7806b-ecb2-4a9a-899b-d5b77217ede3")
+		)
+		(pad "2" smd custom
+			(at 0.725 0)
+			(size 0.3 0.3)
+			(layers "F.Cu" "F.Mask")
+			(net "Net-(JP2-B)")
+			(pinfunction "B_2")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.5 0.75) (xy -0.65 0.75) (xy -0.15 0) (xy -0.65 -0.75) (xy 0.5 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "c881c922-8ed7-4bed-a9ee-8bf92599e4f0")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 		(layer "F.Cu")
 		(uuid "41f7fde9-cfbf-4dd4-85cf-e1ec872869da")
@@ -2950,6 +3554,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C141690"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "534b440b-a38d-475e-a4c6-3d8da8cc9757")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -3111,6 +3726,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C27071"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "afdc41a4-f88e-49f9-a6ae-a88c6297fdc1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd/f5368925-21dc-483b-986a-2a5298758345")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilX/")
@@ -3266,6 +3892,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C97946"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "627ea45c-fc38-4d5f-ab69-ca8facf8cf56")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -3427,6 +4064,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C97946"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4c889679-8bf2-445e-9c43-dd0d35ac074b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d/85b83fb9-588b-43de-b8c0-386693d7a4a8")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilZ/")
@@ -3582,6 +4230,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C97946"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "dddcc6ff-c930-4d63-9717-33fba026a3fe")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -3743,6 +4402,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C97946"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "db4cbf84-85a5-4e5f-85bd-6b23ce0ae510")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d/50c0278e-c464-4b41-b827-e0c88621168a")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilZ/")
@@ -3898,6 +4568,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C136227"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "01fc4b51-8134-45a3-afa1-7c649bb6f3d7")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -4061,6 +4742,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C97946"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "8b54cc50-fc55-47a4-a6bf-d806e080f3b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd/85b83fb9-588b-43de-b8c0-386693d7a4a8")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilX/")
@@ -4216,6 +4908,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C97946"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "601d37d3-1167-4660-8c29-9a0f043e4db7")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -4377,6 +5080,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C77083"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cf6ff186-7635-4d38-9b82-c83786ca7cbd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd/f82d8144-cbde-486d-b67c-62b234dece4a")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilX/")
@@ -4535,6 +5249,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C77083"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "1c2be04d-5a19-4ba2-a8cf-2a7ae791bffe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51/1e5a1636-dd3c-4dc6-878a-c92e215d9814")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilY/")
@@ -4690,6 +5415,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C136227"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "84cf7394-60bd-47f8-9566-0dd3fcaa8b34")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -4853,6 +5589,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C97946"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "07525d0d-c545-4107-917f-90f8039ef731")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd/50c0278e-c464-4b41-b827-e0c88621168a")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilX/")
@@ -5008,6 +5755,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C97946"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "12cf28d7-9196-43b5-9f6f-1f81f2420293")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -5169,6 +5927,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C97946"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0740cd31-0e73-499e-8e76-4eebc5130794")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d/19261f93-2dbf-4cd2-8f8e-3eb97b9a2437")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilZ/")
@@ -5324,6 +6093,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C77083"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6cc81b25-c5b3-4376-90ab-5408c3e8180c")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -5485,6 +6265,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C97946"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "b9da6cd1-ea15-4818-86c5-8e74fdf1d4b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd/1e6f0e07-1842-4f6f-a4c0-e22465aea962")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilX/")
@@ -5640,6 +6431,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C97946"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "add1ceab-54dc-4978-8b12-0f3b7cb3e19c")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -8313,6 +9115,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C97946"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d7c1a357-9d93-4bfe-9965-f954afb7a6e8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d/fb1d76c3-358c-4a87-bf98-d571166b6ddb")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilZ/")
@@ -10983,6 +11796,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C136227"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2ad3e40e-ac53-45f6-a058-9c17ca80d1e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51/6c072bbd-9e9e-444b-b955-278347faa7a1")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilY/")
@@ -11140,6 +11964,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C136227"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "aebd9270-9401-4031-8164-73178588ac5f")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -11303,6 +12138,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C84376"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f07a6f90-91eb-4e7e-905c-8bab53c3673c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51/c3a0937f-dff6-4a45-bd12-ddfbcf9a97f3")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilY/")
@@ -11458,6 +12304,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C77083"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "32afad45-ddc3-4868-9182-c2dd9cb1593e")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -11619,6 +12476,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C97946"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5b01a883-87ce-4390-b319-ba4b5d66abc3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d/0189987b-5648-47bb-ac46-6c9d47609667")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilZ/")
@@ -11777,6 +12645,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C77083"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7e2487c3-476a-454f-8403-e4255d1fb87e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d/3e8c968e-260f-4dad-9c30-e9b6c1657cfd")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilZ/")
@@ -11932,6 +12811,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C136227"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "d7fdca4d-98db-416c-8d17-823f826e5114")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -12095,6 +12985,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C97946"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "64a3d449-2b31-4aa2-8a07-fec50cad04e5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51/50c0278e-c464-4b41-b827-e0c88621168a")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilY/")
@@ -12250,6 +13151,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C77083"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "24be54db-8736-437f-b184-cc4eca0dcc64")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -12411,6 +13323,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C97946"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "64f879c7-183d-4f9e-bcc3-6e93ddad0738")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd/0c223a5e-c699-415c-89ab-2ea2e7cefea0")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilX/")
@@ -12566,6 +13489,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C84376"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "a5416dec-a209-47f9-940a-1427e71f6c04")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -12727,6 +13661,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C77083"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "df88f5da-5924-4785-b735-55d02d036720")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51/3e8c968e-260f-4dad-9c30-e9b6c1657cfd")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilY/")
@@ -12885,6 +13830,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C97946"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "199929f8-d7d4-465a-b370-f752ed25b36e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51/1e6f0e07-1842-4f6f-a4c0-e22465aea962")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilY/")
@@ -13040,6 +13996,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C136227"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "6d239bce-8caf-4c8b-8a04-945ce337080c")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -13203,6 +14170,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C97946"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "7c2ddd5f-7de5-4ad0-a6f2-fc27ee5bfaf7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51/19261f93-2dbf-4cd2-8f8e-3eb97b9a2437")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilY/")
@@ -13358,6 +14336,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C97946"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c4b433e6-dd7c-4f1f-92de-0d81e61bde9b")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -13519,6 +14508,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C97946"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9fa20a9f-a0fb-4345-8f48-200a1eb568c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51/0189987b-5648-47bb-ac46-6c9d47609667")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilY/")
@@ -13618,7 +14618,7 @@
 	(footprint "Package_SO:HTSSOP-44-1EP_6.1x14mm_P0.635mm_EP5.2x14mm_Mask4.31x8.26mm_ThermalVias"
 		(layer "F.Cu")
 		(uuid "b206d73a-953b-464d-8690-b6217f60f664")
-		(at 123.75 100.175 -90)
+		(at 218.5 100.675 -90)
 		(descr "HTSSOP, 44 Pin (http://www.ti.com/lit/pdf/pptd165)")
 		(tags "HTSSOP SO Texas_DDW0044B")
 		(property "Reference" "U2"
@@ -13674,6 +14674,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C79852"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "59972979-f145-48bb-bbf6-ed48e34c35fd")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -15253,6 +16264,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C97946"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "98d8f11e-0e00-4780-ba57-157ef5a4d7fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51/2c10d4b1-3cc3-430d-91ce-5dca2483001e")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilY/")
@@ -15408,6 +16430,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C136227"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3633179d-5ec9-4463-b277-8ce22a7d11b4")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -15571,6 +16604,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C7071297"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e3d27ed0-5b75-49ed-8eb7-c88f81930948")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd/97cf50ea-4980-4d72-862c-a0b331e3e5ec")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilX/")
@@ -15726,6 +16770,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C136227"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "187a3589-2b4f-4ac8-9395-6b533b0989be")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -15889,6 +16944,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C77083"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bba9e79f-aa26-4229-a253-d9b862063734")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd/ae48746a-3a6e-4e95-b641-19952196b286")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilX/")
@@ -16047,6 +17113,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C141690"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "60d99aa3-15e6-4b20-94b4-e5a80b46952d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd/f604b17b-3b19-4883-ae0d-d5ce6e9f9300")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilX/")
@@ -16202,6 +17279,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C97946"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "339dae61-12c9-453b-aa6e-4a153a7a7cea")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -16368,6 +17456,7 @@
 				(pins)
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -16470,6 +17559,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C97946"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c2f72022-0b14-4e1b-9f07-9774ce4363dc")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -16628,6 +17728,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C79852"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "984d7bf7-4253-43b4-bcd4-c02b7e10c269")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -18207,6 +19318,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5b2cecdf-7351-426a-8d08-c89ab58fcd62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "CP_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d/d40261c5-79bf-4302-a0a7-4fbf37016417")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilZ/")
@@ -18365,6 +19487,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C97946"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "c16e21b6-444b-4f75-92c7-0381bc5a2a96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd/fb1d76c3-358c-4a87-bf98-d571166b6ddb")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilX/")
@@ -18520,6 +19653,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C136227"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "bab61eae-1382-4672-9420-11a06997e572")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -18683,6 +19827,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C84376"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "5ea0a394-374b-4cd4-9726-4e9ea942c1fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d/a6ae95b9-5fec-407e-b628-1c7a28d1d472")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilZ/")
@@ -18838,6 +19993,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C77083"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "0de41406-9f77-422a-9490-7f41980b62a4")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -18999,6 +20165,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C97946"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "cb15db91-0b9f-4ebe-8b1c-3aaa1002a701")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd/19261f93-2dbf-4cd2-8f8e-3eb97b9a2437")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilX/")
@@ -19095,6 +20272,214 @@
 			)
 		)
 	)
+	(footprint "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+		(layer "F.Cu")
+		(uuid "d5858ff9-d04c-40d5-b56e-099f25a8e9f5")
+		(at 241.175 98.325)
+		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
+		(tags "solder jumper open")
+		(property "Reference" "JP1"
+			(at 0 -1.8 0)
+			(layer "F.SilkS")
+			(uuid "543c784f-2d2b-424b-a5cd-086237c6eb79")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Open"
+			(at 0 1.9 0)
+			(layer "F.Fab")
+			(uuid "1f0e5318-19c1-40c4-bb0f-a1e7602ce501")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "be3a110a-2e2d-43cd-b51e-4a964e286729")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2b31e194-de84-4f1d-bef6-7c08beb62bd0")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "SolderJumper*Open*")
+		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd/c2b8d564-259c-417b-b3f9-6f9fccb266cf")
+		(sheetname "/Current_Driver_Distribution/Hbridge_CoilX/")
+		(sheetfile "Hbridge.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(zone_connect 1)
+		(attr exclude_from_bom allow_soldermask_bridges)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -1.225 -0.75)
+			(end 1.225 0.75)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Mask")
+			(uuid "1500a5a1-2da4-41a8-92b5-62565df6958d")
+		)
+		(fp_line
+			(start -1.4 -1)
+			(end 1.4 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "ee7a66f8-c3dc-4ec4-a8da-ff473ef76d40")
+		)
+		(fp_line
+			(start -1.4 1)
+			(end -1.4 -1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "d3d4500c-c30d-4103-997f-18144ef070b2")
+		)
+		(fp_line
+			(start 1.4 -1)
+			(end 1.4 1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b278e4dd-f207-45ec-81d4-f58d9ea7c9bf")
+		)
+		(fp_line
+			(start 1.4 1)
+			(end -1.4 1)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "0dbffe1c-dd02-44a9-9d10-e9c76a29ed3b")
+		)
+		(fp_line
+			(start -1.65 -1.25)
+			(end -1.65 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "338c5353-bad0-4851-8b67-0100f392ddf4")
+		)
+		(fp_line
+			(start -1.65 -1.25)
+			(end 1.65 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1f8a925b-c6a8-4c60-a3d5-04a844f9e14d")
+		)
+		(fp_line
+			(start 1.65 1.25)
+			(end -1.65 1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "3b9e1f46-d237-4eb9-81d0-e479f0be4b27")
+		)
+		(fp_line
+			(start 1.65 1.25)
+			(end 1.65 -1.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "1ead1608-0819-4ee3-8bc7-ace35e3bd821")
+		)
+		(pad "1" smd custom
+			(at -0.725 0)
+			(size 0.3 0.3)
+			(layers "F.Cu" "F.Mask")
+			(net "+12V")
+			(pinfunction "A_1")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 1 0) (xy 0.5 0.75) (xy -0.5 0.75) (xy -0.5 -0.75) (xy 0.5 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "1f675727-632b-4355-b17a-3151491e0bbd")
+		)
+		(pad "2" smd custom
+			(at 0.725 0)
+			(size 0.3 0.3)
+			(layers "F.Cu" "F.Mask")
+			(net "Net-(JP1-B)")
+			(pinfunction "B_2")
+			(pintype "passive")
+			(zone_connect 2)
+			(thermal_bridge_angle 45)
+			(options
+				(clearance outline)
+				(anchor rect)
+			)
+			(primitives
+				(gr_poly
+					(pts
+						(xy 0.5 0.75) (xy -0.65 0.75) (xy -0.15 0) (xy -0.65 -0.75) (xy 0.5 -0.75)
+					)
+					(width 0)
+					(fill yes)
+				)
+			)
+			(uuid "e6ce0827-a7d3-4bde-bb40-f2bdd8dfa709")
+		)
+		(embedded_fonts no)
+	)
 	(footprint "MountingHole:MountingHole_3.2mm_M3"
 		(locked yes)
 		(layer "F.Cu")
@@ -19162,6 +20547,7 @@
 				(pins)
 			)
 		)
+		(attr exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_circle
 			(center 0 0)
@@ -19264,6 +20650,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C326880"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "78bf1976-e561-464f-b0ff-eb13c0e4d9ee")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -19425,6 +20822,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C84376"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "9c340036-79cc-411b-b872-a1b2adc8267f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd/a6ae95b9-5fec-407e-b628-1c7a28d1d472")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilX/")
@@ -19580,6 +20988,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C27071"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "30700093-1155-4214-a45d-7aaf56bff929")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -19741,6 +21160,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C141690"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "82f6f59a-9139-4e7f-812d-80ec821b635b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51/f604b17b-3b19-4883-ae0d-d5ce6e9f9300")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilY/")
@@ -19899,6 +21329,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C84376"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e2f156f7-4a06-4f9b-b678-3804f0bb8ac3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd/52f72f6f-960c-499d-901d-e93f439e772f")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilX/")
@@ -20054,6 +21495,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C79852"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "3aa5ec8d-c94c-4d3b-b731-cf34eceb8465")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -21633,6 +23085,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C97946"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "4c1a01db-293e-4906-87df-a43a85ed9e28")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/a6a99897-f439-46f9-85b0-1fa4dbf6fd16")
 		(sheetname "/")
@@ -21788,6 +23251,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C27071"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f16f8cdf-7780-426b-8fe5-0fceaf0c2fcd")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -24461,6 +25935,17 @@
 				)
 			)
 		)
+		(property "LCSC" ""
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2c9b7d11-67b4-47f4-a1bb-4c992cfcf06d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "CP_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd/d40261c5-79bf-4302-a0a7-4fbf37016417")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilX/")
@@ -24619,6 +26104,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C77083"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "39538387-28e9-477e-b877-1c2f047db030")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "C_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d/5b1cdd1f-bddc-4439-bddf-49cdd4bd02c6")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilZ/")
@@ -24774,6 +26270,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C136227"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "e3cecacf-aa63-44bc-863d-778296f1d7fa")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -24937,6 +26444,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C136227"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "2a25b73d-7507-4c84-b64c-f19e45f832b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51/00886267-36bb-4857-adc2-f0ba2812d1a9")
 		(sheetname "/Current_Driver_Distribution/Hbridge_CoilY/")
@@ -25094,6 +26612,17 @@
 				(font
 					(size 1 1)
 					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC" "C84376"
+			(at 0 0 0)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "103e9c0f-4bc8-4734-a894-ed3faae06362")
+			(effects
+				(font
+					(size 1.27 1.27)
 				)
 			)
 		)
@@ -25263,7 +26792,7 @@
 				)
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.33 1.33)
@@ -25948,7 +27477,7 @@
 				)
 			)
 		)
-		(attr through_hole)
+		(attr through_hole exclude_from_bom)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
 			(start 1.33 1.33)

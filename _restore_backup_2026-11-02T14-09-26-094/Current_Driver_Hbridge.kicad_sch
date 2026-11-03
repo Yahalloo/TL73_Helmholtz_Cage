@@ -1,0 +1,797 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "63e2c6ed-a5be-43bd-b20d-9a2e6599c66d")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 163.83 102.87) (xy 179.07 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24896eca-1e58-4b15-9dcf-184ffea478d7")
+	)
+	(wire
+		(pts
+			(xy 163.83 128.27) (xy 179.07 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e622f93-ec4b-41aa-95fe-940dad3d588c")
+	)
+	(wire
+		(pts
+			(xy 128.27 134.62) (xy 139.7 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35e4ad1e-002c-44cc-93a4-c66e2a5854a6")
+	)
+	(wire
+		(pts
+			(xy 128.27 92.71) (xy 139.7 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3749fbde-1982-4353-9c5e-426ac2984b1c")
+	)
+	(wire
+		(pts
+			(xy 128.27 95.25) (xy 139.7 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39ce3177-81ec-4c34-a748-771cf00ebbdf")
+	)
+	(wire
+		(pts
+			(xy 128.27 46.99) (xy 139.7 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "436d6d9f-b2e2-440f-884a-56deb3508a19")
+	)
+	(wire
+		(pts
+			(xy 128.27 90.17) (xy 139.7 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d4f2f47-bc4a-4a63-8155-fe64a9edac1c")
+	)
+	(wire
+		(pts
+			(xy 163.83 62.23) (xy 179.07 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "613dda9d-41e7-4474-b78c-18539d1e2d6a")
+	)
+	(wire
+		(pts
+			(xy 128.27 137.16) (xy 139.7 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75d9df1e-8e5c-4ecd-ae78-c2d5db76000f")
+	)
+	(wire
+		(pts
+			(xy 163.83 86.36) (xy 179.07 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "906e53e1-28c8-43bd-b5d5-4767ce8f37ea")
+	)
+	(wire
+		(pts
+			(xy 128.27 132.08) (xy 139.7 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9adbabdf-af52-4770-89ee-79d85f28d791")
+	)
+	(wire
+		(pts
+			(xy 163.83 45.72) (xy 179.07 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0f92fa3-6fb3-421b-a83d-493aff71c9e6")
+	)
+	(wire
+		(pts
+			(xy 128.27 49.53) (xy 139.7 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6107c56-b73c-4f92-8f35-afcdcaf772a9")
+	)
+	(wire
+		(pts
+			(xy 128.27 57.15) (xy 139.7 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1c3f24e-161f-46c2-8cb4-50cc9e76f26f")
+	)
+	(wire
+		(pts
+			(xy 128.27 139.7) (xy 139.7 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c64b42a2-c057-40ad-8737-8d60e5bbe72a")
+	)
+	(wire
+		(pts
+			(xy 128.27 97.79) (xy 139.7 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce4042a4-9bff-443f-a59d-98fd1f0273da")
+	)
+	(wire
+		(pts
+			(xy 128.27 54.61) (xy 139.7 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0a2ec94-71e6-46d3-888f-b7c80f1790cd")
+	)
+	(wire
+		(pts
+			(xy 128.27 129.54) (xy 139.7 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6d1de55-6286-4427-b248-b37d390815c3")
+	)
+	(wire
+		(pts
+			(xy 163.83 144.78) (xy 179.07 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f61ce857-1186-405a-8e49-c50447c49735")
+	)
+	(wire
+		(pts
+			(xy 128.27 87.63) (xy 139.7 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f81a5534-3d76-4596-9116-6ed16243307a")
+	)
+	(wire
+		(pts
+			(xy 128.27 52.07) (xy 139.7 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff341bc3-0bce-41a0-811d-ce0bd05499a8")
+	)
+	(hierarchical_label "PWM_A_CoilX"
+		(shape input)
+		(at 128.27 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "186c9129-55c9-472c-98eb-4216b2c0dc98")
+	)
+	(hierarchical_label "VOUTA_CoilX"
+		(shape bidirectional)
+		(at 179.07 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "26f07807-2cc8-4f08-9d81-e199a49b8dfb")
+	)
+	(hierarchical_label "~{RESET}_CoilX"
+		(shape input)
+		(at 128.27 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2d92d290-c5ca-4a96-a303-7ad8d850a591")
+	)
+	(hierarchical_label "~{RESET}_CoilY"
+		(shape input)
+		(at 128.27 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4030f71e-c057-4eea-a64d-b094b25c773d")
+	)
+	(hierarchical_label "~{RESET}_CoilZ"
+		(shape input)
+		(at 128.27 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "418bd849-6655-4e20-a2c8-dadd3fe458c0")
+	)
+	(hierarchical_label "~{FAULT}_CoilY"
+		(shape output)
+		(at 128.27 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e141c98-287b-4270-a36f-2d9466f1f23b")
+	)
+	(hierarchical_label "PWM_A_CoilY"
+		(shape input)
+		(at 128.27 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "58fe7485-8a86-4234-be22-e99486c6470f")
+	)
+	(hierarchical_label "PWM_B_CoilX"
+		(shape input)
+		(at 128.27 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5c75f65b-eccb-4706-b44a-5a4a36f0d36a")
+	)
+	(hierarchical_label "~{FAULT}_CoilX"
+		(shape output)
+		(at 128.27 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "78fa830b-c521-4de6-a657-9e1433bdf4c4")
+	)
+	(hierarchical_label "VOUTA_CoilY"
+		(shape bidirectional)
+		(at 179.07 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7f9c4475-bf55-4c3e-9545-4484beb1b4ee")
+	)
+	(hierarchical_label "PWM_B_CoilY"
+		(shape input)
+		(at 128.27 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8867b087-b4e8-4d36-88c3-bf769b571b48")
+	)
+	(hierarchical_label "VOUTB_CoilY"
+		(shape bidirectional)
+		(at 179.07 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "93043d1d-bd3b-4f8e-9a28-3c07b4594d9e")
+	)
+	(hierarchical_label "PWM_A_CoilZ"
+		(shape input)
+		(at 128.27 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "94eab118-7b3c-4ccb-97ae-49e0eafcf97e")
+	)
+	(hierarchical_label "~{OTW}_CoilZ"
+		(shape output)
+		(at 128.27 137.16 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "96ea5f88-22f6-4c2c-9590-26623c57c203")
+	)
+	(hierarchical_label "~{OTW}_CoilY"
+		(shape output)
+		(at 128.27 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9bebbe74-280a-4a82-bdab-71a8960fe74a")
+	)
+	(hierarchical_label "~{OTW}_CoilX"
+		(shape output)
+		(at 128.27 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9c239cc5-e94a-42f1-81b8-6119ecc1d839")
+	)
+	(hierarchical_label "PWM_B_CoilZ"
+		(shape input)
+		(at 128.27 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b14ffe5c-f61f-4d32-9e43-2d8421795efd")
+	)
+	(hierarchical_label "VOUTA_CoilZ"
+		(shape bidirectional)
+		(at 179.07 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6daa58e-6926-40f9-b61a-6a721c114d6c")
+	)
+	(hierarchical_label "VOUTB_CoilZ"
+		(shape bidirectional)
+		(at 179.07 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c8281a24-94ea-4a3c-ba20-dcd97cedc47c")
+	)
+	(hierarchical_label "~{FAULT}_CoilZ"
+		(shape output)
+		(at 128.27 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d82817ca-b4f6-4d68-a72b-c0d543386579")
+	)
+	(hierarchical_label "VOUTB_CoilX"
+		(shape bidirectional)
+		(at 179.07 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eb090bf8-ee23-4005-afb8-6ee31f94d86b")
+	)
+	(sheet
+		(at 139.7 121.92)
+		(size 24.13 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "713768e4-479a-4ec0-8320-e7aa0fb8775d")
+		(property "Sheetname" "Hbridge_CoilZ"
+			(at 139.7 121.2084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Hbridge.kicad_sch"
+			(at 139.7 151.7146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT_A" bidirectional
+			(at 163.83 128.27 0)
+			(uuid "922f1587-4af1-4032-b23f-1451c09a4f26")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT_B" bidirectional
+			(at 163.83 144.78 0)
+			(uuid "99330236-e66c-4e76-a93c-ae78809658eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM_A" input
+			(at 139.7 129.54 180)
+			(uuid "099a811f-a3d8-4713-9a0b-bb048ec602e7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM_B" input
+			(at 139.7 132.08 180)
+			(uuid "fa8f7e13-3a77-4799-8100-2358ad558fe0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{FAULT}" output
+			(at 139.7 134.62 180)
+			(uuid "cf2b7e43-764d-4483-9660-cfc981d21227")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{OTW}" output
+			(at 139.7 137.16 180)
+			(uuid "206870f3-0497-4974-b3ff-0e91ebb171db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RESET}" input
+			(at 139.7 139.7 180)
+			(uuid "91fda417-e663-4cd9-8edc-bda5d8932de0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 39.37)
+		(size 24.13 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7586baea-6408-455c-aaba-606b5dc689bd")
+		(property "Sheetname" "Hbridge_CoilX"
+			(at 139.7 38.6584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Hbridge.kicad_sch"
+			(at 139.7 69.1646 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT_A" bidirectional
+			(at 163.83 45.72 0)
+			(uuid "61ffda45-bef3-4bcd-a753-a8c6d938907b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT_B" bidirectional
+			(at 163.83 62.23 0)
+			(uuid "522f43c2-b971-4d85-a707-5a0756554495")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM_A" input
+			(at 139.7 46.99 180)
+			(uuid "f87f1d84-5531-4177-8a51-1404315a70fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM_B" input
+			(at 139.7 49.53 180)
+			(uuid "1b77a667-c327-4eec-8230-6d704eb57aec")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{FAULT}" output
+			(at 139.7 52.07 180)
+			(uuid "17a2fcac-34f7-4909-9fc2-8288acef7874")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{OTW}" output
+			(at 139.7 54.61 180)
+			(uuid "576ff902-1e6e-4078-bfe7-17902c243e84")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RESET}" input
+			(at 139.7 57.15 180)
+			(uuid "391a3abf-42b5-497f-9f85-dbf98b92b5c3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 80.01)
+		(size 24.13 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "baa75d47-3ca5-4c09-a50f-527d90dd0a51")
+		(property "Sheetname" "Hbridge_CoilY"
+			(at 139.7 79.2984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Hbridge.kicad_sch"
+			(at 139.7 109.8046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT_A" bidirectional
+			(at 163.83 86.36 0)
+			(uuid "6e2f5028-9bec-490c-8b0d-e155e8603b4a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT_B" bidirectional
+			(at 163.83 102.87 0)
+			(uuid "c396a465-ce83-4217-a6bf-e52dcfa9664a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PWM_A" input
+			(at 139.7 87.63 180)
+			(uuid "fd61530b-ed1d-4c68-b18f-fd5535ff6d36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PWM_B" input
+			(at 139.7 90.17 180)
+			(uuid "01f7da07-ec7f-420e-9b96-b78350998ae9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{FAULT}" output
+			(at 139.7 92.71 180)
+			(uuid "e2c6391a-be0b-4d55-9d01-e37a213d41f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{OTW}" output
+			(at 139.7 95.25 180)
+			(uuid "f9e81368-e3fd-4327-a525-be340937036c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{RESET}" input
+			(at 139.7 97.79 180)
+			(uuid "fa6d3623-9221-4fa3-a404-5559d7500714")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f"
+					(page "4")
+				)
+			)
+		)
+	)
+)
