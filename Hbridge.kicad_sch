@@ -6544,7 +6544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "00886267-36bb-4857-adc2-f0ba2812d1a9")
-		(property "Reference" "L1"
+		(property "Reference" "L13"
 			(at 190.5 73.66 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6609,23 +6609,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "bef35b1e-ec7a-4f31-9b98-0fa1edc15bfb")
+			(uuid "e0162ee2-b008-4c08-b130-fde0a5c0daa7")
 		)
 		(pin "2"
-			(uuid "317b33dd-2b77-4287-a929-6ce5a344b4c4")
+			(uuid "e37d334d-3410-4eeb-befe-a16621368347")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "L9")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "L21")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "L1")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "L17")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "L5")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "L13")
 					(unit 1)
 				)
 			)
@@ -6643,7 +6643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0189987b-5648-47bb-ac46-6c9d47609667")
-		(property "Reference" "C16"
+		(property "Reference" "C73"
 			(at 173.99 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6710,23 +6710,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "e8ac2c94-459b-4673-ad3c-797488fd586d")
+			(uuid "66b6b438-5312-4558-ae90-7490e556f46c")
 		)
 		(pin "1"
-			(uuid "970ad6fb-fb71-43ff-a7b9-cf9d1220c7c4")
+			(uuid "10d542c8-3e88-4ad8-a905-3db98c3ebc2c")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "C52")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "C109")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "C16")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "C91")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "C34")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "C73")
 					(unit 1)
 				)
 			)
@@ -6744,7 +6744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c223a5e-c699-415c-89ab-2ea2e7cefea0")
-		(property "Reference" "C11"
+		(property "Reference" "C68"
 			(at 157.48 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6811,23 +6811,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "91c11fd1-c4ae-4d25-8a7b-1b2ccfcd2f28")
+			(uuid "5a693a30-4279-4c3d-8c05-bd4ec22bcde6")
 		)
 		(pin "1"
-			(uuid "b6e53e75-8244-45f2-bde9-512190debb28")
+			(uuid "fbb7199b-6cae-4e2f-9c89-440b33306d78")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "C47")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "C104")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "C11")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "C86")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "C29")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "C68")
 					(unit 1)
 				)
 			)
@@ -6845,7 +6845,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10fa7ee8-73b3-4839-aa2c-321961317a35")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR053"
 			(at 49.53 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -6900,20 +6900,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "058c6bb9-5407-420e-8785-ac747f4f9848")
+			(uuid "9241894a-0b58-4014-9af9-bb39edec2185")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "#PWR037")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "#PWR090")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "#PWR011")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "#PWR077")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "#PWR024")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -6931,7 +6931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "19261f93-2dbf-4cd2-8f8e-3eb97b9a2437")
-		(property "Reference" "C15"
+		(property "Reference" "C72"
 			(at 173.99 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6998,23 +6998,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "dd0e9265-cad4-4b07-a41c-4cc7954d13c7")
+			(uuid "26bd587c-5752-48f4-9d81-79e5eff80c79")
 		)
 		(pin "1"
-			(uuid "e6162920-8580-4232-8083-d615a6a0e6ea")
+			(uuid "2eabc0df-66f2-4d80-8b2f-e266fd71f070")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "C51")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "C108")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "C15")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "C90")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "C33")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "C72")
 					(unit 1)
 				)
 			)
@@ -7032,7 +7032,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1c58cf12-e358-42e0-9d81-2d30462dac76")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR076"
 			(at 227.33 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -7087,20 +7087,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "a8a095a9-090e-4d37-82af-e5b9cdd849ee")
+			(uuid "8c6d8497-3816-4486-a7b5-a043129059d9")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "#PWR049")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "#PWR0102")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "#PWR023")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "#PWR089")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "#PWR036")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -7118,7 +7118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e5a1636-dd3c-4dc6-878a-c92e215d9814")
-		(property "Reference" "C5"
+		(property "Reference" "C62"
 			(at 100.33 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7185,23 +7185,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "6d22dda6-6bcc-4c75-ba18-5988f5b2b0d5")
+			(uuid "4c6aaaa9-05e6-45b6-bfea-8f2b25c1dd75")
 		)
 		(pin "1"
-			(uuid "51aab09a-d739-4b78-83cd-d8e5e0f0bc3d")
+			(uuid "4e685b0c-4072-4350-87ec-7408611e3666")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "C41")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "C98")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "C5")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "C80")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "C23")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -7219,7 +7219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e6f0e07-1842-4f6f-a4c0-e22465aea962")
-		(property "Reference" "C13"
+		(property "Reference" "C70"
 			(at 173.99 74.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7286,23 +7286,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "83a3364c-9a13-4a3d-8425-21518f629f5a")
+			(uuid "2efb4531-9f24-4a09-8af7-668127cf96c3")
 		)
 		(pin "1"
-			(uuid "ef6adca7-7a32-4499-b019-e3a1d0896763")
+			(uuid "4bf9c1b6-51fe-4f38-ad59-08ad6c7f7605")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "C49")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "C106")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "C13")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "C88")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "C31")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "C70")
 					(unit 1)
 				)
 			)
@@ -7320,7 +7320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20ec9db5-db61-4fa3-9f6c-aab25fafe6c4")
-		(property "Reference" "C19"
+		(property "Reference" "C76"
 			(at 209.55 62.6109 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7376,23 +7376,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "12db5afa-5329-412d-8e62-6c95ef666df2")
+			(uuid "0435a8e8-72c2-4281-b604-ba90975f6c1e")
 		)
 		(pin "1"
-			(uuid "1a9aeb71-1cc8-4af3-84dd-ba859221b8ab")
+			(uuid "9a629e43-b820-498a-b9e1-3517bd590a47")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "C55")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "C112")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "C19")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "C94")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "C37")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "C76")
 					(unit 1)
 				)
 			)
@@ -7410,7 +7410,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c10d4b1-3cc3-430d-91ce-5dca2483001e")
-		(property "Reference" "C17"
+		(property "Reference" "C74"
 			(at 185.42 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7477,23 +7477,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "25e9a5db-11d0-4e14-881c-cb6d2f23bcae")
+			(uuid "34c063ae-e023-4b32-9e28-1a7da537dd55")
 		)
 		(pin "1"
-			(uuid "efee9ed2-d3db-4ae7-9f67-16d81b37672f")
+			(uuid "cd308c38-52b5-491b-a1ba-ac8f47ad57a2")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "C53")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "C110")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "C17")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "C92")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "C35")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "C74")
 					(unit 1)
 				)
 			)
@@ -7511,7 +7511,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33a815d8-ffbb-45df-a184-517aa4d7e7d3")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR071"
 			(at 135.89 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -7566,20 +7566,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "cda444e4-c182-4a2f-838d-7e97e99a0fbe")
+			(uuid "8ce02e9c-3b1f-4fed-a35f-41a843e0d707")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "#PWR044")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "#PWR097")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "#PWR018")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "#PWR084")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "#PWR031")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -7597,7 +7597,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e8c968e-260f-4dad-9c30-e9b6c1657cfd")
-		(property "Reference" "C7"
+		(property "Reference" "C64"
 			(at 114.3 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7664,23 +7664,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "2905d607-72a6-4d37-86e7-e3cd1290edd3")
+			(uuid "e55f9916-39b8-42f0-ba61-d733362465f1")
 		)
 		(pin "1"
-			(uuid "ae523927-ab89-4451-99d9-2c4ea27961f8")
+			(uuid "4b231a77-3751-48dd-a173-1b8aeb975497")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "C43")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "C100")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "C7")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "C82")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "C25")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -7697,7 +7697,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50c0278e-c464-4b41-b827-e0c88621168a")
-		(property "Reference" "C8"
+		(property "Reference" "C65"
 			(at 111.76 117.094 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7762,23 +7762,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "dfa2fa9c-78e5-493c-a5ec-00539a85b942")
+			(uuid "74eeef7e-a04a-4d98-8f4d-9917d03a6206")
 		)
 		(pin "1"
-			(uuid "fd233eec-c5fb-4c65-a4a4-f7d13e554664")
+			(uuid "b0d3e3f5-fe1f-4f49-8273-7cf8375c1938")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "C44")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "C101")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "C8")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "C83")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "C26")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "C65")
 					(unit 1)
 				)
 			)
@@ -7796,7 +7796,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "52f72f6f-960c-499d-901d-e93f439e772f")
-		(property "Reference" "R1"
+		(property "Reference" "R22"
 			(at 52.07 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7863,23 +7863,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "eed8b9ac-4798-4dc6-9e7b-f2b2734971ec")
+			(uuid "3b08f468-5bde-462c-9c60-3b2c894d058f")
 		)
 		(pin "2"
-			(uuid "746f7f69-5512-442a-8194-c735a6c8ae3a")
+			(uuid "dbea46eb-37a7-4404-bc17-45a3cb2aa202")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "R13")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "R34")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "R1")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "R28")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "R7")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -7897,7 +7897,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "568b1ab1-02fc-49b6-8fa7-633d0c321c1a")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR068"
 			(at 87.63 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -7952,20 +7952,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "8228890c-41f1-4803-93b4-40af36192f24")
+			(uuid "5e00e891-0216-435e-830d-9496d131fc01")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "#PWR041")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "#PWR094")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "#PWR015")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "#PWR081")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "#PWR028")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -7983,7 +7983,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5917d6a6-38d7-49a2-9565-9a871e0eb75b")
-		(property "Reference" "C12"
+		(property "Reference" "C69"
 			(at 171.45 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8050,23 +8050,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "3dd3354f-444a-4a2f-b8ac-96545db59c8e")
+			(uuid "0691a7ba-3f81-4acc-9366-3df7000fdd14")
 		)
 		(pin "1"
-			(uuid "12813957-54e9-40ad-aa3a-ef318c70f714")
+			(uuid "90695b72-f03e-434a-a52c-248c5ae5d8bd")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "C48")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "C105")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "C12")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "C87")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "C30")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "C69")
 					(unit 1)
 				)
 			)
@@ -8084,7 +8084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b1cdd1f-bddc-4439-bddf-49cdd4bd02c6")
-		(property "Reference" "C6"
+		(property "Reference" "C63"
 			(at 114.3 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8151,23 +8151,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "f5c943e5-07b8-4022-9fc0-218f413657e9")
+			(uuid "2c443e4d-88d5-48e9-8f7e-c3c85669244f")
 		)
 		(pin "1"
-			(uuid "3e77c50a-633d-4182-aca5-76a5c5c45b22")
+			(uuid "dc10c346-81da-4865-a6b0-7ad3dc833cf4")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "C42")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "C99")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "C6")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "C81")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "C24")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "C63")
 					(unit 1)
 				)
 			)
@@ -8185,7 +8185,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60887c68-f451-41b4-92ad-d425e287c780")
-		(property "Reference" "U1"
+		(property "Reference" "U7"
 			(at 165.1 65.9698 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8250,152 +8250,152 @@
 			)
 		)
 		(pin "1"
-			(uuid "24af0e6b-2d80-4cd6-92ed-b5149d9a05b8")
+			(uuid "2c80e80a-b70f-45d3-9607-6ce64c7f7825")
 		)
 		(pin "4"
-			(uuid "b7c5c719-620c-458d-b819-2e3895af5032")
+			(uuid "5abe2c6c-1fec-4e17-ad6e-937b125a5976")
 		)
 		(pin "3"
-			(uuid "1eb03c8d-2267-4781-9268-ff766e3300dc")
+			(uuid "c65357ba-fd81-4077-be20-8f2dd94679a7")
 		)
 		(pin "5"
-			(uuid "f968e4ed-9646-41d6-91ee-c83225b477a2")
+			(uuid "b34b747f-268c-40c4-a794-c6c7ed74c4b3")
 		)
 		(pin "2"
-			(uuid "25b749b1-81e5-473f-8c77-c1aef6852dfb")
+			(uuid "fb48055d-257f-42df-b987-c6c09629a61d")
 		)
 		(pin "37"
-			(uuid "38819259-15e7-46e2-883d-afb2eb3937a0")
+			(uuid "419e38ca-e832-4cbf-a1c1-760f1130b333")
 		)
 		(pin "32"
-			(uuid "6a655126-0e57-4036-845b-b1df33166891")
+			(uuid "cd27b825-eb02-413f-ae7e-0271c1a9c481")
 		)
 		(pin "25"
-			(uuid "a5dd49c9-7e2b-4e68-8479-c4cc158db305")
+			(uuid "17ec0522-0db2-4d91-aaab-2db9e7334242")
 		)
 		(pin "31"
-			(uuid "e86f1cb8-81b3-4a76-a361-3b8394496fee")
+			(uuid "87f4748e-832e-4f0f-9ff7-cfd4a7d3eabc")
 		)
 		(pin "16"
-			(uuid "bd2610a4-e7b8-488d-8668-fd1cee26a1a5")
+			(uuid "84e83f41-8995-4d2a-bf25-549e68c9a5cd")
 		)
 		(pin "6"
-			(uuid "6725c14e-c165-4c79-bed2-cfa83352e528")
+			(uuid "721e18a1-c96b-4040-bf94-81764b790337")
 		)
 		(pin "11"
-			(uuid "ba6d1014-954d-4ebe-9cb2-e53a8985269b")
+			(uuid "c026397f-d9bd-4914-925f-3f04f3abae4c")
 		)
 		(pin "35"
-			(uuid "9519585c-10d4-457a-92f6-a196fc702683")
+			(uuid "4b1aaef6-f976-47dd-9c73-f4cff0952ad2")
 		)
 		(pin "8"
-			(uuid "f4b65215-0127-403c-a09b-1250e1eb4b2f")
+			(uuid "85d0824d-a858-4e8d-a13d-4290acfc4baa")
 		)
 		(pin "15"
-			(uuid "9b7bf8af-45c6-42ac-acb1-657da13e6062")
+			(uuid "2132373b-544d-4b55-bc23-27724e1d9a16")
 		)
 		(pin "33"
-			(uuid "75f357ad-f321-470b-a5cd-3f4d8d90feca")
+			(uuid "ce57c2fc-8975-4170-afba-ed1e34539bb1")
 		)
 		(pin "27"
-			(uuid "b827faa0-b1fd-41cf-ab5b-ce4478d74ffa")
+			(uuid "213df01a-75a5-4c02-a318-461de980738c")
 		)
 		(pin "10"
-			(uuid "daf7c73b-1d42-47f1-bbc5-a3aff49d8c81")
+			(uuid "06069ee8-4bc0-457f-942d-16832bf49dc7")
 		)
 		(pin "29"
-			(uuid "a1433c15-280b-453f-8bef-fa3408999f09")
+			(uuid "576f81f8-362f-4da3-91fc-9642abe20bbe")
 		)
 		(pin "21"
-			(uuid "a9075367-416b-4193-8d0c-5b4d0a34c0c8")
+			(uuid "a4557830-baa7-4451-83c4-652a42466e5a")
 		)
 		(pin "28"
-			(uuid "e0147ce2-28de-4faa-9ea1-13c8f1512179")
+			(uuid "9685012b-355a-4999-ae10-858cd5c48da7")
 		)
 		(pin "26"
-			(uuid "76b65233-d294-4001-bc87-181bd6b85178")
+			(uuid "06ec4959-705f-4bc7-be63-0e0be9b0e110")
 		)
 		(pin "19"
-			(uuid "47bf4c7c-61de-4903-b8a3-ba957c1772ee")
+			(uuid "6f56a2f3-4327-4600-8443-3a4ae62c788a")
 		)
 		(pin "14"
-			(uuid "ad4e1196-e1d0-456f-9063-7da148076e33")
+			(uuid "2359d434-7257-43fc-a36c-3691737c7a90")
 		)
 		(pin "36"
-			(uuid "3d465e4f-4a0d-4cb7-8b2e-4d55aa0103cf")
+			(uuid "13be4770-f5da-4c0e-8a3a-eee6cb225b49")
 		)
 		(pin "23"
-			(uuid "1b490d00-4621-4d9d-a50b-4bcda81d7d56")
+			(uuid "e7aa4087-028a-4370-b030-7bf3defd1994")
 		)
 		(pin "17"
-			(uuid "81a8fe8e-9b11-40c5-a99c-775fb3013da1")
+			(uuid "e52ab468-cd09-40cd-8cbb-f608adab945f")
 		)
 		(pin "12"
-			(uuid "057806ec-5ec5-4a42-98b8-b6e5f941d056")
+			(uuid "dd803abe-a4f8-4403-b1f4-e2734c5e374e")
 		)
 		(pin "24"
-			(uuid "b9c8606b-0d99-4863-911f-577dea32fde0")
+			(uuid "d07c36ee-95bc-4d74-b8c6-e658d219a08f")
 		)
 		(pin "20"
-			(uuid "cafed316-2c1c-41df-bd9b-50afddcbc64b")
+			(uuid "8d6814ef-1b89-40b5-aec8-dc06d0cfa85f")
 		)
 		(pin "13"
-			(uuid "10dd06a6-a98b-489a-bd33-bac50ec429f9")
+			(uuid "e5845e6b-9436-4696-9a1c-314f8aaa657b")
 		)
 		(pin "34"
-			(uuid "c2e256da-db5e-4d0d-9135-66071c2ad820")
+			(uuid "a4c1cd01-7f2b-4bac-8c59-57e8315086e9")
 		)
 		(pin "18"
-			(uuid "6b637d28-8506-446a-ac77-daa38d406e32")
+			(uuid "edbd720c-38d1-419d-bc02-6ec1ab0a9cd2")
 		)
 		(pin "9"
-			(uuid "466fef0a-6f18-41ed-b2e0-791f21bab395")
+			(uuid "de8b5da7-2ada-49d5-9263-4b75b55dc659")
 		)
 		(pin "22"
-			(uuid "b767fbfe-ad37-41f7-8be6-302cf72c6b1a")
+			(uuid "30dcec4a-9994-4fcf-abd2-ce0eb184a0d8")
 		)
 		(pin "7"
-			(uuid "e43b53e6-d058-4fd6-8868-3285c9a528da")
+			(uuid "7988b408-741e-4ea4-96a3-a27ea1d4486b")
 		)
 		(pin "30"
-			(uuid "35d81c3b-3c36-4a53-a1e2-e0efac59f717")
+			(uuid "98d3ecbd-5a2c-437e-94d5-3afbae1a46b1")
 		)
 		(pin "41"
-			(uuid "6c9413a1-68d0-4c2d-b907-633f5085c24e")
+			(uuid "1f5d9ad4-7818-4978-ad1c-ba7cd25884a9")
 		)
 		(pin "40"
-			(uuid "8dfd04ba-e415-4812-8550-ac1296ef7918")
+			(uuid "e682788f-b81b-46a7-8180-71d585d62b4b")
 		)
 		(pin "44"
-			(uuid "dfef67e4-6ad3-4dfd-acde-93d0c8de8955")
+			(uuid "40ec740b-7c02-4ee6-b2c3-1f3c576241ec")
 		)
 		(pin "43"
-			(uuid "992da620-30bf-4b11-bda3-e3a7e78a0a72")
+			(uuid "c4693e04-b7e4-46e4-bc0b-cc3b37e23eb8")
 		)
 		(pin "38"
-			(uuid "da1743ce-63ab-467c-baf1-7f30a6702934")
+			(uuid "c9f953a5-9198-4efd-80e7-811ad755c245")
 		)
 		(pin "42"
-			(uuid "7822043b-cabb-4cda-93c1-19af0d8a1d62")
+			(uuid "b01ea48c-8d8e-4253-b035-590af1450366")
 		)
 		(pin "39"
-			(uuid "29c215ab-0baa-4afe-b20a-210f36d6caa4")
+			(uuid "e8c50b48-2fde-4e29-8556-5e1bb6f9ef5c")
 		)
 		(pin "45"
-			(uuid "882fca27-2ecc-49ec-bbc8-c83d5e9cbfd8")
+			(uuid "4b4dd43b-5a76-43c0-a943-4a01532f5103")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "U3")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "U9")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "U1")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "U8")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "U2")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -8413,7 +8413,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "634a84a2-19a9-4a58-a693-a5f61e1c7716")
-		(property "Reference" "L3"
+		(property "Reference" "L15"
 			(at 190.5 99.06 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8478,23 +8478,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "65fe64ac-7f22-4c65-a93c-3e1bf195fb53")
+			(uuid "6929ff16-d7f4-4642-8bf3-0d3193927180")
 		)
 		(pin "2"
-			(uuid "0bc4b5d5-4b65-4173-8882-7dc62ddda626")
+			(uuid "b0013783-27f2-4a34-9a76-ab07e4ed6947")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "L11")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "L23")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "L3")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "L19")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "L7")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "L15")
 					(unit 1)
 				)
 			)
@@ -8512,7 +8512,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6c072bbd-9e9e-444b-b955-278347faa7a1")
-		(property "Reference" "L2"
+		(property "Reference" "L14"
 			(at 190.5 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8577,23 +8577,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "a1c395e5-90c2-40bf-a67f-2fd6b13c21a3")
+			(uuid "841a0ae0-6c48-4404-bca3-6ab2285d607c")
 		)
 		(pin "2"
-			(uuid "e0e17da0-b0a1-4ee1-ac9e-10e8a5493cdd")
+			(uuid "5d7bacce-877b-4dae-aab1-8946c95d9c90")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "L10")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "L22")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "L2")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "L18")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "L6")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "L14")
 					(unit 1)
 				)
 			)
@@ -8611,7 +8611,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a3ba93c-ad28-42d3-89d0-25dbe9b34e6b")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR070"
 			(at 130.81 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8666,20 +8666,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "e543976b-3257-47b1-aaa4-981aae70a5fa")
+			(uuid "38526c68-4089-4b59-a4b0-8ef0193062b0")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "#PWR043")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "#PWR096")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "#PWR017")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "#PWR083")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "#PWR030")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -8697,7 +8697,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85b83fb9-588b-43de-b8c0-386693d7a4a8")
-		(property "Reference" "C10"
+		(property "Reference" "C67"
 			(at 142.24 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8764,23 +8764,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "0560ef92-5767-460a-9af7-8ce127acff37")
+			(uuid "a954d5fd-0cf8-43d3-909a-094f536d74c6")
 		)
 		(pin "1"
-			(uuid "96b2a6ef-c1e4-43f5-9d6d-6893c2ba038c")
+			(uuid "9106a15e-63be-47c6-a361-309911af4d8d")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "C46")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "C103")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "C10")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "C85")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "C28")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "C67")
 					(unit 1)
 				)
 			)
@@ -8798,7 +8798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "88e326c4-a10d-4ec4-b1c9-088c34411460")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR073"
 			(at 148.59 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8853,20 +8853,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "d114669e-04f6-4121-9205-2d2cfe15d837")
+			(uuid "d39ca37d-81b5-4eab-b6ea-3eaded5c5008")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "#PWR046")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "#PWR099")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "#PWR020")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "#PWR086")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "#PWR033")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -8884,7 +8884,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97cf50ea-4980-4d72-862c-a0b331e3e5ec")
-		(property "Reference" "R4"
+		(property "Reference" "R25"
 			(at 90.17 111.7599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8951,23 +8951,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "1776e50e-a448-4dd2-b976-3b0ec2522c7d")
+			(uuid "b0a04a0b-3f10-407b-ac01-ba2547fb0ca3")
 		)
 		(pin "1"
-			(uuid "56b2eaef-c1e2-4dc7-b720-1373781929c7")
+			(uuid "1709cd77-dd75-4405-a156-12f53f56deb5")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "R16")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "R37")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "R4")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "R31")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "R10")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -8985,7 +8985,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97e4d087-16d2-49ba-bb7e-ffb4a6c430fa")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR065"
 			(at 49.53 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -9040,20 +9040,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "fd515d13-401c-4e39-b0c8-ebbd7af2c058")
+			(uuid "c3ceb24c-aa06-4506-aa8c-4c0f1bb9028d")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "#PWR038")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "#PWR091")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "#PWR012")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "#PWR078")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "#PWR025")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -9070,7 +9070,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2ec4a83-087b-49a5-b651-1fc4d123ee2b")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR069"
 			(at 111.76 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -9125,20 +9125,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "4ca3f429-35f7-4545-a4fd-cdd44d38c090")
+			(uuid "01e1cc03-fd9b-4d2b-9723-dd47a0dbb79a")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "#PWR042")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "#PWR095")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "#PWR016")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "#PWR082")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "#PWR029")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -9156,7 +9156,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a41886de-cabe-4aa8-af03-6139d2a7030f")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR072"
 			(at 140.97 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -9211,20 +9211,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "f1f2d30e-5664-49ae-a0f2-39e9c2974d22")
+			(uuid "bbf4ce25-8d57-464e-8476-0c08fa40e22e")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "#PWR045")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "#PWR098")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "#PWR019")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "#PWR085")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "#PWR032")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -9242,7 +9242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5b0d91f-8167-47ea-b8ff-f26631e6de73")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR067"
 			(at 81.28 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -9297,20 +9297,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "34ff218b-b260-42e2-b12f-4b3be4f173dc")
+			(uuid "1ef185d1-86ce-48dc-bd01-ff4b844be704")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "#PWR040")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "#PWR093")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "#PWR014")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "#PWR080")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "#PWR027")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -9328,7 +9328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6ae95b9-5fec-407e-b628-1c7a28d1d472")
-		(property "Reference" "R2"
+		(property "Reference" "R23"
 			(at 52.07 90.1699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9395,23 +9395,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "eac9dee8-bba5-49f6-bf2d-e5d04e0cc1d0")
+			(uuid "bba91e32-40e1-4722-858c-f4ac94cbb346")
 		)
 		(pin "2"
-			(uuid "e008d8c6-0e0f-443c-be67-66cfebba1d88")
+			(uuid "39890a7b-b883-4f6c-8929-314f91f7dfa6")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "R14")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "R35")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "R2")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "R29")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "R8")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -9429,7 +9429,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae48746a-3a6e-4e95-b641-19952196b286")
-		(property "Reference" "C9"
+		(property "Reference" "C66"
 			(at 128.27 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9496,23 +9496,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "071c7a51-ef83-4b8b-9aa2-a988ef3cc52c")
+			(uuid "c90b8324-c149-4810-b0ae-c5622b2b74fb")
 		)
 		(pin "1"
-			(uuid "944b6ba8-b1bf-460e-931f-2be03b2079fb")
+			(uuid "125c83f2-f2e0-417c-987d-1acd893328b9")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "C45")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "C102")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "C9")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "C84")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "C27")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "C66")
 					(unit 1)
 				)
 			)
@@ -9530,7 +9530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b59067d5-8d67-454d-9f3a-c4671b128963")
-		(property "Reference" "L4"
+		(property "Reference" "L16"
 			(at 190.5 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9595,23 +9595,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "1ab8f040-46dd-4a19-81c1-0f8c2a1da44c")
+			(uuid "bf8584c6-d44f-40d5-ad2b-fa4cb0a1e75c")
 		)
 		(pin "2"
-			(uuid "50c991b6-711f-4b0d-bec2-dc04ed59974c")
+			(uuid "6d0ecf05-8e10-40e4-87db-df0acb99f1a7")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "L12")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "L24")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "L4")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "L20")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "L8")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "L16")
 					(unit 1)
 				)
 			)
@@ -9629,7 +9629,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bbc67ba6-3513-400a-8f62-5e6f4f7fe7c1")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR074"
 			(at 195.58 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -9684,20 +9684,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "4d84ea52-0ef1-4c86-af0e-57f43153940d")
+			(uuid "1479ca32-33b4-4e2c-9183-ef795790505b")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "#PWR047")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "#PWR0100")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "#PWR021")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "#PWR087")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "#PWR034")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -9714,7 +9714,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c2b8d564-259c-417b-b3f9-6f9fccb266cf")
-		(property "Reference" "JP1"
+		(property "Reference" "JP4"
 			(at 71.374 60.198 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9768,23 +9768,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "8858cba1-b0fe-49b1-8004-29d91f8506be")
+			(uuid "d1806991-4bcc-4a6c-82c6-627a28efffc7")
 		)
 		(pin "1"
-			(uuid "87aa6338-fcfb-4c22-9015-6035a7deba1b")
+			(uuid "ed2ca7f0-efa7-4df4-ad43-d2b2343a9e2d")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "JP3")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "JP6")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "JP1")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "JP5")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "JP2")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -9802,7 +9802,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2ffd09d-9e29-4cc2-9b9e-996b4fceecff")
-		(property "Reference" "R6"
+		(property "Reference" "R27"
 			(at 196.85 59.6899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9869,23 +9869,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "c0817ae7-a434-4e2c-9eb8-323b7605c95e")
+			(uuid "72989a99-f8f3-4333-879d-ca118dc96895")
 		)
 		(pin "2"
-			(uuid "2731ed7c-1a19-4774-9978-04778d9894b6")
+			(uuid "36db5fcc-701a-431b-a24d-d91e55c96b8d")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "R18")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "R39")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "R6")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "R33")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "R12")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -9903,7 +9903,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c3a0937f-dff6-4a45-bd12-ddfbcf9a97f3")
-		(property "Reference" "R3"
+		(property "Reference" "R24"
 			(at 62.23 68.5799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9970,23 +9970,23 @@
 			)
 		)
 		(pin "1"
-			(uuid "4518033e-679c-4a4a-bfe9-12dc4f657e62")
+			(uuid "8082b103-a92a-4620-95e4-bc0dbc28d75b")
 		)
 		(pin "2"
-			(uuid "29df69b4-5fc8-47bb-8b90-b451e5e36964")
+			(uuid "77eca23c-42ac-47eb-aa54-47492b2d17e5")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "R15")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "R36")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "R3")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "R30")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "R9")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -10004,7 +10004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d02b4936-2a96-4f78-a9cd-dc30c38904bc")
-		(property "Reference" "C3"
+		(property "Reference" "C60"
 			(at 85.09 58.8009 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10060,23 +10060,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "fd48f181-7442-4dca-a0e8-1eebc1d6a4e3")
+			(uuid "1ad0fe4a-139c-4391-be31-3cc78f63e68a")
 		)
 		(pin "1"
-			(uuid "ea1e5a53-2e3f-42e7-bdf7-33c5ea3d4311")
+			(uuid "3d794ed4-def6-4e7a-953f-70382870dc2b")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "C39")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "C96")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "C3")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "C78")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "C21")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -10094,7 +10094,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d40261c5-79bf-4302-a0a7-4fbf37016417")
-		(property "Reference" "C4"
+		(property "Reference" "C61"
 			(at 99.06 58.8009 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10150,23 +10150,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "b96b7a71-955c-40ce-9322-61ec6c29779f")
+			(uuid "9b399cde-67bc-41f4-91c5-17e24b33294c")
 		)
 		(pin "1"
-			(uuid "ea4651cb-7083-4790-9fef-81c27fb76f7c")
+			(uuid "833d5627-9f52-4625-b22f-eaaaa28d7b81")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "C40")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "C97")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "C4")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "C79")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "C22")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -10184,7 +10184,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6caa97f-92b8-40c8-bfff-802fe186804b")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR075"
 			(at 205.74 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -10239,20 +10239,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "5c4c2f8c-edac-478a-9d8b-c49806701813")
+			(uuid "d268b138-8495-4b72-9375-906250405bc3")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "#PWR048")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "#PWR0101")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "#PWR022")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "#PWR088")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "#PWR035")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -10270,7 +10270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8698397-c31a-4add-b8e5-37a7d6fb2cda")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR066"
 			(at 62.23 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -10325,20 +10325,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "3537e7a6-8384-4764-9867-11a768af562c")
+			(uuid "221501d3-d9e0-4fde-8724-2ff7419fdc22")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "#PWR039")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "#PWR092")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "#PWR013")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "#PWR079")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "#PWR026")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -10356,7 +10356,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5368925-21dc-483b-986a-2a5298758345")
-		(property "Reference" "C18"
+		(property "Reference" "C75"
 			(at 198.12 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10423,23 +10423,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "11663c4a-c0d2-4700-a100-dccc267d137f")
+			(uuid "cdc0cf99-1b82-4eaf-a33f-b6fe4d52ebc3")
 		)
 		(pin "1"
-			(uuid "3a4e8d40-22a9-4c7b-b460-380dff5dcb48")
+			(uuid "d29dd71b-a35e-4da2-a9db-6755926f2c6b")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "C54")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "C111")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "C18")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "C93")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "C36")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "C75")
 					(unit 1)
 				)
 			)
@@ -10456,7 +10456,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f604b17b-3b19-4883-ae0d-d5ce6e9f9300")
-		(property "Reference" "R5"
+		(property "Reference" "R26"
 			(at 102.616 111.506 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10521,23 +10521,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "27afb4c0-e9d3-4fda-bcbe-03cc5b727ab8")
+			(uuid "4c5f8503-78dc-412f-a95f-8089cd845900")
 		)
 		(pin "1"
-			(uuid "336ae64a-32cd-4b85-b5a7-e71ae3adde12")
+			(uuid "e1060d32-d6da-4466-8868-5b1c8b17c488")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "R17")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "R38")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "R5")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "R32")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "R11")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -10555,7 +10555,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f82d8144-cbde-486d-b67c-62b234dece4a")
-		(property "Reference" "C2"
+		(property "Reference" "C59"
 			(at 85.09 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10622,23 +10622,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "a3c327f6-774b-4bf1-9704-74415072ccca")
+			(uuid "919ffa36-d72d-4638-afb1-57545f561b59")
 		)
 		(pin "1"
-			(uuid "2f72cd65-b997-4fbb-a7e3-10a3ae3883df")
+			(uuid "99b652cf-8613-4332-8553-3a185e79e59f")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "C38")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "C95")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "C2")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "C77")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "C20")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -10656,7 +10656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb1d76c3-358c-4a87-bf98-d571166b6ddb")
-		(property "Reference" "C14"
+		(property "Reference" "C71"
 			(at 173.99 87.6299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10723,23 +10723,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "d2f0fe1b-ceb2-4063-b03c-c9ee233db724")
+			(uuid "96c42ce4-a4e6-490e-81f2-daeaf890e7b9")
 		)
 		(pin "1"
-			(uuid "785ad130-4be5-485a-a311-f2e13b069ba3")
+			(uuid "f804c6b6-56b5-4902-bac1-e7047cff399f")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/713768e4-479a-4ec0-8320-e7aa0fb8775d"
-					(reference "C50")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
+					(reference "C107")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/7586baea-6408-455c-aaba-606b5dc689bd"
-					(reference "C14")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
+					(reference "C89")
 					(unit 1)
 				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5b8be1f1-d915-427a-958f-d277d058eb7f/baa75d47-3ca5-4c09-a50f-527d90dd0a51"
-					(reference "C32")
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
+					(reference "C71")
 					(unit 1)
 				)
 			)

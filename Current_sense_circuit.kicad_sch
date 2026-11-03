@@ -881,14 +881,14 @@
 		)
 	)
 	(junction
-		(at 138.43 71.12)
+		(at 144.78 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0eb0534f-5a6c-4baf-a0bc-377418c41ead")
 	)
 	(wire
 		(pts
-			(xy 102.87 81.28) (xy 110.49 81.28)
+			(xy 109.22 93.98) (xy 116.84 93.98)
 		)
 		(stroke
 			(width 0)
@@ -898,7 +898,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 96.52) (xy 132.08 86.36)
+			(xy 138.43 109.22) (xy 138.43 99.06)
 		)
 		(stroke
 			(width 0)
@@ -908,17 +908,17 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 91.44) (xy 151.13 91.44)
+			(xy 149.86 109.22) (xy 163.83 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "22363cbd-ff73-41fe-a912-52676bf6193b")
+		(uuid "0ba63f3f-deb2-4851-9c14-ee968aafe2d5")
 	)
 	(wire
 		(pts
-			(xy 110.49 86.36) (xy 110.49 96.52)
+			(xy 116.84 99.06) (xy 116.84 109.22)
 		)
 		(stroke
 			(width 0)
@@ -928,7 +928,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 91.44) (xy 140.97 93.98)
+			(xy 147.32 104.14) (xy 147.32 106.68)
 		)
 		(stroke
 			(width 0)
@@ -938,7 +938,17 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 86.36) (xy 125.73 92.71)
+			(xy 149.86 109.22) (xy 149.86 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e49ecc6-a0db-4754-a7fd-f2fe0ad988d9")
+	)
+	(wire
+		(pts
+			(xy 132.08 99.06) (xy 132.08 105.41)
 		)
 		(stroke
 			(width 0)
@@ -948,7 +958,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 91.44) (xy 138.43 93.98)
+			(xy 144.78 104.14) (xy 144.78 106.68)
 		)
 		(stroke
 			(width 0)
@@ -958,7 +968,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 86.36) (xy 133.35 86.36)
+			(xy 138.43 99.06) (xy 139.7 99.06)
 		)
 		(stroke
 			(width 0)
@@ -968,17 +978,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 93.98) (xy 142.24 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1629082-fbec-4ce1-8ca8-64e2ef25aa90")
-	)
-	(wire
-		(pts
-			(xy 110.49 96.52) (xy 132.08 96.52)
+			(xy 116.84 109.22) (xy 138.43 109.22)
 		)
 		(stroke
 			(width 0)
@@ -988,7 +988,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 71.12) (xy 143.51 71.12)
+			(xy 144.78 83.82) (xy 149.86 83.82)
 		)
 		(stroke
 			(width 0)
@@ -998,7 +998,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 81.28) (xy 133.35 81.28)
+			(xy 132.08 93.98) (xy 139.7 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1008,7 +1008,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 71.12) (xy 156.21 71.12)
+			(xy 157.48 83.82) (xy 162.56 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1018,7 +1018,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 67.31) (xy 138.43 76.2)
+			(xy 144.78 80.01) (xy 144.78 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1028,17 +1028,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 93.98) (xy 142.24 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4f7b8e0-0984-4007-aa3d-8a5b51bcb817")
-	)
-	(wire
-		(pts
-			(xy 151.13 90.17) (xy 151.13 91.44)
+			(xy 163.83 107.95) (xy 163.83 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1048,7 +1038,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 83.82) (xy 154.94 83.82)
+			(xy 154.94 96.52) (xy 161.29 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1057,8 +1047,8 @@
 		(uuid "f7a4f767-94c7-4a29-8fde-7fd42c5ab56a")
 	)
 	(hierarchical_label "Icoil2"
-		(shape input)
-		(at 102.87 81.28 180)
+		(shape bidirectional)
+		(at 109.22 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1068,8 +1058,8 @@
 		(uuid "42dc4781-341f-4bcc-be50-f78a95758caa")
 	)
 	(hierarchical_label "CurrentSensorVoltage"
-		(shape input)
-		(at 154.94 83.82 0)
+		(shape output)
+		(at 161.29 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1079,8 +1069,8 @@
 		(uuid "84ee4d73-7236-497b-885a-86f51597a346")
 	)
 	(hierarchical_label "Icoil1"
-		(shape input)
-		(at 125.73 92.71 180)
+		(shape bidirectional)
+		(at 132.08 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1091,7 +1081,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 138.43 67.31 0)
+		(at 144.78 80.01 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1102,7 +1092,7 @@
 		(fields_autoplaced yes)
 		(uuid "1d472aa4-7eec-4ec6-81ab-f36a09e22653")
 		(property "Reference" "#PWR054"
-			(at 138.43 71.12 0)
+			(at 144.78 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1113,7 +1103,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 138.43 62.23 0)
+			(at 144.78 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1123,646 +1113,6 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 138.43 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e6d9e79a-275c-4070-b285-ea5feed418b6")
-		)
-		(instances
-			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/f2ab852c-f0e9-4e53-8d21-0eaa3cff9a61/45fa2eb3-260b-41e9-944a-f1a0054bdcf1"
-					(reference "#PWR055")
-					(unit 1)
-				)
-				(path "/f2ab852c-f0e9-4e53-8d21-0eaa3cff9a61/6262825a-aa8a-4ddf-95c1-5e1f2ff0797a"
-					(reference "#PWR054")
-					(unit 1)
-				)
-				(path "/f2ab852c-f0e9-4e53-8d21-0eaa3cff9a61/d1c8c6f4-e011-4608-a95e-c8df55b3666f"
-					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 142.24 95.25 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73ab0d56-1bc5-4e42-87fe-bc3461b864cb")
-		(property "Reference" "#PWR051"
-			(at 142.24 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 142.24 100.33 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 142.24 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 95.25 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "af7106d8-5c50-4b19-9e91-552d4a2d4cf6")
-		)
-		(instances
-			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/f2ab852c-f0e9-4e53-8d21-0eaa3cff9a61/45fa2eb3-260b-41e9-944a-f1a0054bdcf1"
-					(reference "#PWR057")
-					(unit 1)
-				)
-				(path "/f2ab852c-f0e9-4e53-8d21-0eaa3cff9a61/6262825a-aa8a-4ddf-95c1-5e1f2ff0797a"
-					(reference "#PWR051")
-					(unit 1)
-				)
-				(path "/f2ab852c-f0e9-4e53-8d21-0eaa3cff9a61/d1c8c6f4-e011-4608-a95e-c8df55b3666f"
-					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "lcsc_imported:WSK2512R0100FEA")
-		(at 118.11 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b282764-585e-4302-a4ce-adedb1f8e46e")
-		(property "Reference" "R19"
-			(at 118.11 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "WSK2512R0100FEA"
-			(at 118.11 78.74 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lcsc_footprints:C3985410_RES-SMD_L6_4-W3_2_WSK2512R0100FEA"
-			(at 118.11 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312121745_Vishay-Intertech-WSK2512R0100FEA_C3985410.pdf"
-			(at 115.824 83.693 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "WSK2512R0100FEA"
-			(at 118.11 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C3985410"
-			(at 118.11 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "VISHAY(威世)"
-			(at 118.11 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "f864ce95-ad1a-4880-871f-100f06ae99d5")
-		)
-		(pin "4"
-			(uuid "ae323180-d99e-4180-8c1e-19c80d567cbd")
-		)
-		(pin "3"
-			(uuid "764bf2b2-be00-40f3-8cf6-32c7b63f996f")
-		)
-		(pin "1"
-			(uuid "4341abf9-99df-471c-988f-2c46534be0f1")
-		)
-		(instances
-			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/f2ab852c-f0e9-4e53-8d21-0eaa3cff9a61/45fa2eb3-260b-41e9-944a-f1a0054bdcf1"
-					(reference "R20")
-					(unit 1)
-				)
-				(path "/f2ab852c-f0e9-4e53-8d21-0eaa3cff9a61/6262825a-aa8a-4ddf-95c1-5e1f2ff0797a"
-					(reference "R19")
-					(unit 1)
-				)
-				(path "/f2ab852c-f0e9-4e53-8d21-0eaa3cff9a61/d1c8c6f4-e011-4608-a95e-c8df55b3666f"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 151.13 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bb630eb4-1fe8-4441-9cdd-17eb4373f2b6")
-		(property "Reference" "#PWR"
-			(at 151.13 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 151.13 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 151.13 90.17 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "fb391fb2-984f-4f50-a424-9d670c339aaa")
-		)
-		(instances
-			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/f2ab852c-f0e9-4e53-8d21-0eaa3cff9a61/45fa2eb3-260b-41e9-944a-f1a0054bdcf1"
-					(reference "#PWR058")
-					(unit 1)
-				)
-				(path "/f2ab852c-f0e9-4e53-8d21-0eaa3cff9a61/d1c8c6f4-e011-4608-a95e-c8df55b3666f"
-					(reference "#PWR063")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 147.32 71.12 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d20038bb-6124-4710-81a1-7e6ae09f9885")
-		(property "Reference" "C56"
-			(at 147.32 63.5 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 147.32 66.04 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 151.13 70.1548 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 147.32 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "03aee607-f25f-492c-b520-1599a543e679")
-		)
-		(pin "1"
-			(uuid "2bea7e61-820a-4d82-9ce9-541d68f5bcfb")
-		)
-		(instances
-			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/f2ab852c-f0e9-4e53-8d21-0eaa3cff9a61/45fa2eb3-260b-41e9-944a-f1a0054bdcf1"
-					(reference "C57")
-					(unit 1)
-				)
-				(path "/f2ab852c-f0e9-4e53-8d21-0eaa3cff9a61/6262825a-aa8a-4ddf-95c1-5e1f2ff0797a"
-					(reference "C56")
-					(unit 1)
-				)
-				(path "/f2ab852c-f0e9-4e53-8d21-0eaa3cff9a61/d1c8c6f4-e011-4608-a95e-c8df55b3666f"
-					(reference "C58")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 138.43 93.98 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d98ac002-2612-44c1-b624-8256a09c7ce2")
-		(property "Reference" "#PWR050"
-			(at 138.43 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 138.43 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "762e51ac-09d6-494f-ae75-7839f4dbcb99")
-		)
-		(instances
-			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/f2ab852c-f0e9-4e53-8d21-0eaa3cff9a61/45fa2eb3-260b-41e9-944a-f1a0054bdcf1"
-					(reference "#PWR056")
-					(unit 1)
-				)
-				(path "/f2ab852c-f0e9-4e53-8d21-0eaa3cff9a61/6262825a-aa8a-4ddf-95c1-5e1f2ff0797a"
-					(reference "#PWR050")
-					(unit 1)
-				)
-				(path "/f2ab852c-f0e9-4e53-8d21-0eaa3cff9a61/d1c8c6f4-e011-4608-a95e-c8df55b3666f"
-					(reference "#PWR061")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 156.21 71.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e99c7126-5fea-46bf-8293-30424b2d56fa")
-		(property "Reference" "#PWR052"
-			(at 156.21 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.21 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 156.21 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 156.21 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 156.21 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b4d19a4e-d069-4afb-89d0-fbfcaf2da04d")
-		)
-		(instances
-			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/f2ab852c-f0e9-4e53-8d21-0eaa3cff9a61/45fa2eb3-260b-41e9-944a-f1a0054bdcf1"
-					(reference "#PWR059")
-					(unit 1)
-				)
-				(path "/f2ab852c-f0e9-4e53-8d21-0eaa3cff9a61/6262825a-aa8a-4ddf-95c1-5e1f2ff0797a"
-					(reference "#PWR052")
-					(unit 1)
-				)
-				(path "/f2ab852c-f0e9-4e53-8d21-0eaa3cff9a61/d1c8c6f4-e011-4608-a95e-c8df55b3666f"
-					(reference "#PWR064")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Current:INA240A1D")
-		(at 140.97 83.82 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eedbc1c8-e0f5-4c05-9b04-f02e942d7902")
-		(property "Reference" "U4"
-			(at 152.4 77.3998 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "INA240A1D"
-			(at 152.4 79.9398 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 140.97 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina240.pdf"
 			(at 144.78 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -1773,8 +1123,663 @@
 				)
 			)
 		)
+		(property "Datasheet" ""
+			(at 144.78 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 144.78 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f191acbb-96c9-45b4-ac30-9231380868ff")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2eed623f-9341-4bd1-969c-3ef84ade38e9"
+					(reference "#PWR054")
+					(unit 1)
+				)
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/36b6b46a-4b54-41ec-ae14-d8a056066e0a"
+					(reference "#PWR061")
+					(unit 1)
+				)
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/f2451772-ffcd-467e-a9f4-f4404e3fd9f4"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 147.32 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73ab0d56-1bc5-4e42-87fe-bc3461b864cb")
+		(property "Reference" "#PWR051"
+			(at 147.32 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 147.32 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 147.32 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 147.32 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "13abe1e4-27de-4a20-b996-5a05cd0d0dcd")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2eed623f-9341-4bd1-969c-3ef84ade38e9"
+					(reference "#PWR051")
+					(unit 1)
+				)
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/36b6b46a-4b54-41ec-ae14-d8a056066e0a"
+					(reference "#PWR063")
+					(unit 1)
+				)
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/f2451772-ffcd-467e-a9f4-f4404e3fd9f4"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:WSK2512R0100FEA")
+		(at 124.46 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9b282764-585e-4302-a4ce-adedb1f8e46e")
+		(property "Reference" "R19"
+			(at 124.46 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WSK2512R0100FEA"
+			(at 124.46 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C3985410_RES-SMD_L6_4-W3_2_WSK2512R0100FEA"
+			(at 124.46 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312121745_Vishay-Intertech-WSK2512R0100FEA_C3985410.pdf"
+			(at 122.174 96.393 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "WSK2512R0100FEA"
+			(at 124.46 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C3985410"
+			(at 124.46 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "VISHAY(威世)"
+			(at 124.46 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b52622b2-21eb-499e-af3b-dd209ddc4a4c")
+		)
+		(pin "4"
+			(uuid "92e9925c-e689-48ce-8309-0f3178bb4bd1")
+		)
+		(pin "3"
+			(uuid "1ab76a02-776e-429c-a11f-dde36245af85")
+		)
+		(pin "1"
+			(uuid "2a768e25-8942-425b-89de-752dbe637503")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2eed623f-9341-4bd1-969c-3ef84ade38e9"
+					(reference "R19")
+					(unit 1)
+				)
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/36b6b46a-4b54-41ec-ae14-d8a056066e0a"
+					(reference "R21")
+					(unit 1)
+				)
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/f2451772-ffcd-467e-a9f4-f4404e3fd9f4"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 163.83 107.95 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb630eb4-1fe8-4441-9cdd-17eb4373f2b6")
+		(property "Reference" "#PWR058"
+			(at 163.83 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 163.83 102.87 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 163.83 107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8470f3e6-91be-48a2-bdc6-8e3dfcbd6f71")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2eed623f-9341-4bd1-969c-3ef84ade38e9"
+					(reference "#PWR058")
+					(unit 1)
+				)
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/36b6b46a-4b54-41ec-ae14-d8a056066e0a"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/f2451772-ffcd-467e-a9f4-f4404e3fd9f4"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 144.78 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d98ac002-2612-44c1-b624-8256a09c7ce2")
+		(property "Reference" "#PWR050"
+			(at 144.78 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 144.78 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 144.78 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a56b7c43-5fdb-4ced-8f5a-64488c1b5820")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2eed623f-9341-4bd1-969c-3ef84ade38e9"
+					(reference "#PWR050")
+					(unit 1)
+				)
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/36b6b46a-4b54-41ec-ae14-d8a056066e0a"
+					(reference "#PWR062")
+					(unit 1)
+				)
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/f2451772-ffcd-467e-a9f4-f4404e3fd9f4"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 153.67 83.82 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e7042fdf-d1f5-49a2-983b-2f2e1cd55341")
+		(property "Reference" "C56"
+			(at 153.67 76.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100nF"
+			(at 153.67 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 157.48 82.8548 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 153.67 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C97946"
+			(at 152.3999 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d8468be1-4b2b-4063-8628-60ae1b33e0f6")
+		)
+		(pin "1"
+			(uuid "9a78b5cc-15c7-4d25-b1a9-e5835d13568e")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2eed623f-9341-4bd1-969c-3ef84ade38e9"
+					(reference "C56")
+					(unit 1)
+				)
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/36b6b46a-4b54-41ec-ae14-d8a056066e0a"
+					(reference "C58")
+					(unit 1)
+				)
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/f2451772-ffcd-467e-a9f4-f4404e3fd9f4"
+					(reference "C57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 162.56 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e99c7126-5fea-46bf-8293-30424b2d56fa")
+		(property "Reference" "#PWR052"
+			(at 162.56 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 162.56 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4290859b-5ded-4a55-b4ce-655049692cd8")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2eed623f-9341-4bd1-969c-3ef84ade38e9"
+					(reference "#PWR052")
+					(unit 1)
+				)
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/36b6b46a-4b54-41ec-ae14-d8a056066e0a"
+					(reference "#PWR064")
+					(unit 1)
+				)
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/f2451772-ffcd-467e-a9f4-f4404e3fd9f4"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Current:INA240A1D")
+		(at 147.32 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eedbc1c8-e0f5-4c05-9b04-f02e942d7902")
+		(property "Reference" "U4"
+			(at 158.75 90.0998 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "INA240A1D"
+			(at 158.75 92.6398 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 147.32 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina240.pdf"
+			(at 151.13 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" "High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 20V/V, SOIC-8"
-			(at 140.97 83.82 0)
+			(at 147.32 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1785,41 +1790,41 @@
 			)
 		)
 		(pin "7"
-			(uuid "5a8c1d9c-fa53-4764-939e-7f8543df7c24")
+			(uuid "5626ef73-7861-496d-b347-8a0ce2537411")
 		)
 		(pin "6"
-			(uuid "0f213d83-bcdc-4269-8372-8aba76869d98")
+			(uuid "d4f23ed1-25ed-4cd0-9e09-0b62f759e147")
 		)
 		(pin "1"
-			(uuid "0f2f3a89-924f-4fe0-9dfc-a7e39abb44fd")
+			(uuid "30c82ae1-ed52-4def-aa78-b3e3d1171749")
 		)
 		(pin "5"
-			(uuid "f0bd1e49-453e-477c-8b4a-e142155b8cbf")
+			(uuid "02310ab3-872f-43ca-b828-92987ccdeb59")
 		)
 		(pin "2"
-			(uuid "69b04139-7975-4646-9c51-67ebe465ce12")
+			(uuid "e2003faf-e7fa-488e-b2b9-456cb75e0dd6")
 		)
 		(pin "3"
-			(uuid "05f8d05b-aad2-4299-b0b9-86232048aab6")
+			(uuid "0260b939-3e55-46fc-94fd-25ea15b04553")
 		)
 		(pin "4"
-			(uuid "397c5e81-7c2a-4afe-a46a-5d5e226d1d87")
+			(uuid "9d0a32db-f960-4c71-9289-23b392da8329")
 		)
 		(pin "8"
-			(uuid "2b26f388-7159-4937-9a08-8e0a89f40117")
+			(uuid "2d6c99c8-74d0-4a4b-a3a0-48239efa18a3")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/f2ab852c-f0e9-4e53-8d21-0eaa3cff9a61/45fa2eb3-260b-41e9-944a-f1a0054bdcf1"
-					(reference "U5")
-					(unit 1)
-				)
-				(path "/f2ab852c-f0e9-4e53-8d21-0eaa3cff9a61/6262825a-aa8a-4ddf-95c1-5e1f2ff0797a"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2eed623f-9341-4bd1-969c-3ef84ade38e9"
 					(reference "U4")
 					(unit 1)
 				)
-				(path "/f2ab852c-f0e9-4e53-8d21-0eaa3cff9a61/d1c8c6f4-e011-4608-a95e-c8df55b3666f"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/36b6b46a-4b54-41ec-ae14-d8a056066e0a"
 					(reference "U6")
+					(unit 1)
+				)
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/f2451772-ffcd-467e-a9f4-f4404e3fd9f4"
+					(reference "U5")
 					(unit 1)
 				)
 			)
