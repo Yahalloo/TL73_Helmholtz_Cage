@@ -9734,7 +9734,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+		(property "Footprint" ""
 			(at 71.12 57.15 0)
 			(hide yes)
 			(show_name no)

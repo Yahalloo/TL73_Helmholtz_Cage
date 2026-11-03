@@ -479,6 +479,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -526,8 +527,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": []
   },
   "pcbnew": {
@@ -612,12 +613,6 @@
           "label": "Description",
           "name": "Description",
           "show": false
-        },
-        {
-          "group_by": false,
-          "label": "LCSC",
-          "name": "LCSC",
-          "show": false
         }
       ],
       "filter_string": "",
@@ -686,9 +681,14 @@
         "filename": "TL_73_Helmholtz_Cage_PCB.kicad_sch",
         "name": "TL_73_Helmholtz_Cage_PCB",
         "uuid": "da5a1e6a-2605-436b-a30c-1027586d5c0a"
+      },
+      {
+        "filename": "current_sense.kicad_sch",
+        "name": "Current_Sense",
+        "uuid": "f2ab852c-f0e9-4e53-8d21-0eaa3cff9a61"
       }
     ],
-    "used_designators": "U1-3,C1-55,L1-12,#PWR1-49,#PWR103,R1-18,J1-2,JP1-4,H1-3",
+    "used_designators": "#PWR1-64,#PWR103,C1-58,H1-3,J1-2,JP1-4,L1-12,R1-21,U1-6",
     "variants": []
   },
   "sheets": [
@@ -711,6 +711,22 @@
     [
       "713768e4-479a-4ec0-8320-e7aa0fb8775d",
       "Hbridge_CoilZ"
+    ],
+    [
+      "f2ab852c-f0e9-4e53-8d21-0eaa3cff9a61",
+      "Current_Sense"
+    ],
+    [
+      "6262825a-aa8a-4ddf-95c1-5e1f2ff0797a",
+      "Current_sense_circuitX"
+    ],
+    [
+      "45fa2eb3-260b-41e9-944a-f1a0054bdcf1",
+      "Current_sense_circuitY"
+    ],
+    [
+      "d1c8c6f4-e011-4608-a95e-c8df55b3666f",
+      "Current_sense_circuitZ"
     ]
   ],
   "text_variables": {},
