@@ -4,18 +4,24 @@ import requests
 
 class Helmholtz_Calibration:
     def __init__(self):
+
+        # Set the variables to 0 as well as determine the magnetic field offset values
         self.phyphox_url = None
         self.is_connected = False
         self.offset = {"x": 0.0, "y": 0.0, "z": 0.0}
         self.raw_field = {"x": 0.0, "y": 0.0, "z": 0.0}
 
+    # This function grabs the phyphox url from the GUI and establishes a connection with the URL
     def set_phyphox_url(self, url_text):
+
+        # Cleans the url text to set it as a link
         clean_url = url_text.strip().rstrip('/')
         if not clean_url.startswith("https://") and not clean_url.startswith("http://"):
             clean_url = "http://" + clean_url
 
         self.phyphox_url = f"{clean_url}/get?mag_x&mag_y&mag_z&magX&magY&magZ"
 
+        # Establishes a connection with the URL
         try:
             requests.get(f"{clean_url}/control?cmd=start", timeout=0.5)
             r = requests.get(self.phyphox_url, timeout=0.5)
@@ -30,10 +36,14 @@ class Helmholtz_Calibration:
         self.is_connected = False
         return False
 
+    # Grabs the magnetometer data from the phyphox URL
     def read_mag_data(self):
+
+        # Checks the connection with the phyphox URL
         if not self.is_connected or not self.phyphox_url:
             return {"x": 0.0, "y": 0.0, "z": 0.0}
 
+        # Stores the magnetometer values into variables
         try:
             r = requests.get(self.phyphox_url, timeout=0.08).json()
             buffers = r.get("buffer", {})

@@ -228,6 +228,7 @@ class GUI(QWidget):
         if filepath:
             self.backend.process_dynamic_file(filepath)
 
+# This part start the GUI from PyQt5
 if __name__ == "__main__":
     app = QApplication(sys.argv)
     window = GUI()
