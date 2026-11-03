@@ -4,6 +4,11 @@
 	(generator_version "10.0")
 	(uuid "43497660-ba88-4437-8b46-059a8c992a33")
 	(paper "A4")
+	(title_block
+		(title "Coil Current Sense (INA240A1)")
+		(company "TL-73 Helmholtz Cage")
+		(comment 1 "One instance per coil axis (X / Y / Z); output to Nucleo 12-bit ADC")
+	)
 	(lib_symbols
 		(symbol "Amplifier_Current:INA240A1D"
 			(pin_names
@@ -409,14 +414,14 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lcsc_imported:WSK2512R0100FEA"
+		(symbol "EasyEDA:WSK2512R0100FEA"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
-				(at 0 1.27 0)
+				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -426,7 +431,7 @@
 				)
 			)
 			(property "Value" "WSK2512R0100FEA"
-				(at 0 -2.54 0)
+				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -435,7 +440,7 @@
 					)
 				)
 			)
-			(property "Footprint" "lcsc_footprints:C3985410_RES-SMD_L6_4-W3_2_WSK2512R0100FEA"
+			(property "Footprint" "EasyEDA:RES-SMD_L6.4-W3.2_WSK2512R0100FEA"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -446,8 +451,8 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312121745_Vishay-Intertech-WSK2512R0100FEA_C3985410.pdf"
-				(at -2.286 0.127 0)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C3985410.pdf"
+				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -457,18 +462,7 @@
 					)
 				)
 			)
-			(property "Description" "WSK2512R0100FEA"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "LCSC" "C3985410"
+			(property "Description" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -480,7 +474,7 @@
 				)
 			)
 			(property "Manufacturer" "VISHAY(威世)"
-				(at 0 0 0)
+				(at 0 -15.24 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -490,7 +484,29 @@
 					)
 				)
 			)
-			(symbol "WSK2512R0100FEA_1_1"
+			(property "MPN" "WSK2512R0100FEA"
+				(at 0 -17.78 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C3985410"
+				(at 0 -20.32 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "WSK2512R0100FEA_0_1"
 				(polyline
 					(pts
 						(xy -5.08 2.54) (xy -5.08 -2.54)
@@ -556,14 +572,14 @@
 					(name "I2"
 						(effects
 							(font
-								(size 1 1)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1 1)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -574,14 +590,14 @@
 					(name "E2"
 						(effects
 							(font
-								(size 1 1)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1 1)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -592,14 +608,14 @@
 					(name "E1"
 						(effects
 							(font
-								(size 1 1)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1 1)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -610,14 +626,14 @@
 					(name "I1"
 						(effects
 							(font
-								(size 1 1)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1 1)
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -879,6 +895,17 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "CURRENT SENSE NOTES (per axis)\n- Shunt: 10 mOhm 4-terminal Kelvin (WSK2512, 1 W), high side after output filter\n- Amp: INA240A1, gain 20 V/V -> 0.2 V/A (200 mV/A)\n- REF1 = 3.3 V, REF2 = GND -> Vout = 1.65 V at 0 A (bidirectional)\n- Vout = 1.65 V + 0.2 V/A x I_coil   (+I = current from Icoil1 -> Icoil2)\n\nMEASUREMENT RANGE\n- Full scale: +/-1.65 V / 0.2 V/A = +/-8.25 A (ideal)\n- Usable: approx. +/-8.0 A (INA240 output swing limits near rails)\n- Shunt loss at 8 A: I^2 x R = 0.64 W (rated 1 W)\n\n12-BIT ADC RESOLUTION (VREF+ = VDDA = 3.3 V)\n- 1 LSB = 3.3 V / 4096 = 0.806 mV -> 0.806 mV / 0.2 V/A = approx. 4.0 mA per count\n- 0 A = code 2048,  I_coil [A] = (code - 2048) x 4.03 mA\n- Ratiometric: REF1 and VDDA share 3.3 V, so the 0 A point tracks supply drift\n- ADC pins: X = PA0 (ADC1_IN1), Y = PA4 (ADC2_IN17), Z = PB0 (ADC3_IN12)"
+		(exclude_from_sim no)
+		(at 19.558 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b1f0c52-3d8e-4a77-9e21-5c0a7f4e2b91")
 	)
 	(junction
 		(at 144.78 83.82)
@@ -1166,6 +1193,133 @@
 		)
 	)
 	(symbol
+		(lib_id "EasyEDA:WSK2512R0100FEA")
+		(at 124.46 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59f9c55e-8888-4613-8a9c-3e9bc351ad8b")
+		(property "Reference" "R1"
+			(at 124.46 88.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WSK2512R0100FEA"
+			(at 124.46 91.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:RES-SMD_L6.4-W3.2_WSK2512R0100FEA"
+			(at 124.46 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C3985410.pdf"
+			(at 124.46 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "VISHAY(威世)"
+			(at 124.46 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "WSK2512R0100FEA"
+			(at 124.46 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C3985410"
+			(at 124.46 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "564b51a3-fe60-4b92-b5ae-b6f85b3ed015")
+		)
+		(pin "4"
+			(uuid "8cb3c526-f2f4-4095-88c0-bbed908ac7e3")
+		)
+		(pin "2"
+			(uuid "3fdf9bd1-995c-4628-b963-89f9bb582eb0")
+		)
+		(pin "3"
+			(uuid "a6a67269-850f-4a96-a84e-ccb70116391b")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2eed623f-9341-4bd1-969c-3ef84ade38e9"
+					(reference "R1")
+					(unit 1)
+				)
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/36b6b46a-4b54-41ec-ae14-d8a056066e0a"
+					(reference "R3")
+					(unit 1)
+				)
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/f2451772-ffcd-467e-a9f4-f4404e3fd9f4"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 147.32 106.68 0)
 		(unit 1)
@@ -1252,8 +1406,8 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc_imported:WSK2512R0100FEA")
-		(at 124.46 96.52 0)
+		(lib_id "Amplifier_Current:INA240A1D")
+		(at 147.32 96.52 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1262,9 +1416,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "9b282764-585e-4302-a4ce-adedb1f8e46e")
-		(property "Reference" "R19"
-			(at 124.46 88.9 0)
+		(uuid "b33083a3-e9ed-423f-b526-66b7ebcdcc64")
+		(property "Reference" "U1"
+			(at 158.75 90.0998 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1273,8 +1427,8 @@
 				)
 			)
 		)
-		(property "Value" "WSK2512R0100FEA"
-			(at 124.46 91.44 0)
+		(property "Value" "INA240A1D"
+			(at 158.75 92.6398 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1283,8 +1437,8 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc_footprints:C3985410_RES-SMD_L6_4-W3_2_WSK2512R0100FEA"
-			(at 124.46 106.68 0)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 147.32 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1294,8 +1448,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312121745_Vishay-Intertech-WSK2512R0100FEA_C3985410.pdf"
-			(at 122.174 96.393 0)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina240.pdf"
+			(at 151.13 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1305,8 +1459,8 @@
 				)
 			)
 		)
-		(property "Description" "WSK2512R0100FEA"
-			(at 124.46 96.52 0)
+		(property "Description" "High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 20V/V, SOIC-8"
+			(at 147.32 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1315,53 +1469,43 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "LCSC" "C3985410"
-			(at 124.46 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "VISHAY(威世)"
-			(at 124.46 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b52622b2-21eb-499e-af3b-dd209ddc4a4c")
-		)
-		(pin "4"
-			(uuid "92e9925c-e689-48ce-8309-0f3178bb4bd1")
-		)
-		(pin "3"
-			(uuid "1ab76a02-776e-429c-a11f-dde36245af85")
 		)
 		(pin "1"
-			(uuid "2a768e25-8942-425b-89de-752dbe637503")
+			(uuid "0c053872-33a8-491a-9972-5e3ed0f1ddef")
+		)
+		(pin "5"
+			(uuid "6753b158-1985-4f09-8cd8-dddd7c062f93")
+		)
+		(pin "2"
+			(uuid "a40859d0-e473-4ad4-ae80-3ce174bd7776")
+		)
+		(pin "3"
+			(uuid "023feed6-3a76-493a-9a99-08781d05c37a")
+		)
+		(pin "8"
+			(uuid "2494b30f-34cb-4968-ae90-27f8fbd38d9a")
+		)
+		(pin "4"
+			(uuid "8361fa5b-71b7-404e-b78b-b297b7ffa343")
+		)
+		(pin "7"
+			(uuid "7c3e238d-8651-4619-9ab0-0616398cc674")
+		)
+		(pin "6"
+			(uuid "f671d8c5-de79-445c-862e-aec3b3c87ffa")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2eed623f-9341-4bd1-969c-3ef84ade38e9"
-					(reference "R19")
+					(reference "U1")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/36b6b46a-4b54-41ec-ae14-d8a056066e0a"
-					(reference "R21")
+					(reference "U3")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/f2451772-ffcd-467e-a9f4-f4404e3fd9f4"
-					(reference "R20")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -1719,112 +1863,6 @@
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/f2451772-ffcd-467e-a9f4-f4404e3fd9f4"
 					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Current:INA240A1D")
-		(at 147.32 96.52 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eedbc1c8-e0f5-4c05-9b04-f02e942d7902")
-		(property "Reference" "U4"
-			(at 158.75 90.0998 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "INA240A1D"
-			(at 158.75 92.6398 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 147.32 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ina240.pdf"
-			(at 151.13 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "High- and Low-Side, Bidirectional, Zero-Drift, Current-Sense Amplifier With Enhanced PWM Rejection, 20V/V, SOIC-8"
-			(at 147.32 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "7"
-			(uuid "5626ef73-7861-496d-b347-8a0ce2537411")
-		)
-		(pin "6"
-			(uuid "d4f23ed1-25ed-4cd0-9e09-0b62f759e147")
-		)
-		(pin "1"
-			(uuid "30c82ae1-ed52-4def-aa78-b3e3d1171749")
-		)
-		(pin "5"
-			(uuid "02310ab3-872f-43ca-b828-92987ccdeb59")
-		)
-		(pin "2"
-			(uuid "e2003faf-e7fa-488e-b2b9-456cb75e0dd6")
-		)
-		(pin "3"
-			(uuid "0260b939-3e55-46fc-94fd-25ea15b04553")
-		)
-		(pin "4"
-			(uuid "9d0a32db-f960-4c71-9289-23b392da8329")
-		)
-		(pin "8"
-			(uuid "2d6c99c8-74d0-4a4b-a3a0-48239efa18a3")
-		)
-		(instances
-			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2eed623f-9341-4bd1-969c-3ef84ade38e9"
-					(reference "U4")
-					(unit 1)
-				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/36b6b46a-4b54-41ec-ae14-d8a056066e0a"
-					(reference "U6")
-					(unit 1)
-				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/f2451772-ffcd-467e-a9f4-f4404e3fd9f4"
-					(reference "U5")
 					(unit 1)
 				)
 			)

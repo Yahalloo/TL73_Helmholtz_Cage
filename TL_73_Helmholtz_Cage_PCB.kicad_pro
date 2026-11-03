@@ -679,45 +679,45 @@
     "top_level_sheets": [
       {
         "filename": "TL_73_Helmholtz_Cage_PCB.kicad_sch",
-        "name": "TL_73_Helmholtz_Cage_PCB",
+        "name": "Top_Schematic",
         "uuid": "da5a1e6a-2605-436b-a30c-1027586d5c0a"
       }
     ],
-    "used_designators": "#PWR1-103,L1-24,C1-112,H1-3,JP1-6,J1-2,R1-39,U1-9",
+    "used_designators": "L1-24,#PWR1-103,C1-112,JP1-6,H1-3,R1-39,J1-2,U1-12",
     "variants": []
   },
   "sheets": [
     [
       "da5a1e6a-2605-436b-a30c-1027586d5c0a",
-      "TL_73_Helmholtz_Cage_PCB"
-    ],
-    [
-      "2eed623f-9341-4bd1-969c-3ef84ade38e9",
-      "Current_sense_circuitX"
-    ],
-    [
-      "f2451772-ffcd-467e-a9f4-f4404e3fd9f4",
-      "Current_sense_circuitY"
-    ],
-    [
-      "36b6b46a-4b54-41ec-ae14-d8a056066e0a",
-      "Current_sense_circuitZ"
+      "Top_Schematic"
     ],
     [
       "008a0aa4-0abb-4344-ae13-e1bf04066029",
-      "Nucleo_Connections"
+      "Nucleo_G474RE"
     ],
     [
       "dcdfd9d8-a9f5-4430-a96e-6e68f170d674",
-      "Hbridge_CoilX"
+      "HBridge_CoilX"
     ],
     [
       "2634befd-172e-4560-88ca-90378e166481",
-      "Hbridge_CoilY"
+      "HBridge_CoilY"
     ],
     [
       "16a57c3f-6b6d-45ec-b052-267fd99256d8",
-      "Hbridge_CoilZ"
+      "HBridge_CoilZ"
+    ],
+    [
+      "2eed623f-9341-4bd1-969c-3ef84ade38e9",
+      "CurrentSense_CoilX"
+    ],
+    [
+      "f2451772-ffcd-467e-a9f4-f4404e3fd9f4",
+      "CurrentSense_CoilY"
+    ],
+    [
+      "36b6b46a-4b54-41ec-ae14-d8a056066e0a",
+      "CurrentSense_CoilZ"
     ]
   ],
   "text_variables": {},
