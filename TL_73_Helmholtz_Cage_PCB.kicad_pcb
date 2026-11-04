@@ -12169,7 +12169,7 @@
 		(property "Reference" "U7"
 			(at 0 -7.95 0)
 			(layer "F.SilkS")
-			(uuid "7e2f88f9-ee66-4af4-9cc0-a34cd1481f80")
+			(uuid "ac0c16cd-40a5-4354-babd-4d73e381d4e2")
 			(effects
 				(font
 					(size 1 1)
@@ -12180,7 +12180,7 @@
 		(property "Value" "DRV8412"
 			(at 0 7.95 0)
 			(layer "F.Fab")
-			(uuid "d633db8f-f8b4-4ece-98f0-92638732bb9f")
+			(uuid "b8c3a003-fb11-4fe8-90bc-edab49fe91fd")
 			(effects
 				(font
 					(size 1 1)
@@ -12192,7 +12192,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3cb059d5-1e82-4d2b-9d83-fc8549cff617")
+			(uuid "c6a38e5f-3353-4cb3-9371-a3af20aa95c7")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12203,7 +12203,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e8a6a22d-c02f-45d2-b9e3-28fdb427d65c")
+			(uuid "a3aa018e-735d-4fa9-a606-d56968d7b37c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14438,7 +14438,7 @@
 	(footprint "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
 		(layer "F.Cu")
 		(uuid "8981d67a-2bec-4a5f-b9f7-67ec4b4e7c25")
-		(at 202.887082 104.195)
+		(at 211.176041 126.5)
 		(descr "CP, Radial series, Radial, pin pitch=5.00mm, diameter=12.5mm, height=20mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 5.00mm diameter 12.5mm height 20mm Electrolytic Capacitor")
 		(property "Reference" "C76"
