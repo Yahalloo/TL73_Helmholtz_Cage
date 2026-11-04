@@ -1290,6 +1290,15 @@
 				)
 			)
 		)
+		(property "LCSC" "C3985410"
+			(at 124.46 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "564b51a3-fe60-4b92-b5ae-b6f85b3ed015")
 		)
@@ -1468,6 +1477,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "LCSC" "C1346458"
+			(at 158.75 90.0998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -1715,7 +1733,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 157.48 82.8548 0)
 			(hide yes)
 			(show_name no)
@@ -1748,7 +1766,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C97946"
+		(property "LCSC" "C24452"
 			(at 152.3999 80.01 0)
 			(hide yes)
 			(show_name no)
