@@ -145,12 +145,26 @@ class GUI(QWidget):
         layout.addWidget(self.label11, 0, 3)
 
         self.canvas = MplCanvas(self, width=5, height=4, dpi=100)
-        layout.addWidget(self.canvas, 1, 3, 10, 10)
+        layout.addWidget(self.canvas, 1, 3, 15, 5)
+
+        n_data = 50
+        self.xdata = list(range(n_data))
+        self.ydata_x = [0 for i in range(n_data)]
+        self.ydata_y = [0 for i in range(n_data)]
+        self.ydata_z = [0 for i in range(n_data)]
+
+        self._plot_x = None
+        self._plot_y = None
+        self._plot_z = None
+        
+        self.show()
+
 
     # Check the connection 10 times every second
-        self.timer = QTimer()
+        self.timer = QtCore.QTimer()
+        self.timer.setInterval(100)
         self.timer.timeout.connect(self.update_routine)
-        self.timer.start(100)
+        self.timer.start()
         
 
     #Set the layout for the GUI system
@@ -160,7 +174,8 @@ class GUI(QWidget):
     def update_routine(self):
         mcu_work = self.backend.check_mcu()
         if mcu_work:
-            self.read_coils()
+            if not self.calib.is_connected:
+                self.read_coils()
             self.mcu_box.setText("MCU Connected")
         else:
             self.mcu_box.setText("MCU Not Connected")
@@ -170,6 +185,7 @@ class GUI(QWidget):
             self.result_X.setText(str(data["x"]))
             self.result_Y.setText(str(data["y"]))
             self.result_Z.setText(str(data["z"]))
+            self.update_plot(data)
 
 #Calibration setting that sets up the Helmholtz cage calibration
     def calibration(self):
@@ -188,6 +204,8 @@ class GUI(QWidget):
                 self.result_Z.setText(str(data["z"]))
 
                 self.calibrate_box.setText("Success")
+
+
             else:
                 self.calibrate_box.setText("Error: Check Connection")
 
@@ -227,6 +245,28 @@ class GUI(QWidget):
         filepath = self.upload_box.text()
         if filepath:
             self.backend.process_dynamic_file(filepath)
+
+    def update_plot(self, data):
+        self.ydata_x = self.ydata_x[1:] + [data["x"]]
+        self.ydata_y = self.ydata_y[1:] + [data["y"]]
+        self.ydata_z = self.ydata_z[1:] + [data["z"]]
+
+        if self._plot_x is None:
+            (self._plot_x,) = self.canvas.axes.plot(self.xdata, self.ydata_x, 'r-', label='X (µT)')
+            (self._plot_y,) = self.canvas.axes.plot(self.xdata, self.ydata_y, 'g-', label='Y (µT)')
+            (self._plot_z,) = self.canvas.axes.plot(self.xdata, self.ydata_z, 'b-', label='Z (µT)')
+            self.canvas.axes.set_xlabel("Samples")
+            self.canvas.axes.set_ylabel("Magnetic Field (µT)")
+            self.canvas.axes.legend(loc="upper right")
+            self.canvas.axes.grid(True)
+        else:
+            self._plot_x.set_ydata(self.ydata_x)
+            self._plot_y.set_ydata(self.ydata_y)
+            self._plot_z.set_ydata(self.ydata_z)
+
+        self.canvas.axes.relim()
+        self.canvas.axes.autoscale_view(scalex=False, scaley=True)
+        self.canvas.draw()
 
 # This part start the GUI from PyQt5
 if __name__ == "__main__":
