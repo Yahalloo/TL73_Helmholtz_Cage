@@ -1,0 +1,45 @@
+class,item,part number,source,qty,notes
+aluminium,Bracket HBLFS8,HBLFS8,MISUMI,118,"90 deg tabbed bracket, die-cast aluminium, 8 series (fasteners not included)"
+aluminium,Bracket HBLFS8 (crossing),HBLFS8,MISUMI,16,Same bracket; the screw through the 10 mm spacer is M8x30
+aluminium,Corner plate (laser cut),6061-T6 0.250 in,SendCutSend / OSH Cut (DXF exported by the script),48,L-plate on both axial faces of each coil corner; sets squareness
+aluminium,HFS8-4040 x 1096.5 mm,HFS8-4040-1096.5,"MISUMI (cut to length, 0.5 mm steps)",3,"40x40 aluminium extrusion, 8 series, 10 mm slot"
+aluminium,HFS8-4040 x 1296.5 mm,HFS8-4040-1296.5,"MISUMI (cut to length, 0.5 mm steps)",8,"40x40 aluminium extrusion, 8 series, 10 mm slot"
+aluminium,HFS8-4040 x 1396.5 mm,HFS8-4040-1396.5,"MISUMI (cut to length, 0.5 mm steps)",8,"40x40 aluminium extrusion, 8 series, 10 mm slot"
+aluminium,HFS8-4040 x 1496.5 mm,HFS8-4040-1496.5,"MISUMI (cut to length, 0.5 mm steps)",8,"40x40 aluminium extrusion, 8 series, 10 mm slot"
+aluminium,HFS8-4040 x 1656.5 mm,HFS8-4040-1656.5,"MISUMI (cut to length, 0.5 mm steps)",2,"40x40 aluminium extrusion, 8 series, 10 mm slot"
+aluminium,HFS8-4040 x 364 mm,HFS8-4040-364,"MISUMI (cut to length, 0.5 mm steps)",4,"40x40 aluminium extrusion, 8 series, 10 mm slot"
+aluminium,HFS8-4040 x 627 mm,HFS8-4040-627,"MISUMI (cut to length, 0.5 mm steps)",1,"40x40 aluminium extrusion, 8 series, 10 mm slot"
+aluminium,HFS8-4040 x 682.5 mm,HFS8-4040-682.5,"MISUMI (cut to length, 0.5 mm steps)",4,"40x40 aluminium extrusion, 8 series, 10 mm slot"
+aluminium,HFS8-4040 x 736 mm,HFS8-4040-736,"MISUMI (cut to length, 0.5 mm steps)",4,"40x40 aluminium extrusion, 8 series, 10 mm slot"
+aluminium,HFS8-4040 x 80 mm,HFS8-4040-80,"MISUMI (cut to length, 0.5 mm steps)",4,"40x40 aluminium extrusion, 8 series, 10 mm slot"
+aluminium,HFS8-4040 x 828.5 mm,HFS8-4040-828.5,"MISUMI (cut to length, 0.5 mm steps)",4,"40x40 aluminium extrusion, 8 series, 10 mm slot"
+aluminium,Spacer 16OD x 10 for M8,"search: aluminum unthreaded spacer M8, 16 mm OD, 10 mm long",McMaster-Carr,16,Sets the 10 mm gap between nested coils
+copper,Winding X (43 t AWG14),,"Magnet wire, heavy build",2,"43 turns, mean turn 1361.0 mm"
+copper,Winding Y (38 t AWG14),,"Magnet wire, heavy build",2,"38 turns, mean turn 1461.0 mm"
+copper,Winding Z (41 t AWG14),,"Magnet wire, heavy build",2,"41 turns, mean turn 1561.0 mm"
+printed,6U cradle (print),PRT-CRADLE,"3D print, PETG",1,Locates a 6U CubeSat long-axis-vertical
+printed,Base foot pad (print),PRT-FOOT,"3D print, TPU or PETG",4,Non-magnetic foot under the base rails
+printed,Coil terminal block (print),PRT-TERM,"3D print, PETG",6,Holds the coil's Powerpole pair + strain relief
+printed,Corner wire guide (print),PRT-CORNER,"3D print, ASA or PETG",24,"Fills the corner cube, carries the winding around a 12 mm floor radius; keyed into both members"
+printed,Crossing locator fork (print),PRT-FORK,"3D print, ASA or PETG",16,Keys into one coil's slot and straddles the crossing member of the next pair
+printed,Slot retainer clip (print),PRT-CLIP,"3D print, PETG",72,Snaps into the slot neck over the winding
+printed,"Strut locator gauge 100 (print, tool)",PRT-GAUGE100,"3D print, PETG",1,Removable: sets Z strut / post position from the corner plate
+printed,"Strut locator gauge 50 (print, tool)",PRT-GAUGE50,"3D print, PETG",1,Removable: sets X/Y strut position from the corner plate
+purchased,Powerpole PP30 housing black,Anderson 1327 (+ 1331 contact),Powerwerx / DigiKey,6,Coil - terminal
+purchased,Powerpole PP30 housing red,Anderson 1327G6 (+ 1331 contact),Powerwerx / DigiKey,6,Coil + terminal
+hardware,M8 nyloc nut 316,,McMaster-Carr / Bolt Depot (316 / A4),24,Non-magnetic grade only
+hardware,M8 washer 316,,McMaster-Carr / Bolt Depot (316 / A4),48,Non-magnetic grade only
+hardware,M8x16 SHCS 316,,McMaster-Carr / Bolt Depot (316 / A4),96,Non-magnetic grade only
+hardware,M8x20 SHCS 316,,McMaster-Carr / Bolt Depot (316 / A4),275,Non-magnetic grade only
+hardware,M8x30 SHCS 316,,McMaster-Carr / Bolt Depot (316 / A4),16,Non-magnetic grade only
+hardware,M8x65 SHCS 316,,McMaster-Carr / Bolt Depot (316 / A4),24,Non-magnetic grade only
+hardware,T-nut slot10 M8 stainless,,MISUMI HNTRSN8 (SUS316 sintered) or FramingTech TN10M8SS,386,MAGNET-TEST every batch
+consumable,14 AWG stranded twisted pair (harness),,DigiKey,20,"metres, pair harnesses to drivers"
+consumable,ASA or PETG filament,,any,3,kg
+consumable,Kapton tape 25 mm,,McMaster-Carr / DigiKey,2,"layer ties, insulated-corner film"
+consumable,"Magnet wire 14 AWG heavy build, 200 C, 25 lb spool",e.g. Remington 14H200P / Essex GP/MR-200,Remington / Essex distributor,3,one spool per axis pair; ~1436 m needed incl. 2 m leads per coil
+consumable,"NTC thermistor 10k, epoxy bead",,DigiKey,8,one per coil in the corner-guide pocket
+consumable,"Nomex 410 slot liner 0.13 mm, 20 mm strip",,McMaster-Carr,1,~35 m
+consumable,Nylon shoulder washer M8,,McMaster-Carr,30,one insulated corner per coil + strut ends if needed
+consumable,Powerpole 1331 contacts (30 A),Anderson 1331,Powerwerx / DigiKey,50,coils + harnesses + spares
+consumable,RTV silicone (neutral cure),,hardware store,2,seal winding in slot (optional)

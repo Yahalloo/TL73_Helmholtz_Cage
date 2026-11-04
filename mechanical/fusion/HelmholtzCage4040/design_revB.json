@@ -1,0 +1,74 @@
+{
+  "pairs": [
+    {
+      "axis": 0,
+      "width": 1.361,
+      "height": 1.361,
+      "spacing": 0.7225,
+      "turns": 40,
+      "awg": 14,
+      "turns_per_layer": 9,
+      "current": 1.0,
+      "tilt_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "polarity": 1,
+      "insulation": 4e-05
+    },
+    {
+      "axis": 1,
+      "width": 1.441,
+      "height": 1.441,
+      "spacing": 0.765,
+      "turns": 40,
+      "awg": 14,
+      "turns_per_layer": 9,
+      "current": 1.0,
+      "tilt_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "polarity": 1,
+      "insulation": 4e-05
+    },
+    {
+      "axis": 2,
+      "width": 1.521,
+      "height": 1.521,
+      "spacing": 0.8455,
+      "turns": 40,
+      "awg": 14,
+      "turns_per_layer": 9,
+      "current": 1.0,
+      "tilt_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "polarity": 1,
+      "insulation": 4e-05
+    }
+  ],
+  "name": "revB_tslot4040_zero_gap_40t",
+  "temperature_c": 40.0,
+  "lead_length": 2.0,
+  "min_clearance": 0.01
+}

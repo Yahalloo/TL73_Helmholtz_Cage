@@ -1,0 +1,32 @@
+class,item,part number,source,qty,"unit price USD (McMaster, Nov 3 2026)",ext. USD,notes
+aluminium,"Rail 40 x 40 mm, 10 ft stick, hollow, 8 mm slot",6575N25,McMaster-Carr,13,85.64,1113.32,Cut list below; check that McMaster ships 10 ft lengths to you and at what cost
+cut list,Cut 1296.5 mm,from 6575N25,in-house / shop,8,,,X coil member
+cut list,Cut 1376.5 mm,from 6575N25,in-house / shop,8,,,Y coil member
+cut list,Cut 1456.5 mm,from 6575N25,in-house / shop,8,,,Z coil member
+cut list,Cut 682.5 mm,from 6575N25,in-house / shop,1,,,Satellite beam (X coils)
+cut list,Cut 100 mm,from 6575N25,in-house / shop,4,,,"Leg stub, from 455 mm X offcuts"
+aluminium,"Triangular gusset bracket, 40 mm rail",5537T586,McMaster-Carr,68,7.64,519.52,"24 coil corners, 32 crossings, 4 beam, 8 legs. Check holes and size against the drawing before ordering"
+hardware,"Hammer nut + M6 x 16 screw set, pack of 4 (239 needed)",3136N403,McMaster-Carr,60,4.37,262.2,Zinc-plated steel: test a batch with the magnetometer. Check the screw head against the gusset hole
+hardware,"Levelling mount, 750 lb, M8",5537T983,McMaster-Carr,4,,,Price to confirm. Zinc-plated steel
+hardware,"Levelling mount stem, 1 1/4 in",8305A39,McMaster-Carr,4,,,Price to confirm
+copper,"Magnet wire 14 AWG heavy build, 25 lb spool",e.g. Remington 14H200P / Essex GP/MR-200,Remington / Essex distributor,3,,,40 turns on all 6 coils: about 1395 m incl. 2 m leads per coil
+printed,One-piece corner: wire guide + cheeks,PRT-CORNER,"3D print, ASA or PETG",24,,,149 cm3 each: the biggest print job
+printed,Slot retainer clip,PRT-CLIP,"3D print, PETG",72,,,
+printed,Coil terminal block,PRT-TERM,"3D print, PETG",6,,,
+printed,6U sling tray,PRT-TRAY,"3D print, PETG",1,,,
+printed,Beam spreader / centring piece,PRT-HANGER,"3D print, PETG",1,,,Holds the cords at x = +/-66 mm
+printed,"Assembly gauge, 247 mm long",PRT-GAUGE-X,"3D print, PETG (tool)",2,,,X coil position on a Y member
+printed,"Assembly gauge, 265.75 mm long",PRT-GAUGE-Y,"3D print, PETG (tool)",2,,,Y coil position on a Z member; print on the bed diagonal
+printed,"Assembly gauge, 185.5 mm long",PRT-GAUGE-Z,"3D print, PETG (tool)",2,,,Z coil position on a Y member
+printed,"Assembly gauge, 185.75 mm long",PRT-GAUGE-C,"3D print, PETG (tool)",2,,,X coil centring on its own member
+purchased,Powerpole PP30 housing red,Anderson 1327G6 (+ 1331 contact),Powerwerx / DigiKey,6,,,Coil + terminal
+purchased,Powerpole PP30 housing black,Anderson 1327 (+ 1331 contact),Powerwerx / DigiKey,6,,,Coil - terminal
+consumable,Non-magnetic sling cord,,miscellaneous,4,,,"Metres; 4 legs, about 0.85 m each. Choose for at least 12 kg with margin"
+consumable,Nomex 410 slot liner 0.13 mm,,McMaster-Carr,1,,,"About 35 m. Width must suit the 22 mm cavity, not the old 20 mm strip"
+consumable,Kapton tape 25 mm,,McMaster-Carr / DigiKey,2,,,"Layer ties, insulated corner"
+consumable,RTV silicone (neutral cure),,hardware store,2,,,Seal winding in slot (optional)
+consumable,"Nylon shoulder washer, M6 size",,McMaster-Carr,30,,,Insulate one corner gusset per coil to break the aluminium loop
+consumable,"NTC thermistor 10k, epoxy bead",,DigiKey,8,,,One per coil in the corner pocket
+consumable,14 AWG stranded twisted pair (harness),,DigiKey,20,,,Metres
+consumable,Powerpole 1331 contacts (30 A),Anderson 1331,Powerwerx / DigiKey,50,,,
+consumable,ASA or PETG filament,,any,6,,,"kg, rough estimate from model volumes"

@@ -1,0 +1,74 @@
+{
+  "pairs": [
+    {
+      "axis": 0,
+      "width": 1.3609864481092366,
+      "height": 1.3609864481092366,
+      "spacing": 0.7225255043741343,
+      "turns": 43,
+      "awg": 14,
+      "turns_per_layer": 0,
+      "current": 1.0,
+      "tilt_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "polarity": 1,
+      "insulation": 4e-05
+    },
+    {
+      "axis": 1,
+      "width": 1.4609864481092367,
+      "height": 1.4609864481092367,
+      "spacing": 0.7761152101603382,
+      "turns": 38,
+      "awg": 14,
+      "turns_per_layer": 0,
+      "current": 1.0,
+      "tilt_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "polarity": 1,
+      "insulation": 4e-05
+    },
+    {
+      "axis": 2,
+      "width": 1.5609864481092368,
+      "height": 1.5609864481092368,
+      "spacing": 0.8684032228403123,
+      "turns": 41,
+      "awg": 14,
+      "turns_per_layer": 0,
+      "current": 1.0,
+      "tilt_deg": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "offset": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "polarity": 1,
+      "insulation": 4e-05
+    }
+  ],
+  "name": "optimised_tslot4040",
+  "temperature_c": 40.0,
+  "lead_length": 2.0,
+  "min_clearance": 0.01
+}

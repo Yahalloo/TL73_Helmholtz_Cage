@@ -1,0 +1,10 @@
+{
+  "autodeskProduct": "Fusion",
+  "type": "script",
+  "author": "TL-73",
+  "description": {
+    "": "Builds the 4040 T-slot Helmholtz cage assembly (coils, struts, crossing mounts, base, printed parts) from design.json"
+  },
+  "supportedOS": "windows|mac",
+  "editEnabled": true
+}
