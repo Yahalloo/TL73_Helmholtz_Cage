@@ -13,7 +13,7 @@ from PyQt5.QtCore import QTimer
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import (QApplication, QWidget, QLabel, QLineEdit, QPushButton, QTextEdit, QGridLayout, QFileDialog)
 
-from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
+from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg, NavigationToolbar2QT as NavigationToolbar
 from matplotlib.figure import Figure
 
 import pandas as pd
@@ -21,10 +21,20 @@ import pandas as pd
 from controller import HelmholtzController
 from calibration import Helmholtz_Calibration
 
-class MplCanvas(FigureCanvas):
+# Output file names
+MAGNETOMETER_FILE = "mag_data.csv"
+MCU_FILE = "mcu_data.csv"
+
+class MplCanvas(FigureCanvasQTAgg):
     def __init__(self, parent=None, width=5, height=4, dpi=100):
-        fig = Figure(figsize=(width,height), dpi=dpi)
+        fig = Figure(figsize=(width,height), dpi=dpi, facecolor = '#1e1e2e')
+
+        # Setting dark mode 
         self.axes = fig.add_subplot(111)
+        self.axes.set_facecolor('#181825')
+        self.axes.tick_params(colors='#cdd6f4', which='both')
+        for spine in self.axes.spines.values():
+            spine.set_color('#45475a')
         super().__init__(fig)
 
 #GUI function
@@ -32,7 +42,7 @@ class GUI(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Helmholtz Cage GUI")
-        self.resize(800,400)
+        self.resize(1200,600)
 
         self.backend = HelmholtzController()
         self.calib = Helmholtz_Calibration()
@@ -145,7 +155,13 @@ class GUI(QWidget):
         layout.addWidget(self.label11, 0, 3)
 
         self.canvas = MplCanvas(self, width=5, height=4, dpi=100)
-        layout.addWidget(self.canvas, 1, 3, 15, 5)
+        layout.addWidget(self.canvas, 2, 3, 15, 5)
+        self.canvas.axes.set_xlabel("Samples", color = "#cdd6f4")
+        self.canvas.axes.set_ylabel("Magnetic Field (µT)", color = '#cdd6f4')
+        self.canvas.axes.grid(True, color = '#313244', linestyle = '--')
+
+        toolbar = NavigationToolbar(self.canvas, self)
+        layout.addWidget(toolbar, 1, 3)
 
         n_data = 50
         self.xdata = list(range(n_data))
@@ -255,10 +271,7 @@ class GUI(QWidget):
             (self._plot_x,) = self.canvas.axes.plot(self.xdata, self.ydata_x, 'r-', label='X (µT)')
             (self._plot_y,) = self.canvas.axes.plot(self.xdata, self.ydata_y, 'g-', label='Y (µT)')
             (self._plot_z,) = self.canvas.axes.plot(self.xdata, self.ydata_z, 'b-', label='Z (µT)')
-            self.canvas.axes.set_xlabel("Samples")
-            self.canvas.axes.set_ylabel("Magnetic Field (µT)")
-            self.canvas.axes.legend(loc="upper right")
-            self.canvas.axes.grid(True)
+            self.canvas.axes.legend(loc="upper right", facecolor = '#313244', edgecolor = '#45475a', labelcolor = '#cdd6f4')
         else:
             self._plot_x.set_ydata(self.ydata_x)
             self._plot_y.set_ydata(self.ydata_y)
