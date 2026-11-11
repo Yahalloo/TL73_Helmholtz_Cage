@@ -7382,11 +7382,13 @@
 		)
 		(property "LCSC" "C125980"
 			(at 209.55 62.6109 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"

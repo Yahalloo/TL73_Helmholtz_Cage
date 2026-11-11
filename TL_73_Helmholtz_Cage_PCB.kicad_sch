@@ -135,7 +135,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 44.45) (xy 71.12 44.45)
+			(xy 53.34 41.91) (xy 78.74 41.91)
 		)
 		(stroke
 			(width 0)
@@ -165,7 +165,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 77.47) (xy 71.12 77.47)
+			(xy 53.34 74.93) (xy 78.74 74.93)
 		)
 		(stroke
 			(width 0)
@@ -175,7 +175,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 69.85) (xy 71.12 69.85)
+			(xy 53.34 67.31) (xy 78.74 67.31)
 		)
 		(stroke
 			(width 0)
@@ -195,7 +195,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 54.61) (xy 71.12 54.61)
+			(xy 53.34 52.07) (xy 78.74 52.07)
 		)
 		(stroke
 			(width 0)
@@ -225,7 +225,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 85.09) (xy 71.12 85.09)
+			(xy 53.34 82.55) (xy 78.74 82.55)
 		)
 		(stroke
 			(width 0)
@@ -245,7 +245,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 87.63) (xy 71.12 87.63)
+			(xy 53.34 85.09) (xy 78.74 85.09)
 		)
 		(stroke
 			(width 0)
@@ -275,7 +275,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 41.91) (xy 71.12 41.91)
+			(xy 53.34 39.37) (xy 78.74 39.37)
 		)
 		(stroke
 			(width 0)
@@ -285,7 +285,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 82.55) (xy 71.12 82.55)
+			(xy 53.34 80.01) (xy 78.74 80.01)
 		)
 		(stroke
 			(width 0)
@@ -295,7 +295,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 72.39) (xy 71.12 72.39)
+			(xy 53.34 69.85) (xy 78.74 69.85)
 		)
 		(stroke
 			(width 0)
@@ -365,6 +365,16 @@
 	)
 	(wire
 		(pts
+			(xy 13.97 39.37) (xy 31.75 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c261e8f-3784-4da7-9675-c722fcf65c40")
+	)
+	(wire
+		(pts
 			(xy 100.33 93.98) (xy 118.11 93.98)
 		)
 		(stroke
@@ -395,7 +405,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 62.23) (xy 71.12 62.23)
+			(xy 53.34 59.69) (xy 78.74 59.69)
 		)
 		(stroke
 			(width 0)
@@ -425,7 +435,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 36.83) (xy 71.12 36.83)
+			(xy 53.34 34.29) (xy 78.74 34.29)
 		)
 		(stroke
 			(width 0)
@@ -435,7 +445,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 57.15) (xy 71.12 57.15)
+			(xy 53.34 54.61) (xy 78.74 54.61)
 		)
 		(stroke
 			(width 0)
@@ -445,7 +455,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 59.69) (xy 71.12 59.69)
+			(xy 53.34 57.15) (xy 78.74 57.15)
 		)
 		(stroke
 			(width 0)
@@ -455,7 +465,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 74.93) (xy 71.12 74.93)
+			(xy 53.34 72.39) (xy 78.74 72.39)
 		)
 		(stroke
 			(width 0)
@@ -465,7 +475,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 46.99) (xy 71.12 46.99)
+			(xy 53.34 44.45) (xy 78.74 44.45)
 		)
 		(stroke
 			(width 0)
@@ -475,7 +485,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 39.37) (xy 71.12 39.37)
+			(xy 53.34 36.83) (xy 78.74 36.83)
 		)
 		(stroke
 			(width 0)
@@ -485,7 +495,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 67.31) (xy 71.12 67.31)
+			(xy 53.34 64.77) (xy 78.74 64.77)
 		)
 		(stroke
 			(width 0)
@@ -512,6 +522,16 @@
 			(type default)
 		)
 		(uuid "c26bee2f-c9e5-48ff-8ccd-2f75ab14685b")
+	)
+	(wire
+		(pts
+			(xy 62.23 168.91) (xy 76.2 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c36f79aa-31ef-4c3e-8c87-5c34b3180085")
 	)
 	(wire
 		(pts
@@ -545,7 +565,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 52.07) (xy 71.12 52.07)
+			(xy 53.34 49.53) (xy 78.74 49.53)
 		)
 		(stroke
 			(width 0)
@@ -614,7 +634,7 @@
 		(uuid "0878007d-1b9c-4478-b52d-00fcb131d27b")
 	)
 	(label "PWM_A_CoilX"
-		(at 71.12 36.83 180)
+		(at 78.74 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -624,7 +644,7 @@
 		(uuid "0ab9b9ff-7fdd-45d5-89df-5413b4f4adab")
 	)
 	(label "~{OTW}_CoilX"
-		(at 71.12 44.45 180)
+		(at 78.74 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -644,7 +664,7 @@
 		(uuid "1df2dd39-1165-46a0-8a1f-a9429428f83f")
 	)
 	(label "ISENSE_CoilZ"
-		(at 71.12 87.63 180)
+		(at 78.74 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -684,7 +704,7 @@
 		(uuid "41fc04df-abbe-4d86-a944-e666966ca816")
 	)
 	(label "~{RESET}_CoilX"
-		(at 71.12 46.99 180)
+		(at 78.74 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -704,7 +724,7 @@
 		(uuid "48a67397-7072-4112-a0d0-f22c87cefa4f")
 	)
 	(label "PWM_A_CoilZ"
-		(at 71.12 67.31 180)
+		(at 78.74 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -714,7 +734,7 @@
 		(uuid "4ddb5643-c796-44a8-8366-03f870187513")
 	)
 	(label "PWM_B_CoilY"
-		(at 71.12 54.61 180)
+		(at 78.74 52.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -744,7 +764,7 @@
 		(uuid "58881a87-3ebc-42ed-9f1a-1d2571e9e35c")
 	)
 	(label "PWM_A_CoilY"
-		(at 71.12 52.07 180)
+		(at 78.74 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -763,6 +783,16 @@
 		)
 		(uuid "690eadce-5ea5-4c65-a509-04722377ddad")
 	)
+	(label "Temp_SenseX"
+		(at 13.97 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "72eed943-06de-415a-a2c4-4a647c1ab3fe")
+	)
 	(label "~{RESET}_CoilY"
 		(at 100.33 101.6 0)
 		(effects
@@ -774,7 +804,7 @@
 		(uuid "775434a5-3935-4004-af3d-dd1e31964b75")
 	)
 	(label "~{RESET}_CoilZ"
-		(at 71.12 77.47 180)
+		(at 78.74 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -783,8 +813,18 @@
 		)
 		(uuid "7a0c24a7-0411-4725-ab23-56204c1119a6")
 	)
+	(label "Temp_SenseX"
+		(at 62.23 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7c808c39-befa-4362-bf45-a97a31bbf4d8")
+	)
 	(label "ISENSE_CoilY"
-		(at 71.12 85.09 180)
+		(at 78.74 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -794,7 +834,7 @@
 		(uuid "82d46066-ed05-4b53-bacf-d18e8d79021d")
 	)
 	(label "~{FAULT}_CoilZ"
-		(at 71.12 72.39 180)
+		(at 78.74 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -834,7 +874,7 @@
 		(uuid "a1dc2262-f952-458c-bb4b-01f0fdfa2307")
 	)
 	(label "PWM_B_CoilZ"
-		(at 71.12 69.85 180)
+		(at 78.74 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -854,7 +894,7 @@
 		(uuid "b9765267-bf7d-4b98-b7b2-63fbeb615b31")
 	)
 	(label "~{FAULT}_CoilY"
-		(at 71.12 57.15 180)
+		(at 78.74 54.61 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -884,7 +924,7 @@
 		(uuid "cb33da6d-fd6c-4552-b9e5-06c1adf0002a")
 	)
 	(label "~{OTW}_CoilZ"
-		(at 71.12 74.93 180)
+		(at 78.74 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -904,7 +944,7 @@
 		(uuid "d971c08b-1ff4-4735-981e-40257cbc1bd8")
 	)
 	(label "~{OTW}_CoilY"
-		(at 71.12 59.69 180)
+		(at 78.74 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -914,7 +954,7 @@
 		(uuid "dc4d1d86-6cb4-4c09-9e7a-bc380147ae0e")
 	)
 	(label "~{FAULT}_CoilX"
-		(at 71.12 41.91 180)
+		(at 78.74 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -924,7 +964,7 @@
 		(uuid "df723084-ac8e-4c35-bf0a-18acc4af02fc")
 	)
 	(label "~{RESET}_CoilY"
-		(at 71.12 62.23 180)
+		(at 78.74 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -934,7 +974,7 @@
 		(uuid "e6f69723-0e5d-4f4d-981f-b4e19bfdf699")
 	)
 	(label "ISENSE_CoilX"
-		(at 71.12 82.55 180)
+		(at 78.74 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -944,7 +984,7 @@
 		(uuid "e85bce69-5f87-42d5-8d33-87e333fa6fb8")
 	)
 	(label "PWM_B_CoilX"
-		(at 71.12 39.37 180)
+		(at 78.74 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1192,7 +1232,7 @@
 		)
 	)
 	(sheet
-		(at 24.13 31.75)
+		(at 31.75 29.21)
 		(size 21.59 134.62)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1208,7 +1248,7 @@
 		)
 		(uuid "008a0aa4-0abb-4344-ae13-e1bf04066029")
 		(property "Sheetname" "Nucleo_G474RE"
-			(at 24.13 31.0384 0)
+			(at 31.75 28.4984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1219,7 +1259,7 @@
 			)
 		)
 		(property "Sheetfile" "Nucleo_G474RE.kicad_sch"
-			(at 24.13 166.9546 0)
+			(at 31.75 164.4146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1230,7 +1270,7 @@
 			)
 		)
 		(pin "PA8" output
-			(at 45.72 36.83 0)
+			(at 53.34 34.29 0)
 			(uuid "94007942-979c-4fa5-bc99-f1f40fa8259e")
 			(effects
 				(font
@@ -1240,7 +1280,7 @@
 			)
 		)
 		(pin "PA9" output
-			(at 45.72 39.37 0)
+			(at 53.34 36.83 0)
 			(uuid "e9d493d0-7f04-4d4a-aff1-b78c82ea589f")
 			(effects
 				(font
@@ -1250,7 +1290,7 @@
 			)
 		)
 		(pin "PB12" input
-			(at 45.72 41.91 0)
+			(at 53.34 39.37 0)
 			(uuid "975a8adc-3ba0-483a-a143-dcff558cbab0")
 			(effects
 				(font
@@ -1260,7 +1300,7 @@
 			)
 		)
 		(pin "PB11" input
-			(at 45.72 44.45 0)
+			(at 53.34 41.91 0)
 			(uuid "f0c1fd92-8f82-4847-9ea3-474ef7ab2b65")
 			(effects
 				(font
@@ -1270,7 +1310,7 @@
 			)
 		)
 		(pin "PC10" output
-			(at 45.72 46.99 0)
+			(at 53.34 44.45 0)
 			(uuid "f2d110e5-6ba2-46df-b03a-a72bfda836cd")
 			(effects
 				(font
@@ -1280,7 +1320,7 @@
 			)
 		)
 		(pin "PA10" output
-			(at 45.72 52.07 0)
+			(at 53.34 49.53 0)
 			(uuid "6910a014-8f0c-4876-96b9-171b3b772c1a")
 			(effects
 				(font
@@ -1290,7 +1330,7 @@
 			)
 		)
 		(pin "PA11" output
-			(at 45.72 54.61 0)
+			(at 53.34 52.07 0)
 			(uuid "36758cc7-6258-4762-8142-aaac8911e3cc")
 			(effects
 				(font
@@ -1300,7 +1340,7 @@
 			)
 		)
 		(pin "PB15" input
-			(at 45.72 57.15 0)
+			(at 53.34 54.61 0)
 			(uuid "1a63c797-15be-4686-a065-305e4bec8823")
 			(effects
 				(font
@@ -1310,7 +1350,7 @@
 			)
 		)
 		(pin "PB14" input
-			(at 45.72 59.69 0)
+			(at 53.34 57.15 0)
 			(uuid "8750aa40-df69-4e79-9516-39690702340e")
 			(effects
 				(font
@@ -1320,7 +1360,7 @@
 			)
 		)
 		(pin "PC11" output
-			(at 45.72 62.23 0)
+			(at 53.34 59.69 0)
 			(uuid "5bfe760d-db27-401f-99e8-0c01889c9306")
 			(effects
 				(font
@@ -1330,7 +1370,7 @@
 			)
 		)
 		(pin "PC6" output
-			(at 45.72 67.31 0)
+			(at 53.34 64.77 0)
 			(uuid "1aa9b677-4a9d-4248-825e-fe451bfeaa5b")
 			(effects
 				(font
@@ -1340,7 +1380,7 @@
 			)
 		)
 		(pin "PC7" output
-			(at 45.72 69.85 0)
+			(at 53.34 67.31 0)
 			(uuid "44b7911f-e4c0-4820-b508-2e9f345e34ac")
 			(effects
 				(font
@@ -1350,7 +1390,7 @@
 			)
 		)
 		(pin "PB2" input
-			(at 45.72 72.39 0)
+			(at 53.34 69.85 0)
 			(uuid "64ce0428-5608-4d53-a688-1df618a61951")
 			(effects
 				(font
@@ -1360,7 +1400,7 @@
 			)
 		)
 		(pin "PB1" input
-			(at 45.72 74.93 0)
+			(at 53.34 72.39 0)
 			(uuid "39ecde32-a887-44f5-9c9e-bab22b2f3412")
 			(effects
 				(font
@@ -1370,7 +1410,7 @@
 			)
 		)
 		(pin "PC12" output
-			(at 45.72 77.47 0)
+			(at 53.34 74.93 0)
 			(uuid "66668297-5f5b-4a6a-a5fb-deb4581ffe10")
 			(effects
 				(font
@@ -1380,7 +1420,7 @@
 			)
 		)
 		(pin "PA0" input
-			(at 45.72 82.55 0)
+			(at 53.34 80.01 0)
 			(uuid "f2ce4b00-a941-481d-a857-59e20d12e248")
 			(effects
 				(font
@@ -1390,7 +1430,7 @@
 			)
 		)
 		(pin "PA4" input
-			(at 45.72 85.09 0)
+			(at 53.34 82.55 0)
 			(uuid "0be69eab-5e23-4191-9a2a-3927f27c8111")
 			(effects
 				(font
@@ -1400,7 +1440,7 @@
 			)
 		)
 		(pin "PB0" input
-			(at 45.72 87.63 0)
+			(at 53.34 85.09 0)
 			(uuid "dfb69742-9a1b-4451-8d3e-67dee57740f0")
 			(effects
 				(font
@@ -1410,7 +1450,7 @@
 			)
 		)
 		(pin "AVDD" passive
-			(at 24.13 34.29 180)
+			(at 31.75 31.75 180)
 			(uuid "b5025371-0f7d-4514-a4a5-081d1d76548f")
 			(effects
 				(font
@@ -1420,7 +1460,7 @@
 			)
 		)
 		(pin "E5V" passive
-			(at 24.13 36.83 180)
+			(at 31.75 34.29 180)
 			(uuid "2df06344-fe59-4114-8054-a75c955f4e18")
 			(effects
 				(font
@@ -1430,7 +1470,7 @@
 			)
 		)
 		(pin "IOREF" passive
-			(at 24.13 39.37 180)
+			(at 31.75 36.83 180)
 			(uuid "70234e96-1146-46e8-ae88-cb4c19100fb0")
 			(effects
 				(font
@@ -1439,8 +1479,8 @@
 				(justify left)
 			)
 		)
-		(pin "PA1" passive
-			(at 24.13 41.91 180)
+		(pin "PA1" input
+			(at 31.75 39.37 180)
 			(uuid "0cb9c5bc-522d-43f3-ab1a-140757702db3")
 			(effects
 				(font
@@ -1450,7 +1490,7 @@
 			)
 		)
 		(pin "PA12" passive
-			(at 24.13 44.45 180)
+			(at 31.75 41.91 180)
 			(uuid "43343879-cd42-4f76-95f7-5d3185074b1b")
 			(effects
 				(font
@@ -1460,7 +1500,7 @@
 			)
 		)
 		(pin "PA13" passive
-			(at 24.13 46.99 180)
+			(at 31.75 44.45 180)
 			(uuid "eaa0bfcd-2177-4b4a-baaf-53a935b7f7da")
 			(effects
 				(font
@@ -1470,7 +1510,7 @@
 			)
 		)
 		(pin "PA14" passive
-			(at 24.13 49.53 180)
+			(at 31.75 46.99 180)
 			(uuid "1fa398ae-dbed-4bc8-b922-b328c0ed4169")
 			(effects
 				(font
@@ -1480,7 +1520,7 @@
 			)
 		)
 		(pin "PA15" passive
-			(at 24.13 52.07 180)
+			(at 31.75 49.53 180)
 			(uuid "42358f5d-4de7-47b5-96dd-58935251735b")
 			(effects
 				(font
@@ -1490,7 +1530,7 @@
 			)
 		)
 		(pin "PA2" passive
-			(at 24.13 54.61 180)
+			(at 31.75 52.07 180)
 			(uuid "52fcaeba-7d3c-4cc2-9767-73058b2e6286")
 			(effects
 				(font
@@ -1500,7 +1540,7 @@
 			)
 		)
 		(pin "PA3" passive
-			(at 24.13 57.15 180)
+			(at 31.75 54.61 180)
 			(uuid "070176db-6712-46c2-be6e-55ec61d8361b")
 			(effects
 				(font
@@ -1510,7 +1550,7 @@
 			)
 		)
 		(pin "PA5" passive
-			(at 24.13 59.69 180)
+			(at 31.75 57.15 180)
 			(uuid "541447bc-93fa-4991-827e-ce939383c8d2")
 			(effects
 				(font
@@ -1520,7 +1560,7 @@
 			)
 		)
 		(pin "PA6" passive
-			(at 24.13 62.23 180)
+			(at 31.75 59.69 180)
 			(uuid "ec8454f8-f900-4a4b-ad8b-805a77df92da")
 			(effects
 				(font
@@ -1530,7 +1570,7 @@
 			)
 		)
 		(pin "PA7" passive
-			(at 24.13 64.77 180)
+			(at 31.75 62.23 180)
 			(uuid "970b417d-79bf-4b47-a666-ad771fcdc1f5")
 			(effects
 				(font
@@ -1540,7 +1580,7 @@
 			)
 		)
 		(pin "PB10" passive
-			(at 24.13 67.31 180)
+			(at 31.75 64.77 180)
 			(uuid "caed4910-0a2e-4a6c-bbde-c127e3800cd2")
 			(effects
 				(font
@@ -1550,7 +1590,7 @@
 			)
 		)
 		(pin "PB13" passive
-			(at 24.13 69.85 180)
+			(at 31.75 67.31 180)
 			(uuid "f7ea59fd-d59e-4657-b541-eeb241b530ff")
 			(effects
 				(font
@@ -1560,7 +1600,7 @@
 			)
 		)
 		(pin "PB3" passive
-			(at 24.13 72.39 180)
+			(at 31.75 69.85 180)
 			(uuid "9d5d6801-9eba-4c8b-9a17-83877d0a59db")
 			(effects
 				(font
@@ -1570,7 +1610,7 @@
 			)
 		)
 		(pin "PB4" passive
-			(at 24.13 74.93 180)
+			(at 31.75 72.39 180)
 			(uuid "c867d040-fe61-4c93-b441-c4c39fc2237d")
 			(effects
 				(font
@@ -1580,7 +1620,7 @@
 			)
 		)
 		(pin "PB5" passive
-			(at 24.13 77.47 180)
+			(at 31.75 74.93 180)
 			(uuid "80374a06-f80c-4480-b384-52a7b5f4e77f")
 			(effects
 				(font
@@ -1590,7 +1630,7 @@
 			)
 		)
 		(pin "PB6" passive
-			(at 24.13 80.01 180)
+			(at 31.75 77.47 180)
 			(uuid "7f2553df-f0d2-4b8d-9252-33a23ffb489b")
 			(effects
 				(font
@@ -1600,7 +1640,7 @@
 			)
 		)
 		(pin "PB7" passive
-			(at 24.13 82.55 180)
+			(at 31.75 80.01 180)
 			(uuid "dd162e8a-2ade-4d6e-b318-599e63654d8f")
 			(effects
 				(font
@@ -1610,7 +1650,7 @@
 			)
 		)
 		(pin "PB8-BOOT0" passive
-			(at 24.13 85.09 180)
+			(at 31.75 82.55 180)
 			(uuid "e030d33a-8215-46e9-b718-e043d40b08ec")
 			(effects
 				(font
@@ -1620,7 +1660,7 @@
 			)
 		)
 		(pin "PB8-BOOT0" passive
-			(at 24.13 87.63 180)
+			(at 31.75 85.09 180)
 			(uuid "7c268576-3045-4228-9a68-d5bf51c4b71d")
 			(effects
 				(font
@@ -1630,7 +1670,7 @@
 			)
 		)
 		(pin "PB9" passive
-			(at 24.13 90.17 180)
+			(at 31.75 87.63 180)
 			(uuid "7c1c1f42-dcbd-4d28-a7f4-ff69d3ab0212")
 			(effects
 				(font
@@ -1640,7 +1680,7 @@
 			)
 		)
 		(pin "PC0" passive
-			(at 24.13 92.71 180)
+			(at 31.75 90.17 180)
 			(uuid "6b86ba03-3381-456d-b326-84ffca44c164")
 			(effects
 				(font
@@ -1650,7 +1690,7 @@
 			)
 		)
 		(pin "PC1" passive
-			(at 24.13 95.25 180)
+			(at 31.75 92.71 180)
 			(uuid "29f3fca0-e330-498a-8080-a47827a85e81")
 			(effects
 				(font
@@ -1660,7 +1700,7 @@
 			)
 		)
 		(pin "PC13" passive
-			(at 24.13 97.79 180)
+			(at 31.75 95.25 180)
 			(uuid "df05736d-e9ce-4f01-9bfb-6eec2a9603a7")
 			(effects
 				(font
@@ -1670,7 +1710,7 @@
 			)
 		)
 		(pin "PC14" passive
-			(at 24.13 100.33 180)
+			(at 31.75 97.79 180)
 			(uuid "c5941e7a-bd6d-4e07-ae9d-8a44d42e72c5")
 			(effects
 				(font
@@ -1680,7 +1720,7 @@
 			)
 		)
 		(pin "PC15" passive
-			(at 24.13 102.87 180)
+			(at 31.75 100.33 180)
 			(uuid "43e24bf8-a2df-4f85-b847-f66254f4dbe6")
 			(effects
 				(font
@@ -1690,7 +1730,7 @@
 			)
 		)
 		(pin "PC2" passive
-			(at 24.13 105.41 180)
+			(at 31.75 102.87 180)
 			(uuid "738962d7-acfa-42f5-8b38-047783276e93")
 			(effects
 				(font
@@ -1700,7 +1740,7 @@
 			)
 		)
 		(pin "PC3" passive
-			(at 24.13 107.95 180)
+			(at 31.75 105.41 180)
 			(uuid "438d4d97-128a-4493-a5df-5e58ca4a4b3d")
 			(effects
 				(font
@@ -1710,7 +1750,7 @@
 			)
 		)
 		(pin "PC4" passive
-			(at 24.13 110.49 180)
+			(at 31.75 107.95 180)
 			(uuid "bd36ecbd-a745-4cdb-8bc6-ff7bb136cca3")
 			(effects
 				(font
@@ -1720,7 +1760,7 @@
 			)
 		)
 		(pin "PC5" passive
-			(at 24.13 113.03 180)
+			(at 31.75 110.49 180)
 			(uuid "0a335c32-6663-4d3a-b591-6a554353d1d0")
 			(effects
 				(font
@@ -1730,7 +1770,7 @@
 			)
 		)
 		(pin "PC8" passive
-			(at 24.13 115.57 180)
+			(at 31.75 113.03 180)
 			(uuid "ed7d22d7-5f83-42f5-b25e-b6c098d0e3fc")
 			(effects
 				(font
@@ -1740,7 +1780,7 @@
 			)
 		)
 		(pin "PC9" passive
-			(at 24.13 118.11 180)
+			(at 31.75 115.57 180)
 			(uuid "5f5364be-a230-42f2-897b-ec3a9a903aff")
 			(effects
 				(font
@@ -1750,7 +1790,7 @@
 			)
 		)
 		(pin "PD2" passive
-			(at 24.13 120.65 180)
+			(at 31.75 118.11 180)
 			(uuid "f2b8c327-d30c-4020-bd9a-f80362c40b00")
 			(effects
 				(font
@@ -1760,7 +1800,7 @@
 			)
 		)
 		(pin "PF0" passive
-			(at 24.13 123.19 180)
+			(at 31.75 120.65 180)
 			(uuid "f9df9af3-ef40-4af9-a955-9c331f14f551")
 			(effects
 				(font
@@ -1770,7 +1810,7 @@
 			)
 		)
 		(pin "PF1" passive
-			(at 24.13 125.73 180)
+			(at 31.75 123.19 180)
 			(uuid "74106b12-6cbd-491f-820a-47e30fcbe355")
 			(effects
 				(font
@@ -1780,7 +1820,7 @@
 			)
 		)
 		(pin "U5V" passive
-			(at 24.13 128.27 180)
+			(at 31.75 125.73 180)
 			(uuid "1c5b8e5d-2e82-491a-be5e-777172b2886a")
 			(effects
 				(font
@@ -1790,7 +1830,7 @@
 			)
 		)
 		(pin "VBAT" passive
-			(at 24.13 130.81 180)
+			(at 31.75 128.27 180)
 			(uuid "0d7d3f52-5c1f-4930-a303-0fd941293659")
 			(effects
 				(font
@@ -1800,7 +1840,7 @@
 			)
 		)
 		(pin "VDD" passive
-			(at 24.13 133.35 180)
+			(at 31.75 130.81 180)
 			(uuid "02b7fa7d-3766-41c1-a4b8-3750d58081c5")
 			(effects
 				(font
@@ -2197,6 +2237,62 @@
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
 					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 76.2 166.37)
+		(size 20.32 8.89)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "6c2f18c8-62eb-4719-98a1-27b0a6c718ec")
+		(property "Sheetname" "TempSense_CoilX"
+			(at 76.2 165.6584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "TempSense.kicad_sch"
+			(at 76.2 175.8446 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "Temp_SenseX" input
+			(at 76.2 168.91 180)
+			(uuid "73a1a825-df6b-4283-bfa1-cbe26ff64baf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
+					(page "9")
 				)
 			)
 		)

@@ -15298,7 +15298,7 @@
 		(uuid "3fe2cd8c-cf73-4ab3-9b23-6bbae6d32786")
 	)
 	(hierarchical_label "PA1"
-		(shape passive)
+		(shape input)
 		(at 99.06 100.33 0)
 		(effects
 			(font
