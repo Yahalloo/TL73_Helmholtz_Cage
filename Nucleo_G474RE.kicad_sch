@@ -17079,4 +17079,2260 @@
 			)
 		)
 	)
+	(table
+		(column_count 5)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type default)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type default)
+			)
+		)
+		(column_widths 30.48 15.24 38.1 22.86 48.26)
+		(row_heights 2.794 2.794 2.794 2.794 2.794 2.794 2.794 2.794 2.794 2.794 2.794 2.794 2.794 2.794 2.794 2.794 2.794 2.794 2.794 2.794 2.794 2.794 2.794 2.794 2.794 2.794)
+		(cells
+			(table_cell "Signal"
+				(exclude_from_sim no)
+				(at 15.24 123.19 0)
+				(size 30.48 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "d777ae21-5fad-4d04-805b-0e1f1ab94c30")
+			)
+			(table_cell "MCU pin"
+				(exclude_from_sim no)
+				(at 45.72 123.19 0)
+				(size 15.24 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "d533a4f0-550b-4db3-83d0-9922eee217d8")
+			)
+			(table_cell "Connector pin"
+				(exclude_from_sim no)
+				(at 60.96 123.19 0)
+				(size 38.1 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "9dd507d9-7e98-4c84-8175-dd90b0784c1c")
+			)
+			(table_cell "MCU direction"
+				(exclude_from_sim no)
+				(at 99.06 123.19 0)
+				(size 22.86 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "dec906c9-4e87-402b-8411-99ba77dbf873")
+			)
+			(table_cell "Peripheral (check in CubeMX)"
+				(exclude_from_sim no)
+				(at 121.92 123.19 0)
+				(size 48.26 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "dbbbe7a9-bab3-4acb-a570-8ceb4c83ef99")
+			)
+			(table_cell "PWM_A_CoilX"
+				(exclude_from_sim no)
+				(at 15.24 125.984 0)
+				(size 30.48 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "9cbf8070-5ab7-4805-a95d-02c31d432e1f")
+			)
+			(table_cell "PA8"
+				(exclude_from_sim no)
+				(at 45.72 125.984 0)
+				(size 15.24 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "d3be0596-f21a-4b56-b762-3ee9330ef0e9")
+			)
+			(table_cell "CN10-23"
+				(exclude_from_sim no)
+				(at 60.96 125.984 0)
+				(size 38.1 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ab889296-f9cc-461f-b3e5-cabb4e7426e0")
+			)
+			(table_cell "output"
+				(exclude_from_sim no)
+				(at 99.06 125.984 0)
+				(size 22.86 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "420e5e8e-c905-4958-82ee-03198f653629")
+			)
+			(table_cell "TIM1_CH1"
+				(exclude_from_sim no)
+				(at 121.92 125.984 0)
+				(size 48.26 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "3f87d3b3-da5c-4eec-9837-7ba986f3f1cf")
+			)
+			(table_cell "PWM_B_CoilX"
+				(exclude_from_sim no)
+				(at 15.24 128.778 0)
+				(size 30.48 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "708fbf68-b6be-4a00-aa04-2a66454e956f")
+			)
+			(table_cell "PA9"
+				(exclude_from_sim no)
+				(at 45.72 128.778 0)
+				(size 15.24 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "b1967d69-77fb-4a40-aa03-4114f505f655")
+			)
+			(table_cell "CN10-21"
+				(exclude_from_sim no)
+				(at 60.96 128.778 0)
+				(size 38.1 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "a7e2447b-e506-40f8-8cc4-68f0740efe04")
+			)
+			(table_cell "output"
+				(exclude_from_sim no)
+				(at 99.06 128.778 0)
+				(size 22.86 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "f8ded7d2-9afb-4db2-8b7a-2cb0bf417773")
+			)
+			(table_cell "TIM1_CH2"
+				(exclude_from_sim no)
+				(at 121.92 128.778 0)
+				(size 48.26 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "21bbe62b-542d-47be-b5ef-a2aedad68bfc")
+			)
+			(table_cell "~{RESET}_CoilX"
+				(exclude_from_sim no)
+				(at 15.24 131.572 0)
+				(size 30.48 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "cb1717c4-9f30-40f1-a263-5bb66cb85dac")
+			)
+			(table_cell "PC10"
+				(exclude_from_sim no)
+				(at 45.72 131.572 0)
+				(size 15.24 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "b193e434-ddff-40ee-a2e7-268e6a9beb4d")
+			)
+			(table_cell "CN7-1"
+				(exclude_from_sim no)
+				(at 60.96 131.572 0)
+				(size 38.1 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "65fa461a-bd8c-4424-a501-71c4efa64024")
+			)
+			(table_cell "output"
+				(exclude_from_sim no)
+				(at 99.06 131.572 0)
+				(size 22.86 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "e3ba21c1-8318-4cc8-b0f1-dec5452f301e")
+			)
+			(table_cell "GPIO out"
+				(exclude_from_sim no)
+				(at 121.92 131.572 0)
+				(size 48.26 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "5ebee9c5-ae83-4f1b-aaaa-d5d360198305")
+			)
+			(table_cell "~{FAULT}_CoilX"
+				(exclude_from_sim no)
+				(at 15.24 134.366 0)
+				(size 30.48 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "992e3c4a-757e-49d2-81ed-a3b43f470933")
+			)
+			(table_cell "PB12"
+				(exclude_from_sim no)
+				(at 45.72 134.366 0)
+				(size 15.24 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "d66de10d-8985-4af5-ba7d-9e86940fd2f7")
+			)
+			(table_cell "CN10-16"
+				(exclude_from_sim no)
+				(at 60.96 134.366 0)
+				(size 38.1 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "af738ac1-7050-4433-a0d2-d3becf91cef9")
+			)
+			(table_cell "input"
+				(exclude_from_sim no)
+				(at 99.06 134.366 0)
+				(size 22.86 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "c132548c-a8d3-4c46-bde7-923493254032")
+			)
+			(table_cell "GPIO in (10k pull-up on board)"
+				(exclude_from_sim no)
+				(at 121.92 134.366 0)
+				(size 48.26 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "f0245053-3547-48a6-afd5-569588c6b280")
+			)
+			(table_cell "~{OTW}_CoilX"
+				(exclude_from_sim no)
+				(at 15.24 137.16 0)
+				(size 30.48 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "b0ed72f1-e152-4faf-bf78-d7163b1bb884")
+			)
+			(table_cell "PB11"
+				(exclude_from_sim no)
+				(at 45.72 137.16 0)
+				(size 15.24 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "e566de5c-a399-409f-9ba3-baf0032123c0")
+			)
+			(table_cell "CN10-18"
+				(exclude_from_sim no)
+				(at 60.96 137.16 0)
+				(size 38.1 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "5b664ff6-8f7f-4258-8e94-ff3f1981d702")
+			)
+			(table_cell "input"
+				(exclude_from_sim no)
+				(at 99.06 137.16 0)
+				(size 22.86 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "7ddd0f94-f142-4b6e-8a1c-fdc077d37365")
+			)
+			(table_cell "GPIO in (10k pull-up on board)"
+				(exclude_from_sim no)
+				(at 121.92 137.16 0)
+				(size 48.26 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "357ba91d-b781-4fb5-8462-091077011108")
+			)
+			(table_cell "ISENSE_CoilX"
+				(exclude_from_sim no)
+				(at 15.24 139.954 0)
+				(size 30.48 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "90b67afe-9b00-4e36-8ebd-be0793a4cadd")
+			)
+			(table_cell "PA0"
+				(exclude_from_sim no)
+				(at 45.72 139.954 0)
+				(size 15.24 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "9567e938-f95b-49a2-8593-85382cd47cfc")
+			)
+			(table_cell "CN7-28"
+				(exclude_from_sim no)
+				(at 60.96 139.954 0)
+				(size 38.1 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "c5f7ba30-d590-4572-a63b-d4b54e0c56d0")
+			)
+			(table_cell "analog in"
+				(exclude_from_sim no)
+				(at 99.06 139.954 0)
+				(size 22.86 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "c4293c6a-5980-4445-9b77-80bca9e65389")
+			)
+			(table_cell "ADC1_IN1 / ADC2_IN1"
+				(exclude_from_sim no)
+				(at 121.92 139.954 0)
+				(size 48.26 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "36f408eb-2a94-4e7b-9209-210bde56ce6e")
+			)
+			(table_cell "Temp_SenseX"
+				(exclude_from_sim no)
+				(at 15.24 142.748 0)
+				(size 30.48 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "751bf699-e167-41b3-84a6-5d9d2c99caf6")
+			)
+			(table_cell "PA1"
+				(exclude_from_sim no)
+				(at 45.72 142.748 0)
+				(size 15.24 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "1f65be52-ec14-4e5a-8591-1baad2b52902")
+			)
+			(table_cell "CN7-30"
+				(exclude_from_sim no)
+				(at 60.96 142.748 0)
+				(size 38.1 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "973d132e-a6a6-42ae-8a28-7f291270f061")
+			)
+			(table_cell "analog in"
+				(exclude_from_sim no)
+				(at 99.06 142.748 0)
+				(size 22.86 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "21e659bd-1979-40dc-b069-6865e40af406")
+			)
+			(table_cell "ADC1_IN2"
+				(exclude_from_sim no)
+				(at 121.92 142.748 0)
+				(size 48.26 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "a6a37e88-69a9-47ae-9050-11a816844899")
+			)
+			(table_cell "PWM_A_CoilY"
+				(exclude_from_sim no)
+				(at 15.24 145.542 0)
+				(size 30.48 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "3f22db56-dc75-46d6-9582-c048bd510536")
+			)
+			(table_cell "PA10"
+				(exclude_from_sim no)
+				(at 45.72 145.542 0)
+				(size 15.24 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "440a7bef-1eb0-4a4c-9d75-02b4fbe27d79")
+			)
+			(table_cell "CN10-33"
+				(exclude_from_sim no)
+				(at 60.96 145.542 0)
+				(size 38.1 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "596002b2-c06e-46e9-b6fa-54005158e074")
+			)
+			(table_cell "output"
+				(exclude_from_sim no)
+				(at 99.06 145.542 0)
+				(size 22.86 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "67e9048b-1498-49cf-80b6-b5b8e988d590")
+			)
+			(table_cell "TIM1_CH3"
+				(exclude_from_sim no)
+				(at 121.92 145.542 0)
+				(size 48.26 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "3bc82ff1-6951-416b-8d1b-03f75ede138e")
+			)
+			(table_cell "PWM_B_CoilY"
+				(exclude_from_sim no)
+				(at 15.24 148.336 0)
+				(size 30.48 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "03ca4d36-32e0-4f0c-a8cb-ce69a6fe00aa")
+			)
+			(table_cell "PA11"
+				(exclude_from_sim no)
+				(at 45.72 148.336 0)
+				(size 15.24 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "eb02559d-a8d4-42eb-b65a-4cc021090fdb")
+			)
+			(table_cell "CN10-14"
+				(exclude_from_sim no)
+				(at 60.96 148.336 0)
+				(size 38.1 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "e5bd2a39-e1c1-47f2-88db-14a2ed0c2de1")
+			)
+			(table_cell "output"
+				(exclude_from_sim no)
+				(at 99.06 148.336 0)
+				(size 22.86 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "9d348bcb-562d-4ed2-88cf-94d1bd5eddc0")
+			)
+			(table_cell "TIM1_CH4"
+				(exclude_from_sim no)
+				(at 121.92 148.336 0)
+				(size 48.26 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "e60bb3d6-1b26-42f1-9fce-6cf3e4979c77")
+			)
+			(table_cell "~{RESET}_CoilY"
+				(exclude_from_sim no)
+				(at 15.24 151.13 0)
+				(size 30.48 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "12196379-7271-4738-b149-70f41d5e6320")
+			)
+			(table_cell "PC11"
+				(exclude_from_sim no)
+				(at 45.72 151.13 0)
+				(size 15.24 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "dd1c9ed1-734c-4289-a159-6cabda7e01b4")
+			)
+			(table_cell "CN7-2"
+				(exclude_from_sim no)
+				(at 60.96 151.13 0)
+				(size 38.1 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "c293c3ad-67b6-4c5b-b01b-df150b51e023")
+			)
+			(table_cell "output"
+				(exclude_from_sim no)
+				(at 99.06 151.13 0)
+				(size 22.86 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "60daa308-1d83-423e-af01-d6cdff4f6436")
+			)
+			(table_cell "GPIO out"
+				(exclude_from_sim no)
+				(at 121.92 151.13 0)
+				(size 48.26 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "d8454450-6539-4d48-a038-b91ef0bf3470")
+			)
+			(table_cell "~{FAULT}_CoilY"
+				(exclude_from_sim no)
+				(at 15.24 153.924 0)
+				(size 30.48 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "c9542f21-2cbc-4400-b805-264937562080")
+			)
+			(table_cell "PB15"
+				(exclude_from_sim no)
+				(at 45.72 153.924 0)
+				(size 15.24 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "e4e087b3-091b-45c1-8a33-b37253a3d04c")
+			)
+			(table_cell "CN10-26"
+				(exclude_from_sim no)
+				(at 60.96 153.924 0)
+				(size 38.1 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "fdbd1ade-c040-4c57-9852-08143715be20")
+			)
+			(table_cell "input"
+				(exclude_from_sim no)
+				(at 99.06 153.924 0)
+				(size 22.86 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "c0f8f36a-04b3-483a-9696-f64c54977ae2")
+			)
+			(table_cell "GPIO in (10k pull-up on board)"
+				(exclude_from_sim no)
+				(at 121.92 153.924 0)
+				(size 48.26 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "bd5e0918-334b-4d60-b9f9-58d47b3d8ac1")
+			)
+			(table_cell "~{OTW}_CoilY"
+				(exclude_from_sim no)
+				(at 15.24 156.718 0)
+				(size 30.48 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "f2248301-b948-4792-a625-01c1cffce1b1")
+			)
+			(table_cell "PB14"
+				(exclude_from_sim no)
+				(at 45.72 156.718 0)
+				(size 15.24 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ea4b7add-61a8-4462-8058-90d8dc49e5bb")
+			)
+			(table_cell "CN10-28"
+				(exclude_from_sim no)
+				(at 60.96 156.718 0)
+				(size 38.1 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "c6dc5dc4-82a6-43fa-a0b4-31a462c2edf6")
+			)
+			(table_cell "input"
+				(exclude_from_sim no)
+				(at 99.06 156.718 0)
+				(size 22.86 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "018e231f-90ee-4957-aa08-b3cb145b5c90")
+			)
+			(table_cell "GPIO in (10k pull-up on board)"
+				(exclude_from_sim no)
+				(at 121.92 156.718 0)
+				(size 48.26 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "7e0a8822-9985-4c58-998b-6638882669a7")
+			)
+			(table_cell "ISENSE_CoilY"
+				(exclude_from_sim no)
+				(at 15.24 159.512 0)
+				(size 30.48 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "bf2f3dc7-da06-4c35-86f8-c763a3668c55")
+			)
+			(table_cell "PA4"
+				(exclude_from_sim no)
+				(at 45.72 159.512 0)
+				(size 15.24 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "18b314b5-13ce-41ac-8a98-a7aeaa1b008a")
+			)
+			(table_cell "CN7-32"
+				(exclude_from_sim no)
+				(at 60.96 159.512 0)
+				(size 38.1 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "4ea9036d-280d-4fa3-948f-faba8be1fa88")
+			)
+			(table_cell "analog in"
+				(exclude_from_sim no)
+				(at 99.06 159.512 0)
+				(size 22.86 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "7bc5a131-e7a0-4d3a-bac9-fc8d09199abb")
+			)
+			(table_cell "ADC2_IN17"
+				(exclude_from_sim no)
+				(at 121.92 159.512 0)
+				(size 48.26 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "f83078f0-0f67-41b6-a658-a0641d5c7302")
+			)
+			(table_cell "Temp_SenseY"
+				(exclude_from_sim no)
+				(at 15.24 162.306 0)
+				(size 30.48 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "dea84c9f-d96a-45e4-8773-2ceb859959cb")
+			)
+			(table_cell "PC1"
+				(exclude_from_sim no)
+				(at 45.72 162.306 0)
+				(size 15.24 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ccda4c2d-d28a-4481-99f6-982b099e6207")
+			)
+			(table_cell "CN7-36"
+				(exclude_from_sim no)
+				(at 60.96 162.306 0)
+				(size 38.1 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "06c181f0-272b-405b-8324-d432ea976ca9")
+			)
+			(table_cell "analog in"
+				(exclude_from_sim no)
+				(at 99.06 162.306 0)
+				(size 22.86 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "f4cb2575-9f0e-4d49-919e-1a4355bff376")
+			)
+			(table_cell "ADC1_IN7"
+				(exclude_from_sim no)
+				(at 121.92 162.306 0)
+				(size 48.26 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "d21f9344-d5fa-4534-8bd5-b9d931f52c33")
+			)
+			(table_cell "PWM_A_CoilZ"
+				(exclude_from_sim no)
+				(at 15.24 165.1 0)
+				(size 30.48 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "c8920ca2-6e30-4748-9995-454680e83b69")
+			)
+			(table_cell "PC6"
+				(exclude_from_sim no)
+				(at 45.72 165.1 0)
+				(size 15.24 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "44a57b21-9e81-4002-99b4-99efaa133233")
+			)
+			(table_cell "CN10-4"
+				(exclude_from_sim no)
+				(at 60.96 165.1 0)
+				(size 38.1 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "cf1f872b-9214-45ea-8cab-d4b05805a305")
+			)
+			(table_cell "output"
+				(exclude_from_sim no)
+				(at 99.06 165.1 0)
+				(size 22.86 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "85ab235f-28bf-4081-9f73-53336b49ca6c")
+			)
+			(table_cell "TIM3_CH1 / TIM8_CH1"
+				(exclude_from_sim no)
+				(at 121.92 165.1 0)
+				(size 48.26 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "488490d7-b282-4539-8136-df1431be2081")
+			)
+			(table_cell "PWM_B_CoilZ"
+				(exclude_from_sim no)
+				(at 15.24 167.894 0)
+				(size 30.48 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "2aa89f52-d765-4149-b83d-ee1e3d8af413")
+			)
+			(table_cell "PC7"
+				(exclude_from_sim no)
+				(at 45.72 167.894 0)
+				(size 15.24 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ef6b2e8d-6113-4dab-8ce4-30fff43d0aed")
+			)
+			(table_cell "CN10-19"
+				(exclude_from_sim no)
+				(at 60.96 167.894 0)
+				(size 38.1 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ba0aa0ec-8c8a-4b1e-b6f6-51fa6209d61e")
+			)
+			(table_cell "output"
+				(exclude_from_sim no)
+				(at 99.06 167.894 0)
+				(size 22.86 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "751fcf23-d3b9-4a64-887d-8b4b301b9c87")
+			)
+			(table_cell "TIM3_CH2 / TIM8_CH2"
+				(exclude_from_sim no)
+				(at 121.92 167.894 0)
+				(size 48.26 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "9440c912-7e70-4481-b900-a1c65f96435d")
+			)
+			(table_cell "~{RESET}_CoilZ"
+				(exclude_from_sim no)
+				(at 15.24 170.688 0)
+				(size 30.48 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "7be903af-2f5f-48b3-b0da-2c50e8648cdb")
+			)
+			(table_cell "PC12"
+				(exclude_from_sim no)
+				(at 45.72 170.688 0)
+				(size 15.24 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "def84142-c00f-424f-a78a-8122e2cca130")
+			)
+			(table_cell "CN7-3"
+				(exclude_from_sim no)
+				(at 60.96 170.688 0)
+				(size 38.1 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ac6beb6b-a702-4475-9871-0edef873bd0d")
+			)
+			(table_cell "output"
+				(exclude_from_sim no)
+				(at 99.06 170.688 0)
+				(size 22.86 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "e4e73f8c-cba8-45a5-b404-6fff627845bf")
+			)
+			(table_cell "GPIO out"
+				(exclude_from_sim no)
+				(at 121.92 170.688 0)
+				(size 48.26 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "6c47e582-6e20-44f4-a6bf-0ce66cf3e86f")
+			)
+			(table_cell "~{FAULT}_CoilZ"
+				(exclude_from_sim no)
+				(at 15.24 173.482 0)
+				(size 30.48 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "28f127d0-90cd-4525-b375-7b03eb14d3d7")
+			)
+			(table_cell "PB2"
+				(exclude_from_sim no)
+				(at 45.72 173.482 0)
+				(size 15.24 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "76f24a18-36bd-47e7-b809-2cfdb311c269")
+			)
+			(table_cell "CN10-22"
+				(exclude_from_sim no)
+				(at 60.96 173.482 0)
+				(size 38.1 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "d1e2d990-e70b-4c48-83e8-e5a0037183bb")
+			)
+			(table_cell "input"
+				(exclude_from_sim no)
+				(at 99.06 173.482 0)
+				(size 22.86 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "da577dfa-6599-4dee-966d-a0e6944cf57e")
+			)
+			(table_cell "GPIO in (10k pull-up on board)"
+				(exclude_from_sim no)
+				(at 121.92 173.482 0)
+				(size 48.26 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "d94fc9bf-dfb9-46ab-bf56-0aa9175e67a1")
+			)
+			(table_cell "~{OTW}_CoilZ"
+				(exclude_from_sim no)
+				(at 15.24 176.276 0)
+				(size 30.48 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "a2c38baf-e27b-4256-abd0-6435aeee71bc")
+			)
+			(table_cell "PB1"
+				(exclude_from_sim no)
+				(at 45.72 176.276 0)
+				(size 15.24 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "3e2837c4-377e-433c-bbaa-f9bb449eeb1f")
+			)
+			(table_cell "CN10-24"
+				(exclude_from_sim no)
+				(at 60.96 176.276 0)
+				(size 38.1 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "cf53d89e-b1a5-41a7-8bb5-898c86bffb9d")
+			)
+			(table_cell "input"
+				(exclude_from_sim no)
+				(at 99.06 176.276 0)
+				(size 22.86 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "a7fd21d8-aa10-4cd2-af25-31953c194735")
+			)
+			(table_cell "GPIO in (10k pull-up on board)"
+				(exclude_from_sim no)
+				(at 121.92 176.276 0)
+				(size 48.26 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "aea1b25b-7397-4ead-8d36-a9f0e5be11dd")
+			)
+			(table_cell "ISENSE_CoilZ"
+				(exclude_from_sim no)
+				(at 15.24 179.07 0)
+				(size 30.48 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "fe186348-1e21-49e1-8be2-2ae8b7fea675")
+			)
+			(table_cell "PB0"
+				(exclude_from_sim no)
+				(at 45.72 179.07 0)
+				(size 15.24 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "b041aa1d-03a7-4b1b-96ae-731f55d1b8f1")
+			)
+			(table_cell "CN7-34"
+				(exclude_from_sim no)
+				(at 60.96 179.07 0)
+				(size 38.1 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "0847bf5e-f5ef-4ff1-9a06-c8a9ee62a272")
+			)
+			(table_cell "analog in"
+				(exclude_from_sim no)
+				(at 99.06 179.07 0)
+				(size 22.86 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "fdea77ba-50fd-49c0-a127-324b5d997fa6")
+			)
+			(table_cell "ADC1_IN15 / ADC3_IN12"
+				(exclude_from_sim no)
+				(at 121.92 179.07 0)
+				(size 48.26 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "b4312673-fb1c-4096-8c90-b192b83304e7")
+			)
+			(table_cell "Temp_SenseZ"
+				(exclude_from_sim no)
+				(at 15.24 181.864 0)
+				(size 30.48 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "1cba3d82-7b89-4978-a504-34995d2d3b1b")
+			)
+			(table_cell "PC0"
+				(exclude_from_sim no)
+				(at 45.72 181.864 0)
+				(size 15.24 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "8ef3ecc4-bbf9-4f2b-9ec2-953f7ab200ab")
+			)
+			(table_cell "CN7-38"
+				(exclude_from_sim no)
+				(at 60.96 181.864 0)
+				(size 38.1 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "0c761011-d516-484a-a9e0-ec50727127a7")
+			)
+			(table_cell "analog in"
+				(exclude_from_sim no)
+				(at 99.06 181.864 0)
+				(size 22.86 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "e3876113-677a-4792-89b4-1cc24761083e")
+			)
+			(table_cell "ADC1_IN6"
+				(exclude_from_sim no)
+				(at 121.92 181.864 0)
+				(size 48.26 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "1bfd84da-cfbc-41dd-ab1c-9a4bff93b812")
+			)
+			(table_cell "+3V3"
+				(exclude_from_sim no)
+				(at 15.24 184.658 0)
+				(size 30.48 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "a9cfef3f-322f-4ec3-b18a-abcd091abf1f")
+			)
+			(table_cell "-"
+				(exclude_from_sim no)
+				(at 45.72 184.658 0)
+				(size 15.24 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "85a71e58-2676-4e17-8c51-63c660f25f6f")
+			)
+			(table_cell "CN7-16"
+				(exclude_from_sim no)
+				(at 60.96 184.658 0)
+				(size 38.1 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "b7dcafec-aa21-4d24-beff-331da26f1f9e")
+			)
+			(table_cell "power"
+				(exclude_from_sim no)
+				(at 99.06 184.658 0)
+				(size 22.86 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "65a1cc00-c193-4607-8f73-ab9fa7f88b64")
+			)
+			(table_cell "Nucleo 3V3 out / rail terminal"
+				(exclude_from_sim no)
+				(at 121.92 184.658 0)
+				(size 48.26 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "ebc0d6f9-b210-49de-a972-4d940b7f4570")
+			)
+			(table_cell "+5V"
+				(exclude_from_sim no)
+				(at 15.24 187.452 0)
+				(size 30.48 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "bf0d5ee2-a281-47f4-ad8d-e7742d63ad99")
+			)
+			(table_cell "-"
+				(exclude_from_sim no)
+				(at 45.72 187.452 0)
+				(size 15.24 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "6725d3ba-8ded-4fc2-bfae-48b79428f4c1")
+			)
+			(table_cell "CN7-18"
+				(exclude_from_sim no)
+				(at 60.96 187.452 0)
+				(size 38.1 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "4aa70b5e-9d3f-4b34-8a8b-e697d77010dd")
+			)
+			(table_cell "power"
+				(exclude_from_sim no)
+				(at 99.06 187.452 0)
+				(size 22.86 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "86d25f0b-4308-4cb2-8293-af018252180c")
+			)
+			(table_cell "Nucleo 5V out / rail terminal"
+				(exclude_from_sim no)
+				(at 121.92 187.452 0)
+				(size 48.26 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "14607a6a-4fca-4e95-b507-17d6146256fa")
+			)
+			(table_cell "+12V"
+				(exclude_from_sim no)
+				(at 15.24 190.246 0)
+				(size 30.48 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "39889c53-7bd7-4598-bd04-a67da6e58b12")
+			)
+			(table_cell "-"
+				(exclude_from_sim no)
+				(at 45.72 190.246 0)
+				(size 15.24 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "7d4c19c1-50be-4f73-83f6-aadb6f21cb13")
+			)
+			(table_cell "CN7-24"
+				(exclude_from_sim no)
+				(at 60.96 190.246 0)
+				(size 38.1 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "7ae48bb7-b910-4d9c-878d-ba6d4486ad2b")
+			)
+			(table_cell "power"
+				(exclude_from_sim no)
+				(at 99.06 190.246 0)
+				(size 22.86 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "c5a20959-8975-4876-b493-93d40cbe97cb")
+			)
+			(table_cell "Nucleo VIN (12 V in)"
+				(exclude_from_sim no)
+				(at 121.92 190.246 0)
+				(size 48.26 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "3ede30d2-81ee-4864-a394-323bae4d2bc9")
+			)
+			(table_cell "GND"
+				(exclude_from_sim no)
+				(at 15.24 193.04 0)
+				(size 30.48 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "8732f3f7-3ed7-491f-843f-72be5d7e2ac3")
+			)
+			(table_cell "-"
+				(exclude_from_sim no)
+				(at 45.72 193.04 0)
+				(size 15.24 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "0ffd37d8-6471-497b-a660-204c50aa6381")
+			)
+			(table_cell "CN7-8/19/20/22, CN10-9/20"
+				(exclude_from_sim no)
+				(at 60.96 193.04 0)
+				(size 38.1 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "0204e778-4006-4bdc-8844-58fad7238eb2")
+			)
+			(table_cell "power"
+				(exclude_from_sim no)
+				(at 99.06 193.04 0)
+				(size 22.86 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "4b1017a0-edbe-48fc-baa7-f6ee26fadeeb")
+			)
+			(table_cell "ground"
+				(exclude_from_sim no)
+				(at 121.92 193.04 0)
+				(size 48.26 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "b20a3f70-96a4-4260-a101-66e781804ba9")
+			)
+		)
+	)
+	(text "STM32 pinout used by this board"
+		(exclude_from_sim no)
+		(at 15.24 120.904 0)
+		(effects
+			(font
+				(size 1.778 1.778)
+				(thickness 0.3556)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "9033f42d-a5b0-4573-a314-b1c070c7f3da")
+	)
 )
