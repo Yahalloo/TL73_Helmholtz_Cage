@@ -19,6 +19,10 @@ class Helmholtz_Calibration:
         if not clean_url.startswith("https://") and not clean_url.startswith("http://"):
             clean_url = "http://" + clean_url
 
+        # Auto-add port 8080 if connecting to localhost without a port specified
+        if clean_url in ("http://127.0.0.1", "http://localhost"):
+            clean_url += ":8080"
+
         self.phyphox_url = f"{clean_url}/get?mag_x&mag_y&mag_z&magX&magY&magZ"
 
         # Establishes a connection with the URL
