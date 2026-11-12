@@ -1,0 +1,29 @@
+(version 1)
+
+# JLCPCB 4-layer, 1 oz copper - conservative manufacturing limits.
+# Check against https://jlcpcb.com/capabilities/pcb-capabilities before ordering.
+
+(rule "JLC minimum clearance"
+	(constraint clearance (min 0.127mm)))
+
+(rule "JLC minimum track width"
+	(constraint track_width (min 0.127mm)))
+
+(rule "JLC via size"
+	(condition "A.Type == 'Via'")
+	(constraint via_diameter (min 0.5mm))
+	(constraint hole_size (min 0.2mm)))
+
+(rule "JLC via annular ring"
+	(condition "A.Type == 'Via'")
+	(constraint annular_width (min 0.13mm)))
+
+(rule "JLC plated hole size"
+	(condition "A.Type == 'Pad' && A.Pad_Type == 'Through-hole'")
+	(constraint hole_size (min 0.2mm) (max 6.3mm)))
+
+(rule "JLC hole to hole"
+	(constraint hole_to_hole (min 0.25mm)))
+
+(rule "JLC copper to board edge"
+	(constraint edge_clearance (min 0.3mm)))

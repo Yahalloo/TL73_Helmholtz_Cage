@@ -7382,11 +7382,13 @@
 		)
 		(property "LCSC" "C125980"
 			(at 209.55 62.6109 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "2"
@@ -9748,7 +9750,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 71.12 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -10040,7 +10042,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 82.2452 64.77 0)
 			(hide yes)
 			(show_name no)

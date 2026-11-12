@@ -15298,7 +15298,7 @@
 		(uuid "3fe2cd8c-cf73-4ab3-9b23-6bbae6d32786")
 	)
 	(hierarchical_label "PA1"
-		(shape passive)
+		(shape input)
 		(at 99.06 100.33 0)
 		(effects
 			(font
@@ -15375,7 +15375,7 @@
 		(uuid "6040edf2-5639-4cb8-a64f-ba41c2fa9c8b")
 	)
 	(hierarchical_label "PC1"
-		(shape passive)
+		(shape input)
 		(at 99.06 107.95 0)
 		(effects
 			(font
@@ -15419,7 +15419,7 @@
 		(uuid "793af92d-ae2e-4083-ad82-d96388461763")
 	)
 	(hierarchical_label "PC0"
-		(shape passive)
+		(shape input)
 		(at 99.06 110.49 0)
 		(effects
 			(font

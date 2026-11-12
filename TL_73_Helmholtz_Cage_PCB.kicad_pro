@@ -613,6 +613,30 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -683,7 +707,7 @@
         "uuid": "da5a1e6a-2605-436b-a30c-1027586d5c0a"
       }
     ],
-    "used_designators": "L1-24,#PWR1-103,C1-112,JP1-6,H1-3,R1-39,J1-2,U1-12",
+    "used_designators": "#PWR1-103,L1-24,C1-112,H1-3,JP1-6,J1-2,R1-39,U1-12,CN1-9",
     "variants": []
   },
   "sheets": [
@@ -718,6 +742,10 @@
     [
       "36b6b46a-4b54-41ec-ae14-d8a056066e0a",
       "CurrentSense_CoilZ"
+    ],
+    [
+      "8849db54-3fc8-473e-8cbb-04716cd495b5",
+      "External_Connectors"
     ]
   ],
   "text_variables": {},
