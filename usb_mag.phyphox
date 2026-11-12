@@ -1,0 +1,37 @@
+<phyphox version="1.10">
+    <title>USB-C Magnetometer</title>
+    <category>Helmholtz Cage</category>
+    <description>Streams Magnetometer to 127.0.0.1:5000 in Airplane Mode</description>
+    <data-containers>
+        <container size="1">mag_x</container>
+        <container size="1">mag_y</container>
+        <container size="1">mag_z</container>
+    </data-containers>
+    <input>
+        <sensor type="magnetic_field" rate="20">
+            <output component="x">mag_x</output>
+            <output component="y">mag_y</output>
+            <output component="z">mag_z</output>
+        </sensor>
+    </input>
+    <views>
+        <view label="Magnetometer">
+            <value label="X" unit="uT" size="2" precision="2">
+                <input>mag_x</input>
+            </value>
+            <value label="Y" unit="uT" size="2" precision="2">
+                <input>mag_y</input>
+            </value>
+            <value label="Z" unit="uT" size="2" precision="2">
+                <input>mag_z</input>
+            </value>
+        </view>
+    </views>
+    <network>
+        <connection address="http://127.0.0.1:5000" service="http/post" conversion="json" interval="0.1">
+            <send id="mag_x" type="buffer">mag_x</send>
+            <send id="mag_y" type="buffer">mag_y</send>
+            <send id="mag_z" type="buffer">mag_z</send>
+        </connection>
+    </network>
+</phyphox>
