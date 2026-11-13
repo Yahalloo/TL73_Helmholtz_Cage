@@ -2003,9 +2003,20 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "VIN unused"
+		(exclude_from_sim no)
+		(at 113.03 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4710790f-e46a-445c-b682-2a61a3e6248e")
+	)
 	(text "STM32 pinout used by this board"
 		(exclude_from_sim no)
-		(at 15.24 120.904 0)
+		(at 15.24 112.522 0)
 		(effects
 			(font
 				(size 1.778 1.778)
@@ -2028,6 +2039,10 @@
 		(color 0 0 0 0)
 		(uuid "acdfc64b-9c57-4633-87bd-7fe3b16fc615")
 	)
+	(no_connect
+		(at 110.49 76.2)
+		(uuid "fa5cb3f1-9c0f-4ce0-8585-370c2d5d093a")
+	)
 	(wire
 		(pts
 			(xy 127 71.12) (xy 127 73.66)
@@ -2037,16 +2052,6 @@
 			(type default)
 		)
 		(uuid "0013dbd8-ef24-480f-8263-3d76568e30b8")
-	)
-	(wire
-		(pts
-			(xy 121.92 76.2) (xy 121.92 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00374d5c-2cbb-4721-84a5-d829b76264c2")
 	)
 	(wire
 		(pts
@@ -2077,16 +2082,6 @@
 			(type default)
 		)
 		(uuid "052de3f7-2f7c-47cf-8259-4e90c2f3ebf4")
-	)
-	(wire
-		(pts
-			(xy 121.92 83.82) (xy 133.35 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06a1c460-2e37-48a0-a518-dd515b70fe78")
 	)
 	(wire
 		(pts
@@ -2150,7 +2145,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 53.34) (xy 113.03 53.34)
+			(xy 110.49 53.34) (xy 143.51 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2297,16 +2292,6 @@
 			(type default)
 		)
 		(uuid "3d703bf6-9c30-4bec-8582-663a287c8c5c")
-	)
-	(wire
-		(pts
-			(xy 110.49 76.2) (xy 121.92 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41996432-ef4a-44b3-9176-350163078e4b")
 	)
 	(wire
 		(pts
@@ -2477,6 +2462,16 @@
 			(type default)
 		)
 		(uuid "6c1cffc5-bb6d-47db-8849-9abb82f34b60")
+	)
+	(wire
+		(pts
+			(xy 143.51 83.82) (xy 133.35 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ce4073a-ae89-4215-a74a-b6f785ec59c1")
 	)
 	(wire
 		(pts
@@ -2777,6 +2772,16 @@
 			(type default)
 		)
 		(uuid "e22162c2-410e-4dda-972b-584685621cc4")
+	)
+	(wire
+		(pts
+			(xy 143.51 53.34) (xy 143.51 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2b9f5db-ce3b-4242-b980-1c4a9cb29b79")
 	)
 	(wire
 		(pts
@@ -15211,13 +15216,13 @@
 		(column_widths 30.48 15.24 38.1 22.86 48.26)
 		(row_heights 2.794 2.794 2.794 2.794 2.794 2.794 2.794 2.794 2.794 2.794
 			2.794 2.794 2.794 2.794 2.794 2.794 2.794 2.794 2.794 2.794 2.794 2.794
-			2.794 2.794 2.794 2.794
+			2.794 2.794 2.794 2.794 2.794 2.794 2.794
 		)
 		(uuid "f03b4a02-b7df-4115-8d83-7338cc426536")
 		(cells
 			(table_cell "Signal"
 				(exclude_from_sim no)
-				(at 15.24 123.19 0)
+				(at 15.24 114.808 0)
 				(size 30.48 2.794)
 				(margins 0.635 0.508 0.635 0.508)
 				(span 1 1)
@@ -15232,11 +15237,11 @@
 					)
 					(justify left top)
 				)
-				(uuid "d777ae21-5fad-4d04-805b-0e1f1ab94c30")
+				(uuid "27afa96d-1db6-46de-8414-aa1f9096895c")
 			)
 			(table_cell "MCU pin"
 				(exclude_from_sim no)
-				(at 45.72 123.19 0)
+				(at 45.72 114.808 0)
 				(size 15.24 2.794)
 				(margins 0.635 0.508 0.635 0.508)
 				(span 1 1)
@@ -15251,11 +15256,11 @@
 					)
 					(justify left top)
 				)
-				(uuid "d533a4f0-550b-4db3-83d0-9922eee217d8")
+				(uuid "4b3dc06b-446f-4727-b339-90b755c66ce8")
 			)
 			(table_cell "Connector pin"
 				(exclude_from_sim no)
-				(at 60.96 123.19 0)
+				(at 60.96 114.808 0)
 				(size 38.1 2.794)
 				(margins 0.635 0.508 0.635 0.508)
 				(span 1 1)
@@ -15270,11 +15275,11 @@
 					)
 					(justify left top)
 				)
-				(uuid "9dd507d9-7e98-4c84-8175-dd90b0784c1c")
+				(uuid "44fab79f-4000-485e-8bc7-0a440151832d")
 			)
 			(table_cell "MCU direction"
 				(exclude_from_sim no)
-				(at 99.06 123.19 0)
+				(at 99.06 114.808 0)
 				(size 22.86 2.794)
 				(margins 0.635 0.508 0.635 0.508)
 				(span 1 1)
@@ -15289,11 +15294,11 @@
 					)
 					(justify left top)
 				)
-				(uuid "dec906c9-4e87-402b-8411-99ba77dbf873")
+				(uuid "c978a24b-d3df-4aef-a88e-7a50f53407bb")
 			)
 			(table_cell "Peripheral (check in CubeMX)"
 				(exclude_from_sim no)
-				(at 121.92 123.19 0)
+				(at 121.92 114.808 0)
 				(size 48.26 2.794)
 				(margins 0.635 0.508 0.635 0.508)
 				(span 1 1)
@@ -15308,9 +15313,264 @@
 					)
 					(justify left top)
 				)
-				(uuid "dbbbe7a9-bab3-4acb-a570-8ceb4c83ef99")
+				(uuid "14a15631-5b3d-4276-9e20-64e333950147")
 			)
 			(table_cell "PWM_A_CoilX"
+				(exclude_from_sim no)
+				(at 15.24 117.602 0)
+				(size 30.48 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "61afde51-30e2-4db0-bf19-143733f7b418")
+			)
+			(table_cell "PA8"
+				(exclude_from_sim no)
+				(at 45.72 117.602 0)
+				(size 15.24 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "0fd5f624-b40f-45f8-83b7-f634eb832e0a")
+			)
+			(table_cell "CN10-23"
+				(exclude_from_sim no)
+				(at 60.96 117.602 0)
+				(size 38.1 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "d0060f53-7d3a-45f0-8927-19a99a946ca8")
+			)
+			(table_cell "output"
+				(exclude_from_sim no)
+				(at 99.06 117.602 0)
+				(size 22.86 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "3f64fd89-2e8d-4e5c-a698-f9be3bb3527c")
+			)
+			(table_cell "TIM1_CH1"
+				(exclude_from_sim no)
+				(at 121.92 117.602 0)
+				(size 48.26 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "16b60068-ec1a-4e8d-a633-2b8a7ddc9e3b")
+			)
+			(table_cell "PWM_B_CoilX"
+				(exclude_from_sim no)
+				(at 15.24 120.396 0)
+				(size 30.48 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "a3f97025-e8e4-496a-8f2a-4d11afc60291")
+			)
+			(table_cell "PA9"
+				(exclude_from_sim no)
+				(at 45.72 120.396 0)
+				(size 15.24 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "47e93f70-a333-4b4e-82ad-03e264adf852")
+			)
+			(table_cell "CN10-21"
+				(exclude_from_sim no)
+				(at 60.96 120.396 0)
+				(size 38.1 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "a72bce30-5c43-48ca-a3fd-4c5ea92f6e2f")
+			)
+			(table_cell "output"
+				(exclude_from_sim no)
+				(at 99.06 120.396 0)
+				(size 22.86 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "29f3e31d-51ee-415f-8bf7-cf916d0e1be8")
+			)
+			(table_cell "TIM1_CH2"
+				(exclude_from_sim no)
+				(at 121.92 120.396 0)
+				(size 48.26 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "29c49aa7-9128-413d-b581-de4ee3523371")
+			)
+			(table_cell "~{SLEEP}_CoilX"
+				(exclude_from_sim no)
+				(at 15.24 123.19 0)
+				(size 30.48 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "7d108498-8f01-47fa-b019-367aacb7a99a")
+			)
+			(table_cell "PC10"
+				(exclude_from_sim no)
+				(at 45.72 123.19 0)
+				(size 15.24 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "48829283-312f-4b60-845e-3485b73f519a")
+			)
+			(table_cell "CN7-1"
+				(exclude_from_sim no)
+				(at 60.96 123.19 0)
+				(size 38.1 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "bb8356db-9809-4677-b3b9-14b9c5143ee4")
+			)
+			(table_cell "output"
+				(exclude_from_sim no)
+				(at 99.06 123.19 0)
+				(size 22.86 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "2c320b74-884c-4106-9e25-10fbac8fda55")
+			)
+			(table_cell "GPIO out (low = driver asleep, 10k pull-down)"
+				(exclude_from_sim no)
+				(at 121.92 123.19 0)
+				(size 48.26 2.794)
+				(margins 0.635 0.508 0.635 0.508)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "34780b92-6d51-43e3-ac9d-249078a28a92")
+			)
+			(table_cell "~{FAULT}_CoilX"
 				(exclude_from_sim no)
 				(at 15.24 125.984 0)
 				(size 30.48 2.794)
@@ -15325,9 +15585,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "9cbf8070-5ab7-4805-a95d-02c31d432e1f")
+				(uuid "5004765d-99aa-46e5-b6e4-6cdec238e95a")
 			)
-			(table_cell "PA8"
+			(table_cell "PB12"
 				(exclude_from_sim no)
 				(at 45.72 125.984 0)
 				(size 15.24 2.794)
@@ -15342,9 +15602,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "d3be0596-f21a-4b56-b762-3ee9330ef0e9")
+				(uuid "ef83735f-bcb8-4576-95a6-22f1c057781f")
 			)
-			(table_cell "CN10-23"
+			(table_cell "CN10-16"
 				(exclude_from_sim no)
 				(at 60.96 125.984 0)
 				(size 38.1 2.794)
@@ -15359,9 +15619,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "ab889296-f9cc-461f-b3e5-cabb4e7426e0")
+				(uuid "b43b5dad-b517-4b36-986e-b14d577a0d76")
 			)
-			(table_cell "output"
+			(table_cell "input"
 				(exclude_from_sim no)
 				(at 99.06 125.984 0)
 				(size 22.86 2.794)
@@ -15376,9 +15636,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "420e5e8e-c905-4958-82ee-03198f653629")
+				(uuid "af9c052d-f50d-4a24-84e0-6fe1ad332c1b")
 			)
-			(table_cell "TIM1_CH1"
+			(table_cell "GPIO in / EXTI (10k pull-up on board)"
 				(exclude_from_sim no)
 				(at 121.92 125.984 0)
 				(size 48.26 2.794)
@@ -15393,9 +15653,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "3f87d3b3-da5c-4eec-9837-7ba986f3f1cf")
+				(uuid "5d12f688-f4e0-48cd-a0b1-febe201ca568")
 			)
-			(table_cell "PWM_B_CoilX"
+			(table_cell "~{SCS}_CoilX"
 				(exclude_from_sim no)
 				(at 15.24 128.778 0)
 				(size 30.48 2.794)
@@ -15410,9 +15670,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "708fbf68-b6be-4a00-aa04-2a66454e956f")
+				(uuid "703394ed-35f6-4d0a-a388-942e4e6c825a")
 			)
-			(table_cell "PA9"
+			(table_cell "PB11"
 				(exclude_from_sim no)
 				(at 45.72 128.778 0)
 				(size 15.24 2.794)
@@ -15427,9 +15687,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "b1967d69-77fb-4a40-aa03-4114f505f655")
+				(uuid "b129b1b1-8c59-418e-8c61-a7372cea30cb")
 			)
-			(table_cell "CN10-21"
+			(table_cell "CN10-18"
 				(exclude_from_sim no)
 				(at 60.96 128.778 0)
 				(size 38.1 2.794)
@@ -15444,7 +15704,7 @@
 					)
 					(justify left top)
 				)
-				(uuid "a7e2447b-e506-40f8-8cc4-68f0740efe04")
+				(uuid "a5a425a1-ef18-4292-956b-17ab22ed5fda")
 			)
 			(table_cell "output"
 				(exclude_from_sim no)
@@ -15461,9 +15721,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "f8ded7d2-9afb-4db2-8b7a-2cb0bf417773")
+				(uuid "6dc5f7c4-1790-496d-81ab-f04dc7b5f14e")
 			)
-			(table_cell "TIM1_CH2"
+			(table_cell "GPIO out, SPI chip select (idle high)"
 				(exclude_from_sim no)
 				(at 121.92 128.778 0)
 				(size 48.26 2.794)
@@ -15478,9 +15738,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "21bbe62b-542d-47be-b5ef-a2aedad68bfc")
+				(uuid "646ff70a-cec2-45ab-923b-b77b7e5285cd")
 			)
-			(table_cell "~{RESET}_CoilX"
+			(table_cell "ISENSE_CoilX"
 				(exclude_from_sim no)
 				(at 15.24 131.572 0)
 				(size 30.48 2.794)
@@ -15495,9 +15755,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "cb1717c4-9f30-40f1-a263-5bb66cb85dac")
+				(uuid "b67087c0-8047-4ca9-bc4c-8b6966f54567")
 			)
-			(table_cell "PC10"
+			(table_cell "PA0"
 				(exclude_from_sim no)
 				(at 45.72 131.572 0)
 				(size 15.24 2.794)
@@ -15512,9 +15772,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "b193e434-ddff-40ee-a2e7-268e6a9beb4d")
+				(uuid "0de1f5b1-bcfb-4da0-9513-06000a04e428")
 			)
-			(table_cell "CN7-1"
+			(table_cell "CN7-28"
 				(exclude_from_sim no)
 				(at 60.96 131.572 0)
 				(size 38.1 2.794)
@@ -15529,9 +15789,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "65fa461a-bd8c-4424-a501-71c4efa64024")
+				(uuid "4684af5c-4cf0-43f8-9bf5-f1cf4e655513")
 			)
-			(table_cell "output"
+			(table_cell "analog in"
 				(exclude_from_sim no)
 				(at 99.06 131.572 0)
 				(size 22.86 2.794)
@@ -15546,9 +15806,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "e3ba21c1-8318-4cc8-b0f1-dec5452f301e")
+				(uuid "37e12438-a9e5-419f-bfe3-6e31725976ad")
 			)
-			(table_cell "GPIO out"
+			(table_cell "ADC1_IN1 / ADC2_IN1"
 				(exclude_from_sim no)
 				(at 121.92 131.572 0)
 				(size 48.26 2.794)
@@ -15563,9 +15823,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "5ebee9c5-ae83-4f1b-aaaa-d5d360198305")
+				(uuid "8c48d0c6-6723-4942-89df-91ad36ec2451")
 			)
-			(table_cell "~{FAULT}_CoilX"
+			(table_cell "Temp_SenseX"
 				(exclude_from_sim no)
 				(at 15.24 134.366 0)
 				(size 30.48 2.794)
@@ -15580,9 +15840,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "992e3c4a-757e-49d2-81ed-a3b43f470933")
+				(uuid "30c98046-5a7f-4df3-9dac-9252f5172299")
 			)
-			(table_cell "PB12"
+			(table_cell "PA1"
 				(exclude_from_sim no)
 				(at 45.72 134.366 0)
 				(size 15.24 2.794)
@@ -15597,9 +15857,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "d66de10d-8985-4af5-ba7d-9e86940fd2f7")
+				(uuid "3ca23a46-5471-4253-b5e9-6bdb1f11d2e2")
 			)
-			(table_cell "CN10-16"
+			(table_cell "CN7-30"
 				(exclude_from_sim no)
 				(at 60.96 134.366 0)
 				(size 38.1 2.794)
@@ -15614,9 +15874,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "af738ac1-7050-4433-a0d2-d3becf91cef9")
+				(uuid "f6adb7d3-318e-41da-a59e-040c78b163cd")
 			)
-			(table_cell "input"
+			(table_cell "analog in"
 				(exclude_from_sim no)
 				(at 99.06 134.366 0)
 				(size 22.86 2.794)
@@ -15631,9 +15891,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "c132548c-a8d3-4c46-bde7-923493254032")
+				(uuid "b66a22ff-997f-4a68-a90f-96a2f492d2a4")
 			)
-			(table_cell "GPIO in (10k pull-up on board)"
+			(table_cell "ADC1_IN2"
 				(exclude_from_sim no)
 				(at 121.92 134.366 0)
 				(size 48.26 2.794)
@@ -15648,9 +15908,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "f0245053-3547-48a6-afd5-569588c6b280")
+				(uuid "3d728872-c98d-4d18-9d18-fecbc1535798")
 			)
-			(table_cell "~{OTW}_CoilX"
+			(table_cell "PWM_A_CoilY"
 				(exclude_from_sim no)
 				(at 15.24 137.16 0)
 				(size 30.48 2.794)
@@ -15665,9 +15925,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "b0ed72f1-e152-4faf-bf78-d7163b1bb884")
+				(uuid "63cee8c5-cc05-4fd1-8211-51beb7a269df")
 			)
-			(table_cell "PB11"
+			(table_cell "PA10"
 				(exclude_from_sim no)
 				(at 45.72 137.16 0)
 				(size 15.24 2.794)
@@ -15682,9 +15942,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "e566de5c-a399-409f-9ba3-baf0032123c0")
+				(uuid "fb7f3be2-d159-48c7-9a97-dc1437ebf5da")
 			)
-			(table_cell "CN10-18"
+			(table_cell "CN10-33"
 				(exclude_from_sim no)
 				(at 60.96 137.16 0)
 				(size 38.1 2.794)
@@ -15699,9 +15959,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "5b664ff6-8f7f-4258-8e94-ff3f1981d702")
+				(uuid "1b0a601d-ad98-41dc-ae46-13c9b3020712")
 			)
-			(table_cell "input"
+			(table_cell "output"
 				(exclude_from_sim no)
 				(at 99.06 137.16 0)
 				(size 22.86 2.794)
@@ -15716,9 +15976,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "7ddd0f94-f142-4b6e-8a1c-fdc077d37365")
+				(uuid "2926b101-46ad-4418-9092-7a1086e86c36")
 			)
-			(table_cell "GPIO in (10k pull-up on board)"
+			(table_cell "TIM1_CH3"
 				(exclude_from_sim no)
 				(at 121.92 137.16 0)
 				(size 48.26 2.794)
@@ -15733,9 +15993,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "357ba91d-b781-4fb5-8462-091077011108")
+				(uuid "65a2898c-8c0d-4fe0-8e47-080a2dd1868d")
 			)
-			(table_cell "ISENSE_CoilX"
+			(table_cell "PWM_B_CoilY"
 				(exclude_from_sim no)
 				(at 15.24 139.954 0)
 				(size 30.48 2.794)
@@ -15750,9 +16010,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "90b67afe-9b00-4e36-8ebd-be0793a4cadd")
+				(uuid "e8d4f222-81a2-4ffb-89ce-6c747e6a39d7")
 			)
-			(table_cell "PA0"
+			(table_cell "PA11"
 				(exclude_from_sim no)
 				(at 45.72 139.954 0)
 				(size 15.24 2.794)
@@ -15767,9 +16027,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "9567e938-f95b-49a2-8593-85382cd47cfc")
+				(uuid "41b10e82-01aa-48a7-92e7-1d63d617272d")
 			)
-			(table_cell "CN7-28"
+			(table_cell "CN10-14"
 				(exclude_from_sim no)
 				(at 60.96 139.954 0)
 				(size 38.1 2.794)
@@ -15784,9 +16044,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "c5f7ba30-d590-4572-a63b-d4b54e0c56d0")
+				(uuid "20f0dd19-008f-478e-a611-2fc9d1638011")
 			)
-			(table_cell "analog in"
+			(table_cell "output"
 				(exclude_from_sim no)
 				(at 99.06 139.954 0)
 				(size 22.86 2.794)
@@ -15801,9 +16061,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "c4293c6a-5980-4445-9b77-80bca9e65389")
+				(uuid "8e0c1b51-1735-42b3-bd23-9bef2920423b")
 			)
-			(table_cell "ADC1_IN1 / ADC2_IN1"
+			(table_cell "TIM1_CH4"
 				(exclude_from_sim no)
 				(at 121.92 139.954 0)
 				(size 48.26 2.794)
@@ -15818,9 +16078,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "36f408eb-2a94-4e7b-9209-210bde56ce6e")
+				(uuid "d65ee43b-aae9-4ba9-8f80-dadf870e74fa")
 			)
-			(table_cell "Temp_SenseX"
+			(table_cell "~{SLEEP}_CoilY"
 				(exclude_from_sim no)
 				(at 15.24 142.748 0)
 				(size 30.48 2.794)
@@ -15835,9 +16095,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "751bf699-e167-41b3-84a6-5d9d2c99caf6")
+				(uuid "c7694b13-d254-4c65-9093-0db5d55af7f3")
 			)
-			(table_cell "PA1"
+			(table_cell "PC11"
 				(exclude_from_sim no)
 				(at 45.72 142.748 0)
 				(size 15.24 2.794)
@@ -15852,9 +16112,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "1f65be52-ec14-4e5a-8591-1baad2b52902")
+				(uuid "d3c441ee-fcfe-483a-bb42-fc56a40333d9")
 			)
-			(table_cell "CN7-30"
+			(table_cell "CN7-2"
 				(exclude_from_sim no)
 				(at 60.96 142.748 0)
 				(size 38.1 2.794)
@@ -15869,9 +16129,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "973d132e-a6a6-42ae-8a28-7f291270f061")
+				(uuid "66916e53-852c-422c-a5fa-b698f05464a0")
 			)
-			(table_cell "analog in"
+			(table_cell "output"
 				(exclude_from_sim no)
 				(at 99.06 142.748 0)
 				(size 22.86 2.794)
@@ -15886,9 +16146,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "21e659bd-1979-40dc-b069-6865e40af406")
+				(uuid "5d840b87-3ca4-41a3-a33b-3120c771520b")
 			)
-			(table_cell "ADC1_IN2"
+			(table_cell "GPIO out (low = driver asleep, 10k pull-down)"
 				(exclude_from_sim no)
 				(at 121.92 142.748 0)
 				(size 48.26 2.794)
@@ -15903,9 +16163,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "a6a37e88-69a9-47ae-9050-11a816844899")
+				(uuid "c1abcf59-1f79-437b-a931-02c720386212")
 			)
-			(table_cell "PWM_A_CoilY"
+			(table_cell "~{FAULT}_CoilY"
 				(exclude_from_sim no)
 				(at 15.24 145.542 0)
 				(size 30.48 2.794)
@@ -15920,9 +16180,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "3f22db56-dc75-46d6-9582-c048bd510536")
+				(uuid "e88da003-42d6-4866-9776-6229ab7954b8")
 			)
-			(table_cell "PA10"
+			(table_cell "PB15"
 				(exclude_from_sim no)
 				(at 45.72 145.542 0)
 				(size 15.24 2.794)
@@ -15937,9 +16197,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "440a7bef-1eb0-4a4c-9d75-02b4fbe27d79")
+				(uuid "8a10f77d-f20d-4a39-ab17-5fedec52b618")
 			)
-			(table_cell "CN10-33"
+			(table_cell "CN10-26"
 				(exclude_from_sim no)
 				(at 60.96 145.542 0)
 				(size 38.1 2.794)
@@ -15954,9 +16214,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "596002b2-c06e-46e9-b6fa-54005158e074")
+				(uuid "48dd7171-161e-4428-bab9-43debdf4a164")
 			)
-			(table_cell "output"
+			(table_cell "input"
 				(exclude_from_sim no)
 				(at 99.06 145.542 0)
 				(size 22.86 2.794)
@@ -15971,9 +16231,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "67e9048b-1498-49cf-80b6-b5b8e988d590")
+				(uuid "955cb4eb-5a2a-41bf-82e9-28b7776d1021")
 			)
-			(table_cell "TIM1_CH3"
+			(table_cell "GPIO in / EXTI (10k pull-up on board)"
 				(exclude_from_sim no)
 				(at 121.92 145.542 0)
 				(size 48.26 2.794)
@@ -15988,9 +16248,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "3bc82ff1-6951-416b-8d1b-03f75ede138e")
+				(uuid "c84d307c-acfb-482a-a3c9-193acaa5f5be")
 			)
-			(table_cell "PWM_B_CoilY"
+			(table_cell "~{SCS}_CoilY"
 				(exclude_from_sim no)
 				(at 15.24 148.336 0)
 				(size 30.48 2.794)
@@ -16005,9 +16265,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "03ca4d36-32e0-4f0c-a8cb-ce69a6fe00aa")
+				(uuid "2baec36e-7d72-45e1-b28b-f995a3336d05")
 			)
-			(table_cell "PA11"
+			(table_cell "PB14"
 				(exclude_from_sim no)
 				(at 45.72 148.336 0)
 				(size 15.24 2.794)
@@ -16022,9 +16282,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "eb02559d-a8d4-42eb-b65a-4cc021090fdb")
+				(uuid "5c444dda-3517-47da-a12e-78e4cd4f797f")
 			)
-			(table_cell "CN10-14"
+			(table_cell "CN10-28"
 				(exclude_from_sim no)
 				(at 60.96 148.336 0)
 				(size 38.1 2.794)
@@ -16039,7 +16299,7 @@
 					)
 					(justify left top)
 				)
-				(uuid "e5bd2a39-e1c1-47f2-88db-14a2ed0c2de1")
+				(uuid "c03dabfd-c364-4586-abbc-10d093963b96")
 			)
 			(table_cell "output"
 				(exclude_from_sim no)
@@ -16056,9 +16316,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "9d348bcb-562d-4ed2-88cf-94d1bd5eddc0")
+				(uuid "a275c028-0238-4e90-8cfe-766af4a02236")
 			)
-			(table_cell "TIM1_CH4"
+			(table_cell "GPIO out, SPI chip select (idle high)"
 				(exclude_from_sim no)
 				(at 121.92 148.336 0)
 				(size 48.26 2.794)
@@ -16073,9 +16333,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "e60bb3d6-1b26-42f1-9fce-6cf3e4979c77")
+				(uuid "d81d68b7-513b-439c-800a-04f7f591c8d3")
 			)
-			(table_cell "~{RESET}_CoilY"
+			(table_cell "ISENSE_CoilY"
 				(exclude_from_sim no)
 				(at 15.24 151.13 0)
 				(size 30.48 2.794)
@@ -16090,9 +16350,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "12196379-7271-4738-b149-70f41d5e6320")
+				(uuid "79cf1750-5d12-4d7d-a008-bd724b5e1f80")
 			)
-			(table_cell "PC11"
+			(table_cell "PA4"
 				(exclude_from_sim no)
 				(at 45.72 151.13 0)
 				(size 15.24 2.794)
@@ -16107,9 +16367,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "dd1c9ed1-734c-4289-a159-6cabda7e01b4")
+				(uuid "e5cc3fc7-06cd-4d2c-aab7-5138e2f12474")
 			)
-			(table_cell "CN7-2"
+			(table_cell "CN7-32"
 				(exclude_from_sim no)
 				(at 60.96 151.13 0)
 				(size 38.1 2.794)
@@ -16124,9 +16384,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "c293c3ad-67b6-4c5b-b01b-df150b51e023")
+				(uuid "09598003-3586-4ccb-99bd-8628d9e06aaa")
 			)
-			(table_cell "output"
+			(table_cell "analog in"
 				(exclude_from_sim no)
 				(at 99.06 151.13 0)
 				(size 22.86 2.794)
@@ -16141,9 +16401,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "60daa308-1d83-423e-af01-d6cdff4f6436")
+				(uuid "bfeb871d-0f18-48ce-9135-cdfe6afe82b3")
 			)
-			(table_cell "GPIO out"
+			(table_cell "ADC2_IN17"
 				(exclude_from_sim no)
 				(at 121.92 151.13 0)
 				(size 48.26 2.794)
@@ -16158,9 +16418,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "d8454450-6539-4d48-a038-b91ef0bf3470")
+				(uuid "fca95704-877c-4420-843e-be71c00f6960")
 			)
-			(table_cell "~{FAULT}_CoilY"
+			(table_cell "Temp_SenseY"
 				(exclude_from_sim no)
 				(at 15.24 153.924 0)
 				(size 30.48 2.794)
@@ -16175,9 +16435,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "c9542f21-2cbc-4400-b805-264937562080")
+				(uuid "3d3ae6f1-be0f-4c43-961b-9c66ffefa72b")
 			)
-			(table_cell "PB15"
+			(table_cell "PC1"
 				(exclude_from_sim no)
 				(at 45.72 153.924 0)
 				(size 15.24 2.794)
@@ -16192,9 +16452,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "e4e087b3-091b-45c1-8a33-b37253a3d04c")
+				(uuid "d2e60eee-0316-4333-ad2e-c6ad86bcbb05")
 			)
-			(table_cell "CN10-26"
+			(table_cell "CN7-36"
 				(exclude_from_sim no)
 				(at 60.96 153.924 0)
 				(size 38.1 2.794)
@@ -16209,9 +16469,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "fdbd1ade-c040-4c57-9852-08143715be20")
+				(uuid "128bd002-620d-4553-b6ed-9e9430474d81")
 			)
-			(table_cell "input"
+			(table_cell "analog in"
 				(exclude_from_sim no)
 				(at 99.06 153.924 0)
 				(size 22.86 2.794)
@@ -16226,9 +16486,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "c0f8f36a-04b3-483a-9696-f64c54977ae2")
+				(uuid "af634ab0-f3f4-4d16-abcc-82949c9a5b09")
 			)
-			(table_cell "GPIO in (10k pull-up on board)"
+			(table_cell "ADC1_IN7"
 				(exclude_from_sim no)
 				(at 121.92 153.924 0)
 				(size 48.26 2.794)
@@ -16243,9 +16503,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "bd5e0918-334b-4d60-b9f9-58d47b3d8ac1")
+				(uuid "b7cd3eba-3a7c-4931-abba-1409fa9fd696")
 			)
-			(table_cell "~{OTW}_CoilY"
+			(table_cell "PWM_A_CoilZ"
 				(exclude_from_sim no)
 				(at 15.24 156.718 0)
 				(size 30.48 2.794)
@@ -16260,9 +16520,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "f2248301-b948-4792-a625-01c1cffce1b1")
+				(uuid "b3f1058a-fdc5-45ee-866b-cbfdcaf2d9be")
 			)
-			(table_cell "PB14"
+			(table_cell "PC6"
 				(exclude_from_sim no)
 				(at 45.72 156.718 0)
 				(size 15.24 2.794)
@@ -16277,9 +16537,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "ea4b7add-61a8-4462-8058-90d8dc49e5bb")
+				(uuid "025c2766-2c20-4f0c-972a-925ce89d450a")
 			)
-			(table_cell "CN10-28"
+			(table_cell "CN10-4"
 				(exclude_from_sim no)
 				(at 60.96 156.718 0)
 				(size 38.1 2.794)
@@ -16294,9 +16554,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "c6dc5dc4-82a6-43fa-a0b4-31a462c2edf6")
+				(uuid "5863d4d3-faca-479a-a731-0314dd10eb35")
 			)
-			(table_cell "input"
+			(table_cell "output"
 				(exclude_from_sim no)
 				(at 99.06 156.718 0)
 				(size 22.86 2.794)
@@ -16311,9 +16571,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "018e231f-90ee-4957-aa08-b3cb145b5c90")
+				(uuid "4fdcd5fd-4601-4e5d-be0c-19f6ecc445c3")
 			)
-			(table_cell "GPIO in (10k pull-up on board)"
+			(table_cell "TIM3_CH1 / TIM8_CH1"
 				(exclude_from_sim no)
 				(at 121.92 156.718 0)
 				(size 48.26 2.794)
@@ -16328,9 +16588,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "7e0a8822-9985-4c58-998b-6638882669a7")
+				(uuid "03800d62-ac2c-46e0-b138-3a37d84c22a9")
 			)
-			(table_cell "ISENSE_CoilY"
+			(table_cell "PWM_B_CoilZ"
 				(exclude_from_sim no)
 				(at 15.24 159.512 0)
 				(size 30.48 2.794)
@@ -16345,9 +16605,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "bf2f3dc7-da06-4c35-86f8-c763a3668c55")
+				(uuid "524349ee-590b-4b72-8de3-b22c4ef949d9")
 			)
-			(table_cell "PA4"
+			(table_cell "PC7"
 				(exclude_from_sim no)
 				(at 45.72 159.512 0)
 				(size 15.24 2.794)
@@ -16362,9 +16622,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "18b314b5-13ce-41ac-8a98-a7aeaa1b008a")
+				(uuid "1c537fac-c63f-4f9d-8cfd-f2a5028f864f")
 			)
-			(table_cell "CN7-32"
+			(table_cell "CN10-19"
 				(exclude_from_sim no)
 				(at 60.96 159.512 0)
 				(size 38.1 2.794)
@@ -16379,9 +16639,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "4ea9036d-280d-4fa3-948f-faba8be1fa88")
+				(uuid "991c5e96-87da-4765-9be1-bc991d7eccda")
 			)
-			(table_cell "analog in"
+			(table_cell "output"
 				(exclude_from_sim no)
 				(at 99.06 159.512 0)
 				(size 22.86 2.794)
@@ -16396,9 +16656,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "7bc5a131-e7a0-4d3a-bac9-fc8d09199abb")
+				(uuid "3f9ba2fb-9c51-4f03-b942-013a79bfbc52")
 			)
-			(table_cell "ADC2_IN17"
+			(table_cell "TIM3_CH2 / TIM8_CH2"
 				(exclude_from_sim no)
 				(at 121.92 159.512 0)
 				(size 48.26 2.794)
@@ -16413,9 +16673,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "f83078f0-0f67-41b6-a658-a0641d5c7302")
+				(uuid "27cb5101-7dec-4819-a4b5-88229f8a1c4b")
 			)
-			(table_cell "Temp_SenseY"
+			(table_cell "~{SLEEP}_CoilZ"
 				(exclude_from_sim no)
 				(at 15.24 162.306 0)
 				(size 30.48 2.794)
@@ -16430,9 +16690,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "dea84c9f-d96a-45e4-8773-2ceb859959cb")
+				(uuid "1483d51b-2c20-4f82-a69e-477c462d22d7")
 			)
-			(table_cell "PC1"
+			(table_cell "PC12"
 				(exclude_from_sim no)
 				(at 45.72 162.306 0)
 				(size 15.24 2.794)
@@ -16447,9 +16707,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "ccda4c2d-d28a-4481-99f6-982b099e6207")
+				(uuid "92dc7871-42f0-4cf8-9a70-5b839443a5ec")
 			)
-			(table_cell "CN7-36"
+			(table_cell "CN7-3"
 				(exclude_from_sim no)
 				(at 60.96 162.306 0)
 				(size 38.1 2.794)
@@ -16464,9 +16724,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "06c181f0-272b-405b-8324-d432ea976ca9")
+				(uuid "b5927caa-052f-4ead-9b29-f524d15bca32")
 			)
-			(table_cell "analog in"
+			(table_cell "output"
 				(exclude_from_sim no)
 				(at 99.06 162.306 0)
 				(size 22.86 2.794)
@@ -16481,9 +16741,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "f4cb2575-9f0e-4d49-919e-1a4355bff376")
+				(uuid "99df99b0-dcd1-4fa6-b3cc-5ddd521cc806")
 			)
-			(table_cell "ADC1_IN7"
+			(table_cell "GPIO out (low = driver asleep, 10k pull-down)"
 				(exclude_from_sim no)
 				(at 121.92 162.306 0)
 				(size 48.26 2.794)
@@ -16498,9 +16758,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "d21f9344-d5fa-4534-8bd5-b9d931f52c33")
+				(uuid "4e0bd036-4531-4fa1-88e4-a26108994dcb")
 			)
-			(table_cell "PWM_A_CoilZ"
+			(table_cell "~{FAULT}_CoilZ"
 				(exclude_from_sim no)
 				(at 15.24 165.1 0)
 				(size 30.48 2.794)
@@ -16515,9 +16775,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "c8920ca2-6e30-4748-9995-454680e83b69")
+				(uuid "3dc3436a-5e80-42cb-ae87-22083937bd1d")
 			)
-			(table_cell "PC6"
+			(table_cell "PB2"
 				(exclude_from_sim no)
 				(at 45.72 165.1 0)
 				(size 15.24 2.794)
@@ -16532,9 +16792,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "44a57b21-9e81-4002-99b4-99efaa133233")
+				(uuid "07b222a5-b56e-4d7a-8a00-f20a5235e143")
 			)
-			(table_cell "CN10-4"
+			(table_cell "CN10-22"
 				(exclude_from_sim no)
 				(at 60.96 165.1 0)
 				(size 38.1 2.794)
@@ -16549,9 +16809,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "cf1f872b-9214-45ea-8cab-d4b05805a305")
+				(uuid "6acf69bc-ce94-49e8-aaf8-ad180ad6f6af")
 			)
-			(table_cell "output"
+			(table_cell "input"
 				(exclude_from_sim no)
 				(at 99.06 165.1 0)
 				(size 22.86 2.794)
@@ -16566,9 +16826,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "85ab235f-28bf-4081-9f73-53336b49ca6c")
+				(uuid "8602c5a2-9397-41b2-9852-66426e60d9ca")
 			)
-			(table_cell "TIM3_CH1 / TIM8_CH1"
+			(table_cell "GPIO in / EXTI (10k pull-up on board)"
 				(exclude_from_sim no)
 				(at 121.92 165.1 0)
 				(size 48.26 2.794)
@@ -16583,9 +16843,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "488490d7-b282-4539-8136-df1431be2081")
+				(uuid "e87c1a63-d52e-46ce-b324-990cf4264acc")
 			)
-			(table_cell "PWM_B_CoilZ"
+			(table_cell "~{SCS}_CoilZ"
 				(exclude_from_sim no)
 				(at 15.24 167.894 0)
 				(size 30.48 2.794)
@@ -16600,9 +16860,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "2aa89f52-d765-4149-b83d-ee1e3d8af413")
+				(uuid "3359c445-01e5-482c-815d-80badb3000b6")
 			)
-			(table_cell "PC7"
+			(table_cell "PB1"
 				(exclude_from_sim no)
 				(at 45.72 167.894 0)
 				(size 15.24 2.794)
@@ -16617,9 +16877,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "ef6b2e8d-6113-4dab-8ce4-30fff43d0aed")
+				(uuid "8b90b580-3398-4cd6-a528-7fca138dd6de")
 			)
-			(table_cell "CN10-19"
+			(table_cell "CN10-24"
 				(exclude_from_sim no)
 				(at 60.96 167.894 0)
 				(size 38.1 2.794)
@@ -16634,7 +16894,7 @@
 					)
 					(justify left top)
 				)
-				(uuid "ba0aa0ec-8c8a-4b1e-b6f6-51fa6209d61e")
+				(uuid "a49888c8-3837-4ebb-a204-9297acb28b96")
 			)
 			(table_cell "output"
 				(exclude_from_sim no)
@@ -16651,9 +16911,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "751fcf23-d3b9-4a64-887d-8b4b301b9c87")
+				(uuid "bd1c4b82-f4fe-4205-bb1c-c9e3ba8557c0")
 			)
-			(table_cell "TIM3_CH2 / TIM8_CH2"
+			(table_cell "GPIO out, SPI chip select (idle high)"
 				(exclude_from_sim no)
 				(at 121.92 167.894 0)
 				(size 48.26 2.794)
@@ -16668,9 +16928,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "9440c912-7e70-4481-b900-a1c65f96435d")
+				(uuid "72a894ed-ec54-46a2-b774-dd0e4d1760e7")
 			)
-			(table_cell "~{RESET}_CoilZ"
+			(table_cell "ISENSE_CoilZ"
 				(exclude_from_sim no)
 				(at 15.24 170.688 0)
 				(size 30.48 2.794)
@@ -16685,9 +16945,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "7be903af-2f5f-48b3-b0da-2c50e8648cdb")
+				(uuid "b4f3ada8-da20-41bf-b5b4-6738dc20b36f")
 			)
-			(table_cell "PC12"
+			(table_cell "PB0"
 				(exclude_from_sim no)
 				(at 45.72 170.688 0)
 				(size 15.24 2.794)
@@ -16702,9 +16962,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "def84142-c00f-424f-a78a-8122e2cca130")
+				(uuid "68d2c411-262c-43de-bb31-b5e1f0f9dba6")
 			)
-			(table_cell "CN7-3"
+			(table_cell "CN7-34"
 				(exclude_from_sim no)
 				(at 60.96 170.688 0)
 				(size 38.1 2.794)
@@ -16719,9 +16979,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "ac6beb6b-a702-4475-9871-0edef873bd0d")
+				(uuid "9c929758-44b6-417f-a60f-85d5394cdadf")
 			)
-			(table_cell "output"
+			(table_cell "analog in"
 				(exclude_from_sim no)
 				(at 99.06 170.688 0)
 				(size 22.86 2.794)
@@ -16736,9 +16996,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "e4e73f8c-cba8-45a5-b404-6fff627845bf")
+				(uuid "c1401425-56b7-4507-97d4-5d574c17180c")
 			)
-			(table_cell "GPIO out"
+			(table_cell "ADC1_IN15 / ADC3_IN12"
 				(exclude_from_sim no)
 				(at 121.92 170.688 0)
 				(size 48.26 2.794)
@@ -16753,9 +17013,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "6c47e582-6e20-44f4-a6bf-0ce66cf3e86f")
+				(uuid "684c174a-33ee-46e4-aa84-9c566a0ae583")
 			)
-			(table_cell "~{FAULT}_CoilZ"
+			(table_cell "Temp_SenseZ"
 				(exclude_from_sim no)
 				(at 15.24 173.482 0)
 				(size 30.48 2.794)
@@ -16770,9 +17030,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "28f127d0-90cd-4525-b375-7b03eb14d3d7")
+				(uuid "db2466e8-1d3c-4ab3-bf5a-2c49ca0c268f")
 			)
-			(table_cell "PB2"
+			(table_cell "PC0"
 				(exclude_from_sim no)
 				(at 45.72 173.482 0)
 				(size 15.24 2.794)
@@ -16787,9 +17047,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "76f24a18-36bd-47e7-b809-2cfdb311c269")
+				(uuid "23c8e202-7441-4ad9-ae97-7307952f2e19")
 			)
-			(table_cell "CN10-22"
+			(table_cell "CN7-38"
 				(exclude_from_sim no)
 				(at 60.96 173.482 0)
 				(size 38.1 2.794)
@@ -16804,9 +17064,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "d1e2d990-e70b-4c48-83e8-e5a0037183bb")
+				(uuid "ff5d1b3c-a39b-41ce-94df-4693c33ecafd")
 			)
-			(table_cell "input"
+			(table_cell "analog in"
 				(exclude_from_sim no)
 				(at 99.06 173.482 0)
 				(size 22.86 2.794)
@@ -16821,9 +17081,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "da577dfa-6599-4dee-966d-a0e6944cf57e")
+				(uuid "86acf46c-30b3-4c8d-9ff1-8ac7b1f974d3")
 			)
-			(table_cell "GPIO in (10k pull-up on board)"
+			(table_cell "ADC1_IN6"
 				(exclude_from_sim no)
 				(at 121.92 173.482 0)
 				(size 48.26 2.794)
@@ -16838,9 +17098,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "d94fc9bf-dfb9-46ab-bf56-0aa9175e67a1")
+				(uuid "e4715672-fb0f-4ee0-b574-8ec8d98c3b34")
 			)
-			(table_cell "~{OTW}_CoilZ"
+			(table_cell "SPI_SCLK"
 				(exclude_from_sim no)
 				(at 15.24 176.276 0)
 				(size 30.48 2.794)
@@ -16855,9 +17115,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "a2c38baf-e27b-4256-abd0-6435aeee71bc")
+				(uuid "bc9a216c-c9de-4dd3-933d-68bd21a8b8ed")
 			)
-			(table_cell "PB1"
+			(table_cell "PA5"
 				(exclude_from_sim no)
 				(at 45.72 176.276 0)
 				(size 15.24 2.794)
@@ -16872,9 +17132,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "3e2837c4-377e-433c-bbaa-f9bb449eeb1f")
+				(uuid "396a52c6-b3f9-46a4-9c7a-5dbb50f83798")
 			)
-			(table_cell "CN10-24"
+			(table_cell "CN10-11"
 				(exclude_from_sim no)
 				(at 60.96 176.276 0)
 				(size 38.1 2.794)
@@ -16889,9 +17149,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "cf53d89e-b1a5-41a7-8bb5-898c86bffb9d")
+				(uuid "4158f3a1-3d41-4904-a8ce-fbdc67dd5b7d")
 			)
-			(table_cell "input"
+			(table_cell "output"
 				(exclude_from_sim no)
 				(at 99.06 176.276 0)
 				(size 22.86 2.794)
@@ -16906,9 +17166,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "a7fd21d8-aa10-4cd2-af25-31953c194735")
+				(uuid "09cd2542-b21c-40ae-b162-968e21163e81")
 			)
-			(table_cell "GPIO in (10k pull-up on board)"
+			(table_cell "SPI1_SCK (shared with LED LD2)"
 				(exclude_from_sim no)
 				(at 121.92 176.276 0)
 				(size 48.26 2.794)
@@ -16923,9 +17183,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "aea1b25b-7397-4ead-8d36-a9f0e5be11dd")
+				(uuid "fb755986-55c7-4545-acaa-d3a6c16bb4d0")
 			)
-			(table_cell "ISENSE_CoilZ"
+			(table_cell "SPI_SDO"
 				(exclude_from_sim no)
 				(at 15.24 179.07 0)
 				(size 30.48 2.794)
@@ -16940,9 +17200,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "fe186348-1e21-49e1-8be2-2ae8b7fea675")
+				(uuid "11918fbb-2a01-417b-887a-be8ff2565e8e")
 			)
-			(table_cell "PB0"
+			(table_cell "PA6"
 				(exclude_from_sim no)
 				(at 45.72 179.07 0)
 				(size 15.24 2.794)
@@ -16957,9 +17217,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "b041aa1d-03a7-4b1b-96ae-731f55d1b8f1")
+				(uuid "9de5c75c-7e84-42fe-865f-d89c2aa9455e")
 			)
-			(table_cell "CN7-34"
+			(table_cell "CN10-13"
 				(exclude_from_sim no)
 				(at 60.96 179.07 0)
 				(size 38.1 2.794)
@@ -16974,9 +17234,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "0847bf5e-f5ef-4ff1-9a06-c8a9ee62a272")
+				(uuid "bd49fa56-e421-4f6b-b8fd-d26e14a63c8f")
 			)
-			(table_cell "analog in"
+			(table_cell "input"
 				(exclude_from_sim no)
 				(at 99.06 179.07 0)
 				(size 22.86 2.794)
@@ -16991,9 +17251,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "fdea77ba-50fd-49c0-a127-324b5d997fa6")
+				(uuid "14eb222f-6843-4428-b44a-d2f39119b378")
 			)
-			(table_cell "ADC1_IN15 / ADC3_IN12"
+			(table_cell "SPI1_MISO (DRV8873S SDO, X/Y/Z)"
 				(exclude_from_sim no)
 				(at 121.92 179.07 0)
 				(size 48.26 2.794)
@@ -17008,9 +17268,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "b4312673-fb1c-4096-8c90-b192b83304e7")
+				(uuid "bb92f33c-975b-4311-a464-7f26829f6155")
 			)
-			(table_cell "Temp_SenseZ"
+			(table_cell "SPI_SDI"
 				(exclude_from_sim no)
 				(at 15.24 181.864 0)
 				(size 30.48 2.794)
@@ -17025,9 +17285,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "1cba3d82-7b89-4978-a504-34995d2d3b1b")
+				(uuid "4deb54d7-4bf8-4578-8b9f-ce25faeebe26")
 			)
-			(table_cell "PC0"
+			(table_cell "PA7"
 				(exclude_from_sim no)
 				(at 45.72 181.864 0)
 				(size 15.24 2.794)
@@ -17042,9 +17302,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "8ef3ecc4-bbf9-4f2b-9ec2-953f7ab200ab")
+				(uuid "933c339f-c46f-4294-8452-06be6531c348")
 			)
-			(table_cell "CN7-38"
+			(table_cell "CN10-15"
 				(exclude_from_sim no)
 				(at 60.96 181.864 0)
 				(size 38.1 2.794)
@@ -17059,9 +17319,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "0c761011-d516-484a-a9e0-ec50727127a7")
+				(uuid "c9410f4e-577b-4e11-a848-913a08778507")
 			)
-			(table_cell "analog in"
+			(table_cell "output"
 				(exclude_from_sim no)
 				(at 99.06 181.864 0)
 				(size 22.86 2.794)
@@ -17076,9 +17336,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "e3876113-677a-4792-89b4-1cc24761083e")
+				(uuid "91d111cd-7c21-489a-8a53-0fde56799987")
 			)
-			(table_cell "ADC1_IN6"
+			(table_cell "SPI1_MOSI (DRV8873S SDI, X/Y/Z)"
 				(exclude_from_sim no)
 				(at 121.92 181.864 0)
 				(size 48.26 2.794)
@@ -17093,7 +17353,7 @@
 					)
 					(justify left top)
 				)
-				(uuid "1bfd84da-cfbc-41dd-ab1c-9a4bff93b812")
+				(uuid "ef2091c9-122c-4e18-a1fa-db413f8f0e0f")
 			)
 			(table_cell "+3V3"
 				(exclude_from_sim no)
@@ -17110,7 +17370,7 @@
 					)
 					(justify left top)
 				)
-				(uuid "a9cfef3f-322f-4ec3-b18a-abcd091abf1f")
+				(uuid "e62498c9-0451-4f74-988d-564f92170805")
 			)
 			(table_cell "-"
 				(exclude_from_sim no)
@@ -17127,7 +17387,7 @@
 					)
 					(justify left top)
 				)
-				(uuid "85a71e58-2676-4e17-8c51-63c660f25f6f")
+				(uuid "601ad238-51eb-4781-8874-44980ccb116d")
 			)
 			(table_cell "CN7-16"
 				(exclude_from_sim no)
@@ -17144,7 +17404,7 @@
 					)
 					(justify left top)
 				)
-				(uuid "b7dcafec-aa21-4d24-beff-331da26f1f9e")
+				(uuid "034a5179-1825-4c24-842c-c8bbb1bdf603")
 			)
 			(table_cell "power"
 				(exclude_from_sim no)
@@ -17161,7 +17421,7 @@
 					)
 					(justify left top)
 				)
-				(uuid "65a1cc00-c193-4607-8f73-ab9fa7f88b64")
+				(uuid "f624062c-8783-47a1-94a0-9b83fd439a6a")
 			)
 			(table_cell "Nucleo 3V3 out / rail terminal"
 				(exclude_from_sim no)
@@ -17178,7 +17438,7 @@
 					)
 					(justify left top)
 				)
-				(uuid "ebc0d6f9-b210-49de-a972-4d940b7f4570")
+				(uuid "201c4c16-b062-4ae2-9d9b-fbb031e698f7")
 			)
 			(table_cell "+5V"
 				(exclude_from_sim no)
@@ -17195,7 +17455,7 @@
 					)
 					(justify left top)
 				)
-				(uuid "bf0d5ee2-a281-47f4-ad8d-e7742d63ad99")
+				(uuid "c4fe4d23-1378-4e0c-93eb-f8380e4696d8")
 			)
 			(table_cell "-"
 				(exclude_from_sim no)
@@ -17212,7 +17472,7 @@
 					)
 					(justify left top)
 				)
-				(uuid "6725d3ba-8ded-4fc2-bfae-48b79428f4c1")
+				(uuid "f8742d76-8a47-443e-a042-27a77991059c")
 			)
 			(table_cell "CN7-18"
 				(exclude_from_sim no)
@@ -17229,7 +17489,7 @@
 					)
 					(justify left top)
 				)
-				(uuid "4aa70b5e-9d3f-4b34-8a8b-e697d77010dd")
+				(uuid "854931c9-abb9-48fb-ac69-9622cb506eb7")
 			)
 			(table_cell "power"
 				(exclude_from_sim no)
@@ -17246,7 +17506,7 @@
 					)
 					(justify left top)
 				)
-				(uuid "86d25f0b-4308-4cb2-8293-af018252180c")
+				(uuid "7e367748-58f9-4fd4-b6a1-974f94b7a64c")
 			)
 			(table_cell "Nucleo 5V out / rail terminal"
 				(exclude_from_sim no)
@@ -17263,9 +17523,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "14607a6a-4fca-4e95-b507-17d6146256fa")
+				(uuid "0c9ea587-1bb5-4f32-9920-9dc63d8db1cf")
 			)
-			(table_cell "+12V"
+			(table_cell "E5V"
 				(exclude_from_sim no)
 				(at 15.24 190.246 0)
 				(size 30.48 2.794)
@@ -17280,7 +17540,7 @@
 					)
 					(justify left top)
 				)
-				(uuid "39889c53-7bd7-4598-bd04-a67da6e58b12")
+				(uuid "512bc1ae-fe68-4abb-96cf-dd36247c866a")
 			)
 			(table_cell "-"
 				(exclude_from_sim no)
@@ -17297,9 +17557,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "7d4c19c1-50be-4f73-83f6-aadb6f21cb13")
+				(uuid "b2319959-cd24-422d-a4b4-cf72a7ca0dea")
 			)
-			(table_cell "CN7-24"
+			(table_cell "CN7-6"
 				(exclude_from_sim no)
 				(at 60.96 190.246 0)
 				(size 38.1 2.794)
@@ -17314,7 +17574,7 @@
 					)
 					(justify left top)
 				)
-				(uuid "7ae48bb7-b910-4d9c-878d-ba6d4486ad2b")
+				(uuid "6bb94659-4241-4318-b075-9c6a9ca0845e")
 			)
 			(table_cell "power"
 				(exclude_from_sim no)
@@ -17331,9 +17591,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "c5a20959-8975-4876-b493-93d40cbe97cb")
+				(uuid "d004a2ab-f42e-43da-a96f-17d0a404988b")
 			)
-			(table_cell "Nucleo VIN (12 V in)"
+			(table_cell "5 V in from buck U101 (Nucleo JP5 on E5V)"
 				(exclude_from_sim no)
 				(at 121.92 190.246 0)
 				(size 48.26 2.794)
@@ -17348,7 +17608,7 @@
 					)
 					(justify left top)
 				)
-				(uuid "3ede30d2-81ee-4864-a394-323bae4d2bc9")
+				(uuid "eb077ed5-805d-46f6-b043-4ccb0d4b12bd")
 			)
 			(table_cell "GND"
 				(exclude_from_sim no)
@@ -17365,7 +17625,7 @@
 					)
 					(justify left top)
 				)
-				(uuid "8732f3f7-3ed7-491f-843f-72be5d7e2ac3")
+				(uuid "21e3b22c-b91f-487f-8ea5-5383e565223f")
 			)
 			(table_cell "-"
 				(exclude_from_sim no)
@@ -17382,7 +17642,7 @@
 					)
 					(justify left top)
 				)
-				(uuid "0ffd37d8-6471-497b-a660-204c50aa6381")
+				(uuid "80199ba3-01f8-4672-962c-f2563d1cf988")
 			)
 			(table_cell "CN7-8/19/20/22, CN10-9/20"
 				(exclude_from_sim no)
@@ -17399,7 +17659,7 @@
 					)
 					(justify left top)
 				)
-				(uuid "0204e778-4006-4bdc-8844-58fad7238eb2")
+				(uuid "db0c8623-fc25-4293-bb89-c76467361f01")
 			)
 			(table_cell "power"
 				(exclude_from_sim no)
@@ -17416,7 +17676,7 @@
 					)
 					(justify left top)
 				)
-				(uuid "4b1017a0-edbe-48fc-baa7-f6ee26fadeeb")
+				(uuid "821d2b87-f14e-4526-87db-1e801515f7cb")
 			)
 			(table_cell "ground"
 				(exclude_from_sim no)
@@ -17433,19 +17693,9 @@
 					)
 					(justify left top)
 				)
-				(uuid "b20a3f70-96a4-4260-a101-66e781804ba9")
+				(uuid "aa2d3fb1-21e2-4ec6-acc7-f384b0352a56")
 			)
 		)
-	)
-	(label "VIN"
-		(at 113.03 76.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "09474780-75fc-4dd9-bfd5-16ca99b2f1fb")
 	)
 	(hierarchical_label "PC13"
 		(shape passive)
@@ -17701,7 +17951,7 @@
 		(uuid "7aa114e0-9fc4-4c54-b362-c73aec61212b")
 	)
 	(hierarchical_label "PB14"
-		(shape input)
+		(shape output)
 		(at 252.73 81.28 0)
 		(effects
 			(font
@@ -17778,7 +18028,7 @@
 		(uuid "970bb3c6-8b05-477b-8fc0-03cdfd773f6a")
 	)
 	(hierarchical_label "PB1"
-		(shape input)
+		(shape output)
 		(at 252.73 76.2 0)
 		(effects
 			(font
@@ -18053,7 +18303,7 @@
 		(uuid "f6edb314-a458-4e5f-a340-b6a6df3fdaee")
 	)
 	(hierarchical_label "PB11"
-		(shape input)
+		(shape output)
 		(at 252.73 68.58 0)
 		(effects
 			(font
@@ -18107,7 +18357,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "061e338c-701b-47f9-8f31-0a50caba0a39")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR0204"
 			(at 127.635 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -18167,7 +18417,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/008a0aa4-0abb-4344-ae13-e1bf04066029"
-					(reference "#PWR07")
+					(reference "#PWR0204")
 					(unit 1)
 				)
 			)
@@ -18184,7 +18434,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15c8791f-b2dc-49a7-8518-86c65bdb849a")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR0201"
 			(at 76.2 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -18244,7 +18494,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/008a0aa4-0abb-4344-ae13-e1bf04066029"
-					(reference "#PWR02")
+					(reference "#PWR0201")
 					(unit 1)
 				)
 			)
@@ -18261,7 +18511,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "17b94a3a-1e03-4772-9252-9d1b016a5be0")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR0207"
 			(at 133.35 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -18321,7 +18571,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/008a0aa4-0abb-4344-ae13-e1bf04066029"
-					(reference "#PWR010")
+					(reference "#PWR0207")
 					(unit 1)
 				)
 			)
@@ -18339,7 +18589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90658c0a-80ae-4f63-b991-8dbfc40d1124")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR0209"
 			(at 264.16 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -18399,7 +18649,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/008a0aa4-0abb-4344-ae13-e1bf04066029"
-					(reference "#PWR05")
+					(reference "#PWR0209")
 					(unit 1)
 				)
 			)
@@ -18417,7 +18667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9180ef4f-eae3-4991-a340-92b6ac37dc40")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR0202"
 			(at 121.285 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -18477,7 +18727,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/008a0aa4-0abb-4344-ae13-e1bf04066029"
-					(reference "#PWR03")
+					(reference "#PWR0202")
 					(unit 1)
 				)
 			)
@@ -18494,7 +18744,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a48f3ab7-e1e3-4586-b039-a0770cf3daa8")
-		(property "Reference" "J2"
+		(property "Reference" "J202"
 			(at 241.046 42.418 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18664,7 +18914,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/008a0aa4-0abb-4344-ae13-e1bf04066029"
-					(reference "J2")
+					(reference "J202")
 					(unit 1)
 				)
 			)
@@ -18682,7 +18932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8e2eeb0-32ad-433c-808c-7dcdc282290c")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR0210"
 			(at 264.16 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -18742,7 +18992,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/008a0aa4-0abb-4344-ae13-e1bf04066029"
-					(reference "#PWR06")
+					(reference "#PWR0210")
 					(unit 1)
 				)
 			)
@@ -18760,7 +19010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af03273b-b33b-427a-aaa7-9057b8d67e91")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR0206"
 			(at 133.35 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -18771,7 +19021,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V"
+		(property "Value" "E5V"
 			(at 133.35 71.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18803,7 +19053,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
+		(property "Description" "Power symbol creates a global label with name \"E5V\" (5 V buck output to Nucleo E5V)"
 			(at 133.35 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -18820,7 +19070,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/008a0aa4-0abb-4344-ae13-e1bf04066029"
-					(reference "#PWR09")
+					(reference "#PWR0206")
 					(unit 1)
 				)
 			)
@@ -18837,7 +19087,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b8a76448-b146-4cf3-902d-0203740972cc")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR0203"
 			(at 127 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -18897,7 +19147,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/008a0aa4-0abb-4344-ae13-e1bf04066029"
-					(reference "#PWR04")
+					(reference "#PWR0203")
 					(unit 1)
 				)
 			)
@@ -18914,7 +19164,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0eca889-8361-4684-8df9-9475262ec219")
-		(property "Reference" "C1"
+		(property "Reference" "C201"
 			(at 137.16 85.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18932,17 +19182,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Rating" "50V X7R"
-			(at 137.16 89.93 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
 				)
 				(justify left)
 			)
@@ -18980,6 +19219,17 @@
 				)
 			)
 		)
+		(property "Rating" "50V X7R"
+			(at 137.16 89.93 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
 		(property "LCSC" "C24452"
 			(at 137.16 86.3599 0)
 			(hide yes)
@@ -19000,7 +19250,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/008a0aa4-0abb-4344-ae13-e1bf04066029"
-					(reference "C1")
+					(reference "C201")
 					(unit 1)
 				)
 			)
@@ -19018,7 +19268,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfa3bc1b-86f9-4fcb-b164-e50a458317f5")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR0208"
 			(at 214.63 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -19078,7 +19328,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/008a0aa4-0abb-4344-ae13-e1bf04066029"
-					(reference "#PWR01")
+					(reference "#PWR0208")
 					(unit 1)
 				)
 			)
@@ -19095,7 +19345,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d154d85e-8410-4167-b598-4fc22f8dbb4a")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR0205"
 			(at 133.35 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -19155,7 +19405,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/008a0aa4-0abb-4344-ae13-e1bf04066029"
-					(reference "#PWR08")
+					(reference "#PWR0205")
 					(unit 1)
 				)
 			)
@@ -19173,7 +19423,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9bdbe06-aa71-410d-8c73-6a0fa28e30b9")
-		(property "Reference" "J1"
+		(property "Reference" "J201"
 			(at 104.14 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19343,7 +19593,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/008a0aa4-0abb-4344-ae13-e1bf04066029"
-					(reference "J1")
+					(reference "J201")
 					(unit 1)
 				)
 			)

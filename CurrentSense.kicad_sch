@@ -896,7 +896,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "CURRENT SENSE NOTES (per axis)\n- Shunt: 10 mOhm 4-terminal Kelvin (WSK2512, 1 W), high side after output filter\n- Amp: INA240A1, gain 20 V/V -> 0.2 V/A (200 mV/A)\n- REF1 = 3.3 V, REF2 = GND -> Vout = 1.65 V at 0 A (bidirectional)\n- Vout = 1.65 V + 0.2 V/A x I_coil   (+I = current from Icoil1 -> Icoil2)\n\nMEASUREMENT RANGE\n- Full scale: +/-1.65 V / 0.2 V/A = +/-8.25 A (ideal)\n- Usable: approx. +/-8.0 A (INA240 output swing limits near rails)\n- Shunt loss at 8 A: I^2 x R = 0.64 W (rated 1 W)\n\n12-BIT ADC RESOLUTION (VREF+ = VDDA = 3.3 V)\n- 1 LSB = 3.3 V / 4096 = 0.806 mV -> 0.806 mV / 0.2 V/A = approx. 4.0 mA per count\n- 0 A = code 2048,  I_coil [A] = (code - 2048) x 4.03 mA\n- Ratiometric: REF1 and VDDA share 3.3 V, so the 0 A point tracks supply drift\n- ADC pins: X = PA0 (ADC1_IN1), Y = PA4 (ADC2_IN17), Z = PB0 (ADC3_IN12)"
+	(text "CURRENT SENSE NOTES (per axis)\n- Shunt: 10 mOhm 4-terminal Kelvin (WSK2512, 1 W), in series with coil + (H-bridge OUT_A)\n- Amp: INA240A1, gain 20 V/V -> 0.2 V/A (200 mV/A)\n- REF1 = 3.3 V, REF2 = GND -> Vout = 1.65 V at 0 A (bidirectional)\n- Vout = 1.65 V + 0.2 V/A x I_coil   (+I = current from Icoil1 -> Icoil2)\n\nMEASUREMENT RANGE\n- Full scale: +/-1.65 V / 0.2 V/A = +/-8.25 A (ideal)\n- Usable: approx. +/-8.0 A (INA240 output swing limits near rails)\n- Shunt loss at 8 A: I^2 x R = 0.64 W (rated 1 W)\n\n12-BIT ADC RESOLUTION (VREF+ = VDDA = 3.3 V)\n- 1 LSB = 3.3 V / 4096 = 0.806 mV -> 0.806 mV / 0.2 V/A = approx. 4.0 mA per count\n- 0 A = code 2048,  I_coil [A] = (code - 2048) x 4.03 mA\n- Ratiometric: REF1 and VDDA share 3.3 V, so the 0 A point tracks supply drift\n- ADC pins: X = PA0 (ADC1_IN1), Y = PA4 (ADC2_IN17), Z = PB0 (ADC3_IN12)"
 		(exclude_from_sim no)
 		(at 19.558 175.26 0)
 		(effects
@@ -1118,7 +1118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d472aa4-7eec-4ec6-81ab-f36a09e22653")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR0601"
 			(at 144.78 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -1178,15 +1178,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2eed623f-9341-4bd1-969c-3ef84ade38e9"
-					(reference "#PWR054")
+					(reference "#PWR0601")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/36b6b46a-4b54-41ec-ae14-d8a056066e0a"
-					(reference "#PWR061")
+					(reference "#PWR0801")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/f2451772-ffcd-467e-a9f4-f4404e3fd9f4"
-					(reference "#PWR055")
+					(reference "#PWR0701")
 					(unit 1)
 				)
 			)
@@ -1203,7 +1203,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "59f9c55e-8888-4613-8a9c-3e9bc351ad8b")
-		(property "Reference" "R1"
+		(property "Reference" "R601"
 			(at 124.46 86.6 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1220,16 +1220,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Rating" "1% 1W"
-			(at 124.46 91.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
 				)
 			)
 		)
@@ -1263,6 +1253,16 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "1% 1W"
+			(at 124.46 91.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
 				)
 			)
 		)
@@ -1325,15 +1325,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2eed623f-9341-4bd1-969c-3ef84ade38e9"
-					(reference "R1")
+					(reference "R601")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/36b6b46a-4b54-41ec-ae14-d8a056066e0a"
-					(reference "R3")
+					(reference "R801")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/f2451772-ffcd-467e-a9f4-f4404e3fd9f4"
-					(reference "R2")
+					(reference "R701")
 					(unit 1)
 				)
 			)
@@ -1351,7 +1351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73ab0d56-1bc5-4e42-87fe-bc3461b864cb")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR0603"
 			(at 147.32 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -1411,15 +1411,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2eed623f-9341-4bd1-969c-3ef84ade38e9"
-					(reference "#PWR051")
+					(reference "#PWR0603")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/36b6b46a-4b54-41ec-ae14-d8a056066e0a"
-					(reference "#PWR063")
+					(reference "#PWR0803")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/f2451772-ffcd-467e-a9f4-f4404e3fd9f4"
-					(reference "#PWR057")
+					(reference "#PWR0703")
 					(unit 1)
 				)
 			)
@@ -1437,7 +1437,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b33083a3-e9ed-423f-b526-66b7ebcdcc64")
-		(property "Reference" "U1"
+		(property "Reference" "U601"
 			(at 158.75 90.0998 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1528,15 +1528,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2eed623f-9341-4bd1-969c-3ef84ade38e9"
-					(reference "U1")
+					(reference "U601")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/36b6b46a-4b54-41ec-ae14-d8a056066e0a"
-					(reference "U3")
+					(reference "U801")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/f2451772-ffcd-467e-a9f4-f4404e3fd9f4"
-					(reference "U2")
+					(reference "U701")
 					(unit 1)
 				)
 			)
@@ -1554,7 +1554,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bb630eb4-1fe8-4441-9cdd-17eb4373f2b6")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR0605"
 			(at 163.83 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -1614,15 +1614,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2eed623f-9341-4bd1-969c-3ef84ade38e9"
-					(reference "#PWR058")
+					(reference "#PWR0605")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/36b6b46a-4b54-41ec-ae14-d8a056066e0a"
-					(reference "#PWR0103")
+					(reference "#PWR0805")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/f2451772-ffcd-467e-a9f4-f4404e3fd9f4"
-					(reference "#PWR060")
+					(reference "#PWR0705")
 					(unit 1)
 				)
 			)
@@ -1640,7 +1640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d98ac002-2612-44c1-b624-8256a09c7ce2")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR0602"
 			(at 144.78 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -1700,15 +1700,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2eed623f-9341-4bd1-969c-3ef84ade38e9"
-					(reference "#PWR050")
+					(reference "#PWR0602")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/36b6b46a-4b54-41ec-ae14-d8a056066e0a"
-					(reference "#PWR062")
+					(reference "#PWR0802")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/f2451772-ffcd-467e-a9f4-f4404e3fd9f4"
-					(reference "#PWR056")
+					(reference "#PWR0702")
 					(unit 1)
 				)
 			)
@@ -1725,7 +1725,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7042fdf-d1f5-49a2-983b-2f2e1cd55341")
-		(property "Reference" "C56"
+		(property "Reference" "C601"
 			(at 153.67 74.6 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1742,16 +1742,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Rating" "50V X7R"
-			(at 153.67 79.2 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
 				)
 			)
 		)
@@ -1788,6 +1778,16 @@
 				)
 			)
 		)
+		(property "Rating" "50V X7R"
+			(at 153.67 79.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
 		(property "LCSC" "C24452"
 			(at 152.3999 80.01 0)
 			(hide yes)
@@ -1808,15 +1808,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2eed623f-9341-4bd1-969c-3ef84ade38e9"
-					(reference "C56")
+					(reference "C601")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/36b6b46a-4b54-41ec-ae14-d8a056066e0a"
-					(reference "C58")
+					(reference "C801")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/f2451772-ffcd-467e-a9f4-f4404e3fd9f4"
-					(reference "C57")
+					(reference "C701")
 					(unit 1)
 				)
 			)
@@ -1834,7 +1834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e99c7126-5fea-46bf-8293-30424b2d56fa")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR0604"
 			(at 162.56 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -1894,15 +1894,15 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2eed623f-9341-4bd1-969c-3ef84ade38e9"
-					(reference "#PWR052")
+					(reference "#PWR0604")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/36b6b46a-4b54-41ec-ae14-d8a056066e0a"
-					(reference "#PWR064")
+					(reference "#PWR0804")
 					(unit 1)
 				)
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/f2451772-ffcd-467e-a9f4-f4404e3fd9f4"
-					(reference "#PWR059")
+					(reference "#PWR0704")
 					(unit 1)
 				)
 			)

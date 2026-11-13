@@ -1658,7 +1658,7 @@
 		)
 		(uuid "dd02b15f-5de5-499d-83e4-4c496163429d")
 	)
-	(text "5 V rail\n(Nucleo 5V pin)"
+	(text "5 V rail\n(Nucleo 5V pin, after JP5)"
 		(exclude_from_sim no)
 		(at 191.77 69.85 0)
 		(effects
@@ -1761,7 +1761,7 @@
 		)
 		(uuid "4916f46e-d065-422d-baa9-9a276429b7a4")
 	)
-	(text "12 V: DRV8412 gate drive\n+ Nucleo VIN"
+	(text "E5V: 5 V buck output\n-> Nucleo E5V (CN7-6)"
 		(exclude_from_sim no)
 		(at 151.13 69.85 0)
 		(effects
@@ -2686,7 +2686,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "05e6d034-b07e-4231-b62f-1563b694d7d2")
-		(property "Reference" "CN8"
+		(property "Reference" "CN1208"
 			(at 265.43 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2781,7 +2781,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
-					(reference "CN8")
+					(reference "CN1208")
 					(unit 1)
 				)
 			)
@@ -2798,7 +2798,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "06b94f37-d9fa-4505-bba7-4baa592c8bb7")
-		(property "Reference" "U12"
+		(property "Reference" "U1203"
 			(at 157.48 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2893,7 +2893,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
-					(reference "U12")
+					(reference "U1203")
 					(unit 1)
 				)
 			)
@@ -2910,7 +2910,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0f3d1145-19a1-4b85-8765-2689c4771fb5")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR01206"
 			(at 158.75 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -2970,7 +2970,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
-					(reference "#PWR0109")
+					(reference "#PWR01206")
 					(unit 1)
 				)
 			)
@@ -2987,7 +2987,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1cc392b8-30a4-435f-a517-3236aa9c582c")
-		(property "Reference" "U13"
+		(property "Reference" "U1206"
 			(at 241.3 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3082,7 +3082,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
-					(reference "U13")
+					(reference "U1206")
 					(unit 1)
 				)
 			)
@@ -3099,7 +3099,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d957675-f683-42eb-99eb-791840ed43fe")
-		(property "Reference" "U6"
+		(property "Reference" "U1205"
 			(at 213.36 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3196,7 +3196,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
-					(reference "U6")
+					(reference "U1205")
 					(unit 1)
 				)
 			)
@@ -3213,7 +3213,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2252e46e-1d6e-437b-a2ab-ffab4162ab15")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR01202"
 			(at 63.5 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -3273,7 +3273,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
-					(reference "#PWR0105")
+					(reference "#PWR01202")
 					(unit 1)
 				)
 			)
@@ -3290,7 +3290,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2ab37702-138e-47ee-9718-8060d42be402")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR01204"
 			(at 118.11 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3350,7 +3350,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
-					(reference "#PWR0107")
+					(reference "#PWR01204")
 					(unit 1)
 				)
 			)
@@ -3368,7 +3368,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3095072c-af69-46bf-bbc0-c55c68f6943f")
-		(property "Reference" "CN4"
+		(property "Reference" "CN1205"
 			(at 133.35 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3463,7 +3463,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
-					(reference "CN4")
+					(reference "CN1205")
 					(unit 1)
 				)
 			)
@@ -3480,7 +3480,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3430051b-063a-4345-803e-6db7d97bf555")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR01203"
 			(at 118.11 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3540,7 +3540,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
-					(reference "#PWR0106")
+					(reference "#PWR01203")
 					(unit 1)
 				)
 			)
@@ -3557,7 +3557,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a6bf30c-bdd8-407c-b1a3-19a65173dedb")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR01208"
 			(at 199.39 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -3617,7 +3617,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
-					(reference "#PWR0111")
+					(reference "#PWR01208")
 					(unit 1)
 				)
 			)
@@ -3634,7 +3634,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4475391d-bb38-4ada-b6d0-21c4b3961a5d")
-		(property "Reference" "U4"
+		(property "Reference" "U1202"
 			(at 132.08 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3731,7 +3731,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
-					(reference "U4")
+					(reference "U1202")
 					(unit 1)
 				)
 			)
@@ -3748,7 +3748,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4899f8d3-f12c-44fc-8c7a-d94ee69d576d")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR01207"
 			(at 199.39 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -3808,7 +3808,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
-					(reference "#PWR0110")
+					(reference "#PWR01207")
 					(unit 1)
 				)
 			)
@@ -3825,7 +3825,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4be9e247-06c7-4eac-b22f-284d87663585")
-		(property "Reference" "U11"
+		(property "Reference" "U1201"
 			(at 73.66 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3920,7 +3920,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
-					(reference "U11")
+					(reference "U1201")
 					(unit 1)
 				)
 			)
@@ -3937,7 +3937,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "763c433c-8471-4c2c-afa5-dcd7e98f2ca4")
-		(property "Reference" "CN7"
+		(property "Reference" "CN1206"
 			(at 181.61 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4032,7 +4032,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
-					(reference "CN7")
+					(reference "CN1206")
 					(unit 1)
 				)
 			)
@@ -4049,7 +4049,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7713f219-1394-44cb-b5e1-6c0519c449fc")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR01210"
 			(at 240.03 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -4109,7 +4109,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
-					(reference "#PWR0113")
+					(reference "#PWR01210")
 					(unit 1)
 				)
 			)
@@ -4127,7 +4127,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77da84a3-e40a-4e80-a9cc-0b6ad41a360c")
-		(property "Reference" "CN3"
+		(property "Reference" "CN1203"
 			(at 49.53 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4222,7 +4222,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
-					(reference "CN3")
+					(reference "CN1203")
 					(unit 1)
 				)
 			)
@@ -4239,7 +4239,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c281f28-0c04-443c-bd30-782b4f6eeb0c")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR01205"
 			(at 158.75 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4250,7 +4250,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V"
+		(property "Value" "E5V"
 			(at 158.75 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4282,7 +4282,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
+		(property "Description" "Power symbol creates a global label with name \"E5V\" (5 V buck output to Nucleo E5V)"
 			(at 158.75 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -4299,7 +4299,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
-					(reference "#PWR0108")
+					(reference "#PWR01205")
 					(unit 1)
 				)
 			)
@@ -4316,7 +4316,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c71fdf4-4461-408b-82c0-9ed164c9d215")
-		(property "Reference" "CN6"
+		(property "Reference" "CN1204"
 			(at 97.79 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4411,7 +4411,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
-					(reference "CN6")
+					(reference "CN1204")
 					(unit 1)
 				)
 			)
@@ -4428,7 +4428,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "924ba047-2168-4f0f-95c8-2f6ce55f75c6")
-		(property "Reference" "U10"
+		(property "Reference" "U1207"
 			(at 254 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4525,7 +4525,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
-					(reference "U10")
+					(reference "U1207")
 					(unit 1)
 				)
 			)
@@ -4543,7 +4543,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99f618d5-59cb-47d4-9df2-38d1ed4d2672")
-		(property "Reference" "CN5"
+		(property "Reference" "CN1207"
 			(at 217.17 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4638,7 +4638,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
-					(reference "CN5")
+					(reference "CN1207")
 					(unit 1)
 				)
 			)
@@ -4655,7 +4655,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf8cff8b-00b3-4160-bba5-2d8033c5aa7c")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR01201"
 			(at 63.5 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -4715,7 +4715,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
-					(reference "#PWR0104")
+					(reference "#PWR01201")
 					(unit 1)
 				)
 			)
@@ -4732,7 +4732,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c1e1f0d1-3a79-404b-8606-9ce87ec3802b")
-		(property "Reference" "U5"
+		(property "Reference" "U1204"
 			(at 172.72 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4829,7 +4829,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
-					(reference "U5")
+					(reference "U1204")
 					(unit 1)
 				)
 			)
@@ -4846,7 +4846,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d23c2cce-6f1e-42e8-996b-a945a19baec4")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR01209"
 			(at 240.03 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -4906,7 +4906,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
-					(reference "#PWR0112")
+					(reference "#PWR01209")
 					(unit 1)
 				)
 			)
@@ -4924,7 +4924,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e879fd5a-4a78-42de-bc04-90583f4a701b")
-		(property "Reference" "CN1"
+		(property "Reference" "CN1201"
 			(at 39.37 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5019,7 +5019,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
-					(reference "CN1")
+					(reference "CN1201")
 					(unit 1)
 				)
 			)
@@ -5037,7 +5037,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb95ea8f-0ebb-4984-a705-ef2d7121ac23")
-		(property "Reference" "CN2"
+		(property "Reference" "CN1202"
 			(at 39.37 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5132,7 +5132,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
-					(reference "CN2")
+					(reference "CN1202")
 					(unit 1)
 				)
 			)

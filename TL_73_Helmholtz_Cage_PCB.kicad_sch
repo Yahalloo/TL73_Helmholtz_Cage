@@ -165,7 +165,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "EasyEDA:K7812-1000R3_C5369648"
+		(symbol "EasyEDA:K7805-1000R3_C2992391"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -181,7 +181,7 @@
 					)
 				)
 			)
-			(property "Value" "K7812-1000R3_C5369648"
+			(property "Value" "K7805-1000R3_C2992391"
 				(at 0 -7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -191,7 +191,7 @@
 					)
 				)
 			)
-			(property "Footprint" "EasyEDA:PWRM-TH_K7812-1000R3"
+			(property "Footprint" "EasyEDA:PWRM-TH_YLPTEC_K78XX-1000R3"
 				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -202,7 +202,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://www.lcsc.com/datasheet/C5369648.pdf"
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C2992391.pdf"
 				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -235,7 +235,7 @@
 					)
 				)
 			)
-			(property "MPN" "K7812-1000R3"
+			(property "MPN" "K7805-1000R3"
 				(at 0 -17.78 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -246,7 +246,7 @@
 					)
 				)
 			)
-			(property "LCSC Part" "C5369648"
+			(property "LCSC Part" "C2992391"
 				(at 0 -20.32 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -268,10 +268,10 @@
 					)
 				)
 			)
-			(symbol "K7812-1000R3_C5369648_0_1"
+			(symbol "K7805-1000R3_C2992391_0_1"
 				(rectangle
-					(start -6.35 5.08)
-					(end 8.89 -5.08)
+					(start -2.54 5.08)
+					(end 5.08 -5.08)
 					(stroke
 						(width 0)
 						(type default)
@@ -281,7 +281,7 @@
 					)
 				)
 				(circle
-					(center -5.08 3.81)
+					(center -1.27 3.81)
 					(radius 0.38)
 					(stroke
 						(width 0)
@@ -292,9 +292,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -8.89 2.54 0)
+					(at -5.08 2.54 0)
 					(length 2.54)
-					(name "Vin"
+					(name "VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -310,9 +310,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -8.89 0 0)
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "GND/-Vo"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -328,9 +328,9 @@
 					)
 				)
 				(pin unspecified line
-					(at -8.89 -2.54 0)
+					(at -5.08 -2.54 0)
 					(length 2.54)
-					(name "+Vo/GND"
+					(name "+VO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -887,9 +887,9 @@
 		)
 		(uuid "66cfa04d-4237-41ab-9b0b-42fc87cdf816")
 	)
-	(text "U14: 16-36 V in, 12 V / 1 A out, 500 kHz\n+12V feeds DRV8412 gate drive (JP4-JP6)\nand Nucleo VIN\nC113, C114: place at the module pins\nMax capacitive load on +12V: 680 uF"
+	(text "U101: K7805-1000R3, 8-36 V in,\n5 V / 1 A out, 500 kHz, max C load 680 uF\nE5V -> Nucleo E5V pin (CN7-6):\nset Nucleo JP5 to E5V\nDRV8873S runs from +24V only (no 12 V)\nC101, C102: place at the module pins"
 		(exclude_from_sim no)
-		(at 16.51 182.88 0)
+		(at 16.51 183.515 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -898,7 +898,7 @@
 		)
 		(uuid "7b69c339-1beb-401b-9b1b-d556b84982f5")
 	)
-	(text "POWER BLOCK: 24 V to 12 V buck"
+	(text "POWER BLOCK: 24 V to 5 V buck"
 		(exclude_from_sim no)
 		(at 16.51 143.51 0)
 		(effects
@@ -921,6 +921,17 @@
 			(justify left)
 		)
 		(uuid "cd725f48-29b4-4c73-88a1-e7ce19abb8e6")
+	)
+	(text "DRV8873S SPI bus (SPI1):\nPA5 = SCLK, PA6 = SDO (MISO),\nPA7 = SDI (MOSI)\n~{SCS}: PB11 = X, PB14 = Y, PB1 = Z"
+		(exclude_from_sim no)
+		(at 111.506 124.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f5cafe0f-c195-42d9-92d4-92a2dcd17d83")
 	)
 	(junction
 		(at 68.58 180.34)
@@ -1116,6 +1127,26 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 133.35) (xy 175.26 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e115ddd-0794-48fe-ae75-1504cf98b56f")
+	)
+	(wire
+		(pts
+			(xy 160.02 91.44) (xy 175.26 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30771ac9-5249-4b1e-8d30-48e2650e5ea0")
+	)
+	(wire
+		(pts
 			(xy 248.92 113.03) (xy 252.73 113.03)
 		)
 		(stroke
@@ -1236,6 +1267,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 50.8) (xy 175.26 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61b4c0d9-befd-41e8-a29c-e9746318600c")
+	)
+	(wire
+		(pts
 			(xy 248.92 71.12) (xy 252.73 71.12)
 		)
 		(stroke
@@ -1243,6 +1284,16 @@
 			(type default)
 		)
 		(uuid "696f85e2-6c9c-4921-9636-548b37dd410f")
+	)
+	(wire
+		(pts
+			(xy 53.34 90.17) (xy 78.74 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c76a6b8-d7d3-41d4-a48b-3d4f7e14f340")
 	)
 	(wire
 		(pts
@@ -1266,6 +1317,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 45.72) (xy 175.26 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "772762c0-39c6-44cb-b377-947199d40103")
+	)
+	(wire
+		(pts
 			(xy 160.02 125.73) (xy 175.26 125.73)
 		)
 		(stroke
@@ -1273,6 +1334,36 @@
 			(type default)
 		)
 		(uuid "7b149d33-33bb-4caf-a863-85f9ec373edd")
+	)
+	(wire
+		(pts
+			(xy 160.02 130.81) (xy 175.26 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bda2ad7-7e81-47b5-a483-b68695b8fbd6")
+	)
+	(wire
+		(pts
+			(xy 160.02 48.26) (xy 175.26 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d50acb9-69d6-4ced-8160-2910b8f73b63")
+	)
+	(wire
+		(pts
+			(xy 160.02 86.36) (xy 175.26 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "806b92ef-90d8-44e3-9979-a09a5d6612a5")
 	)
 	(wire
 		(pts
@@ -1406,6 +1497,26 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 95.25) (xy 78.74 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c76411f1-a682-4df9-9820-48a353ad02e0")
+	)
+	(wire
+		(pts
+			(xy 160.02 88.9) (xy 175.26 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbb01226-1c6f-400b-b044-9e6a4fcecef7")
+	)
+	(wire
+		(pts
 			(xy 160.02 40.64) (xy 175.26 40.64)
 		)
 		(stroke
@@ -1443,6 +1554,16 @@
 			(type default)
 		)
 		(uuid "d07fa034-f076-44b3-97e3-229a1fde9335")
+	)
+	(wire
+		(pts
+			(xy 53.34 92.71) (xy 78.74 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0868170-8fed-4d9e-9e04-62f079a5a08e")
 	)
 	(wire
 		(pts
@@ -1496,6 +1617,16 @@
 	)
 	(wire
 		(pts
+			(xy 160.02 128.27) (xy 175.26 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9b5a7e5-e392-4c85-85b3-7660f3019e2e")
+	)
+	(wire
+		(pts
 			(xy 160.02 38.1) (xy 175.26 38.1)
 		)
 		(stroke
@@ -1524,7 +1655,17 @@
 		)
 		(uuid "f76ae7e7-38d6-43a7-8713-ecd6e1e40347")
 	)
-	(label "~{OTW}_CoilZ"
+	(label "SPI_SDO"
+		(at 160.02 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "03dd66bf-aa07-4996-81ef-c1be50d575e0")
+	)
+	(label "~{SCS}_CoilZ"
 		(at 160.02 123.19 0)
 		(effects
 			(font
@@ -1544,7 +1685,7 @@
 		)
 		(uuid "0ab9b9ff-7fdd-45d5-89df-5413b4f4adab")
 	)
-	(label "~{OTW}_CoilX"
+	(label "~{SCS}_CoilX"
 		(at 78.74 41.91 180)
 		(effects
 			(font
@@ -1564,6 +1705,26 @@
 		)
 		(uuid "1df2dd39-1165-46a0-8a1f-a9429428f83f")
 	)
+	(label "SPI_SDO"
+		(at 160.02 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f29c0e7-d7a3-4c03-809f-e8f2551b7a0b")
+	)
+	(label "SPI_SDI"
+		(at 160.02 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "261de038-f94e-4dba-9e33-a6a14971fca2")
+	)
 	(label "ISENSE_CoilZ"
 		(at 78.74 85.09 180)
 		(effects
@@ -1573,6 +1734,26 @@
 			(justify right bottom)
 		)
 		(uuid "29057778-f367-4250-8bea-7bb851de9bec")
+	)
+	(label "SPI_SDI"
+		(at 160.02 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2cdd1381-a995-456f-a434-e4fe60c2c219")
+	)
+	(label "SPI_SCLK"
+		(at 78.74 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2fa2211d-8939-48a6-b7f8-ef0df161867a")
 	)
 	(label "Temp_SenseZ"
 		(at 13.97 90.17 0)
@@ -1594,6 +1775,36 @@
 		)
 		(uuid "373ece8f-ad4d-4bf4-bfb0-f7ca3b8815bf")
 	)
+	(label "SPI_SDO"
+		(at 160.02 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3c0928cd-f7ce-41f5-a95f-f933df4f4121")
+	)
+	(label "SPI_SCLK"
+		(at 160.02 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d230478-845f-49cd-b829-869fd579cac0")
+	)
+	(label "SPI_SDI"
+		(at 78.74 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4125a1be-f694-4645-a28c-a270bba631cd")
+	)
 	(label "~{FAULT}_CoilY"
 		(at 160.02 78.74 0)
 		(effects
@@ -1614,7 +1825,17 @@
 		)
 		(uuid "41fc04df-abbe-4d86-a944-e666966ca816")
 	)
-	(label "~{RESET}_CoilX"
+	(label "SPI_SCLK"
+		(at 160.02 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4421a6e6-842b-444f-974a-2786788a6da7")
+	)
+	(label "~{SLEEP}_CoilX"
 		(at 78.74 44.45 180)
 		(effects
 			(font
@@ -1633,6 +1854,16 @@
 			(justify left bottom)
 		)
 		(uuid "48a67397-7072-4112-a0d0-f22c87cefa4f")
+	)
+	(label "SPI_SDI"
+		(at 160.02 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4ae56d52-765e-49c7-bf9a-1290630bbb26")
 	)
 	(label "PWM_A_CoilZ"
 		(at 78.74 64.77 180)
@@ -1684,7 +1915,7 @@
 		)
 		(uuid "6439980c-00b5-4133-9858-abb0c98afced")
 	)
-	(label "~{RESET}_CoilX"
+	(label "~{SLEEP}_CoilX"
 		(at 160.02 43.18 0)
 		(effects
 			(font
@@ -1693,6 +1924,16 @@
 			(justify left bottom)
 		)
 		(uuid "690eadce-5ea5-4c65-a509-04722377ddad")
+	)
+	(label "SPI_SCLK"
+		(at 160.02 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b798e24-217f-4c0a-9163-61c7b062bb17")
 	)
 	(label "Temp_SenseX"
 		(at 13.97 39.37 0)
@@ -1704,7 +1945,7 @@
 		)
 		(uuid "72eed943-06de-415a-a2c4-4a647c1ab3fe")
 	)
-	(label "~{RESET}_CoilY"
+	(label "~{SLEEP}_CoilY"
 		(at 160.02 83.82 0)
 		(effects
 			(font
@@ -1714,7 +1955,7 @@
 		)
 		(uuid "775434a5-3935-4004-af3d-dd1e31964b75")
 	)
-	(label "~{RESET}_CoilZ"
+	(label "~{SLEEP}_CoilZ"
 		(at 78.74 74.93 180)
 		(effects
 			(font
@@ -1794,7 +2035,7 @@
 		)
 		(uuid "a106f1bb-6eb6-4a91-bb3c-e5a558997b15")
 	)
-	(label "~{OTW}_CoilY"
+	(label "~{SCS}_CoilY"
 		(at 160.02 81.28 0)
 		(effects
 			(font
@@ -1813,6 +2054,16 @@
 			(justify right bottom)
 		)
 		(uuid "a334fc5e-4747-4e81-b83b-ac7db6ebec12")
+	)
+	(label "SPI_SDO"
+		(at 78.74 92.71 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b7927834-8aa6-4ca8-ad14-fe9937f370ed")
 	)
 	(label "PWM_A_CoilY"
 		(at 160.02 73.66 0)
@@ -1844,7 +2095,7 @@
 		)
 		(uuid "cb0e7952-51f0-4f2c-85bb-f18f81f41443")
 	)
-	(label "~{RESET}_CoilZ"
+	(label "~{SLEEP}_CoilZ"
 		(at 160.02 125.73 0)
 		(effects
 			(font
@@ -1854,7 +2105,7 @@
 		)
 		(uuid "cb33da6d-fd6c-4552-b9e5-06c1adf0002a")
 	)
-	(label "~{OTW}_CoilZ"
+	(label "~{SCS}_CoilZ"
 		(at 78.74 72.39 180)
 		(effects
 			(font
@@ -1874,7 +2125,7 @@
 		)
 		(uuid "d971c08b-1ff4-4735-981e-40257cbc1bd8")
 	)
-	(label "~{OTW}_CoilY"
+	(label "~{SCS}_CoilY"
 		(at 78.74 57.15 180)
 		(effects
 			(font
@@ -1894,7 +2145,7 @@
 		)
 		(uuid "df723084-ac8e-4c35-bf0a-18acc4af02fc")
 	)
-	(label "~{RESET}_CoilY"
+	(label "~{SLEEP}_CoilY"
 		(at 78.74 59.69 180)
 		(effects
 			(font
@@ -1924,7 +2175,7 @@
 		)
 		(uuid "ec500335-61e1-4e7a-a26b-a725a5d79753")
 	)
-	(label "~{OTW}_CoilX"
+	(label "~{SCS}_CoilX"
 		(at 160.02 40.64 0)
 		(effects
 			(font
@@ -1956,7 +2207,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b2c17ef-6253-4a51-9c38-3a3d64db5bcb")
-		(property "Reference" "H2"
+		(property "Reference" "H102"
 			(at 123.19 167.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2014,125 +2265,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(reference "H2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyEDA:K7812-1000R3_C5369648")
-		(at 55.88 167.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1bd8a9de-fa2d-44d3-959c-ae31710cdee6")
-		(property "Reference" "U14"
-			(at 66.04 166.3699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "K7812-1000R3_C5369648"
-			(at 66.04 168.9099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "EasyEDA:PWRM-TH_K7812-1000R3"
-			(at 55.88 177.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C5369648.pdf"
-			(at 55.88 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 55.88 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "YLPTEC(易川)"
-			(at 55.88 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "K7812-1000R3"
-			(at 55.88 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C5369648"
-			(at 55.88 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8d0c7c82-5a62-4c9e-83ab-9dbe410a1684")
-		)
-		(pin "2"
-			(uuid "10663b51-e58e-4924-8749-bb8c9c3f7d3e")
-		)
-		(pin "3"
-			(uuid "7d49334e-b238-4782-afae-a69cdf75ff4d")
-		)
-		(instances
-			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(reference "U14")
+					(reference "H102")
 					(unit 1)
 				)
 			)
@@ -2150,7 +2283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2367451c-d7b4-4c9a-ac1b-44082a2f904a")
-		(property "Reference" "H3"
+		(property "Reference" "H103"
 			(at 123.19 173.9899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2208,83 +2341,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole")
-		(at 119.38 181.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "855f12c5-f80c-4996-ada1-720b2cd897d7")
-		(property "Reference" "H4"
-			(at 123.19 180.34 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole"
-			(at 123.19 182.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
-			(at 119.38 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 119.38 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(instances
-			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(reference "H4")
+					(reference "H103")
 					(unit 1)
 				)
 			)
@@ -2301,7 +2358,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2bfbbfcb-0f5b-4705-b0f3-82bc5b9be132")
-		(property "Reference" "C113"
+		(property "Reference" "C101"
 			(at 21.5 158.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2319,17 +2376,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Rating" "50V X5R"
-			(at 21.5 163.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
 				)
 				(justify left)
 			)
@@ -2367,6 +2413,17 @@
 				)
 			)
 		)
+		(property "Rating" "50V X5R"
+			(at 21.5 163.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
 		(property "LCSC" "C13585"
 			(at 35.56 160.02 0)
 			(hide yes)
@@ -2387,7 +2444,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(reference "C113")
+					(reference "C101")
 					(unit 1)
 				)
 			)
@@ -2404,7 +2461,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3091f73b-11b0-40f3-bb3e-ff6b5562b6d6")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0103"
 			(at 40.64 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -2464,7 +2521,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(reference "#PWR0122")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -2482,7 +2539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ff45407-f450-4ac2-9786-c338f7e5a0d4")
-		(property "Reference" "H1"
+		(property "Reference" "H101"
 			(at 123.19 161.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2540,7 +2597,201 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(reference "H1")
+					(reference "H101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "EasyEDA:K7805-1000R3_C2992391")
+		(at 52.07 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44d358d0-f4b5-4cc4-8ae1-e50786fb0704")
+		(property "Reference" "U101"
+			(at 58.42 166.3699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "K7805-1000R3_C2992391"
+			(at 58.42 168.9099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:PWRM-TH_YLPTEC_K78XX-1000R3"
+			(at 52.07 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2992391.pdf"
+			(at 52.07 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "YLPTEC(易川)"
+			(at 52.07 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "K7805-1000R3"
+			(at 52.07 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2992391"
+			(at 52.07 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "da747651-d46f-4a7c-acaf-dfb423f5633a")
+		)
+		(pin "1"
+			(uuid "73258735-6840-49d1-9904-553a873afeef")
+		)
+		(pin "3"
+			(uuid "6088dc74-3606-456a-b7a4-f07fb47c56aa")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
+					(reference "U101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 119.38 181.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "855f12c5-f80c-4996-ada1-720b2cd897d7")
+		(property "Reference" "H104"
+			(at 123.19 180.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 123.19 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad_Via"
+			(at 119.38 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 119.38 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 119.38 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
+					(reference "H104")
 					(unit 1)
 				)
 			)
@@ -2557,7 +2808,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9790da80-8f3d-42d3-bd87-8ff926e8d597")
-		(property "Reference" "C114"
+		(property "Reference" "C102"
 			(at 72.39 181.85 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2575,17 +2826,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Rating" "25V X5R"
-			(at 72.39 186.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
 				)
 				(justify left)
 			)
@@ -2623,6 +2863,17 @@
 				)
 			)
 		)
+		(property "Rating" "25V X5R"
+			(at 72.39 186.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
 		(property "LCSC" "C12891"
 			(at 72.39 182.88 0)
 			(hide yes)
@@ -2643,7 +2894,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(reference "C114")
+					(reference "C102")
 					(unit 1)
 				)
 			)
@@ -2660,7 +2911,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e48ab9c4-4ba1-42d3-b759-ae9455c23187")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0102"
 			(at 31.75 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -2720,7 +2971,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(reference "#PWR0121")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -2737,7 +2988,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e53fc2f5-c0d5-4aed-b866-d13f95dfc29f")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR0104"
 			(at 68.58 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -2797,7 +3048,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(reference "#PWR0123")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -2815,7 +3066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9d8ff9e-1a00-40c5-b2a2-f2221f0b4733")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0105"
 			(at 78.74 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -2826,14 +3077,15 @@
 				)
 			)
 		)
-		(property "Value" "+12V"
-			(at 78.74 175.26 0)
+		(property "Value" "E5V"
+			(at 81.28 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -2858,7 +3110,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
+		(property "Description" "Power symbol creates a global label with name \"E5V\" (5 V buck output to Nucleo E5V)"
 			(at 78.74 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -2875,7 +3127,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(reference "#PWR0124")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -2892,7 +3144,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9f7708d-7a8a-4831-b3d2-e7a4f8afeef0")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0101"
 			(at 22.86 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -2952,7 +3204,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(reference "#PWR0120")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -2971,7 +3223,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 0 255 0 0.5019607843)
 		)
 		(uuid "008a0aa4-0abb-4344-ae13-e1bf04066029")
 		(property "Sheetname" "Nucleo_G474RE"
@@ -3026,7 +3278,7 @@
 				(justify right)
 			)
 		)
-		(pin "PB11" input
+		(pin "PB11" output
 			(at 53.34 41.91 0)
 			(uuid "f0c1fd92-8f82-4847-9ea3-474ef7ab2b65")
 			(effects
@@ -3076,7 +3328,7 @@
 				(justify right)
 			)
 		)
-		(pin "PB14" input
+		(pin "PB14" output
 			(at 53.34 57.15 0)
 			(uuid "8750aa40-df69-4e79-9516-39690702340e")
 			(effects
@@ -3126,7 +3378,7 @@
 				(justify right)
 			)
 		)
-		(pin "PB1" input
+		(pin "PB1" output
 			(at 53.34 72.39 0)
 			(uuid "39ecde32-a887-44f5-9c9e-bab22b2f3412")
 			(effects
@@ -3277,33 +3529,33 @@
 			)
 		)
 		(pin "PA5" passive
-			(at 31.75 57.15 180)
+			(at 53.34 90.17 0)
 			(uuid "541447bc-93fa-4991-827e-ce939383c8d2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "PA6" passive
-			(at 31.75 59.69 180)
+			(at 53.34 92.71 0)
 			(uuid "ec8454f8-f900-4a4b-ad8b-805a77df92da")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "PA7" passive
-			(at 31.75 62.23 180)
+			(at 53.34 95.25 0)
 			(uuid "970b417d-79bf-4b47-a666-ad771fcdc1f5")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "PB10" passive
@@ -3672,7 +3924,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{OTW}" output
+		(pin "~{SCS}" input
 			(at 175.26 123.19 180)
 			(uuid "4d5dbed5-a782-4ddc-b54c-34f22ac99c30")
 			(effects
@@ -3682,9 +3934,39 @@
 				(justify left)
 			)
 		)
-		(pin "~{RESET}" input
+		(pin "~{SLEEP}" input
 			(at 175.26 125.73 180)
 			(uuid "c0fe983c-feaa-4d35-b42f-b653b3c882b8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCLK" input
+			(at 175.26 128.27 180)
+			(uuid "671d8fc5-b38a-454f-b262-3cad658fefab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDI" input
+			(at 175.26 130.81 180)
+			(uuid "34cad499-ab2c-4450-996a-aa08b9d837ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDO" output
+			(at 175.26 133.35 180)
+			(uuid "33301f62-458e-4a5f-94ee-c10f57619651")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3844,7 +4126,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{OTW}" output
+		(pin "~{SCS}" input
 			(at 175.26 81.28 180)
 			(uuid "af87ba22-d203-485f-b736-747d6d75385d")
 			(effects
@@ -3854,9 +4136,39 @@
 				(justify left)
 			)
 		)
-		(pin "~{RESET}" input
+		(pin "~{SLEEP}" input
 			(at 175.26 83.82 180)
 			(uuid "3b579c20-3ab8-421f-9d88-c7252d90e729")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCLK" input
+			(at 175.26 86.36 180)
+			(uuid "d6aa60c9-fc5b-4c0d-80f5-a2e50e1557d4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDI" input
+			(at 175.26 88.9 180)
+			(uuid "1691efbf-db2e-457c-bcfa-ad1769c3e874")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDO" output
+			(at 175.26 91.44 180)
+			(uuid "9fd7ac5f-6db1-4000-962f-54bd2dbffeca")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4093,7 +4405,7 @@
 			(type solid)
 		)
 		(fill
-			(color 0 0 0 0)
+			(color 255 0 255 0.5019607843)
 		)
 		(uuid "8849db54-3fc8-473e-8cbb-04716cd495b5")
 		(property "Sheetname" "External_Connectors"
@@ -4274,7 +4586,7 @@
 				(justify left)
 			)
 		)
-		(pin "~{OTW}" output
+		(pin "~{SCS}" input
 			(at 175.26 40.64 180)
 			(uuid "cfc7f82c-e8e9-4b8d-888c-7928fb567cc3")
 			(effects
@@ -4284,9 +4596,39 @@
 				(justify left)
 			)
 		)
-		(pin "~{RESET}" input
+		(pin "~{SLEEP}" input
 			(at 175.26 43.18 180)
 			(uuid "0f76f7ac-8930-4050-8725-5e61392e1631")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCLK" input
+			(at 175.26 45.72 180)
+			(uuid "8841677b-34a7-4831-8cc0-941c9def5595")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDI" input
+			(at 175.26 48.26 180)
+			(uuid "f2a35263-cced-449d-900c-29301faf7786")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDO" output
+			(at 175.26 50.8 180)
+			(uuid "ba38c4d4-3773-4020-bdfd-6428b57efcbc")
 			(effects
 				(font
 					(size 1.27 1.27)
