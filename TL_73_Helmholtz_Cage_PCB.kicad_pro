@@ -707,7 +707,7 @@
         "uuid": "da5a1e6a-2605-436b-a30c-1027586d5c0a"
       }
     ],
-    "used_designators": "#PWR1-103,L1-24,C1-112,H1-3,JP1-6,J1-2,R1-39,U1-12,CN1-9",
+    "used_designators": "#PWR1-103,L1-24,C1-112,H1-3,JP1-6,J1-2,R1-39,U1-12,U14-15,CN1-9",
     "variants": []
   },
   "sheets": [
@@ -742,6 +742,18 @@
     [
       "36b6b46a-4b54-41ec-ae14-d8a056066e0a",
       "CurrentSense_CoilZ"
+    ],
+    [
+      "6c2f18c8-62eb-4719-98a1-27b0a6c718ec",
+      "TempSense_CoilX"
+    ],
+    [
+      "1dfee8fe-c16d-4378-a19e-4bd5aa1552e6",
+      "TempSense_CoilY"
+    ],
+    [
+      "f797f9cc-0c4d-427c-9c5e-46a6bff8afb0",
+      "TempSense_CoilZ"
     ],
     [
       "8849db54-3fc8-473e-8cbb-04716cd495b5",

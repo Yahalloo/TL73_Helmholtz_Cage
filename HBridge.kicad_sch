@@ -6547,7 +6547,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "00886267-36bb-4857-adc2-f0ba2812d1a9")
 		(property "Reference" "L13"
 			(at 190.5 73.66 90)
@@ -6560,12 +6559,22 @@
 			)
 		)
 		(property "Value" "30Ω@100MHz"
-			(at 190.5 76.2 90)
+			(at 189.3 76.2 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "6A"
+			(at 197.4 76.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
 				)
 			)
 		)
@@ -6591,7 +6600,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor with ferrite core TDK MPZ2012S300AT000"
+		(property "Description" "Ferrite bead, 30 Ω at 100 MHz, 6 A, 10 mΩ DCR, 0805, TDK MPZ2012S300AT000"
 			(at 190.5 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -6646,10 +6655,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0189987b-5648-47bb-ac46-6c9d47609667")
 		(property "Reference" "C73"
-			(at 173.99 113.0299 0)
+			(at 173.99 112 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6660,12 +6668,23 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 173.99 115.5699 0)
+			(at 173.99 114.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Rating" "50V X7R"
+			(at 173.99 116.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
 				)
 				(justify left)
 			)
@@ -6692,7 +6711,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor (MLCC), 100 nF, 50 V, X7R, ±5 %, 0603, Samsung CL10B104JB8NNNC"
 			(at 170.18 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -6747,10 +6766,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "0c223a5e-c699-415c-89ab-2ea2e7cefea0")
 		(property "Reference" "C68"
-			(at 157.48 40.6399 0)
+			(at 157.48 39.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6761,12 +6779,23 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 157.48 43.1799 0)
+			(at 157.48 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Rating" "50V X7R"
+			(at 157.48 44.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
 				)
 				(justify left)
 			)
@@ -6793,7 +6822,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor (MLCC), 100 nF, 50 V, X7R, ±5 %, 0603, Samsung CL10B104JB8NNNC"
 			(at 153.67 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -6934,10 +6963,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "19261f93-2dbf-4cd2-8f8e-3eb97b9a2437")
 		(property "Reference" "C72"
-			(at 173.99 100.3299 0)
+			(at 173.99 99.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6948,12 +6976,23 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 173.99 102.8699 0)
+			(at 173.99 101.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Rating" "50V X7R"
+			(at 173.99 103.9 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
 				)
 				(justify left)
 			)
@@ -6980,7 +7019,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor (MLCC), 100 nF, 50 V, X7R, ±5 %, 0603, Samsung CL10B104JB8NNNC"
 			(at 170.18 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -7121,10 +7160,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1e5a1636-dd3c-4dc6-878a-c92e215d9814")
 		(property "Reference" "C62"
-			(at 100.33 40.6399 0)
+			(at 100.33 39.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7135,12 +7173,23 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 100.33 43.1799 0)
+			(at 100.33 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Rating" "50V X7R"
+			(at 100.33 44.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
 				)
 				(justify left)
 			)
@@ -7167,7 +7216,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor (MLCC), 1 µF, 50 V, X7R, ±10 %, 0603, Yageo CC0603KRX7R9BB105"
 			(at 96.52 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -7222,10 +7271,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1e6f0e07-1842-4f6f-a4c0-e22465aea962")
 		(property "Reference" "C70"
-			(at 173.99 74.9299 0)
+			(at 173.99 73.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7236,12 +7284,23 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 173.99 77.4699 0)
+			(at 173.99 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Rating" "50V X7R"
+			(at 173.99 78.5 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
 				)
 				(justify left)
 			)
@@ -7268,7 +7327,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor (MLCC), 100 nF, 50 V, X7R, ±5 %, 0603, Samsung CL10B104JB8NNNC"
 			(at 170.18 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -7323,10 +7382,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "20ec9db5-db61-4fa3-9f6c-aab25fafe6c4")
 		(property "Reference" "C76"
-			(at 209.55 62.6109 0)
+			(at 209.55 62.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7337,7 +7395,7 @@
 			)
 		)
 		(property "Value" "1000uF"
-			(at 209.55 65.1509 0)
+			(at 209.55 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7347,7 +7405,18 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
+		(property "Rating" "35V"
+			(at 209.55 67.07 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
 			(at 206.7052 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -7369,7 +7438,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "Aluminium electrolytic capacitor, 1000 µF, 35 V, ±20 %, 105 °C 3000 h, low impedance (1.87 A ripple at 100 kHz), radial 10 x 20 mm, 5 mm pitch, BERYL RC035M102LO10*20TH-2A1E. PVDD bulk capacitor"
 			(at 205.74 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -7380,7 +7449,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C125980"
+		(property "LCSC" "C357641"
 			(at 209.55 62.6109 0)
 			(hide yes)
 			(show_name no)
@@ -7424,10 +7493,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2c10d4b1-3cc3-430d-91ce-5dca2483001e")
 		(property "Reference" "C74"
-			(at 185.42 40.6399 0)
+			(at 185.42 39.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7438,12 +7506,23 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 185.42 43.1799 0)
+			(at 185.42 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Rating" "50V X7R"
+			(at 185.42 44.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
 				)
 				(justify left)
 			)
@@ -7470,7 +7549,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor (MLCC), 100 nF, 50 V, X7R, ±5 %, 0603, Samsung CL10B104JB8NNNC"
 			(at 181.61 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -7611,10 +7690,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "3e8c968e-260f-4dad-9c30-e9b6c1657cfd")
 		(property "Reference" "C64"
-			(at 114.3 59.6899 0)
+			(at 114.3 58.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7625,12 +7703,23 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 114.3 62.2299 0)
+			(at 114.3 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Rating" "50V X7R"
+			(at 114.3 63.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
 				)
 				(justify left)
 			)
@@ -7657,7 +7746,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor (MLCC), 1 µF, 50 V, X7R, ±10 %, 0603, Yageo CC0603KRX7R9BB105"
 			(at 110.49 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -7724,12 +7813,22 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 111.76 119.634 90)
+			(at 111.76 119.4 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "50V X7R"
+			(at 111.76 121.7 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
 				)
 			)
 		)
@@ -7755,7 +7854,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor (MLCC), 100 nF, 50 V, X7R, ±5 %, 0603, Samsung CL10B104JB8NNNC"
 			(at 111.76 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -7810,10 +7909,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
-		(fields_autoplaced yes)
 		(uuid "52f72f6f-960c-499d-901d-e93f439e772f")
 		(property "Reference" "R22"
-			(at 52.07 68.5799 0)
+			(at 52.07 67.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7824,7 +7922,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 52.07 71.1199 0)
+			(at 52.07 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7834,7 +7932,18 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Rating" "0.1%"
+			(at 52.07 72.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 47.752 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -7856,7 +7965,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Thin-film chip resistor, 10 kΩ, ±0.1 %, 0.1 W, 75 V, 25 ppm/°C, 0603, Yageo RT0603BRD0710KL"
 			(at 49.53 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -7997,10 +8106,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5917d6a6-38d7-49a2-9565-9a871e0eb75b")
 		(property "Reference" "C69"
-			(at 171.45 40.6399 0)
+			(at 171.45 39.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8011,12 +8119,23 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 171.45 43.1799 0)
+			(at 171.45 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Rating" "50V X7R"
+			(at 171.45 44.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
 				)
 				(justify left)
 			)
@@ -8043,7 +8162,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor (MLCC), 100 nF, 50 V, X7R, ±5 %, 0603, Samsung CL10B104JB8NNNC"
 			(at 167.64 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -8098,10 +8217,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "5b1cdd1f-bddc-4439-bddf-49cdd4bd02c6")
 		(property "Reference" "C63"
-			(at 114.3 40.6399 0)
+			(at 114.3 39.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8112,12 +8230,23 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 114.3 43.1799 0)
+			(at 114.3 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Rating" "50V X7R"
+			(at 114.3 44.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
 				)
 				(justify left)
 			)
@@ -8144,7 +8273,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor (MLCC), 1 µF, 50 V, X7R, ±10 %, 0603, Yageo CC0603KRX7R9BB105"
 			(at 110.49 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -8427,7 +8556,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "634a84a2-19a9-4a58-a693-a5f61e1c7716")
 		(property "Reference" "L15"
 			(at 190.5 99.06 90)
@@ -8440,12 +8568,22 @@
 			)
 		)
 		(property "Value" "30Ω@100MHz"
-			(at 190.5 101.6 90)
+			(at 189.3 101.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "6A"
+			(at 197.4 101.6 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
 				)
 			)
 		)
@@ -8471,7 +8609,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor with ferrite core TDK MPZ2012S300AT000"
+		(property "Description" "Ferrite bead, 30 Ω at 100 MHz, 6 A, 10 mΩ DCR, 0805, TDK MPZ2012S300AT000"
 			(at 190.5 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -8526,7 +8664,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6c072bbd-9e9e-444b-b955-278347faa7a1")
 		(property "Reference" "L14"
 			(at 190.5 86.36 90)
@@ -8539,12 +8676,22 @@
 			)
 		)
 		(property "Value" "30Ω@100MHz"
-			(at 190.5 88.9 90)
+			(at 189.3 88.9 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "6A"
+			(at 197.4 88.9 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
 				)
 			)
 		)
@@ -8570,7 +8717,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor with ferrite core TDK MPZ2012S300AT000"
+		(property "Description" "Ferrite bead, 30 Ω at 100 MHz, 6 A, 10 mΩ DCR, 0805, TDK MPZ2012S300AT000"
 			(at 190.5 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -8711,10 +8858,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "85b83fb9-588b-43de-b8c0-386693d7a4a8")
 		(property "Reference" "C67"
-			(at 142.24 40.6399 0)
+			(at 142.24 39.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8725,12 +8871,23 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 142.24 43.1799 0)
+			(at 142.24 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Rating" "50V X7R"
+			(at 142.24 44.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
 				)
 				(justify left)
 			)
@@ -8757,7 +8914,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor (MLCC), 100 nF, 50 V, X7R, ±5 %, 0603, Samsung CL10B104JB8NNNC"
 			(at 138.43 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -8898,10 +9055,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "97cf50ea-4980-4d72-862c-a0b331e3e5ec")
 		(property "Reference" "R25"
-			(at 90.17 111.7599 0)
+			(at 90.17 110.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8911,8 +9067,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1"
-			(at 90.17 114.2999 0)
+		(property "Value" "1Ω"
+			(at 90.17 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8922,7 +9078,18 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Rating" "5%"
+			(at 90.17 115.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 85.852 113.03 90)
 			(hide yes)
 			(show_name no)
@@ -8944,7 +9111,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Thick-film chip resistor, 1 Ω, ±5 %, 0.1 W, 75 V, 0603, Yageo RC0603JR-071RL"
 			(at 87.63 113.03 0)
 			(hide yes)
 			(show_name no)
@@ -9342,10 +9509,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a6ae95b9-5fec-407e-b628-1c7a28d1d472")
 		(property "Reference" "R23"
-			(at 52.07 90.1699 0)
+			(at 52.07 89.14 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9356,7 +9522,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 52.07 92.7099 0)
+			(at 52.07 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9366,7 +9532,18 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Rating" "0.1%"
+			(at 52.07 93.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 47.752 91.44 90)
 			(hide yes)
 			(show_name no)
@@ -9388,7 +9565,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Thin-film chip resistor, 10 kΩ, ±0.1 %, 0.1 W, 75 V, 25 ppm/°C, 0603, Yageo RT0603BRD0710KL"
 			(at 49.53 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -9443,10 +9620,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ae48746a-3a6e-4e95-b641-19952196b286")
 		(property "Reference" "C66"
-			(at 128.27 40.6399 0)
+			(at 128.27 39.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9457,12 +9633,23 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 128.27 43.1799 0)
+			(at 128.27 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Rating" "50V X7R"
+			(at 128.27 44.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
 				)
 				(justify left)
 			)
@@ -9489,7 +9676,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor (MLCC), 1 µF, 50 V, X7R, ±10 %, 0603, Yageo CC0603KRX7R9BB105"
 			(at 124.46 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -9544,7 +9731,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "b59067d5-8d67-454d-9f3a-c4671b128963")
 		(property "Reference" "L16"
 			(at 190.5 111.76 90)
@@ -9557,12 +9743,22 @@
 			)
 		)
 		(property "Value" "30Ω@100MHz"
-			(at 190.5 114.3 90)
+			(at 189.3 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "6A"
+			(at 197.4 114.3 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
 				)
 			)
 		)
@@ -9588,7 +9784,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor with ferrite core TDK MPZ2012S300AT000"
+		(property "Description" "Ferrite bead, 30 Ω at 100 MHz, 6 A, 10 mΩ DCR, 0805, TDK MPZ2012S300AT000"
 			(at 190.5 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -9816,10 +10012,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c2ffd09d-9e29-4cc2-9b9e-996b4fceecff")
 		(property "Reference" "R27"
-			(at 196.85 59.6899 0)
+			(at 196.85 58.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9829,8 +10024,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3"
-			(at 196.85 62.2299 0)
+		(property "Value" "3.3Ω"
+			(at 196.85 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9840,7 +10035,18 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Rating" "1%"
+			(at 196.85 63.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 192.532 60.96 90)
 			(hide yes)
 			(show_name no)
@@ -9862,7 +10068,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Thick-film chip resistor, 3.3 Ω, ±1 %, 0.1 W, 75 V, 0603, Yageo RC0603FR-073R3L"
 			(at 194.31 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -9917,10 +10123,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp yes)
-		(fields_autoplaced yes)
 		(uuid "c3a0937f-dff6-4a45-bd12-ddfbcf9a97f3")
 		(property "Reference" "R24"
-			(at 62.23 68.5799 0)
+			(at 62.23 67.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9931,7 +10136,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 62.23 71.1199 0)
+			(at 62.23 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9941,7 +10146,18 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Rating" "0.1%"
+			(at 62.23 72.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 57.912 69.85 90)
 			(hide yes)
 			(show_name no)
@@ -9963,7 +10179,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Thin-film chip resistor, 10 kΩ, ±0.1 %, 0.1 W, 75 V, 25 ppm/°C, 0603, Yageo RT0603BRD0710KL"
 			(at 59.69 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -10018,10 +10234,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d02b4936-2a96-4f78-a9cd-dc30c38904bc")
 		(property "Reference" "C60"
-			(at 85.09 58.8009 0)
+			(at 85.09 58.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10031,8 +10246,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "300uF"
-			(at 85.09 61.3409 0)
+		(property "Value" "100uF"
+			(at 85.09 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10042,7 +10257,18 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
+		(property "Rating" "25V"
+			(at 85.09 63.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 82.2452 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -10064,7 +10290,18 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "Aluminium electrolytic capacitor, 100 µF, 25 V, ±20 %, 105 °C 5000 h, radial 5 x 11 mm, 2 mm pitch, Rubycon 25YXJ100M5X11. GVDD/VDD bulk capacitor"
+			(at 81.28 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C108360"
 			(at 81.28 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -10108,10 +10345,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d40261c5-79bf-4302-a0a7-4fbf37016417")
 		(property "Reference" "C61"
-			(at 99.06 58.8009 0)
+			(at 99.06 58.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10122,7 +10358,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 99.06 61.3409 0)
+			(at 99.06 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10132,7 +10368,18 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Rating" "25V"
+			(at 99.06 63.26 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
 			(at 96.2152 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -10154,7 +10401,18 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" "Aluminium electrolytic capacitor, 47 µF, 25 V, ±20 %, 105 °C 1000 h, radial 5 x 7 mm, 2 mm pitch, CapXon SK470M025C070A. GVDD/VDD bulk capacitor"
+			(at 95.25 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C89802"
 			(at 95.25 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -10370,10 +10628,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f5368925-21dc-483b-986a-2a5298758345")
 		(property "Reference" "C75"
-			(at 198.12 67.3099 0)
+			(at 198.12 66.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10383,13 +10640,24 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10 nF"
-			(at 198.12 69.8499 0)
+		(property "Value" "10nF"
+			(at 198.12 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Rating" "50V X7R"
+			(at 198.12 70.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
 				)
 				(justify left)
 			)
@@ -10416,7 +10684,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor (MLCC), 10 nF, 50 V, X7R, ±10 %, 0603, Samsung CL10B103KB8NNNC"
 			(at 194.31 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -10483,7 +10751,7 @@
 			)
 		)
 		(property "Value" "36k"
-			(at 103.124 107.188 90)
+			(at 102 107.188 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10492,7 +10760,17 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Rating" "1%"
+			(at 106.3 107.25 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 104.14 110.998 90)
 			(hide yes)
 			(show_name no)
@@ -10514,7 +10792,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "Thick-film chip resistor, 36 kΩ, ±1 %, 0.1 W, 75 V, 0603, Yageo RC0603FR-0736KL"
 			(at 104.14 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10569,10 +10847,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f82d8144-cbde-486d-b67c-62b234dece4a")
 		(property "Reference" "C59"
-			(at 85.09 40.6399 0)
+			(at 85.09 39.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10583,12 +10860,23 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 85.09 43.1799 0)
+			(at 85.09 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Rating" "50V X7R"
+			(at 85.09 44.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
 				)
 				(justify left)
 			)
@@ -10615,7 +10903,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor (MLCC), 1 µF, 50 V, X7R, ±10 %, 0603, Yageo CC0603KRX7R9BB105"
 			(at 81.28 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -10670,10 +10958,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fb1d76c3-358c-4a87-bf98-d571166b6ddb")
 		(property "Reference" "C71"
-			(at 173.99 87.6299 0)
+			(at 173.99 86.6 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10684,12 +10971,23 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 173.99 90.1699 0)
+			(at 173.99 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Rating" "50V X7R"
+			(at 173.99 91.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
 				)
 				(justify left)
 			)
@@ -10716,7 +11014,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor (MLCC), 100 nF, 50 V, X7R, ±5 %, 0603, Samsung CL10B104JB8NNNC"
 			(at 170.18 88.9 0)
 			(hide yes)
 			(show_name no)

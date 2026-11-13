@@ -1202,9 +1202,18 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "59f9c55e-8888-4613-8a9c-3e9bc351ad8b")
 		(property "Reference" "R1"
+			(at 124.46 86.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10mΩ"
 			(at 124.46 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1214,13 +1223,13 @@
 				)
 			)
 		)
-		(property "Value" "WSK2512R0100FEA"
-			(at 124.46 91.44 0)
+		(property "Rating" "1% 1W"
+			(at 124.46 91.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 				)
 			)
 		)
@@ -1246,7 +1255,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Current-sense resistor, 10 mΩ, ±1 %, 1 W, 4-terminal Kelvin, 2512, Vishay WSK2512R0100FEA"
 			(at 124.46 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -1354,7 +1363,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 147.32 111.76 0)
+			(at 149.22 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1643,7 +1652,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 111.76 0)
+			(at 142.88 111.76 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1715,10 +1724,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e7042fdf-d1f5-49a2-983b-2f2e1cd55341")
 		(property "Reference" "C56"
-			(at 153.67 76.2 90)
+			(at 153.67 74.6 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1728,12 +1736,22 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 153.67 78.74 90)
+			(at 153.67 76.9 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "50V X7R"
+			(at 153.67 79.2 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
 				)
 			)
 		)
@@ -1759,7 +1777,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Ceramic capacitor (MLCC), 100 nF, 50 V, X7R, ±5 %, 0603, Samsung CL10B104JB8NNNC"
 			(at 153.67 83.82 0)
 			(hide yes)
 			(show_name no)
