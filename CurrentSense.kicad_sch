@@ -1073,6 +1073,26 @@
 		)
 		(uuid "f7a4f767-94c7-4a29-8fde-7fd42c5ab56a")
 	)
+	(label "SENSE_P"
+		(at 133.35 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0683ce2f-4714-40a8-9577-ecca7fd324a3")
+	)
+	(label "SENSE_N"
+		(at 124.46 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f4de175-a6d3-45b4-bc19-8ceb211572e6")
+	)
 	(hierarchical_label "Icoil2"
 		(shape bidirectional)
 		(at 109.22 93.98 180)

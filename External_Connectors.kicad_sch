@@ -10,6 +10,338 @@
 		(comment 1 "24 V input, power-rail test terminals, coil X / Y / Z outputs")
 	)
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C_Polarized"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Polarized"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Polarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "CP_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Polarized_0_1"
+				(rectangle
+					(start -2.286 0.508)
+					(end 2.286 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 2.286) (xy -0.762 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.794) (xy -1.27 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.286 -0.508)
+					(end -2.286 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "C_Polarized_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "EasyEDA:24.243.1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5133,6 +5465,327 @@
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
 					(reference "CN1202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(junction
+		(at 63.5 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bfe956d2-1667-4f8d-8d1c-90b9d56f993e")
+	)
+	(junction
+		(at 73.66 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a14761b-c981-4767-a032-1588ff780e88")
+	)
+	(junction
+		(at 63.5 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2f4a3a1d-aaba-4d80-ab8f-5b92edaee294")
+	)
+	(junction
+		(at 73.66 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "74454a50-3d66-4baf-a613-4de41efbebc7")
+	)
+	(wire
+		(pts
+			(xy 63.5 44.45) (xy 73.66 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29b20111-340e-44e7-8e4a-128d169e93a7")
+	)
+	(wire
+		(pts
+			(xy 73.66 44.45) (xy 86.36 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7640fd2-3dd3-4d02-be8c-fed9cfe1fd45")
+	)
+	(wire
+		(pts
+			(xy 63.5 64.77) (xy 73.66 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e5674c8-a185-4c78-9a36-bdcb0b0182fe")
+	)
+	(wire
+		(pts
+			(xy 73.66 64.77) (xy 86.36 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "564de4b1-ea42-43a3-bf56-e3add3458de3")
+	)
+	(wire
+		(pts
+			(xy 73.66 44.45) (xy 73.66 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05cb6d79-3c0e-47ba-af3b-1522d1606d8f")
+	)
+	(wire
+		(pts
+			(xy 73.66 58.42) (xy 73.66 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "539541c4-32ba-420e-98a7-0beb3b0b0356")
+	)
+	(wire
+		(pts
+			(xy 86.36 44.45) (xy 86.36 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6cf1c8f-3a2e-4a3c-be5f-f58a1ee15ef5")
+	)
+	(wire
+		(pts
+			(xy 86.36 58.42) (xy 86.36 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c345340-68d4-4fb4-9ded-ad846f0b1bfb")
+	)
+	(text "C1201, C1202: 24 V input bulk + HF decoupling.\nPlace between the input jacks."
+		(exclude_from_sim no)
+		(at 55.88 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7126e5cb-a1ce-4606-ba03-c947a1508f40")
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 73.66 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c9eb7b87-8400-424b-bcdc-da6f13946bdb")
+		(property "Reference" "C1201"
+			(at 77.47 52.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1000uF"
+			(at 77.47 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+			(at 74.6252 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Aluminium electrolytic capacitor, 1000 µF, 35 V, ±20 %, 105 °C 3000 h, low impedance (1.87 A ripple at 100 kHz), radial 10 x 20 mm, 5 mm pitch, BERYL RC035M102LO10*20TH-2A1E. 24 V input bulk capacitor, place at the supply jacks"
+			(at 73.66 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "35V"
+			(at 77.47 56.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C357641"
+			(at 77.47 52.4509 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "533a7f82-f5c4-4958-be9e-86ff3b7bf0b2")
+		)
+		(pin "1"
+			(uuid "77c04453-10d3-42ca-a1dd-40e1d0491ce0")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
+					(reference "C1201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 86.36 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f2aeabb7-0fe0-44ab-b1ce-4449a15d7c1f")
+		(property "Reference" "C1202"
+			(at 90.17 52.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 90.17 54.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 87.3252 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 86.36 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ceramic capacitor (MLCC), 100 nF, 50 V, X7R, ±5 %, 0603, Samsung CL10B104JB8NNNC. 24 V input HF decoupling, place at the supply jacks"
+			(at 86.36 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "50V X7R"
+			(at 90.17 56.91 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C24452"
+			(at 90.17 53.3399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e5e659a2-51b6-4a71-86d3-c506c2b89bb5")
+		)
+		(pin "1"
+			(uuid "9c52da96-479b-407f-9437-3d1dbbe98cd0")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
+					(reference "C1202")
 					(unit 1)
 				)
 			)
