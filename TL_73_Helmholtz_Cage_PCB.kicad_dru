@@ -27,3 +27,13 @@
 
 (rule "JLC copper to board edge"
 	(constraint edge_clearance (min 0.3mm)))
+
+# Copper fills. The general clearance rule above would otherwise let fills sit
+# 0.127 mm from everything, because custom rules override the per-zone setting.
+(rule "Fill to tracks, pads and vias"
+	(condition "A.Type == 'Zone'")
+	(constraint clearance (min 0.25mm)))
+
+(rule "Gap between fill regions"
+	(condition "A.Type == 'Zone' && B.Type == 'Zone'")
+	(constraint clearance (min 0.75mm)))

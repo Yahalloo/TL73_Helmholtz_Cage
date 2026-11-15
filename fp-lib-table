@@ -1,4 +1,5 @@
 (fp_lib_table
 	(version 7)
 	(lib (name "lcsc_footprints") (type "KiCad") (uri "${KIPRJMOD}/libs/lcsc/footprints.pretty") (options "") (descr "LCSC Manager imported footprints"))
+	(lib (name "TL73_Local") (type "KiCad") (uri "${KIPRJMOD}/TL73_Local.pretty") (options "") (descr "Board-specific footprints: silkscreen trimmed for this layout"))
 )
