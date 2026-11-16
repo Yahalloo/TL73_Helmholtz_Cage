@@ -1499,6 +1499,17 @@
 		)
 		(uuid "663fe8ab-f5e4-4c92-bdac-5fa9c29596e6")
 	)
+	(text "IPROPI CURRENT MONITOR (spare, second to the INA240)\n- IPROPI1 + IPROPI2 -> 330 Ohm -> ADC pin\n- V = I x 330 / 1100 = 0.30 V/A, so I [A] = V_adc / 0.30\n- 12-bit ADC: I = code x 2.69 mA (3.3 V / 4096 / 0.30)\n- 3.0 V at 10 A (OCP): stays under the 3.3 V ADC limit\n- Magnitude only, no sign: sum of both high-side FETs\n- Valid in drive and high-side recirculation, reads 0\n  while both low-side FETs are on: sample mid-PWM\n- Loose accuracy: calibrate against the INA240\n- ADC: X = PC3 (ADC1/2_IN9), Y = PB13 (ADC3_IN5),\n  Z = PC4 (ADC2_IN5)"
+		(exclude_from_sim no)
+		(at 15.24 60.96 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+			(justify left top)
+		)
+		(uuid "6aa6ea69-2cad-429a-9030-d027d3d04648")
+	)
 	(text "Thermal pad: solder to GND plane, thermal vias"
 		(exclude_from_sim no)
 		(at 149.86 82.55 0)
@@ -1565,6 +1576,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28e818df-cc33-4c28-b77e-3dc56ea73341")
+	)
+	(junction
+		(at 119.38 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ef113b9-8cc1-4e37-971e-929f0d1234c0")
 	)
 	(junction
 		(at 147.32 85.09)
@@ -1811,6 +1828,16 @@
 			(type default)
 		)
 		(uuid "49a02f48-be37-4695-95ed-68f12391e92e")
+	)
+	(wire
+		(pts
+			(xy 119.38 123.19) (xy 114.3 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "531bfc6b-34d4-4c2d-b94f-c7aa6515a508")
 	)
 	(wire
 		(pts
@@ -2212,55 +2239,6 @@
 		)
 		(uuid "ffa5d27e-75b0-414e-aa22-7e80d882d348")
 	)
-	(hierarchical_label "DISABLE"
-		(shape input)
-		(at 60.96 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8afa913d-1a1f-4ac1-9bde-ed33617de92e")
-	)
-	(hierarchical_label "IPROPI"
-		(shape output)
-		(at 114.3 123.19 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ae7202e0-ff24-4da6-8739-91754f5f7c33")
-	)
-	(wire
-		(pts
-			(xy 119.38 123.19) (xy 114.3 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "531bfc6b-34d4-4c2d-b94f-c7aa6515a508")
-	)
-	(junction
-		(at 119.38 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3ef113b9-8cc1-4e37-971e-929f0d1234c0")
-	)
-	(text "IPROPI CURRENT MONITOR (spare, second to the INA240)\n- IPROPI1 + IPROPI2 -> 330 Ohm -> ADC pin\n- V = I x 330 / 1100 = 0.30 V/A, so I [A] = V_adc / 0.30\n- 12-bit ADC: I = code x 2.69 mA (3.3 V / 4096 / 0.30)\n- 3.0 V at 10 A (OCP): stays under the 3.3 V ADC limit\n- Magnitude only, no sign: sum of both high-side FETs\n- Valid in drive and high-side recirculation, reads 0\n  while both low-side FETs are on: sample mid-PWM\n- Loose accuracy: calibrate against the INA240\n- ADC: X = PC3 (ADC1/2_IN9), Y = PB13 (ADC3_IN5),\n  Z = PC4 (ADC2_IN5)"
-		(exclude_from_sim no)
-		(at 15.24 60.96 0)
-		(effects
-			(font
-				(size 1.0 1.0)
-			)
-			(justify left top)
-		)
-		(uuid "6aa6ea69-2cad-429a-9030-d027d3d04648")
-	)
 	(hierarchical_label "PWM_B"
 		(shape input)
 		(at 60.96 107.95 180)
@@ -2305,6 +2283,17 @@
 		)
 		(uuid "8542f3c0-e409-486f-a896-fea04c306b04")
 	)
+	(hierarchical_label "DISABLE"
+		(shape input)
+		(at 60.96 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8afa913d-1a1f-4ac1-9bde-ed33617de92e")
+	)
 	(hierarchical_label "OUT_B"
 		(shape bidirectional)
 		(at 241.3 105.41 0)
@@ -2326,6 +2315,17 @@
 			(justify right)
 		)
 		(uuid "a0accab9-da96-4d73-8211-c6ea017ac494")
+	)
+	(hierarchical_label "IPROPI"
+		(shape output)
+		(at 114.3 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ae7202e0-ff24-4da6-8739-91754f5f7c33")
 	)
 	(hierarchical_label "~{FAULT}"
 		(shape output)

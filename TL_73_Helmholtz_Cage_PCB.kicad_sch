@@ -2067,6 +2067,18 @@
 		(uuid "36deb3bd-33f2-4029-8116-a639bff271be")
 	)
 	(rectangle
+		(start 15.24 234.95)
+		(end 171.45 279.4)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "52c82191-ce1a-4768-85ae-7865904a90e8")
+	)
+	(rectangle
 		(start 173.99 180.34)
 		(end 295.91 264.16)
 		(stroke
@@ -2124,6 +2136,17 @@
 			(justify left)
 		)
 		(uuid "24660b66-de58-4be9-958b-ec9238e068ea")
+	)
+	(text "DRV8873S DISABLE LINKS (0R)"
+		(exclude_from_sim no)
+		(at 16.51 240.03 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left top)
+		)
+		(uuid "26c0a47f-d22b-492d-a55d-fae558fa1458")
 	)
 	(text "Top Level"
 		(exclude_from_sim no)
@@ -2219,6 +2242,17 @@
 			(justify left top)
 		)
 		(uuid "7b69c339-1beb-401b-9b1b-d556b84982f5")
+	)
+	(text "DRV_DISABLE goes to the DISABLE pin of all three drivers.\nR103 fitted (default): DISABLE = GND, bridges on whenever the drivers are awake.\nMCU control: remove R103, fit R104. PB5 (CN10-29) high = all outputs Hi-Z.\nNever fit both: PB5 would drive into GND.\n100k pull-up to 5 V inside each driver: with R103 removed the bridges\nstay off until PB5 pulls the net low (use push-pull or open-drain).\n\nIPROPI_X / Y / Z: spare driver current monitors, 0.30 V/A, magnitude only.\nX = PC3 (CN7-37, ADC1/2_IN9), Y = PB13 (CN10-30, ADC3_IN5),\nZ = PC4 (CN10-34, ADC2_IN5). See the H-bridge sheet for how to read them."
+		(exclude_from_sim no)
+		(at 62.23 246.38 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "901498be-46ba-4595-8fad-c19fe52efcb2")
 	)
 	(text "COIL TEMPERATURE SENSE"
 		(exclude_from_sim no)
@@ -2342,6 +2376,12 @@
 		(uuid "5b8c9d44-7809-4e38-8535-b87770b866eb")
 	)
 	(junction
+		(at 35.56 262.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7402331c-300d-4099-82e1-37de192168b1")
+	)
+	(junction
 		(at 111.76 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2385,6 +2425,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 87.63) (xy 34.29 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09fc5f3e-d0d2-4d5b-917b-4786f2d81997")
+	)
+	(wire
+		(pts
 			(xy 36.83 203.2) (xy 36.83 195.58)
 		)
 		(stroke
@@ -2415,6 +2465,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 95.25) (xy 34.29 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "128dccb9-ca97-49a8-b45d-0ca95872b6b4")
+	)
+	(wire
+		(pts
 			(xy 44.45 218.44) (xy 78.74 218.44)
 		)
 		(stroke
@@ -2442,6 +2502,26 @@
 			(type default)
 		)
 		(uuid "195d7fb7-990c-4862-8a29-20aad37ec447")
+	)
+	(wire
+		(pts
+			(xy 35.56 259.08) (xy 35.56 265.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ade03f9-0b70-4ad9-a00c-74d280da6781")
+	)
+	(wire
+		(pts
+			(xy 35.56 248.92) (xy 43.18 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1af8fb62-65c3-41f7-92cf-fcc65188139b")
 	)
 	(wire
 		(pts
@@ -2652,6 +2732,16 @@
 			(type default)
 		)
 		(uuid "3ba20d8b-c4a3-482a-a3e9-664d8271c3a5")
+	)
+	(wire
+		(pts
+			(xy 158.75 48.26) (xy 173.99 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41ae0ec4-eec8-49a2-b2fc-1a365f13834c")
 	)
 	(wire
 		(pts
@@ -2935,6 +3025,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 130.81) (xy 173.99 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a20a8b4-b20a-416f-95ce-7f8feb5d30e9")
+	)
+	(wire
+		(pts
 			(xy 158.75 53.34) (xy 173.99 53.34)
 		)
 		(stroke
@@ -3005,6 +3105,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 251.46) (xy 35.56 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1744874-d481-4a89-b3e0-c8ecca0ff894")
+	)
+	(wire
+		(pts
 			(xy 224.79 196.85) (xy 224.79 189.23)
 		)
 		(stroke
@@ -3062,6 +3172,16 @@
 			(type default)
 		)
 		(uuid "b8d21532-9112-4a60-970c-861763c0c4de")
+	)
+	(wire
+		(pts
+			(xy 158.75 133.35) (xy 173.99 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bba99f4b-b3a6-4200-8865-dab69fba5b28")
 	)
 	(wire
 		(pts
@@ -3175,6 +3295,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 88.9) (xy 173.99 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3be15c7-3df9-463d-9370-5c75e9f56a44")
+	)
+	(wire
+		(pts
 			(xy 321.31 203.2) (xy 321.31 208.28)
 		)
 		(stroke
@@ -3202,6 +3332,16 @@
 			(type default)
 		)
 		(uuid "df48c745-d7fc-4a2c-af96-043a402b14f8")
+	)
+	(wire
+		(pts
+			(xy 158.75 91.44) (xy 173.99 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfd53565-8aba-44b4-b9b8-4bb61f6d4ed8")
 	)
 	(wire
 		(pts
@@ -3275,6 +3415,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 50.8) (xy 173.99 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eabc0bfb-0788-41a9-b791-3200a400f82b")
+	)
+	(wire
+		(pts
 			(xy 158.75 58.42) (xy 173.99 58.42)
 		)
 		(stroke
@@ -3282,6 +3432,16 @@
 			(type default)
 		)
 		(uuid "ef23c539-113a-45de-8cda-56fb2061ab83")
+	)
+	(wire
+		(pts
+			(xy 26.67 128.27) (xy 34.29 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f03bb0a4-ad93-4a4f-a31b-15a35f0d5830")
 	)
 	(wire
 		(pts
@@ -3322,6 +3482,26 @@
 			(type default)
 		)
 		(uuid "f76ae7e7-38d6-43a7-8713-ecd6e1e40347")
+	)
+	(wire
+		(pts
+			(xy 26.67 125.73) (xy 34.29 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd413441-6c54-4444-8a1b-72ed10b62bba")
+	)
+	(wire
+		(pts
+			(xy 35.56 262.89) (xy 43.18 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd63bcf8-4582-4dad-9956-4131e27cb462")
 	)
 	(wire
 		(pts
@@ -4729,577 +4909,6 @@
 			)
 		)
 	)
-	(wire
-		(pts
-			(xy 158.75 48.26) (xy 173.99 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41ae0ec4-eec8-49a2-b2fc-1a365f13834c")
-	)
-	(label "DRV_DISABLE"
-		(at 158.75 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "11d10896-360a-443c-b80c-a6251a0cb0e7")
-	)
-	(wire
-		(pts
-			(xy 158.75 50.8) (xy 173.99 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eabc0bfb-0788-41a9-b791-3200a400f82b")
-	)
-	(label "IPROPI_X"
-		(at 158.75 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9c054317-efaa-42cf-aef1-9f57cdde6b8b")
-	)
-	(wire
-		(pts
-			(xy 158.75 88.9) (xy 173.99 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3be15c7-3df9-463d-9370-5c75e9f56a44")
-	)
-	(label "DRV_DISABLE"
-		(at 158.75 88.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "857e9244-905c-48ec-aab7-825f3e651be3")
-	)
-	(wire
-		(pts
-			(xy 158.75 91.44) (xy 173.99 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfd53565-8aba-44b4-b9b8-4bb61f6d4ed8")
-	)
-	(label "IPROPI_Y"
-		(at 158.75 91.44 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ee21f3ae-c725-4b41-ab0a-2b6dded8067d")
-	)
-	(wire
-		(pts
-			(xy 158.75 130.81) (xy 173.99 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a20a8b4-b20a-416f-95ce-7f8feb5d30e9")
-	)
-	(label "DRV_DISABLE"
-		(at 158.75 130.81 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0c85dda7-afb3-4928-8e9f-c5f621605d96")
-	)
-	(wire
-		(pts
-			(xy 158.75 133.35) (xy 173.99 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bba99f4b-b3a6-4200-8865-dab69fba5b28")
-	)
-	(label "IPROPI_Z"
-		(at 158.75 133.35 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "21cee6f8-d734-4247-a2d2-80ce0c1be4b9")
-	)
-	(wire
-		(pts
-			(xy 26.67 87.63) (xy 34.29 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09fc5f3e-d0d2-4d5b-917b-4786f2d81997")
-	)
-	(label "IPROPI_Y"
-		(at 26.67 87.63 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6ce96244-5e0b-4e9a-adf8-7c3df6f6e379")
-	)
-	(wire
-		(pts
-			(xy 26.67 95.25) (xy 34.29 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "128dccb9-ca97-49a8-b45d-0ca95872b6b4")
-	)
-	(label "DISABLE_MCU"
-		(at 26.67 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "24198884-0c57-44af-bd10-ef108b256782")
-	)
-	(wire
-		(pts
-			(xy 26.67 125.73) (xy 34.29 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd413441-6c54-4444-8a1b-72ed10b62bba")
-	)
-	(label "IPROPI_X"
-		(at 26.67 125.73 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "55f4074a-ffce-4688-9866-c7108727fac7")
-	)
-	(wire
-		(pts
-			(xy 26.67 128.27) (xy 34.29 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f03bb0a4-ad93-4a4f-a31b-15a35f0d5830")
-	)
-	(label "IPROPI_Z"
-		(at 26.67 128.27 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3501adc8-9663-4f31-b0b3-3c558b012e96")
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 35.56 255.27 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp yes)
-		(uuid "50ac602f-ef63-43c5-af31-5b2336cbfd2a")
-		(property "Reference" "R104"
-			(at 38.1 252.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0R"
-			(at 38.1 255.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 37.338 255.27 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0 ohm link, 0603: DRV8873S DISABLE to MCU (PB5). Fit only with R103 removed"
-			(at 35.56 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Rating" "jumper"
-			(at 38.1 257.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-		)
-		(property "LCSC" "C21189"
-			(at 35.56 255.27 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "721078ad-0025-42d5-98c4-32bc57bb2151")
-		)
-		(pin "2"
-			(uuid "d628ad92-14e5-4369-a3b9-c1d5a6224fe7")
-		)
-		(instances
-			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(reference "R104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 35.56 269.24 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9bc866c1-e441-4f86-874d-794edfedbc59")
-		(property "Reference" "R103"
-			(at 38.1 266.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "0R"
-			(at 38.1 269.24 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 37.338 269.24 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 269.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "0 ohm link, 0603: DRV8873S DISABLE to GND (bridges always enabled)"
-			(at 35.56 269.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Rating" "jumper"
-			(at 38.1 271.54 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify right)
-			)
-		)
-		(property "LCSC" "C21189"
-			(at 35.56 269.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7192b08b-ba73-4000-ace2-258c8888f406")
-		)
-		(pin "2"
-			(uuid "bf02157c-c79e-496a-b18c-60a286cf2173")
-		)
-		(instances
-			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(reference "R103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 35.56 273.05 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "aee64342-36bf-4012-976e-dd38434c73ff")
-		(property "Reference" "#PWR0120"
-			(at 35.56 279.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 35.56 277.114 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 35.56 273.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 35.56 273.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 35.56 273.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bda90c5d-65a6-4940-b965-3ed21b1ed850")
-		)
-		(instances
-			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(reference "#PWR0120")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(wire
-		(pts
-			(xy 35.56 259.08) (xy 35.56 265.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ade03f9-0b70-4ad9-a00c-74d280da6781")
-	)
-	(wire
-		(pts
-			(xy 35.56 262.89) (xy 43.18 262.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd63bcf8-4582-4dad-9956-4131e27cb462")
-	)
-	(junction
-		(at 35.56 262.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7402331c-300d-4099-82e1-37de192168b1")
-	)
-	(label "DRV_DISABLE"
-		(at 43.18 262.89 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "af8eb832-10db-49b8-9663-9cc58d360d70")
-	)
-	(wire
-		(pts
-			(xy 35.56 251.46) (xy 35.56 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1744874-d481-4a89-b3e0-c8ecca0ff894")
-	)
-	(wire
-		(pts
-			(xy 35.56 248.92) (xy 43.18 248.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1af8fb62-65c3-41f7-92cf-fcc65188139b")
-	)
-	(label "DISABLE_MCU"
-		(at 43.18 248.92 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6c2153e6-752c-460e-97c7-932d9eb890f6")
-	)
-	(text "DRV8873S DISABLE LINKS (0R)"
-		(exclude_from_sim no)
-		(at 16.51 240.03 0)
-		(effects
-			(font
-				(size 1.8 1.8)
-			)
-			(justify left top)
-		)
-		(uuid "26c0a47f-d22b-492d-a55d-fae558fa1458")
-	)
-	(text "DRV_DISABLE goes to the DISABLE pin of all three drivers.\nR103 fitted (default): DISABLE = GND, bridges on whenever the drivers are awake.\nMCU control: remove R103, fit R104. PB5 (CN10-29) high = all outputs Hi-Z.\nNever fit both: PB5 would drive into GND.\n100k pull-up to 5 V inside each driver: with R103 removed the bridges\nstay off until PB5 pulls the net low (use push-pull or open-drain).\n\nIPROPI_X / Y / Z: spare driver current monitors, 0.30 V/A, magnitude only.\nX = PC3 (CN7-37, ADC1/2_IN9), Y = PB13 (CN10-30, ADC3_IN5),\nZ = PC4 (CN10-34, ADC2_IN5). See the H-bridge sheet for how to read them."
-		(exclude_from_sim no)
-		(at 62.23 246.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "901498be-46ba-4595-8fad-c19fe52efcb2")
-	)
 	(label "SPI_SDO"
 		(at 158.75 71.12 0)
 		(effects
@@ -5350,6 +4959,16 @@
 		)
 		(uuid "0c194831-9429-41d7-b105-86a1ceb8860f")
 	)
+	(label "DRV_DISABLE"
+		(at 158.75 130.81 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c85dda7-afb3-4928-8e9f-c5f621605d96")
+	)
 	(label "MAG_CS"
 		(at 26.67 138.43 180)
 		(effects
@@ -5359,6 +4978,16 @@
 			(justify right bottom)
 		)
 		(uuid "0eb60f3f-cfc8-4b55-9750-b90f25c70694")
+	)
+	(label "DRV_DISABLE"
+		(at 158.75 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "11d10896-360a-443c-b80c-a6251a0cb0e7")
 	)
 	(label "ISENSE_CoilY"
 		(at 326.39 60.96 0)
@@ -5390,6 +5019,16 @@
 		)
 		(uuid "1f29c0e7-d7a3-4c03-809f-e8f2551b7a0b")
 	)
+	(label "IPROPI_Z"
+		(at 158.75 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "21cee6f8-d734-4247-a2d2-80ce0c1be4b9")
+	)
 	(label "MAG_DRDY"
 		(at 26.67 123.19 180)
 		(effects
@@ -5399,6 +5038,16 @@
 			(justify right bottom)
 		)
 		(uuid "2217ae1f-47d9-4181-8bb0-cffc40a32b6e")
+	)
+	(label "DISABLE_MCU"
+		(at 26.67 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "24198884-0c57-44af-bd10-ef108b256782")
 	)
 	(label "SPI_SDI"
 		(at 158.75 151.13 0)
@@ -5469,6 +5118,16 @@
 			(justify left bottom)
 		)
 		(uuid "33e30e40-6c71-4302-896e-c55739650e01")
+	)
+	(label "IPROPI_Z"
+		(at 26.67 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3501adc8-9663-4f31-b0b3-3c558b012e96")
 	)
 	(label "ISENSE_CoilY"
 		(at 204.47 99.06 0)
@@ -5620,6 +5279,16 @@
 		)
 		(uuid "512b2a73-584a-43c5-8b7f-194eb674a46e")
 	)
+	(label "IPROPI_X"
+		(at 26.67 125.73 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "55f4074a-ffce-4688-9866-c7108727fac7")
+	)
 	(label "PWM_A_CoilX"
 		(at 158.75 53.34 0)
 		(effects
@@ -5700,6 +5369,26 @@
 		)
 		(uuid "6b798e24-217f-4c0a-9163-61c7b062bb17")
 	)
+	(label "DISABLE_MCU"
+		(at 43.18 248.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c2153e6-752c-460e-97c7-932d9eb890f6")
+	)
+	(label "IPROPI_Y"
+		(at 26.67 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6ce96244-5e0b-4e9a-adf8-7c3df6f6e379")
+	)
 	(label "PWM_A_CoilX"
 		(at 300.99 73.66 0)
 		(effects
@@ -5760,6 +5449,16 @@
 		)
 		(uuid "82d46066-ed05-4b53-bacf-d18e8d79021d")
 	)
+	(label "DRV_DISABLE"
+		(at 158.75 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "857e9244-905c-48ec-aab7-825f3e651be3")
+	)
 	(label "SPI_SDI"
 		(at 276.86 203.2 180)
 		(effects
@@ -5799,6 +5498,16 @@
 			(justify left bottom)
 		)
 		(uuid "97d00ebb-11f0-4e9c-ae62-fdcea2d213d4")
+	)
+	(label "IPROPI_X"
+		(at 158.75 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c054317-efaa-42cf-aef1-9f57cdde6b8b")
 	)
 	(label "SPI_SCLK"
 		(at 377.19 60.96 0)
@@ -5899,6 +5608,16 @@
 			(justify right bottom)
 		)
 		(uuid "a699d486-3a76-4fe5-9759-fb05d15995b1")
+	)
+	(label "DRV_DISABLE"
+		(at 43.18 262.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af8eb832-10db-49b8-9663-9cc58d360d70")
 	)
 	(label "PWM_B_CoilY"
 		(at 377.19 73.66 0)
@@ -6109,6 +5828,16 @@
 			(justify right bottom)
 		)
 		(uuid "eda1b9ed-2295-4597-bd7b-df256928c68d")
+	)
+	(label "IPROPI_Y"
+		(at 158.75 91.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ee21f3ae-c725-4b41-ab0a-2b6dded8067d")
 	)
 	(label "~{SCS}_CoilX"
 		(at 158.75 60.96 0)
@@ -7463,6 +7192,109 @@
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
 					(reference "U101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 35.56 255.27 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "50ac602f-ef63-43c5-af31-5b2336cbfd2a")
+		(property "Reference" "R104"
+			(at 38.1 252.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 38.1 255.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 37.338 255.27 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0 ohm link, 0603: DRV8873S DISABLE to MCU (PB5). Fit only with R103 removed"
+			(at 35.56 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "jumper"
+			(at 38.1 257.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 35.56 255.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "721078ad-0025-42d5-98c4-32bc57bb2151")
+		)
+		(pin "2"
+			(uuid "d628ad92-14e5-4369-a3b9-c1d5a6224fe7")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
+					(reference "R104")
 					(unit 1)
 				)
 			)
@@ -8833,6 +8665,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 35.56 269.24 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9bc866c1-e441-4f86-874d-794edfedbc59")
+		(property "Reference" "R103"
+			(at 38.1 266.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 38.1 269.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 37.338 269.24 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0 ohm link, 0603: DRV8873S DISABLE to GND (bridges always enabled)"
+			(at 35.56 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "jumper"
+			(at 38.1 271.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 35.56 269.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7192b08b-ba73-4000-ace2-258c8888f406")
+		)
+		(pin "2"
+			(uuid "bf02157c-c79e-496a-b18c-60a286cf2173")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
+					(reference "R103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "EasyEDA:5005")
 		(at 372.11 86.36 0)
 		(unit 1)
@@ -9157,6 +9092,83 @@
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 273.05 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aee64342-36bf-4012-976e-dd38434c73ff")
+		(property "Reference" "#PWR0120"
+			(at 35.56 279.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 277.114 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 273.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 273.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 273.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bda90c5d-65a6-4940-b965-3ed21b1ed850")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
