@@ -857,7 +857,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TEMP SENSE NOTES (per axis)\n-R4: 10kOhm\n-Thermistor R5 @25°C: 10kOhm\n-Vadc @25°C = 3.3*(R5/(R4+R5)) = 1.65V\n-B = 3950 for thermistor on Amazon\n\nTo obtain temperature:\nR5N: modified resistance value based on temperature\nR5N = R4*(Vadc/(3.3-Vadc))\n\nT = 1/((1/298.15)+ln(R5N/R5)/B)-273.15"
+	(text "TEMP SENSE NOTES (per axis)\n-R4: 10kOhm\n-Thermistor R5 @25°C: 10kOhm\n-Vadc @25°C = 3.3*(R5/(R4+R5)) = 1.65V\n-B = 3988\n\nTo obtain temperature:\nR5N: modified resistance value based on temperature\nR5N = R4*(Vadc/(3.3-Vadc))\n\nT = 1/((1/298.15)+ln(R5N/R5)/B)-273.15"
 		(exclude_from_sim no)
 		(at 17.272 181.864 0)
 		(effects
