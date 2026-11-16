@@ -1488,17 +1488,6 @@
 		)
 		(uuid "39a0d398-d2ab-48df-8719-a5b7d912a9c2")
 	)
-	(text "IPROPI1 + IPROPI2\ncurrent monitor: 0.43 V/A"
-		(exclude_from_sim no)
-		(at 62.23 132.08 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "564b4f3c-34bb-4c99-8c9c-3a9baf0ade7e")
-	)
 	(text "coil - side"
 		(exclude_from_sim no)
 		(at 212.09 103.505 0)
@@ -1532,9 +1521,9 @@
 		)
 		(uuid "9958bd4b-4b7b-47e9-9a33-49ca431d4960")
 	)
-	(text "DISABLE = 0: bridge on"
+	(text "DISABLE: 0 = bridge on, 1 = outputs Hi-Z"
 		(exclude_from_sim no)
-		(at 76.2 114.3 0)
+		(at 68.58 115.57 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1554,7 +1543,7 @@
 		)
 		(uuid "f15d0a6d-649e-4eeb-b980-5d4405e906f4")
 	)
-	(text "DRV8873S NOTES (per axis)\n- Supply: VM = +24 V only (4.5-38 V). Charge pump (C304, C312) and 5 V DVDD regulator (C305) are internal,\n  so the 12 V gate supply, bootstrap caps and OC_ADJ resistor of the DRV8412 are gone\n- PWM_A -> PH/IN2 -> OUT2 = OUT_A (coil +, through the shunt). PWM_B -> EN/IN1 -> OUT1 = OUT_B (coil -).\n  Crossed on purpose: OUT2 / OUT1 then face the + / - coil connectors without crossing on the PCB\n- Power-up default, no SPI needed: PWM mode (MODE = 01b). One input high = drive, both high = brake\n  (high-side recirculation), both low = Hi-Z (coast)\n- Recommended: write MODE = 10b (independent half bridge) over SPI. Each OUTx then follows its INx like\n  the DRV8412 did, so PWM_A = D, PWM_B = 1-D, unipolar, 20 kHz works unchanged\n- DISABLE tied to GND: the bridge is on whenever the driver is awake\n- ~{SLEEP}: 10k pull-down. Set high, wait >= 1.5 ms (tWAKE), then configure over SPI. Its high level\n  also sets the SDO logic level (3.3 V from the STM32)\n- ~{FAULT}: open drain, 10k pull-up to 3.3 V. Low on UVLO, charge-pump UV, OCP, TSD, open load\n  (also low briefly during wake-up). No OTW pin: over-temperature warning is the OTW bit in the\n  FAULT register (or on nFAULT if OTW_REP = 1)\n- SPI: mode 1 (CPOL = 0, CPHA = 1), 16-bit frames, MSB first. SCLK / SDI / SDO are shared by X, Y, Z;\n  one ~{SCS} per axis (SDO is Hi-Z while ~{SCS} is high)\n- Clear a latched fault: CLR_FLT bit over SPI (preferred) or a 5-20 us low pulse on ~{SLEEP}"
+	(text "DRV8873S NOTES (per axis)\n- Supply: VM = +24 V only (4.5-38 V). Charge pump (C304, C312) and 5 V DVDD regulator (C305) are internal,\n  so the 12 V gate supply, bootstrap caps and OC_ADJ resistor of the DRV8412 are gone\n- PWM_A -> PH/IN2 -> OUT2 = OUT_A (coil +, through the shunt). PWM_B -> EN/IN1 -> OUT1 = OUT_B (coil -).\n  Crossed on purpose: OUT2 / OUT1 then face the + / - coil connectors without crossing on the PCB\n- Power-up default, no SPI needed: PWM mode (MODE = 01b). One input high = drive, both high = brake\n  (high-side recirculation), both low = Hi-Z (coast)\n- Recommended: write MODE = 10b (independent half bridge) over SPI. Each OUTx then follows its INx like\n  the DRV8412 did, so PWM_A = D, PWM_B = 1-D, unipolar, 20 kHz works unchanged\n- DISABLE: all three drivers share the DRV_DISABLE net (top sheet). R103 (0R, fitted) ties it to GND, so the bridge is on\n  whenever the driver is awake. For MCU control (PB5): remove R103, fit R104. High = outputs Hi-Z, SPI stays alive.\n  100k internal pull-up to DVDD: with R103 removed the bridge stays off until PB5 drives the net low\n- ~{SLEEP}: 10k pull-down. Set high, wait >= 1.5 ms (tWAKE), then configure over SPI. Its high level\n  also sets the SDO logic level (3.3 V from the STM32)\n- ~{FAULT}: open drain, 10k pull-up to 3.3 V. Low on UVLO, charge-pump UV, OCP, TSD, open load\n  (also low briefly during wake-up). No OTW pin: over-temperature warning is the OTW bit in the\n  FAULT register (or on nFAULT if OTW_REP = 1)\n- SPI: mode 1 (CPOL = 0, CPHA = 1), 16-bit frames, MSB first. SCLK / SDI / SDO are shared by X, Y, Z;\n  one ~{SCS} per axis (SDO is Hi-Z while ~{SCS} is high)\n- Clear a latched fault: CLR_FLT bit over SPI (preferred) or a 5-20 us low pulse on ~{SLEEP}"
 		(exclude_from_sim no)
 		(at 15.24 142.24 0)
 		(effects
@@ -1775,7 +1764,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 113.03) (xy 109.22 113.03)
+			(xy 121.92 113.03) (xy 60.96 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2222,6 +2211,55 @@
 			(type default)
 		)
 		(uuid "ffa5d27e-75b0-414e-aa22-7e80d882d348")
+	)
+	(hierarchical_label "DISABLE"
+		(shape input)
+		(at 60.96 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8afa913d-1a1f-4ac1-9bde-ed33617de92e")
+	)
+	(hierarchical_label "IPROPI"
+		(shape output)
+		(at 114.3 123.19 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ae7202e0-ff24-4da6-8739-91754f5f7c33")
+	)
+	(wire
+		(pts
+			(xy 119.38 123.19) (xy 114.3 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "531bfc6b-34d4-4c2d-b94f-c7aa6515a508")
+	)
+	(junction
+		(at 119.38 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ef113b9-8cc1-4e37-971e-929f0d1234c0")
+	)
+	(text "IPROPI CURRENT MONITOR (spare, second to the INA240)\n- IPROPI1 + IPROPI2 -> 330 Ohm -> ADC pin\n- V = I x 330 / 1100 = 0.30 V/A, so I [A] = V_adc / 0.30\n- 12-bit ADC: I = code x 2.69 mA (3.3 V / 4096 / 0.30)\n- 3.0 V at 10 A (OCP): stays under the 3.3 V ADC limit\n- Magnitude only, no sign: sum of both high-side FETs\n- Valid in drive and high-side recirculation, reads 0\n  while both low-side FETs are on: sample mid-PWM\n- Loose accuracy: calibrate against the INA240\n- ADC: X = PC3 (ADC1/2_IN9), Y = PB13 (ADC3_IN5),\n  Z = PC4 (ADC2_IN5)"
+		(exclude_from_sim no)
+		(at 15.24 60.96 0)
+		(effects
+			(font
+				(size 1.0 1.0)
+			)
+			(justify left top)
+		)
+		(uuid "6aa6ea69-2cad-429a-9030-d027d3d04648")
 	)
 	(hierarchical_label "PWM_B"
 		(shape input)
@@ -3423,92 +3461,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 109.22 113.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a3ba93c-ad28-42d3-89d0-25dbe9b34e6b")
-		(property "Reference" "#PWR0304"
-			(at 109.22 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 104.14 115.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 109.22 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 109.22 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "38526c68-4089-4b59-a4b0-8ef0193062b0")
-		)
-		(instances
-			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8"
-					(reference "#PWR0504")
-					(unit 1)
-				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481"
-					(reference "#PWR0404")
-					(unit 1)
-				)
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674"
-					(reference "#PWR0304")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 219.71 60.96 0)
 		(unit 1)
@@ -4600,7 +4552,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470Ω"
+		(property "Value" "330Ω"
 			(at 121.92 129.54 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4633,7 +4585,7 @@
 				)
 			)
 		)
-		(property "Description" "Thick-film chip resistor, 470 Ω, ±1 %, 0.1 W, 75 V, 0603, UNI-ROYAL 0603WAF4700T5E. IPROPI current-monitor resistor (0.43 V/A)"
+		(property "Description" "Thick-film chip resistor, 330 Ω, ±1 %, 0.1 W, 75 V, 0603, UNI-ROYAL 0603WAF3300T5E. IPROPI current-monitor resistor (0.30 V/A, 3.0 V at 10 A)"
 			(at 119.38 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -4655,7 +4607,7 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C23179"
+		(property "LCSC" "C23138"
 			(at 121.92 128.2699 0)
 			(hide yes)
 			(show_name no)
