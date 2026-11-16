@@ -175,6 +175,10 @@ class GUI(QWidget):
         
         self.show()
 
+        self.submit_file = QPushButton("Save Data")
+        self.submit_file.clicked.connect(self.save_data)
+        layout.addWidget(self.submit_file, 1, 7, 1, 1)
+
 
     # Check the connection 10 times every second
         self.timer = QtCore.QTimer()
@@ -280,6 +284,9 @@ class GUI(QWidget):
         self.canvas.axes.relim()
         self.canvas.axes.autoscale_view(scalex=False, scaley=True)
         self.canvas.draw()
+
+    def save_data(self):
+        filename = "mag_data.csv"
 
 # This part start the GUI from PyQt5
 if __name__ == "__main__":

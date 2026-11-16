@@ -1,4 +1,3 @@
-cat << 'EOF' > phyphox_relay.py
 from http.server import BaseHTTPRequestHandler, HTTPServer
 import threading, json
 
@@ -61,4 +60,3 @@ threading.Thread(
 
 print("Relay active! Catching phyphox on :5000 -> Serving USB on :8080...")
 HTTPServer(('127.0.0.1', 8080), LaptopSender).serve_forever()
-EOF

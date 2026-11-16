@@ -12,4 +12,21 @@ class data_collection:
         if self.start_time is None:
             self.start_time = current_time
 
-        time_passed = (current_time - self.start_time).total_seconds()
+        time_passed = round((current_time - self.start_time).total_seconds(), 3)
+        timestamp_str = current_time.strftime("%Y-%m-%d %H:%M:%S.%f")[:-3]
+
+        self.records.append({
+            "Timestamp": timestamp_str,
+            "Time Passed": time_passed,
+            "mag_x": data["x"],
+            "mag_y": data["y"],
+            "mag_z": data["z"]
+        })
+
+    def save_csv(self, filename):
+        self.store_file = filename
+        if not self.records:
+            return False, 0
+        df = pd.DataFrame(self.records)
+        df.to_csv(self.store_file, index = False)
+        return True, len(self.records)

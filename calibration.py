@@ -25,7 +25,7 @@ class Helmholtz_Calibration:
 
         self.phyphox_url = f"{clean_url}/get?mag_x&mag_y&mag_z&magX&magY&magZ"
 
-        # Establishes a connection with the URL
+        # Establishes a connection with the URL and starts the phyphox experiment if the connection is successful
         try:
             requests.get(f"{clean_url}/control?cmd=start", timeout=0.5)
             r = requests.get(self.phyphox_url, timeout=0.5)
