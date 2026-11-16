@@ -2198,7 +2198,7 @@
 		)
 		(uuid "66cfa04d-4237-41ab-9b0b-42fc87cdf816")
 	)
-	(text "J1301 pinout: 1 GND, 2 VCC, 3 SCL, 4 SDA, 5 DRDY\nI2C1: PA15 = SCL (CN7-17), PB7 = SDA (CN7-21)\nDRDY: PC2 (CN7-35), EXTI rising edge\nOn the breakout: tie I2CEN high, set SA0/SA1 for the address.\nR1301, R1302: bus pull-ups (cable up to about 1 m at 100 kHz)."
+	(text "J1301 pinout: 1 GND, 2 VCC, 3 SCL, 4 SDA, 5 DRDY, 6 NC\nI2C1: PA15 = SCL (CN7-17), PB7 = SDA (CN7-21)\nDRDY: PC2 (CN7-35), EXTI rising edge\nOn the breakout: tie I2CEN high, set SA0/SA1 for the address.\nR1301, R1302: bus pull-ups (cable up to about 1 m at 100 kHz)."
 		(exclude_from_sim no)
 		(at 179.07 231.79 0)
 		(effects
@@ -2358,6 +2358,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4b2d09a-cb79-49d5-8544-89f0b295cf9d")
+	)
+	(no_connect
+		(at 233.68 207.01)
+		(uuid "b43506d6-3a5b-4b37-a7f9-ddd840e695f6")
 	)
 	(wire
 		(pts
@@ -6957,7 +6961,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x05")
+		(lib_id "Connector_Generic:Conn_01x06")
 		(at 238.76 199.39 0)
 		(unit 1)
 		(body_style 1)
@@ -6989,7 +6993,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
 			(at 238.76 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -7011,7 +7015,7 @@
 				)
 			)
 		)
-		(property "Description" "JST XH 5-pin header for the off-board PNI RM3100 magnetometer breakout (I2C mode); mates with XH2.54-5Y housing"
+		(property "Description" "JST XH 6-pin header for the off-board PNI RM3100 magnetometer breakout (I2C mode, pin 6 not connected); mates with XH2.54-6Y housing"
 			(at 238.76 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -7022,7 +7026,18 @@
 				)
 			)
 		)
-		(property "Mating part" "XH2.54-5Y"
+		(property "Mating part" "XH2.54-6Y"
+			(at 238.76 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C144397"
 			(at 238.76 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -7047,6 +7062,9 @@
 		)
 		(pin "5"
 			(uuid "96614150-e804-4a0c-9263-c83fa29cece8")
+		)
+		(pin "6"
+			(uuid "58f55e19-9956-4cba-9471-e83a97755079")
 		)
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
@@ -8859,6 +8877,17 @@
 			)
 		)
 		(property "Mating part" "XH2.54-6Y"
+			(at 281.94 198.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C144397"
 			(at 281.94 198.12 0)
 			(hide yes)
 			(show_name no)

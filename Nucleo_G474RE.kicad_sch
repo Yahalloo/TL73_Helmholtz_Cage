@@ -19115,7 +19115,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22373924.pdf"
 			(at 240.03 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -19126,7 +19126,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2x19 female socket, 2.54 mm, 8.5 mm body, 3 mm tails (Hong Cheng HC-PM254-8.5H-2x19PZ); fitted on the bottom side, mates with the Nucleo morpho pins"
+			(at 240.03 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22373924"
 			(at 240.03 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -19794,7 +19805,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C22373924.pdf"
 			(at 102.87 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -19805,7 +19816,18 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2x19 female socket, 2.54 mm, 8.5 mm body, 3 mm tails (Hong Cheng HC-PM254-8.5H-2x19PZ); fitted on the bottom side, mates with the Nucleo morpho pins"
+			(at 102.87 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C22373924"
 			(at 102.87 54.61 0)
 			(hide yes)
 			(show_name no)
