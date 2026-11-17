@@ -1,4 +1,8 @@
 imported TL73_Shield_PCB_KiCad.step
-repositioned 8 EasyEDA model instances
+repositioned 12 EasyEDA model instances
+imported NUCLEO_G474RE.step
+OK mount bbox mm: 115.0 x 140.0 x 4.0, volume cm3 63.4
+imported TL73_Shield_PCB_KiCad.step
+repositioned 12 EasyEDA model instances
 imported NUCLEO_G474RE.step
 OK mount bbox mm: 115.0 x 140.0 x 4.0, volume cm3 63.4
