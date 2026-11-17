@@ -31,6 +31,8 @@ MORPHO_Y_TOP = 42.76           # pin 1 row
 MORPHO_Y_BOT = -2.96           # pin 37/38 row
 
 # ---------------- Nucleo-64 (from ST MB1367 manufacturing package) ----------------
+# local (x, y, z) shift in mm = .wrl position minus .step position, measured from the model files
+MODEL_FIXES  = {"ANT-TH_L33.0-W12.0": (-9.71, 0.0, 6.55)}   # shrouded banana jacks (red and black)
 PCB_STEP     = "TL73_Shield_PCB_KiCad.step"   # File > Export > STEP from KiCad, "Board center origin"
 NUC_STEP     = "NUCLEO_G474RE.step"           # optional real Nucleo model; placeholder is drawn if missing
 NUC_W, NUC_L, NUC_T = 70.0, 82.5, 1.644
@@ -169,8 +171,36 @@ def run(context):
             return occ
         pcb_step = os.path.join(OUT_DIR, PCB_STEP)
         if os.path.exists(pcb_step):
-            import_step(pcb_step, "TL73_Shield_PCB_KiCad", 0, 0, z_shield)
+            shield_occ = import_step(pcb_step, "TL73_Shield_PCB_KiCad", 0, 0, z_shield)
             log.append("imported " + PCB_STEP)
+            # KiCad's STEP export swaps EasyEDA .wrl models for same-named .step files whose
+            # origin differs. Shift those parts (in their own frame) to where the .wrl sits.
+            fixed = [0]
+            def fix_models(comp, ctx, depth=0):
+                for native in comp.occurrences:
+                    o = native.createForAssemblyContext(ctx)   # overrides need a proxy from the root
+                    hit = None
+                    for prefix, off in MODEL_FIXES.items():
+                        if o.component.name.startswith(prefix):
+                            hit = off
+                    if hit:
+                        try:
+                            m = adsk.core.Matrix3D.create()
+                            m.translation = adsk.core.Vector3D.create(hit[0] * mm, hit[1] * mm, hit[2] * mm)
+                            m.transformBy(o.transform2)
+                            o.transform2 = m
+                            fixed[0] += 1
+                        except Exception:
+                            log.append("model fix failed for " + o.name + ": " + traceback.format_exc())
+                    elif depth < 3:
+                        fix_models(native.component, o, depth + 1)
+            fix_models(shield_occ.component, shield_occ)
+            try:
+                if design.snapshots.hasPendingSnapshot:
+                    design.snapshots.add()
+            except Exception:
+                pass
+            log.append("repositioned %d EasyEDA model instances" % fixed[0])
         else:
             log.append("PCB STEP not found, skipped: " + pcb_step)
 
