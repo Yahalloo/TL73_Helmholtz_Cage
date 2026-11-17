@@ -1554,7 +1554,7 @@
 		)
 		(uuid "f15d0a6d-649e-4eeb-b980-5d4405e906f4")
 	)
-	(text "DRV8873S NOTES (per axis)\n- Supply: VM = +24 V only (4.5-38 V). Charge pump (C304, C312) and 5 V DVDD regulator (C305) are internal,\n  so the 12 V gate supply, bootstrap caps and OC_ADJ resistor of the DRV8412 are gone\n- PWM_A -> PH/IN2 -> OUT2 = OUT_A (coil +, through the shunt). PWM_B -> EN/IN1 -> OUT1 = OUT_B (coil -).\n  Crossed on purpose: OUT2 / OUT1 then face the + / - coil connectors without crossing on the PCB\n- Power-up default, no SPI needed: PWM mode (MODE = 01b). One input high = drive, both high = brake\n  (high-side recirculation), both low = Hi-Z (coast)\n- Recommended: write MODE = 10b (independent half bridge) over SPI. Each OUTx then follows its INx like\n  the DRV8412 did, so PWM_A = D, PWM_B = 1-D, unipolar, 20 kHz works unchanged\n- DISABLE: all three drivers share the DRV_DISABLE net (top sheet). R103 (0R, fitted) ties it to GND, so the bridge is on\n  whenever the driver is awake. For MCU control (PB5): remove R103, fit R104. High = outputs Hi-Z, SPI stays alive.\n  100k internal pull-up to DVDD: with R103 removed the bridge stays off until PB5 drives the net low\n- ~{SLEEP}: 10k pull-down. Set high, wait >= 1.5 ms (tWAKE), then configure over SPI. Its high level\n  also sets the SDO logic level (3.3 V from the STM32)\n- ~{FAULT}: open drain, 10k pull-up to 3.3 V. Low on UVLO, charge-pump UV, OCP, TSD, open load\n  (also low briefly during wake-up). No OTW pin: over-temperature warning is the OTW bit in the\n  FAULT register (or on nFAULT if OTW_REP = 1)\n- SPI: mode 1 (CPOL = 0, CPHA = 1), 16-bit frames, MSB first. SCLK / SDI / SDO are shared by X, Y, Z;\n  one ~{SCS} per axis (SDO is Hi-Z while ~{SCS} is high)\n- Clear a latched fault: CLR_FLT bit over SPI (preferred) or a 5-20 us low pulse on ~{SLEEP}"
+	(text "DRV8873S NOTES (per axis)\n- Supply: VM = +24 V rail, 36 V max on this board (IC range 4.5-38 V, 40 V abs max). Charge pump (C304, C312) and 5 V DVDD regulator (C305) are internal,\n  so the 12 V gate supply, bootstrap caps and OC_ADJ resistor of the DRV8412 are gone\n- PWM_A -> PH/IN2 -> OUT2 = OUT_A (coil +, through the shunt). PWM_B -> EN/IN1 -> OUT1 = OUT_B (coil -).\n  Crossed on purpose: OUT2 / OUT1 then face the + / - coil connectors without crossing on the PCB\n- Power-up default, no SPI needed: PWM mode (MODE = 01b). One input high = drive, both high = brake\n  (high-side recirculation), both low = Hi-Z (coast)\n- Recommended: write MODE = 10b (independent half bridge) over SPI. Each OUTx then follows its INx like\n  the DRV8412 did, so PWM_A = D, PWM_B = 1-D, unipolar, 20 kHz works unchanged\n- DISABLE: all three drivers share the DRV_DISABLE net (top sheet). R103 (0R, fitted) ties it to GND, so the bridge is on\n  whenever the driver is awake. For MCU control (PB5): remove R103, fit R104. High = outputs Hi-Z, SPI stays alive.\n  100k internal pull-up to DVDD: with R103 removed the bridge stays off until PB5 drives the net low\n- ~{SLEEP}: 10k pull-down. Set high, wait >= 1.5 ms (tWAKE), then configure over SPI. Its high level\n  also sets the SDO logic level (3.3 V from the STM32)\n- ~{FAULT}: open drain, 10k pull-up to 3.3 V. Low on UVLO, charge-pump UV, OCP, TSD, open load\n  (also low briefly during wake-up). No OTW pin: over-temperature warning is the OTW bit in the\n  FAULT register (or on nFAULT if OTW_REP = 1)\n- SPI: mode 1 (CPOL = 0, CPHA = 1), 16-bit frames, MSB first. SCLK / SDI / SDO are shared by X, Y, Z;\n  one ~{SCS} per axis (SDO is Hi-Z while ~{SCS} is high)\n- Clear a latched fault: CLR_FLT bit over SPI (preferred) or a 5-20 us low pulse on ~{SLEEP}"
 		(exclude_from_sim no)
 		(at 15.24 142.24 0)
 		(effects
@@ -3088,7 +3088,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000uF"
+		(property "Value" "470uF"
 			(at 251.46 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3121,7 +3121,7 @@
 				)
 			)
 		)
-		(property "Description" "Aluminium electrolytic capacitor, 1000 µF, 35 V, ±20 %, 105 °C 3000 h, low impedance (1.87 A ripple at 100 kHz), radial 10 x 20 mm, 5 mm pitch, BERYL RC035M102LO10*20TH-2A1E. VM bulk capacitor"
+		(property "Description" "Aluminium electrolytic capacitor, 470 µF, 50 V, ±20 %, 105 °C, low impedance, radial 10 x 20 mm, 5 mm pitch, Rubycon 50ZLJ470M10X20. VM bulk capacitor"
 			(at 247.65 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -3132,7 +3132,7 @@
 				)
 			)
 		)
-		(property "Rating" "35V"
+		(property "Rating" "50V"
 			(at 251.46 67.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3143,7 +3143,7 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C357641"
+		(property "LCSC" "C2902875"
 			(at 251.46 62.6109 0)
 			(hide yes)
 			(show_name no)

@@ -7,7 +7,7 @@
 	(title_block
 		(title "External Connectors")
 		(company "TL-73 Helmholtz Cage")
-		(comment 1 "24 V input, power-rail test terminals, coil X / Y / Z outputs")
+		(comment 1 "Supply input (36 V max), power-rail test terminals, coil X / Y / Z outputs")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -1953,10 +1953,3706 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Zener"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Zener"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Zener diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_Zener_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Zener_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 55.88 54.61 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7735f8d2-5a5e-4065-924a-df7f8e69cc27")
+		(property "Reference" "D1201"
+			(at 57.785 53.34 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMDJ36A"
+			(at 57.785 55.88 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "EasyEDA:SMC_L7.1-W6.2-LS8.1-RD"
+			(at 55.88 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C108363.pdf"
+			(at 55.88 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TVS diode, unidirectional, 36 V stand-off, 40 to 44.2 V breakdown, 58.1 V clamp at 51.6 A, 3 kW (10/1000 us), DO-214AB (SMC), Littelfuse SMDJ36A. Supply input clamp, place at the input terminals"
+			(at 55.88 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C108363"
+			(at 55.88 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "36V standoff, 3kW"
+			(at 57.785 58.166 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "0799bd99-756e-4b90-9b57-73c968152cce")
+		)
+		(pin "2"
+			(uuid "b7891525-9bcb-4b76-a59e-76b328bdd341")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
+					(reference "D1201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 55.88 44.45) (xy 55.88 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71dff0f1-de9b-4d7e-80e1-01d940b79378")
+	)
+	(wire
+		(pts
+			(xy 55.88 58.42) (xy 55.88 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d135692-059e-4047-9e40-e6d4ebf63dd8")
+	)
+	(junction
+		(at 55.88 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fad271d5-f8bc-4e1d-b15b-e66b63271ab6")
+	)
+	(junction
+		(at 55.88 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c12c1ec0-5ff3-44d2-ab27-4bb07a836697")
+	)
+	(wire
+		(pts
+			(xy 45.72 129.54) (xy 45.72 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d91177fe-445b-4843-8e81-edc3e7f2dabf")
+	)
+	(junction
+		(at 45.72 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c16b2264-c1b1-4c2f-bbe1-3e4407f6f1f8")
+	)
+	(junction
+		(at 45.72 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbf1310a-0ec4-4ded-920c-497897ba56ef")
+	)
+	(junction
+		(at 45.72 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1983379-1ad3-4d30-a8e6-f5288aaffc7c")
+	)
+	(wire
+		(pts
+			(xy 88.9 134.62) (xy 88.9 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8955d46d-6a2b-4506-95dd-c9a17beecad1")
+	)
+	(junction
+		(at 88.9 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "39662aed-0d65-40ec-a85b-6106b5419dc6")
+	)
+	(junction
+		(at 88.9 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f83a8a0-9e7a-4229-b0df-4fbea2bd9c99")
+	)
+	(junction
+		(at 88.9 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "63b67ca6-3b3b-4977-9419-5a3f0f5921e5")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 58.42 138.43 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "456b8e8a-3f3c-4b18-89fc-604ad14668a7")
+		(property "Reference" "R1201"
+			(at 58.42 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 58.42 140.97 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 58.42 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Optional RC snubber resistor, not fitted: across coil X. Thick-film chip resistor, 33 Ω, ±1 %, 0.25 W, 200 V, 1206, Vishay CRCW120633R0FKEA. Starting value, tune on the bench"
+			(at 58.42 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C844661"
+			(at 58.42 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "0.25W"
+			(at 58.42 142.875 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "70186719-d26b-45f6-aa7b-14ef61db28e6")
+		)
+		(pin "2"
+			(uuid "5b058e72-a780-4f19-b6eb-9e78f0d58d25")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
+					(reference "R1201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 74.93 138.43 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "0859a66f-4401-4bb5-a01b-58b5160c4d16")
+		(property "Reference" "C1203"
+			(at 74.93 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470pF"
+			(at 74.93 140.97 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 74.93 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Optional RC snubber capacitor, not fitted: across coil X. Ceramic capacitor (MLCC), 470 pF, 100 V, C0G/NP0, ±5 %, 1206, Yageo CC1206JRNPO0BN471. Sized for 0.12 W in the resistor at 36 V and 200 kHz PWM"
+			(at 74.93 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C113880"
+			(at 74.93 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "100V C0G"
+			(at 74.93 142.875 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b0eb2f07-2f60-47a4-93f9-c00f9228e3bc")
+		)
+		(pin "2"
+			(uuid "b98c8182-00c4-4e15-95bc-34f8fa1e4e24")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
+					(reference "C1203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 45.72 138.43) (xy 54.61 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af4cca8f-8ff7-4977-a5e9-11d20421b1ed")
+	)
+	(wire
+		(pts
+			(xy 62.23 138.43) (xy 71.12 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "236c3630-d881-46f3-8588-715398022ea8")
+	)
+	(wire
+		(pts
+			(xy 78.74 138.43) (xy 88.9 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2e2d559-93b5-41bf-ab3d-31ad91d133e7")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 52.07 147.32 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "238819df-5d8b-4aca-a904-8e014f9f8685")
+		(property "Reference" "R1204"
+			(at 52.07 144.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 52.07 149.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 52.07 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Optional RC snubber resistor, not fitted: coil X+ output to GND. Thick-film chip resistor, 33 Ω, ±1 %, 0.25 W, 200 V, 1206, Vishay CRCW120633R0FKEA. Starting value, tune on the bench"
+			(at 52.07 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C844661"
+			(at 52.07 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "0.25W"
+			(at 52.07 151.765 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "92f28a51-acb0-4e26-91cd-6828b2bd37d8")
+		)
+		(pin "2"
+			(uuid "d9125d85-ea7a-4250-b721-08ded78203d3")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
+					(reference "R1204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 60.96 147.32 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "df8c4cb1-ea3e-4b4b-9dcd-7ea92053213c")
+		(property "Reference" "C1206"
+			(at 60.96 144.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470pF"
+			(at 60.96 149.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 60.96 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Optional RC snubber capacitor, not fitted: coil X+ output to GND. Ceramic capacitor (MLCC), 470 pF, 100 V, C0G/NP0, ±5 %, 1206, Yageo CC1206JRNPO0BN471. Sized for 0.12 W in the resistor at 36 V and 200 kHz PWM"
+			(at 60.96 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C113880"
+			(at 60.96 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "100V C0G"
+			(at 60.96 151.765 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "07222b06-7b97-423e-82c0-6e3290d645b4")
+		)
+		(pin "2"
+			(uuid "b18712ca-f758-4794-80f6-d6bbcf9ad2ae")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
+					(reference "C1206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 73.66 147.32 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "db8e3c1f-3652-4652-88f9-51b9bc1d4aa9")
+		(property "Reference" "C1207"
+			(at 73.66 144.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470pF"
+			(at 73.66 149.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 73.66 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Optional RC snubber capacitor, not fitted: coil X- output to GND. Ceramic capacitor (MLCC), 470 pF, 100 V, C0G/NP0, ±5 %, 1206, Yageo CC1206JRNPO0BN471. Sized for 0.12 W in the resistor at 36 V and 200 kHz PWM"
+			(at 73.66 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C113880"
+			(at 73.66 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "100V C0G"
+			(at 73.66 151.765 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "de357238-4ccb-45ef-a3f9-53763915da0a")
+		)
+		(pin "2"
+			(uuid "d9b47dc7-b4cd-44dd-b32c-daf8979278fa")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
+					(reference "C1207")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 82.55 147.32 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "aab03b7b-645c-41a3-b36a-23250d72a8ef")
+		(property "Reference" "R1205"
+			(at 82.55 144.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 82.55 149.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 82.55 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Optional RC snubber resistor, not fitted: coil X- output to GND. Thick-film chip resistor, 33 Ω, ±1 %, 0.25 W, 200 V, 1206, Vishay CRCW120633R0FKEA. Starting value, tune on the bench"
+			(at 82.55 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C844661"
+			(at 82.55 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "0.25W"
+			(at 82.55 151.765 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "12354288-f2c5-46e6-9b5e-35d714079a8f")
+		)
+		(pin "2"
+			(uuid "040485da-f3c1-427a-a1ac-bd018bf9dcfd")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
+					(reference "R1205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 45.72 147.32) (xy 48.26 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24934746-0a82-4efa-bd4f-4ae504f253d3")
+	)
+	(wire
+		(pts
+			(xy 55.88 147.32) (xy 57.15 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7c366fb-1bae-4dc9-8239-033180e856be")
+	)
+	(wire
+		(pts
+			(xy 64.77 147.32) (xy 67.31 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8252738-ea6f-4014-b794-a9ee1e2ce177")
+	)
+	(wire
+		(pts
+			(xy 67.31 147.32) (xy 69.85 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd7368fd-6085-42d8-ae74-5a4d3d88e744")
+	)
+	(wire
+		(pts
+			(xy 77.47 147.32) (xy 78.74 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6424396-f176-4fd0-8345-4c2014bb266c")
+	)
+	(wire
+		(pts
+			(xy 86.36 147.32) (xy 88.9 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "065a80da-6b9f-4b61-b6c5-e016f05a2cef")
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 55.88 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9a1ee5de-d228-45ff-9055-a24057278ca1")
+		(property "Reference" "D1202"
+			(at 55.88 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMDJ36A"
+			(at 55.88 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:SMC_L7.1-W6.2-LS8.1-RD"
+			(at 55.88 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C108363.pdf"
+			(at 55.88 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TVS diode, unidirectional, 36 V stand-off, 40 to 44.2 V breakdown, 58.1 V clamp at 51.6 A, 3 kW (10/1000 us), DO-214AB (SMC), Littelfuse SMDJ36A. Coil X+ output clamp to GND"
+			(at 55.88 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C108363"
+			(at 55.88 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "36V standoff, 3kW"
+			(at 55.88 160.655 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b96d584b-26f4-4b64-8938-ee439ef65ffb")
+		)
+		(pin "2"
+			(uuid "b0389190-5d60-4e7f-b9a1-84d149bd3f67")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
+					(reference "D1202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 78.74 156.21 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "33e7dcd2-50a4-444d-a296-bd1733c7c1fd")
+		(property "Reference" "D1203"
+			(at 78.74 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMDJ36A"
+			(at 78.74 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:SMC_L7.1-W6.2-LS8.1-RD"
+			(at 78.74 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C108363.pdf"
+			(at 78.74 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TVS diode, unidirectional, 36 V stand-off, 40 to 44.2 V breakdown, 58.1 V clamp at 51.6 A, 3 kW (10/1000 us), DO-214AB (SMC), Littelfuse SMDJ36A. Coil X- output clamp to GND"
+			(at 78.74 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C108363"
+			(at 78.74 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "36V standoff, 3kW"
+			(at 78.74 160.655 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c04f37df-7dc3-4e4f-b361-493c035fd92d")
+		)
+		(pin "2"
+			(uuid "50732f97-c91d-4f7e-b217-48d8763b971b")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
+					(reference "D1203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 45.72 156.21) (xy 52.07 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19a71acd-88c9-404f-820f-f66584d3fe87")
+	)
+	(wire
+		(pts
+			(xy 59.69 156.21) (xy 67.31 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d962a7ef-0a2d-476f-99bb-e71b792de925")
+	)
+	(wire
+		(pts
+			(xy 67.31 156.21) (xy 74.93 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a03b9ed-1b29-46eb-99ca-c3780df670f0")
+	)
+	(wire
+		(pts
+			(xy 82.55 156.21) (xy 88.9 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e18f7e67-74e7-41e0-9d5f-d7a1393e54c7")
+	)
+	(wire
+		(pts
+			(xy 67.31 147.32) (xy 67.31 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d254892-e210-4979-a0bd-b79fc4f6272c")
+	)
+	(junction
+		(at 67.31 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "80b45ea3-ca33-4984-882d-b2505e16345a")
+	)
+	(junction
+		(at 67.31 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e72c98af-9bd5-4eda-9a73-72f6833852be")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 67.31 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "713f73b8-14e5-46b1-89d2-05d69ccfafc7")
+		(property "Reference" "#PWR01211"
+			(at 67.31 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bc7bb48e-2fa1-4950-bc68-008178732d4c")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
+					(reference "#PWR01211")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 129.54 129.54) (xy 129.54 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84ae52c7-dee9-4816-bc08-11e0aaa92618")
+	)
+	(junction
+		(at 129.54 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08ecbc60-28c1-4e25-a3a3-f796ae5093b4")
+	)
+	(junction
+		(at 129.54 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50162e86-d367-4a35-8a90-5d28013df4d4")
+	)
+	(junction
+		(at 129.54 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d15136ef-b286-46cb-8a61-dd695fd86f1c")
+	)
+	(wire
+		(pts
+			(xy 172.72 134.62) (xy 172.72 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbfcdcfb-caae-4974-b4ee-6b7cf828c131")
+	)
+	(junction
+		(at 172.72 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f28f794f-962e-49ba-97a2-0c28ecadc39d")
+	)
+	(junction
+		(at 172.72 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8df79b47-7082-4816-8e62-da355fc28e58")
+	)
+	(junction
+		(at 172.72 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6a689b6-6d63-4c1b-ad30-aa01bd2e9a87")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 142.24 138.43 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "d2062376-05a0-47d2-9f28-7a61d24f3d37")
+		(property "Reference" "R1202"
+			(at 142.24 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 142.24 140.97 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 142.24 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Optional RC snubber resistor, not fitted: across coil Y. Thick-film chip resistor, 33 Ω, ±1 %, 0.25 W, 200 V, 1206, Vishay CRCW120633R0FKEA. Starting value, tune on the bench"
+			(at 142.24 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C844661"
+			(at 142.24 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "0.25W"
+			(at 142.24 142.875 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bbbf83bf-59f2-4f3d-90e7-2528215a7e98")
+		)
+		(pin "2"
+			(uuid "bb775d0b-93ef-4af3-a56e-1f85bf112800")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
+					(reference "R1202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 158.75 138.43 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "c3878f00-d9fc-42e9-a346-076d766fc804")
+		(property "Reference" "C1204"
+			(at 158.75 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470pF"
+			(at 158.75 140.97 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 158.75 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Optional RC snubber capacitor, not fitted: across coil Y. Ceramic capacitor (MLCC), 470 pF, 100 V, C0G/NP0, ±5 %, 1206, Yageo CC1206JRNPO0BN471. Sized for 0.12 W in the resistor at 36 V and 200 kHz PWM"
+			(at 158.75 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C113880"
+			(at 158.75 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "100V C0G"
+			(at 158.75 142.875 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "aa04cbf9-2af1-46ab-b8c4-4264a6bfd444")
+		)
+		(pin "2"
+			(uuid "3547175b-5e75-4864-b8c9-7a397a5e3cbc")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
+					(reference "C1204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 129.54 138.43) (xy 138.43 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa0476e8-65c3-4164-9456-3863e9b70b21")
+	)
+	(wire
+		(pts
+			(xy 146.05 138.43) (xy 154.94 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42948b4c-af86-41b0-a060-a6a2517c8a73")
+	)
+	(wire
+		(pts
+			(xy 162.56 138.43) (xy 172.72 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d15b5fe5-3246-4990-8edf-d9bd2909096e")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 135.89 147.32 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "97006868-2ee3-4e15-99ec-89c784c6e56a")
+		(property "Reference" "R1206"
+			(at 135.89 144.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 135.89 149.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 135.89 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Optional RC snubber resistor, not fitted: coil Y+ output to GND. Thick-film chip resistor, 33 Ω, ±1 %, 0.25 W, 200 V, 1206, Vishay CRCW120633R0FKEA. Starting value, tune on the bench"
+			(at 135.89 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C844661"
+			(at 135.89 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "0.25W"
+			(at 135.89 151.765 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f105d14f-3a74-4bc2-9efc-616fc635b7f0")
+		)
+		(pin "2"
+			(uuid "d413cbc3-034a-4a4f-96c2-54efde9671d4")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
+					(reference "R1206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 144.78 147.32 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "d0a642aa-288e-4f24-a414-6d0f4575c176")
+		(property "Reference" "C1208"
+			(at 144.78 144.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470pF"
+			(at 144.78 149.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 144.78 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Optional RC snubber capacitor, not fitted: coil Y+ output to GND. Ceramic capacitor (MLCC), 470 pF, 100 V, C0G/NP0, ±5 %, 1206, Yageo CC1206JRNPO0BN471. Sized for 0.12 W in the resistor at 36 V and 200 kHz PWM"
+			(at 144.78 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C113880"
+			(at 144.78 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "100V C0G"
+			(at 144.78 151.765 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "724b4037-3f41-4805-bc57-e69b033b50f8")
+		)
+		(pin "2"
+			(uuid "2f8d4cc0-0138-4631-971e-a4651488f5cd")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
+					(reference "C1208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 157.48 147.32 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "1ded771f-fadb-478f-ac2d-34bfc46b2d5d")
+		(property "Reference" "C1209"
+			(at 157.48 144.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470pF"
+			(at 157.48 149.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 157.48 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Optional RC snubber capacitor, not fitted: coil Y- output to GND. Ceramic capacitor (MLCC), 470 pF, 100 V, C0G/NP0, ±5 %, 1206, Yageo CC1206JRNPO0BN471. Sized for 0.12 W in the resistor at 36 V and 200 kHz PWM"
+			(at 157.48 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C113880"
+			(at 157.48 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "100V C0G"
+			(at 157.48 151.765 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "14f73340-49ce-4ad5-94b9-6af691c0a756")
+		)
+		(pin "2"
+			(uuid "3638e112-3d1b-4749-a81d-a8a1ebcdfa3b")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
+					(reference "C1209")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 166.37 147.32 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "342c7ba7-6b55-427f-90af-d3f60f4a494d")
+		(property "Reference" "R1207"
+			(at 166.37 144.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 166.37 149.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 166.37 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Optional RC snubber resistor, not fitted: coil Y- output to GND. Thick-film chip resistor, 33 Ω, ±1 %, 0.25 W, 200 V, 1206, Vishay CRCW120633R0FKEA. Starting value, tune on the bench"
+			(at 166.37 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C844661"
+			(at 166.37 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "0.25W"
+			(at 166.37 151.765 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f853c4a2-7f84-4ef1-b1b1-b7e44271ae1f")
+		)
+		(pin "2"
+			(uuid "0381af62-c184-4aee-8e32-5720811be0f3")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
+					(reference "R1207")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 129.54 147.32) (xy 132.08 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "212ed87c-567d-490a-bf5e-4b4ef3f44225")
+	)
+	(wire
+		(pts
+			(xy 139.7 147.32) (xy 140.97 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf814c7c-cdb9-48b4-a48b-465f95fd0094")
+	)
+	(wire
+		(pts
+			(xy 148.59 147.32) (xy 151.13 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d97fb89-8626-429a-9884-d618acde4d03")
+	)
+	(wire
+		(pts
+			(xy 151.13 147.32) (xy 153.67 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02fb6c50-d826-4a86-ac8d-0e4cbbb68142")
+	)
+	(wire
+		(pts
+			(xy 161.29 147.32) (xy 162.56 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66de0bd5-0b81-4cc8-a60a-76bcc126258f")
+	)
+	(wire
+		(pts
+			(xy 170.18 147.32) (xy 172.72 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdf1177b-0b72-413f-ba11-169ad4af2667")
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 139.7 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ab7f09dc-0c21-4788-9c8d-bbe4ac8deb69")
+		(property "Reference" "D1204"
+			(at 139.7 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMDJ36A"
+			(at 139.7 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:SMC_L7.1-W6.2-LS8.1-RD"
+			(at 139.7 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C108363.pdf"
+			(at 139.7 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TVS diode, unidirectional, 36 V stand-off, 40 to 44.2 V breakdown, 58.1 V clamp at 51.6 A, 3 kW (10/1000 us), DO-214AB (SMC), Littelfuse SMDJ36A. Coil Y+ output clamp to GND"
+			(at 139.7 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C108363"
+			(at 139.7 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "36V standoff, 3kW"
+			(at 139.7 160.655 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "93c48004-c691-40ab-8f9d-fe5d63600330")
+		)
+		(pin "2"
+			(uuid "7797caa0-36df-40ab-98d7-6a34c3ceb179")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
+					(reference "D1204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 162.56 156.21 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "755e7dae-5fcb-4c33-a753-8193c9894113")
+		(property "Reference" "D1205"
+			(at 162.56 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMDJ36A"
+			(at 162.56 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:SMC_L7.1-W6.2-LS8.1-RD"
+			(at 162.56 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C108363.pdf"
+			(at 162.56 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TVS diode, unidirectional, 36 V stand-off, 40 to 44.2 V breakdown, 58.1 V clamp at 51.6 A, 3 kW (10/1000 us), DO-214AB (SMC), Littelfuse SMDJ36A. Coil Y- output clamp to GND"
+			(at 162.56 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C108363"
+			(at 162.56 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "36V standoff, 3kW"
+			(at 162.56 160.655 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54f164df-e1f3-4e59-8fbe-6cdcd1bb0fe9")
+		)
+		(pin "2"
+			(uuid "a93a9d0e-6d59-43f2-910e-93c0105b0f2e")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
+					(reference "D1205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 129.54 156.21) (xy 135.89 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e51e51f2-a878-4817-8582-9e4d0e4a8084")
+	)
+	(wire
+		(pts
+			(xy 143.51 156.21) (xy 151.13 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae4fbfd1-7fd6-49aa-a889-17a29fd9f3c2")
+	)
+	(wire
+		(pts
+			(xy 151.13 156.21) (xy 158.75 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0f98e4d-3b1b-4512-8e7e-9cbafcd2da60")
+	)
+	(wire
+		(pts
+			(xy 166.37 156.21) (xy 172.72 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "441c4f8b-0391-4a8f-8efe-a3e77b8454c6")
+	)
+	(wire
+		(pts
+			(xy 151.13 147.32) (xy 151.13 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d4874e5-5f93-4f6c-a22e-6369854d5961")
+	)
+	(junction
+		(at 151.13 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "15fe777f-b0a0-475d-8330-01447674aa14")
+	)
+	(junction
+		(at 151.13 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "530a5cb1-040c-4294-94c6-364c72a9b5c6")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 151.13 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a04cbace-a626-44d3-8c5c-c1f3c2837a6a")
+		(property "Reference" "#PWR01212"
+			(at 151.13 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 151.13 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 151.13 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 151.13 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 151.13 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "145ee77e-38df-4d1c-b360-162a422f0a13")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
+					(reference "#PWR01212")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 213.36 129.54) (xy 213.36 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9175e518-a682-4459-ab4e-e95c3673bebc")
+	)
+	(junction
+		(at 213.36 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7fe8f116-49cd-4417-b310-c13f05a00764")
+	)
+	(junction
+		(at 213.36 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16df32d7-1fb3-4ce9-b579-a5c765b8aad7")
+	)
+	(junction
+		(at 213.36 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "473421b3-9eb9-4e21-9f64-81002064c9b3")
+	)
+	(wire
+		(pts
+			(xy 256.54 134.62) (xy 256.54 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc03caa0-950d-4a54-b0f4-b1a6c69e7d92")
+	)
+	(junction
+		(at 256.54 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "419de63e-6fc7-4088-ab81-ab15b66f70bd")
+	)
+	(junction
+		(at 256.54 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d439d555-7f28-43dc-bde8-07e2acbaa53b")
+	)
+	(junction
+		(at 256.54 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dabbe43f-0d36-4096-9f06-f455bd0e1c11")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 226.06 138.43 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "a9373251-85fd-4f2b-a65f-284929eeacb6")
+		(property "Reference" "R1203"
+			(at 226.06 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 226.06 140.97 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 226.06 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Optional RC snubber resistor, not fitted: across coil Z. Thick-film chip resistor, 33 Ω, ±1 %, 0.25 W, 200 V, 1206, Vishay CRCW120633R0FKEA. Starting value, tune on the bench"
+			(at 226.06 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C844661"
+			(at 226.06 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "0.25W"
+			(at 226.06 142.875 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d00628a8-fd66-4ceb-9319-02582988f6c1")
+		)
+		(pin "2"
+			(uuid "a6c93693-0dc2-49fa-9256-96ba59263356")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
+					(reference "R1203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 242.57 138.43 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "cacd6a9b-f405-4f19-9688-cb0acd3a0f05")
+		(property "Reference" "C1205"
+			(at 242.57 135.89 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470pF"
+			(at 242.57 140.97 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 242.57 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Optional RC snubber capacitor, not fitted: across coil Z. Ceramic capacitor (MLCC), 470 pF, 100 V, C0G/NP0, ±5 %, 1206, Yageo CC1206JRNPO0BN471. Sized for 0.12 W in the resistor at 36 V and 200 kHz PWM"
+			(at 242.57 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C113880"
+			(at 242.57 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "100V C0G"
+			(at 242.57 142.875 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8298235f-014a-4d31-980f-5018e2b58e5d")
+		)
+		(pin "2"
+			(uuid "91536d8d-d7d3-457e-9ba1-9bca02b14fbb")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
+					(reference "C1205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 213.36 138.43) (xy 222.25 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84c7ef59-8468-4c4d-8799-11dee2447e9a")
+	)
+	(wire
+		(pts
+			(xy 229.87 138.43) (xy 238.76 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7264328-5a40-4b26-8ff0-9e87054c4a93")
+	)
+	(wire
+		(pts
+			(xy 246.38 138.43) (xy 256.54 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb9c2f8d-7a8f-400d-92be-549688b18123")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 219.71 147.32 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "1ec91aaa-05e9-4860-827e-8bb0ed2d8a97")
+		(property "Reference" "R1208"
+			(at 219.71 144.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 219.71 149.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 219.71 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Optional RC snubber resistor, not fitted: coil Z+ output to GND. Thick-film chip resistor, 33 Ω, ±1 %, 0.25 W, 200 V, 1206, Vishay CRCW120633R0FKEA. Starting value, tune on the bench"
+			(at 219.71 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C844661"
+			(at 219.71 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "0.25W"
+			(at 219.71 151.765 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e10f84b0-7b67-4c4a-946e-e86c5e9a3488")
+		)
+		(pin "2"
+			(uuid "91ca7033-6bfe-4f22-b946-b55e4e02a80d")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
+					(reference "R1208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 228.6 147.32 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "bb119db2-0ec8-4fe4-b663-7cf7da8e9f91")
+		(property "Reference" "C1210"
+			(at 228.6 144.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470pF"
+			(at 228.6 149.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 228.6 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Optional RC snubber capacitor, not fitted: coil Z+ output to GND. Ceramic capacitor (MLCC), 470 pF, 100 V, C0G/NP0, ±5 %, 1206, Yageo CC1206JRNPO0BN471. Sized for 0.12 W in the resistor at 36 V and 200 kHz PWM"
+			(at 228.6 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C113880"
+			(at 228.6 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "100V C0G"
+			(at 228.6 151.765 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd846927-7978-4158-95ee-ecd61000b547")
+		)
+		(pin "2"
+			(uuid "881d7e24-5dab-4651-aa21-000be3034f15")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
+					(reference "C1210")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 241.3 147.32 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "e7c34a89-fd92-4e22-9595-d532c45661ac")
+		(property "Reference" "C1211"
+			(at 241.3 144.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470pF"
+			(at 241.3 149.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
+			(at 241.3 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Optional RC snubber capacitor, not fitted: coil Z- output to GND. Ceramic capacitor (MLCC), 470 pF, 100 V, C0G/NP0, ±5 %, 1206, Yageo CC1206JRNPO0BN471. Sized for 0.12 W in the resistor at 36 V and 200 kHz PWM"
+			(at 241.3 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C113880"
+			(at 241.3 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "100V C0G"
+			(at 241.3 151.765 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9798c6f4-b712-409e-a424-cd6f1bf8d1fc")
+		)
+		(pin "2"
+			(uuid "0578c1de-2248-4430-8a73-ec8e87b368d8")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
+					(reference "C1211")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 250.19 147.32 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "e7cbe511-384a-42ec-bdd1-2f6c01333c5b")
+		(property "Reference" "R1209"
+			(at 250.19 144.78 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "33R"
+			(at 250.19 149.86 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 250.19 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Optional RC snubber resistor, not fitted: coil Z- output to GND. Thick-film chip resistor, 33 Ω, ±1 %, 0.25 W, 200 V, 1206, Vishay CRCW120633R0FKEA. Starting value, tune on the bench"
+			(at 250.19 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C844661"
+			(at 250.19 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "0.25W"
+			(at 250.19 151.765 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3fe69203-b832-4633-9fec-685708bc0e2a")
+		)
+		(pin "2"
+			(uuid "c3ea88dc-a11d-4acf-83d5-193123e3a03c")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
+					(reference "R1209")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 213.36 147.32) (xy 215.9 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f013faa-3ae4-4d9d-b250-3ed2b6b6fd6f")
+	)
+	(wire
+		(pts
+			(xy 223.52 147.32) (xy 224.79 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8bfbceb-2d20-4c48-8cae-ee0cbeed561a")
+	)
+	(wire
+		(pts
+			(xy 232.41 147.32) (xy 234.95 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37f0c5c5-356b-412e-a993-77ecdf6fc39a")
+	)
+	(wire
+		(pts
+			(xy 234.95 147.32) (xy 237.49 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d66082c-d677-4171-8b08-31fa9803a6f1")
+	)
+	(wire
+		(pts
+			(xy 245.11 147.32) (xy 246.38 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a66fca7-386a-49c9-9e0f-035fa77c7b18")
+	)
+	(wire
+		(pts
+			(xy 254 147.32) (xy 256.54 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32187000-67ee-40b9-aa72-4074e17f6dd4")
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 223.52 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eee2f435-80f8-45a9-94ef-94f6632ba728")
+		(property "Reference" "D1206"
+			(at 223.52 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMDJ36A"
+			(at 223.52 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:SMC_L7.1-W6.2-LS8.1-RD"
+			(at 223.52 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C108363.pdf"
+			(at 223.52 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TVS diode, unidirectional, 36 V stand-off, 40 to 44.2 V breakdown, 58.1 V clamp at 51.6 A, 3 kW (10/1000 us), DO-214AB (SMC), Littelfuse SMDJ36A. Coil Z+ output clamp to GND"
+			(at 223.52 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C108363"
+			(at 223.52 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "36V standoff, 3kW"
+			(at 223.52 160.655 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "01c0d880-4a68-4909-8513-0450590716ba")
+		)
+		(pin "2"
+			(uuid "d21c90e3-af23-43e8-a252-b2515f9b0c57")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
+					(reference "D1206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 246.38 156.21 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "20ecd650-898d-44a4-8097-7ef8430f52d5")
+		(property "Reference" "D1207"
+			(at 246.38 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SMDJ36A"
+			(at 246.38 158.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "EasyEDA:SMC_L7.1-W6.2-LS8.1-RD"
+			(at 246.38 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C108363.pdf"
+			(at 246.38 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "TVS diode, unidirectional, 36 V stand-off, 40 to 44.2 V breakdown, 58.1 V clamp at 51.6 A, 3 kW (10/1000 us), DO-214AB (SMC), Littelfuse SMDJ36A. Coil Z- output clamp to GND"
+			(at 246.38 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C108363"
+			(at 246.38 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "36V standoff, 3kW"
+			(at 246.38 160.655 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cbc9032e-9a70-46b3-a4db-8945def14e99")
+		)
+		(pin "2"
+			(uuid "c0b90ed1-bf9a-49fc-a290-5a9315e0a140")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
+					(reference "D1207")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 213.36 156.21) (xy 219.71 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e64849e-b970-42f7-8a75-3459b6b45193")
+	)
+	(wire
+		(pts
+			(xy 227.33 156.21) (xy 234.95 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efac8b55-36ef-4508-8ba4-920bad0e0321")
+	)
+	(wire
+		(pts
+			(xy 234.95 156.21) (xy 242.57 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5de61175-2a00-444e-9c31-c74142674fc0")
+	)
+	(wire
+		(pts
+			(xy 250.19 156.21) (xy 256.54 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e35b5ef-4970-44aa-b62a-ee74edfa18a3")
+	)
+	(wire
+		(pts
+			(xy 234.95 147.32) (xy 234.95 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7fe9e4d9-2cea-4e30-9c7c-61c7318a75fb")
+	)
+	(junction
+		(at 234.95 147.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "573ee3fa-9c14-4f81-b556-04cddcf16fbc")
+	)
+	(junction
+		(at 234.95 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "991981d8-f963-45fb-9888-d4b7174a27c7")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 234.95 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ce0574d4-d6f4-455b-9f3e-57751dea69dd")
+		(property "Reference" "#PWR01213"
+			(at 234.95 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.95 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 234.95 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "41133a1f-9e82-4efa-84f4-1c88f2a200f2")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
+					(reference "#PWR01213")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(rectangle
 		(start 20.32 91.44)
-		(end 276.86 157.48)
+		(end 276.86 163.83)
 		(stroke
 			(width 0)
 			(type dash)
@@ -2114,17 +5810,6 @@
 		)
 		(uuid "6e13c2c9-c270-4f9e-94ae-9cad91ddc865")
 	)
-	(text "C1201, C1202: 24 V input bulk + HF decoupling.\nPlace between the input jacks."
-		(exclude_from_sim no)
-		(at 55.88 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7126e5cb-a1ce-4606-ba03-c947a1508f40")
-	)
 	(text "X+"
 		(exclude_from_sim no)
 		(at 49.53 125.73 0)
@@ -2146,7 +5831,7 @@
 		)
 		(uuid "7b4f1c90-943c-41be-b4e9-706db8dbd2e2")
 	)
-	(text "4 mm banana jacks from the bench supply.\nBoth solder legs of a jack are one contact,\nso pins 1 and 2 are tied together."
+	(text "Shrouded 4 mm banana jacks (Amass 24.245). Pin 1 = contact,\npin 2 = the four mounting pins, tied together.\nC1201, C1202: bulk + HF decoupling. D1201: 36 V TVS clamp.\nPlace between the input jacks. Supply 36 V max (U101 input)."
 		(exclude_from_sim no)
 		(at 22.86 80.01 0)
 		(effects
@@ -2214,7 +5899,7 @@
 		)
 		(uuid "ba4c943c-d428-4657-9df0-241a11d3fa6b")
 	)
-	(text "24 V SUPPLY INPUT"
+	(text "24 V SUPPLY INPUT (36 V MAX)"
 		(exclude_from_sim no)
 		(at 22.86 31.75 0)
 		(effects
@@ -2227,9 +5912,9 @@
 		)
 		(uuid "da397d15-22c9-4c1c-8c53-0206d1b0f709")
 	)
-	(text "Per coil: banana jack (+)  |  2-way screw terminal  |  banana jack (-), all in parallel, in the same order as on the board. Terminal pin 1 = coil +, pin 2 = coil -.\nCoil + comes from H-bridge OUT_A through the current-sense shunt; coil - is H-bridge OUT_B."
+	(text "Per coil: shrouded banana jack (+) and (-). Coil + comes from H-bridge OUT_A through the current-sense shunt; coil - is H-bridge OUT_B.\nD1202 to D1207: unidirectional 36 V TVS (SMDJ36A) from each coil terminal to GND, cathode on the coil terminal.\nIt clamps positive surges at 40 to 58 V and negative ones at one diode drop.\nRC snubbers, all not fitted (DNP): R1201 to R1203 + C1203 to C1205 across each coil;\nR1204 to R1209 + C1206 to C1211 from each coil terminal to GND.\nStart values 33 R (1206, 0.25 W) + 470 pF (1206, 100 V C0G), sized for 200 kHz PWM at 36 V:\nresistor loss is about C x V^2 x f_PWM = 0.12 W. Keep it under 0.25 W if C is increased."
 		(exclude_from_sim no)
-		(at 22.86 151.13 0)
+		(at 22.86 172.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2249,12 +5934,6 @@
 		(uuid "f7f4b620-041d-41e7-b864-8e77a6d3214e")
 	)
 	(junction
-		(at 58.42 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0d21ae11-ad6a-4d90-a4f1-431cc21f63aa")
-	)
-	(junction
 		(at 48.26 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2267,34 +5946,16 @@
 		(uuid "2f4a3a1d-aaba-4d80-ab8f-5b92edaee294")
 	)
 	(junction
-		(at 142.24 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3c6e68fa-e579-40cc-ba1d-854a247ea020")
-	)
-	(junction
 		(at 226.06 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4a3492f3-aad4-4538-96b0-fdfb079f39cf")
 	)
 	(junction
-		(at 226.06 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4a43ef08-5a47-4766-bcfd-b1af8a2d5563")
-	)
-	(junction
 		(at 256.54 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "504ea167-7fe2-4b87-b5b2-ad7328082843")
-	)
-	(junction
-		(at 74.93 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b73bc9d-0438-4016-87a9-da7740996282")
 	)
 	(junction
 		(at 48.26 64.77)
@@ -2321,22 +5982,10 @@
 		(uuid "7ddf2df7-0878-42bb-9022-f4746fb4cd77")
 	)
 	(junction
-		(at 242.57 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "88b1ef6e-7591-4153-b32e-a2b8e0d8c693")
-	)
-	(junction
 		(at 73.66 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8a14761b-c981-4767-a032-1588ff780e88")
-	)
-	(junction
-		(at 158.75 134.62)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "beffd158-a9ac-44d4-97b7-5afc0058fd85")
 	)
 	(junction
 		(at 63.5 44.45)
@@ -2375,16 +6024,6 @@
 			(type dot)
 		)
 		(uuid "0fa31624-1cce-49d0-8fe0-67be671e7ba3")
-	)
-	(wire
-		(pts
-			(xy 156.21 123.19) (xy 156.21 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fc23319-b787-40e9-9368-fb0c96ec589e")
 	)
 	(wire
 		(pts
@@ -2538,16 +6177,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 129.54) (xy 156.21 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c26e1ef-ef5c-4791-abc0-e9bf02d1a25f")
-	)
-	(wire
-		(pts
 			(xy 92.71 118.11) (xy 88.9 118.11)
 		)
 		(stroke
@@ -2568,16 +6197,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 123.19) (xy 74.93 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4104555c-d2bc-4528-b827-b4b314ce025a")
-	)
-	(wire
-		(pts
 			(xy 199.39 54.61) (xy 199.39 57.15)
 		)
 		(stroke
@@ -2585,16 +6204,6 @@
 			(type default)
 		)
 		(uuid "44af106f-1de9-48ab-9792-7d117bbf64ac")
-	)
-	(wire
-		(pts
-			(xy 240.03 123.19) (xy 240.03 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "458e5fd8-1168-4478-8817-83632580a962")
 	)
 	(wire
 		(pts
@@ -2688,26 +6297,6 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 123.19) (xy 72.39 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a60fc26-8567-420b-b889-39a763350bb6")
-	)
-	(wire
-		(pts
-			(xy 58.42 129.54) (xy 72.39 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b06b93f-476b-4d88-9b80-2be56b66bda6")
-	)
-	(wire
-		(pts
 			(xy 142.24 118.11) (xy 142.24 129.54)
 		)
 		(stroke
@@ -2778,26 +6367,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 123.19) (xy 158.75 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9cff2117-3c52-463b-bae8-c82d1ed80126")
-	)
-	(wire
-		(pts
-			(xy 242.57 123.19) (xy 242.57 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a027dd13-094e-4a50-8b7a-961679080da4")
-	)
-	(wire
-		(pts
 			(xy 92.71 120.65) (xy 88.9 120.65)
 		)
 		(stroke
@@ -2855,16 +6424,6 @@
 			(type default)
 		)
 		(uuid "bccf0cfe-e3af-40b7-925e-1a52efb4db13")
-	)
-	(wire
-		(pts
-			(xy 226.06 129.54) (xy 240.03 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c13d8ea7-eb4b-440b-85ef-6d0d36c8fbce")
 	)
 	(wire
 		(pts
@@ -3143,7 +6702,7 @@
 				)
 			)
 		)
-		(property "Value" "24.243.5"
+		(property "Value" "24.245.2"
 			(at 265.43 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3153,7 +6712,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TL73_Local:CONN-TH_24.243.2_TL73"
+		(property "Footprint" "TL73_Local:CONN-TH_24.245.2_BLACK_TL73"
 			(at 264.16 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3164,7 +6723,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C7437325.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7437327.pdf"
 			(at 264.16 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3175,7 +6734,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Shrouded (safety) 4 mm banana socket, right angle, PCB mount, black, CAT III 1 kV, 24 A, Amass 24.245.2. Pin 1 = contact, pin 2 = the four mounting pins"
 			(at 264.16 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3197,7 +6756,7 @@
 				)
 			)
 		)
-		(property "MPN" "24.243.5"
+		(property "MPN" "24.245.2"
 			(at 264.16 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3208,7 +6767,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C7437325"
+		(property "LCSC Part" "C7437327"
 			(at 264.16 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3229,118 +6788,6 @@
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
 					(reference "CN1208")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyEDA:KF128-5.08-2P")
-		(at 157.48 119.38 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "06b94f37-d9fa-4505-bba7-4baa592c8bb7")
-		(property "Reference" "U1203"
-			(at 157.48 110.49 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "KF128-5.08-2P"
-			(at 157.48 113.03 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TL73_Local:CONN-TH_P5.08_KF128-5.08-2P_TL73"
-			(at 157.48 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/New-Quadratic-Unclassified-Data_Cixi-Kefa-Elec-KF128-5-08-2P_C474952.html"
-			(at 157.48 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 157.48 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "KEFA(科发)"
-			(at 157.48 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "KF128-5.08-2P-AA"
-			(at 157.48 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C474952"
-			(at 157.48 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "02e424a8-0d7b-4db4-81ab-b643dfb5627b")
-		)
-		(pin "2"
-			(uuid "3f1dea6c-b991-447e-918c-60699629c723")
-		)
-		(instances
-			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
-					(reference "U1203")
 					(unit 1)
 				)
 			)
@@ -3418,118 +6865,6 @@
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
 					(reference "#PWR01206")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyEDA:KF128-5.08-2P")
-		(at 241.3 119.38 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1cc392b8-30a4-435f-a517-3236aa9c582c")
-		(property "Reference" "U1206"
-			(at 241.3 110.49 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "KF128-5.08-2P"
-			(at 241.3 113.03 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TL73_Local:CONN-TH_P5.08_KF128-5.08-2P_TL73"
-			(at 241.3 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/New-Quadratic-Unclassified-Data_Cixi-Kefa-Elec-KF128-5-08-2P_C474952.html"
-			(at 241.3 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 241.3 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "KEFA(科发)"
-			(at 241.3 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "KF128-5.08-2P-AA"
-			(at 241.3 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C474952"
-			(at 241.3 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a7d71e7d-e93c-4e79-b497-d586a40e903b")
-		)
-		(pin "2"
-			(uuid "d41b1fda-41ae-45b1-a76d-e687e16c0939")
-		)
-		(instances
-			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
-					(reference "U1206")
 					(unit 1)
 				)
 			)
@@ -3825,7 +7160,7 @@
 				)
 			)
 		)
-		(property "Value" "24.243.3"
+		(property "Value" "24.245.1"
 			(at 133.35 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3835,7 +7170,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TL73_Local:CONN-TH_24.243.3_TL73"
+		(property "Footprint" "TL73_Local:CONN-TH_24.245.1_RED_TL73"
 			(at 134.62 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3846,7 +7181,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C7437323.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7437326.pdf"
 			(at 134.62 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3857,7 +7192,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Shrouded (safety) 4 mm banana socket, right angle, PCB mount, red, CAT III 1 kV, 24 A, Amass 24.245.1. Pin 1 = contact, pin 2 = the four mounting pins"
 			(at 134.62 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3879,7 +7214,7 @@
 				)
 			)
 		)
-		(property "MPN" "24.243.3"
+		(property "MPN" "24.245.1"
 			(at 134.62 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -3890,7 +7225,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C7437323"
+		(property "LCSC Part" "C7437326"
 			(at 134.62 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4262,118 +7597,6 @@
 		)
 	)
 	(symbol
-		(lib_id "EasyEDA:KF128-5.08-2P")
-		(at 73.66 119.38 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4be9e247-06c7-4eac-b22f-284d87663585")
-		(property "Reference" "U1201"
-			(at 73.66 110.49 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "KF128-5.08-2P"
-			(at 73.66 113.03 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TL73_Local:CONN-TH_P5.08_KF128-5.08-2P_TL73"
-			(at 73.66 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/New-Quadratic-Unclassified-Data_Cixi-Kefa-Elec-KF128-5-08-2P_C474952.html"
-			(at 73.66 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 73.66 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "KEFA(科发)"
-			(at 73.66 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "KF128-5.08-2P-AA"
-			(at 73.66 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C474952"
-			(at 73.66 119.38 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e500bfc5-9c0b-44d7-8dc2-ca8dce9d2596")
-		)
-		(pin "2"
-			(uuid "c2a658cc-8773-4ce2-9f7b-0d2fa716ea4e")
-		)
-		(instances
-			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
-					(reference "U1201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "EasyEDA:24.243.5")
 		(at 180.34 119.38 0)
 		(unit 1)
@@ -4394,7 +7617,7 @@
 				)
 			)
 		)
-		(property "Value" "24.243.5"
+		(property "Value" "24.245.2"
 			(at 181.61 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4404,7 +7627,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TL73_Local:CONN-TH_24.243.2_TL73"
+		(property "Footprint" "TL73_Local:CONN-TH_24.245.2_BLACK_TL73"
 			(at 180.34 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4415,7 +7638,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C7437325.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7437327.pdf"
 			(at 180.34 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4426,7 +7649,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Shrouded (safety) 4 mm banana socket, right angle, PCB mount, black, CAT III 1 kV, 24 A, Amass 24.245.2. Pin 1 = contact, pin 2 = the four mounting pins"
 			(at 180.34 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4448,7 +7671,7 @@
 				)
 			)
 		)
-		(property "MPN" "24.243.5"
+		(property "MPN" "24.245.2"
 			(at 180.34 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4459,7 +7682,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C7437325"
+		(property "LCSC Part" "C7437327"
 			(at 180.34 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4584,7 +7807,7 @@
 				)
 			)
 		)
-		(property "Value" "24.243.3"
+		(property "Value" "24.245.1"
 			(at 49.53 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4594,7 +7817,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TL73_Local:CONN-TH_24.243.3_TL73"
+		(property "Footprint" "TL73_Local:CONN-TH_24.245.1_RED_TL73"
 			(at 50.8 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4605,7 +7828,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C7437323.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7437326.pdf"
 			(at 50.8 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4616,7 +7839,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Shrouded (safety) 4 mm banana socket, right angle, PCB mount, red, CAT III 1 kV, 24 A, Amass 24.245.1. Pin 1 = contact, pin 2 = the four mounting pins"
 			(at 50.8 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4638,7 +7861,7 @@
 				)
 			)
 		)
-		(property "MPN" "24.243.3"
+		(property "MPN" "24.245.1"
 			(at 50.8 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4649,7 +7872,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C7437323"
+		(property "LCSC Part" "C7437326"
 			(at 50.8 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4773,7 +7996,7 @@
 				)
 			)
 		)
-		(property "Value" "24.243.5"
+		(property "Value" "24.245.2"
 			(at 97.79 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4783,7 +8006,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TL73_Local:CONN-TH_24.243.2_TL73"
+		(property "Footprint" "TL73_Local:CONN-TH_24.245.2_BLACK_TL73"
 			(at 96.52 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4794,7 +8017,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C7437325.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7437327.pdf"
 			(at 96.52 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4805,7 +8028,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Shrouded (safety) 4 mm banana socket, right angle, PCB mount, black, CAT III 1 kV, 24 A, Amass 24.245.2. Pin 1 = contact, pin 2 = the four mounting pins"
 			(at 96.52 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4827,7 +8050,7 @@
 				)
 			)
 		)
-		(property "MPN" "24.243.5"
+		(property "MPN" "24.245.2"
 			(at 96.52 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -4838,7 +8061,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C7437325"
+		(property "LCSC Part" "C7437327"
 			(at 96.52 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -5000,7 +8223,7 @@
 				)
 			)
 		)
-		(property "Value" "24.243.3"
+		(property "Value" "24.245.1"
 			(at 217.17 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5010,7 +8233,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TL73_Local:CONN-TH_24.243.3_TL73"
+		(property "Footprint" "TL73_Local:CONN-TH_24.245.1_RED_TL73"
 			(at 218.44 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -5021,7 +8244,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C7437323.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7437326.pdf"
 			(at 218.44 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -5032,7 +8255,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Shrouded (safety) 4 mm banana socket, right angle, PCB mount, red, CAT III 1 kV, 24 A, Amass 24.245.1. Pin 1 = contact, pin 2 = the four mounting pins"
 			(at 218.44 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -5054,7 +8277,7 @@
 				)
 			)
 		)
-		(property "MPN" "24.243.3"
+		(property "MPN" "24.245.1"
 			(at 218.44 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -5065,7 +8288,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C7437323"
+		(property "LCSC Part" "C7437326"
 			(at 218.44 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -5304,7 +8527,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1000uF"
+		(property "Value" "470uF"
 			(at 77.47 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5337,7 +8560,7 @@
 				)
 			)
 		)
-		(property "Description" "Aluminium electrolytic capacitor, 1000 µF, 35 V, ±20 %, 105 °C 3000 h, low impedance (1.87 A ripple at 100 kHz), radial 10 x 20 mm, 5 mm pitch, BERYL RC035M102LO10*20TH-2A1E. 24 V input bulk capacitor, place at the supply jacks"
+		(property "Description" "Aluminium electrolytic capacitor, 470 µF, 50 V, ±20 %, 105 °C, low impedance, radial 10 x 20 mm, 5 mm pitch, Rubycon 50ZLJ470M10X20. Supply input bulk capacitor, place at the supply jacks"
 			(at 73.66 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -5348,7 +8571,7 @@
 				)
 			)
 		)
-		(property "Rating" "35V"
+		(property "Rating" "50V"
 			(at 77.47 56.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5359,7 +8582,7 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C357641"
+		(property "LCSC" "C2902875"
 			(at 77.47 52.4509 0)
 			(hide yes)
 			(show_name no)
@@ -5484,7 +8707,7 @@
 				)
 			)
 		)
-		(property "Value" "24.243.1"
+		(property "Value" "24.245.1"
 			(at 39.37 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5494,7 +8717,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:CONN-TH_24.243.1_RED"
+		(property "Footprint" "TL73_Local:CONN-TH_24.245.1_RED_TL73"
 			(at 40.64 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5505,7 +8728,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C7437321.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7437326.pdf"
 			(at 40.64 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5516,7 +8739,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Shrouded (safety) 4 mm banana socket, right angle, PCB mount, red, CAT III 1 kV, 24 A, Amass 24.245.1. Pin 1 = contact, pin 2 = the four mounting pins"
 			(at 40.64 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5538,7 +8761,7 @@
 				)
 			)
 		)
-		(property "MPN" "24.243.1"
+		(property "MPN" "24.245.1"
 			(at 40.64 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5549,7 +8772,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C7437321"
+		(property "LCSC Part" "C7437326"
 			(at 40.64 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -5700,7 +8923,7 @@
 				)
 			)
 		)
-		(property "Value" "24.243.2"
+		(property "Value" "24.245.2"
 			(at 39.37 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5710,7 +8933,7 @@
 				)
 			)
 		)
-		(property "Footprint" "EasyEDA:CONN-TH_24.243.2"
+		(property "Footprint" "TL73_Local:CONN-TH_24.245.2_BLACK_TL73"
 			(at 40.64 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -5721,7 +8944,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C7437322.pdf"
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C7437327.pdf"
 			(at 40.64 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -5732,7 +8955,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Shrouded (safety) 4 mm banana socket, right angle, PCB mount, black, CAT III 1 kV, 24 A, Amass 24.245.2. Pin 1 = contact, pin 2 = the four mounting pins"
 			(at 40.64 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -5754,7 +8977,7 @@
 				)
 			)
 		)
-		(property "MPN" "24.243.2"
+		(property "MPN" "24.245.2"
 			(at 40.64 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -5765,7 +8988,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C7437322"
+		(property "LCSC Part" "C7437327"
 			(at 40.64 63.5 0)
 			(hide yes)
 			(show_name no)

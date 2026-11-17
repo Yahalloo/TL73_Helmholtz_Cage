@@ -2232,7 +2232,7 @@
 		)
 		(uuid "75ea49e3-957c-4d8a-b1af-942632c84fb1")
 	)
-	(text "U101: K7805-1000R3, 8-36 V in,\n5 V / 1 A out, 500 kHz, max C load 680 uF\nE5V -> Nucleo E5V pin (CN7-6):\nset Nucleo JP5 to E5V\nDRV8873S runs from +24V only (no 12 V)\nC101, C102: place at the module pins"
+	(text "U101: K7805-1000R3, 8-36 V in (sets the 36 V max supply),\n5 V / 1 A out, 500 kHz, max C load 680 uF\nE5V -> Nucleo E5V pin (CN7-6):\nset Nucleo JP5 to E5V\nDRV8873S runs from +24V only (no 12 V)\nC101, C102: place at the module pins"
 		(exclude_from_sim no)
 		(at 16.51 221.615 0)
 		(effects
