@@ -31298,7 +31298,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Optional RC snubber resistor, not fitted: across coil Z. Thick-film chip resistor, 33 Ω, ±1 %, 0.25 W, 200 V, 1206, Vishay CRCW120633R0FKEA. Starting value, tune on the bench"
+		(property "Description" "Optional RC snubber resistor, not fitted: across coil Z. Thick-film surge chip resistor, 33 Ω, ±1 %, 0.5 W, 1206, Yageo SR1206FR-7W33RL. Starting value, tune on the bench"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -31323,7 +31323,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C844661"
+		(property "LCSC" "C873953"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -31336,7 +31336,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Rating" "0.25W"
+		(property "Rating" "0.5W"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -31482,7 +31482,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Optional RC snubber resistor, not fitted: coil Y- output to GND. Thick-film chip resistor, 33 Ω, ±1 %, 0.25 W, 200 V, 1206, Vishay CRCW120633R0FKEA. Starting value, tune on the bench"
+		(property "Description" "Optional RC snubber resistor, not fitted: coil Y- output to GND. Thick-film surge chip resistor, 33 Ω, ±1 %, 0.5 W, 1206, Yageo SR1206FR-7W33RL. Starting value, tune on the bench"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -31507,7 +31507,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C844661"
+		(property "LCSC" "C873953"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -31520,7 +31520,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Rating" "0.25W"
+		(property "Rating" "0.5W"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -32304,7 +32304,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Optional RC snubber resistor, not fitted: coil Y+ output to GND. Thick-film chip resistor, 33 Ω, ±1 %, 0.25 W, 200 V, 1206, Vishay CRCW120633R0FKEA. Starting value, tune on the bench"
+		(property "Description" "Optional RC snubber resistor, not fitted: coil Y+ output to GND. Thick-film surge chip resistor, 33 Ω, ±1 %, 0.5 W, 1206, Yageo SR1206FR-7W33RL. Starting value, tune on the bench"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -32329,7 +32329,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C844661"
+		(property "LCSC" "C873953"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -32342,7 +32342,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Rating" "0.25W"
+		(property "Rating" "0.5W"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -35027,7 +35027,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Optional RC snubber resistor, not fitted: coil Z+ output to GND. Thick-film chip resistor, 33 Ω, ±1 %, 0.25 W, 200 V, 1206, Vishay CRCW120633R0FKEA. Starting value, tune on the bench"
+		(property "Description" "Optional RC snubber resistor, not fitted: coil Z+ output to GND. Thick-film surge chip resistor, 33 Ω, ±1 %, 0.5 W, 1206, Yageo SR1206FR-7W33RL. Starting value, tune on the bench"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -35052,7 +35052,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C844661"
+		(property "LCSC" "C873953"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -35065,7 +35065,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Rating" "0.25W"
+		(property "Rating" "0.5W"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -35395,7 +35395,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Optional RC snubber resistor, not fitted: coil X- output to GND. Thick-film chip resistor, 33 Ω, ±1 %, 0.25 W, 200 V, 1206, Vishay CRCW120633R0FKEA. Starting value, tune on the bench"
+		(property "Description" "Optional RC snubber resistor, not fitted: coil X- output to GND. Thick-film surge chip resistor, 33 Ω, ±1 %, 0.5 W, 1206, Yageo SR1206FR-7W33RL. Starting value, tune on the bench"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -35420,7 +35420,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C844661"
+		(property "LCSC" "C873953"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -35433,7 +35433,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Rating" "0.25W"
+		(property "Rating" "0.5W"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -35579,7 +35579,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Optional RC snubber resistor, not fitted: across coil X. Thick-film chip resistor, 33 Ω, ±1 %, 0.25 W, 200 V, 1206, Vishay CRCW120633R0FKEA. Starting value, tune on the bench"
+		(property "Description" "Optional RC snubber resistor, not fitted: across coil X. Thick-film surge chip resistor, 33 Ω, ±1 %, 0.5 W, 1206, Yageo SR1206FR-7W33RL. Starting value, tune on the bench"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -35604,7 +35604,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C844661"
+		(property "LCSC" "C873953"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -35617,7 +35617,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Rating" "0.25W"
+		(property "Rating" "0.5W"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -35763,7 +35763,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Optional RC snubber resistor, not fitted: coil Z- output to GND. Thick-film chip resistor, 33 Ω, ±1 %, 0.25 W, 200 V, 1206, Vishay CRCW120633R0FKEA. Starting value, tune on the bench"
+		(property "Description" "Optional RC snubber resistor, not fitted: coil Z- output to GND. Thick-film surge chip resistor, 33 Ω, ±1 %, 0.5 W, 1206, Yageo SR1206FR-7W33RL. Starting value, tune on the bench"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -35788,7 +35788,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C844661"
+		(property "LCSC" "C873953"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -35801,7 +35801,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Rating" "0.25W"
+		(property "Rating" "0.5W"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -35947,7 +35947,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Optional RC snubber resistor, not fitted: coil X+ output to GND. Thick-film chip resistor, 33 Ω, ±1 %, 0.25 W, 200 V, 1206, Vishay CRCW120633R0FKEA. Starting value, tune on the bench"
+		(property "Description" "Optional RC snubber resistor, not fitted: coil X+ output to GND. Thick-film surge chip resistor, 33 Ω, ±1 %, 0.5 W, 1206, Yageo SR1206FR-7W33RL. Starting value, tune on the bench"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -35972,7 +35972,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C844661"
+		(property "LCSC" "C873953"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -35985,7 +35985,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Rating" "0.25W"
+		(property "Rating" "0.5W"
 			(at 0 0 180)
 			(layer "B.Fab")
 			(hide yes)
@@ -36131,7 +36131,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Optional RC snubber resistor, not fitted: across coil Y. Thick-film chip resistor, 33 Ω, ±1 %, 0.25 W, 200 V, 1206, Vishay CRCW120633R0FKEA. Starting value, tune on the bench"
+		(property "Description" "Optional RC snubber resistor, not fitted: across coil Y. Thick-film surge chip resistor, 33 Ω, ±1 %, 0.5 W, 1206, Yageo SR1206FR-7W33RL. Starting value, tune on the bench"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -36156,7 +36156,7 @@
 				(justify mirror)
 			)
 		)
-		(property "LCSC" "C844661"
+		(property "LCSC" "C873953"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -36169,7 +36169,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Rating" "0.25W"
+		(property "Rating" "0.5W"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -59487,15 +59487,16 @@
 	(zone
 		(layer "B.Cu")
 		(uuid "4bb16dbe-59ad-422c-8305-7a97e3aa5f5f")
+		(name "No fill: test point column")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
 		)
 		(min_thickness 0.25)
 		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads not_allowed)
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
 		)
@@ -60026,15 +60027,16 @@
 	(zone
 		(layer "B.Cu")
 		(uuid "845d47c0-d698-476c-9e6d-3f1fc9e93fd6")
+		(name "No fill: test point column")
 		(hatch edge 0.5)
 		(connect_pads
 			(clearance 0)
 		)
 		(min_thickness 0.25)
 		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads not_allowed)
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
 			(copperpour not_allowed)
 			(footprints allowed)
 		)

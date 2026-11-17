@@ -2504,7 +2504,7 @@
 				)
 			)
 		)
-		(property "Description" "Optional RC snubber resistor, not fitted: across coil X. Thick-film chip resistor, 33 Ω, ±1 %, 0.25 W, 200 V, 1206, Vishay CRCW120633R0FKEA. Starting value, tune on the bench"
+		(property "Description" "Optional RC snubber resistor, not fitted: across coil X. Thick-film surge chip resistor, 33 Ω, ±1 %, 0.5 W, 1206, Yageo SR1206FR-7W33RL. Starting value, tune on the bench"
 			(at 58.42 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -2515,7 +2515,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C844661"
+		(property "LCSC" "C873953"
 			(at 58.42 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -2526,7 +2526,7 @@
 				)
 			)
 		)
-		(property "Rating" "0.25W"
+		(property "Rating" "0.5W"
 			(at 58.42 142.875 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2734,7 +2734,7 @@
 				)
 			)
 		)
-		(property "Description" "Optional RC snubber resistor, not fitted: coil X+ output to GND. Thick-film chip resistor, 33 Ω, ±1 %, 0.25 W, 200 V, 1206, Vishay CRCW120633R0FKEA. Starting value, tune on the bench"
+		(property "Description" "Optional RC snubber resistor, not fitted: coil X+ output to GND. Thick-film surge chip resistor, 33 Ω, ±1 %, 0.5 W, 1206, Yageo SR1206FR-7W33RL. Starting value, tune on the bench"
 			(at 52.07 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -2745,7 +2745,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C844661"
+		(property "LCSC" "C873953"
 			(at 52.07 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -2756,7 +2756,7 @@
 				)
 			)
 		)
-		(property "Rating" "0.25W"
+		(property "Rating" "0.5W"
 			(at 52.07 151.765 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3034,7 +3034,7 @@
 				)
 			)
 		)
-		(property "Description" "Optional RC snubber resistor, not fitted: coil X- output to GND. Thick-film chip resistor, 33 Ω, ±1 %, 0.25 W, 200 V, 1206, Vishay CRCW120633R0FKEA. Starting value, tune on the bench"
+		(property "Description" "Optional RC snubber resistor, not fitted: coil X- output to GND. Thick-film surge chip resistor, 33 Ω, ±1 %, 0.5 W, 1206, Yageo SR1206FR-7W33RL. Starting value, tune on the bench"
 			(at 82.55 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -3045,7 +3045,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C844661"
+		(property "LCSC" "C873953"
 			(at 82.55 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -3056,7 +3056,7 @@
 				)
 			)
 		)
-		(property "Rating" "0.25W"
+		(property "Rating" "0.5W"
 			(at 82.55 151.765 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3589,7 +3589,7 @@
 				)
 			)
 		)
-		(property "Description" "Optional RC snubber resistor, not fitted: across coil Y. Thick-film chip resistor, 33 Ω, ±1 %, 0.25 W, 200 V, 1206, Vishay CRCW120633R0FKEA. Starting value, tune on the bench"
+		(property "Description" "Optional RC snubber resistor, not fitted: across coil Y. Thick-film surge chip resistor, 33 Ω, ±1 %, 0.5 W, 1206, Yageo SR1206FR-7W33RL. Starting value, tune on the bench"
 			(at 142.24 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -3600,7 +3600,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C844661"
+		(property "LCSC" "C873953"
 			(at 142.24 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -3611,7 +3611,7 @@
 				)
 			)
 		)
-		(property "Rating" "0.25W"
+		(property "Rating" "0.5W"
 			(at 142.24 142.875 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3819,7 +3819,7 @@
 				)
 			)
 		)
-		(property "Description" "Optional RC snubber resistor, not fitted: coil Y+ output to GND. Thick-film chip resistor, 33 Ω, ±1 %, 0.25 W, 200 V, 1206, Vishay CRCW120633R0FKEA. Starting value, tune on the bench"
+		(property "Description" "Optional RC snubber resistor, not fitted: coil Y+ output to GND. Thick-film surge chip resistor, 33 Ω, ±1 %, 0.5 W, 1206, Yageo SR1206FR-7W33RL. Starting value, tune on the bench"
 			(at 135.89 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -3830,7 +3830,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C844661"
+		(property "LCSC" "C873953"
 			(at 135.89 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -3841,7 +3841,7 @@
 				)
 			)
 		)
-		(property "Rating" "0.25W"
+		(property "Rating" "0.5W"
 			(at 135.89 151.765 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4119,7 +4119,7 @@
 				)
 			)
 		)
-		(property "Description" "Optional RC snubber resistor, not fitted: coil Y- output to GND. Thick-film chip resistor, 33 Ω, ±1 %, 0.25 W, 200 V, 1206, Vishay CRCW120633R0FKEA. Starting value, tune on the bench"
+		(property "Description" "Optional RC snubber resistor, not fitted: coil Y- output to GND. Thick-film surge chip resistor, 33 Ω, ±1 %, 0.5 W, 1206, Yageo SR1206FR-7W33RL. Starting value, tune on the bench"
 			(at 166.37 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -4130,7 +4130,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C844661"
+		(property "LCSC" "C873953"
 			(at 166.37 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -4141,7 +4141,7 @@
 				)
 			)
 		)
-		(property "Rating" "0.25W"
+		(property "Rating" "0.5W"
 			(at 166.37 151.765 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4674,7 +4674,7 @@
 				)
 			)
 		)
-		(property "Description" "Optional RC snubber resistor, not fitted: across coil Z. Thick-film chip resistor, 33 Ω, ±1 %, 0.25 W, 200 V, 1206, Vishay CRCW120633R0FKEA. Starting value, tune on the bench"
+		(property "Description" "Optional RC snubber resistor, not fitted: across coil Z. Thick-film surge chip resistor, 33 Ω, ±1 %, 0.5 W, 1206, Yageo SR1206FR-7W33RL. Starting value, tune on the bench"
 			(at 226.06 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -4685,7 +4685,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C844661"
+		(property "LCSC" "C873953"
 			(at 226.06 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -4696,7 +4696,7 @@
 				)
 			)
 		)
-		(property "Rating" "0.25W"
+		(property "Rating" "0.5W"
 			(at 226.06 142.875 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4904,7 +4904,7 @@
 				)
 			)
 		)
-		(property "Description" "Optional RC snubber resistor, not fitted: coil Z+ output to GND. Thick-film chip resistor, 33 Ω, ±1 %, 0.25 W, 200 V, 1206, Vishay CRCW120633R0FKEA. Starting value, tune on the bench"
+		(property "Description" "Optional RC snubber resistor, not fitted: coil Z+ output to GND. Thick-film surge chip resistor, 33 Ω, ±1 %, 0.5 W, 1206, Yageo SR1206FR-7W33RL. Starting value, tune on the bench"
 			(at 219.71 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -4915,7 +4915,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C844661"
+		(property "LCSC" "C873953"
 			(at 219.71 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -4926,7 +4926,7 @@
 				)
 			)
 		)
-		(property "Rating" "0.25W"
+		(property "Rating" "0.5W"
 			(at 219.71 151.765 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5204,7 +5204,7 @@
 				)
 			)
 		)
-		(property "Description" "Optional RC snubber resistor, not fitted: coil Z- output to GND. Thick-film chip resistor, 33 Ω, ±1 %, 0.25 W, 200 V, 1206, Vishay CRCW120633R0FKEA. Starting value, tune on the bench"
+		(property "Description" "Optional RC snubber resistor, not fitted: coil Z- output to GND. Thick-film surge chip resistor, 33 Ω, ±1 %, 0.5 W, 1206, Yageo SR1206FR-7W33RL. Starting value, tune on the bench"
 			(at 250.19 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -5215,7 +5215,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C844661"
+		(property "LCSC" "C873953"
 			(at 250.19 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -5226,7 +5226,7 @@
 				)
 			)
 		)
-		(property "Rating" "0.25W"
+		(property "Rating" "0.5W"
 			(at 250.19 151.765 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5912,7 +5912,7 @@
 		)
 		(uuid "da397d15-22c9-4c1c-8c53-0206d1b0f709")
 	)
-	(text "Per coil: shrouded banana jack (+) and (-). Coil + comes from H-bridge OUT_A through the current-sense shunt; coil - is H-bridge OUT_B.\nD1202 to D1207: unidirectional 36 V TVS (SMDJ36A) from each coil terminal to GND, cathode on the coil terminal.\nIt clamps positive surges at 40 to 58 V and negative ones at one diode drop.\nRC snubbers, all not fitted (DNP): R1201 to R1203 + C1203 to C1205 across each coil;\nR1204 to R1209 + C1206 to C1211 from each coil terminal to GND.\nStart values 33 R (1206, 0.25 W) + 470 pF (1206, 100 V C0G), sized for 200 kHz PWM at 36 V:\nresistor loss is about C x V^2 x f_PWM = 0.12 W. Keep it under 0.25 W if C is increased."
+	(text "Per coil: shrouded banana jack (+) and (-). Coil + comes from H-bridge OUT_A through the current-sense shunt; coil - is H-bridge OUT_B.\nD1202 to D1207: unidirectional 36 V TVS (SMDJ36A) from each coil terminal to GND, cathode on the coil terminal.\nIt clamps positive surges at 40 to 58 V and negative ones at one diode drop.\nRC snubbers, all not fitted (DNP): R1201 to R1203 + C1203 to C1205 across each coil;\nR1204 to R1209 + C1206 to C1211 from each coil terminal to GND.\nStart values 33 R (1206, 0.5 W) + 470 pF (1206, 100 V C0G), sized for 200 kHz PWM at 36 V:\nresistor loss is about C x V^2 x f_PWM = 0.12 W. Keep it under 0.5 W if C is increased."
 		(exclude_from_sim no)
 		(at 22.86 172.2 0)
 		(effects
