@@ -1,0 +1,180 @@
+(footprint "CAP-TH_D10.0-P5.00_PA50V330M10X15_TL73"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "10 mm radial capacitor, 5 mm pitch. TL73 variant of the EasyEDA import: 2.0 mm pads (pad 1 square = positive), real courtyard")
+	(property "Reference" "REF**"
+		(at 0 -4 0)
+		(layer "F.SilkS")
+		(uuid "66cba6e1-e96d-4fa9-8f47-95e129e85b7b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CAP-TH_D10.0-P5.00_PA50V330M10X15_TL73"
+		(at 0 4 0)
+		(layer "F.Fab")
+		(uuid "c89463ce-a3d3-4be3-bca3-468fec9843d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d700d72c-c0df-4f53-8195-b42219533541")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fcae63e8-f7e3-42bf-bf6e-fddc93754e0b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "LCSC Part" "C46550457"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2ebf7f4e-fa8a-4d9e-88e2-4e5b99db899b")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4.7 0)
+		(end -3.9 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e352c82e-8194-42dc-b286-96b1c03c2f83")
+	)
+	(fp_line
+		(start -4.3 -0.4)
+		(end -4.3 0.4)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5f151c93-c762-4701-966f-37e03e5d6cdd")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5 0)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "be0feed0-896b-4021-ad72-214ab83f6612")
+	)
+	(fp_poly
+		(pts
+			(xy 3.555873 -3.556) (xy 3.555873 3.556) (xy 4.317873 2.54) (xy 4.825873 1.016) (xy 5.079873 -0.508)
+			(xy 4.825873 -1.524) (xy 3.555873 -3.556)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "9ad55280-b70f-4d3f-b7d0-521ee44ecbf5")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 5.25 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "80f170f7-b70e-4036-b9fa-598bd4673cd0")
+	)
+	(fp_circle
+		(center -2.5 0)
+		(end -2.35 0)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ce55ccc4-4723-4cf4-837d-623cbecfb0e7")
+	)
+	(fp_circle
+		(center 2.5 0)
+		(end 2.65 0)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "93916c49-ded5-4f5e-af4d-f254782b572f")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "41fe4c87-fb0f-49f1-a0c4-b4fac0243105")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -2.5 0)
+		(size 2 2)
+		(drill 0.999998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "9196d197-fbc5-4d58-848e-0fb3997a11de")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 2 2)
+		(drill 0.999998)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5067f9d4-7c31-45a5-ae3e-a9a57e27cb43")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_3RD_PARTY}/EasyEDA.3dshapes/CAP-TH_BD10.0-P5.00-D0.6-FD-A.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

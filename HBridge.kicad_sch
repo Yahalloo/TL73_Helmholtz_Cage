@@ -3088,7 +3088,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470uF"
+		(property "Value" "330uF"
 			(at 251.46 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3099,7 +3099,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "TL73_Local:CAP-TH_D10.0-P5.00_PA50V330M10X15_TL73"
 			(at 248.6152 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -3121,7 +3121,7 @@
 				)
 			)
 		)
-		(property "Description" "Aluminium electrolytic capacitor, 470 µF, 50 V, ±20 %, 105 °C, low impedance, radial 10 x 20 mm, 5 mm pitch, Rubycon 50ZLJ470M10X20. VM bulk capacitor"
+		(property "Description" "Conductive polymer aluminium capacitor, 330 µF, 50 V, ±20 %, ESR 18 mΩ and 3.8 A ripple at 100 kHz, 2000 h at 105 °C, radial 10 x 15 mm, 5 mm pitch, JIERR PA50V330M10x15. VM bulk capacitor"
 			(at 247.65 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -3132,7 +3132,7 @@
 				)
 			)
 		)
-		(property "Rating" "50V"
+		(property "Rating" "50V polymer"
 			(at 251.46 67.07 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3143,7 +3143,7 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C2902875"
+		(property "LCSC" "C46550457"
 			(at 251.46 62.6109 0)
 			(hide yes)
 			(show_name no)

@@ -32,7 +32,9 @@ MORPHO_Y_BOT = -2.96           # pin 37/38 row
 
 # ---------------- Nucleo-64 (from ST MB1367 manufacturing package) ----------------
 # local (x, y, z) shift in mm = .wrl position minus .step position, measured from the model files
-MODEL_FIXES  = {"ANT-TH_L33.0-W12.0": (-9.71, 0.0, 6.55)}   # shrouded banana jacks (red and black)
+MODEL_FIXES  = {"ANT-TH_L33.0-W12.0": (-9.71, 0.0, 6.55),             # shrouded banana jacks (red and black)
+                "CAP-TH_BD10.0-P5.00-D0.6-FD": (0.0, 0.0, 8.01),      # Rubycon 50ZLJ470M10X20 input capacitor (STEP sits 8 mm low)
+                "CAP-TH_BD10.0-P5.00-D0.6-FD-A": (0.0, 0.0, 0.0)}     # JIERR polymer capacitors: already correct (listed so the entry above does not catch them)
 PCB_STEP     = "TL73_Shield_PCB_KiCad.step"   # File > Export > STEP from KiCad, "Board center origin"
 NUC_STEP     = "NUCLEO_G474RE.step"           # optional real Nucleo model; placeholder is drawn if missing
 NUC_W, NUC_L, NUC_T = 70.0, 82.5, 1.644

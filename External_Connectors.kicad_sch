@@ -3150,7 +3150,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9a1ee5de-d228-45ff-9055-a24057278ca1")
 		(property "Reference" "D1202"
 			(at 55.88 153.67 0)
@@ -3194,7 +3194,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS diode, unidirectional, 36 V stand-off, 40 to 44.2 V breakdown, 58.1 V clamp at 51.6 A, 3 kW (10/1000 us), DO-214AB (SMC), Littelfuse SMDJ36A. Coil X+ output clamp to GND"
+		(property "Description" "TVS diode, unidirectional, 36 V stand-off, 40 to 44.2 V breakdown, 58.1 V clamp at 51.6 A, 3 kW (10/1000 us), DO-214AB (SMC), Littelfuse SMDJ36A. Coil X+ output clamp to GND. Optional, not fitted by default: the DRV8873 body diodes and the supply TVS D1201 already clamp the outputs; fit only if surges or ESD on the coil leads are a problem, because it adds capacitance on a switching output"
 			(at 55.88 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -3250,7 +3250,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "33e7dcd2-50a4-444d-a296-bd1733c7c1fd")
 		(property "Reference" "D1203"
 			(at 78.74 153.67 0)
@@ -3294,7 +3294,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS diode, unidirectional, 36 V stand-off, 40 to 44.2 V breakdown, 58.1 V clamp at 51.6 A, 3 kW (10/1000 us), DO-214AB (SMC), Littelfuse SMDJ36A. Coil X- output clamp to GND"
+		(property "Description" "TVS diode, unidirectional, 36 V stand-off, 40 to 44.2 V breakdown, 58.1 V clamp at 51.6 A, 3 kW (10/1000 us), DO-214AB (SMC), Littelfuse SMDJ36A. Coil X- output clamp to GND. Optional, not fitted by default: the DRV8873 body diodes and the supply TVS D1201 already clamp the outputs; fit only if surges or ESD on the coil leads are a problem, because it adds capacitance on a switching output"
 			(at 78.74 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -4235,7 +4235,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "ab7f09dc-0c21-4788-9c8d-bbe4ac8deb69")
 		(property "Reference" "D1204"
 			(at 139.7 153.67 0)
@@ -4279,7 +4279,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS diode, unidirectional, 36 V stand-off, 40 to 44.2 V breakdown, 58.1 V clamp at 51.6 A, 3 kW (10/1000 us), DO-214AB (SMC), Littelfuse SMDJ36A. Coil Y+ output clamp to GND"
+		(property "Description" "TVS diode, unidirectional, 36 V stand-off, 40 to 44.2 V breakdown, 58.1 V clamp at 51.6 A, 3 kW (10/1000 us), DO-214AB (SMC), Littelfuse SMDJ36A. Coil Y+ output clamp to GND. Optional, not fitted by default: the DRV8873 body diodes and the supply TVS D1201 already clamp the outputs; fit only if surges or ESD on the coil leads are a problem, because it adds capacitance on a switching output"
 			(at 139.7 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -4335,7 +4335,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "755e7dae-5fcb-4c33-a753-8193c9894113")
 		(property "Reference" "D1205"
 			(at 162.56 153.67 0)
@@ -4379,7 +4379,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS diode, unidirectional, 36 V stand-off, 40 to 44.2 V breakdown, 58.1 V clamp at 51.6 A, 3 kW (10/1000 us), DO-214AB (SMC), Littelfuse SMDJ36A. Coil Y- output clamp to GND"
+		(property "Description" "TVS diode, unidirectional, 36 V stand-off, 40 to 44.2 V breakdown, 58.1 V clamp at 51.6 A, 3 kW (10/1000 us), DO-214AB (SMC), Littelfuse SMDJ36A. Coil Y- output clamp to GND. Optional, not fitted by default: the DRV8873 body diodes and the supply TVS D1201 already clamp the outputs; fit only if surges or ESD on the coil leads are a problem, because it adds capacitance on a switching output"
 			(at 162.56 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -5320,7 +5320,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "eee2f435-80f8-45a9-94ef-94f6632ba728")
 		(property "Reference" "D1206"
 			(at 223.52 153.67 0)
@@ -5364,7 +5364,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS diode, unidirectional, 36 V stand-off, 40 to 44.2 V breakdown, 58.1 V clamp at 51.6 A, 3 kW (10/1000 us), DO-214AB (SMC), Littelfuse SMDJ36A. Coil Z+ output clamp to GND"
+		(property "Description" "TVS diode, unidirectional, 36 V stand-off, 40 to 44.2 V breakdown, 58.1 V clamp at 51.6 A, 3 kW (10/1000 us), DO-214AB (SMC), Littelfuse SMDJ36A. Coil Z+ output clamp to GND. Optional, not fitted by default: the DRV8873 body diodes and the supply TVS D1201 already clamp the outputs; fit only if surges or ESD on the coil leads are a problem, because it adds capacitance on a switching output"
 			(at 223.52 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -5420,7 +5420,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "20ecd650-898d-44a4-8097-7ef8430f52d5")
 		(property "Reference" "D1207"
 			(at 246.38 153.67 0)
@@ -5464,7 +5464,7 @@
 				)
 			)
 		)
-		(property "Description" "TVS diode, unidirectional, 36 V stand-off, 40 to 44.2 V breakdown, 58.1 V clamp at 51.6 A, 3 kW (10/1000 us), DO-214AB (SMC), Littelfuse SMDJ36A. Coil Z- output clamp to GND"
+		(property "Description" "TVS diode, unidirectional, 36 V stand-off, 40 to 44.2 V breakdown, 58.1 V clamp at 51.6 A, 3 kW (10/1000 us), DO-214AB (SMC), Littelfuse SMDJ36A. Coil Z- output clamp to GND. Optional, not fitted by default: the DRV8873 body diodes and the supply TVS D1201 already clamp the outputs; fit only if surges or ESD on the coil leads are a problem, because it adds capacitance on a switching output"
 			(at 246.38 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -5912,9 +5912,9 @@
 		)
 		(uuid "da397d15-22c9-4c1c-8c53-0206d1b0f709")
 	)
-	(text "Per coil: shrouded banana jack (+) and (-). Coil + comes from H-bridge OUT_A through the current-sense shunt; coil - is H-bridge OUT_B.\nD1202 to D1207: unidirectional 36 V TVS (SMDJ36A) from each coil terminal to GND, cathode on the coil terminal.\nIt clamps positive surges at 40 to 58 V and negative ones at one diode drop.\nRC snubbers, all not fitted (DNP): R1201 to R1203 + C1203 to C1205 across each coil;\nR1204 to R1209 + C1206 to C1211 from each coil terminal to GND.\nStart values 33 R (1206, 0.5 W) + 470 pF (1206, 100 V C0G), sized for 200 kHz PWM at 36 V:\nresistor loss is about C x V^2 x f_PWM = 0.12 W. Keep it under 0.5 W if C is increased."
+	(text "Per coil: shrouded banana jack (+) and (-). Coil + comes from H-bridge OUT_A through the current-sense shunt; coil - is H-bridge OUT_B.\nD1202 to D1207: optional unidirectional 36 V TVS (SMDJ36A) from each coil terminal to GND, not fitted (DNP).\nThe outputs are already clamped to the supply rail by the DRV8873 body diodes, and the rail by D1201 and the bulk caps.\nEach fitted TVS adds its junction capacitance from a switching output to GND (more switching loss and edge current),\nso fit them only if surges or ESD arriving on the coil leads turn out to be a problem.\nRC snubbers, all not fitted (DNP): R1201 to R1203 + C1203 to C1205 across each coil;\nR1204 to R1209 + C1206 to C1211 from each coil terminal to GND.\nStart values 33 R (1206, 0.5 W) + 470 pF (1206, 100 V C0G), sized for 200 kHz PWM at 36 V:\nresistor loss is about C x V^2 x f_PWM = 0.12 W. Keep it under 0.5 W if C is increased."
 		(exclude_from_sim no)
-		(at 22.86 172.2 0)
+		(at 22.86 174.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8538,7 +8538,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D10.0mm_P5.00mm"
+		(property "Footprint" "TL73_Local:CAP-TH_D10.0-P5.00_50ZLJ470M10X20_TL73"
 			(at 74.6252 58.42 0)
 			(hide yes)
 			(show_name no)
