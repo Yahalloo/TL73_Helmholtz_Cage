@@ -30,3 +30,7 @@ class data_collection:
         df = pd.DataFrame(self.records)
         df.to_csv(self.store_file, index = False)
         return True, len(self.records)
+
+    def clear(self):
+        self.records.clear()
+        self.start_time = None

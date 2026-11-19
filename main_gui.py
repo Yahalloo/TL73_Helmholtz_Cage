@@ -20,6 +20,7 @@ import pandas as pd
 
 from controller import HelmholtzController
 from calibration import Helmholtz_Calibration
+from data_collector import data_collection
 
 # Output file names
 MAGNETOMETER_FILE = "mag_data.csv"
@@ -42,10 +43,11 @@ class GUI(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("Helmholtz Cage GUI")
-        self.resize(1200,600)
+        self.resize(1600,700)
 
         self.backend = HelmholtzController()
         self.calib = Helmholtz_Calibration()
+        self.collector = data_collection()
 
         #Create a Grid Layout
         layout = QGridLayout()
@@ -176,8 +178,16 @@ class GUI(QWidget):
         self.show()
 
         self.submit_file = QPushButton("Save Data")
-        self.submit_file.clicked.connect(self.save_data)
-        layout.addWidget(self.submit_file, 1, 7, 1, 1)
+        self.submit_file.clicked.connect(self.save_recorded_data)
+        layout.addWidget(self.submit_file, 1, 6, 1, 1)
+
+        self.clear_file = QPushButton("Save Data")
+        self.clear_file.clicked.connect(self.clear_recorded_data)
+        layout.addWidget(self.clear_file, 1, 7, 1, 1)
+
+        self.save_box = QLineEdit()
+        self.save_box.setReadOnly(True)
+        layout.addWidget(self.save_box, 1, 8, 1, 1)
 
 
     # Check the connection 10 times every second
@@ -206,6 +216,7 @@ class GUI(QWidget):
             self.result_Y.setText(str(data["y"]))
             self.result_Z.setText(str(data["z"]))
             self.update_plot(data)
+            self.collector.record_sample(data)
 
 #Calibration setting that sets up the Helmholtz cage calibration
     def calibration(self):
@@ -229,6 +240,16 @@ class GUI(QWidget):
             else:
                 self.calibrate_box.setText("Error: Check Connection")
 
+    def save_recorded_data(self):
+        self.save_box.clear()
+        data_ok, count = self.collector.save_csv(MAGNETOMETER_FILE)
+        if data_ok:
+            self.save_box(f"Saved: {count}")
+
+    def clear_recorded_data(self, filepath):
+        self.save_box.clear()
+        self.save_box.setText("Memory buffer cleared")
+
 #Read coil values from the MCU
     def read_coils(self):
         # Fetch coil data
@@ -240,7 +261,7 @@ class GUI(QWidget):
 
 #Set coil values for the static test
     def set_coils(self):
-
+        
         self.static_box.clear()
         try:
             x_num = float(self.entry1.text())
@@ -284,9 +305,6 @@ class GUI(QWidget):
         self.canvas.axes.relim()
         self.canvas.axes.autoscale_view(scalex=False, scaley=True)
         self.canvas.draw()
-
-    def save_data(self):
-        filename = "mag_data.csv"
 
 # This part start the GUI from PyQt5
 if __name__ == "__main__":
