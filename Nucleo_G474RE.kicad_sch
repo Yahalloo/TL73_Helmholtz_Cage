@@ -1367,6 +1367,146 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+12V"
 			(power global)
 			(pin_numbers
@@ -2003,6 +2143,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "DRV8873S DISABLE LINKS (0R)"
+		(exclude_from_sim no)
+		(at 186.69 88.9 0)
+		(effects
+			(font
+				(size 1.8 1.8)
+			)
+			(justify left top)
+		)
+		(uuid "26c0a47f-d22b-492d-a55d-fae558fa1458")
+	)
 	(text "VIN unused"
 		(exclude_from_sim no)
 		(at 113.03 59.69 0)
@@ -2013,6 +2164,28 @@
 			(justify left)
 		)
 		(uuid "4710790f-e46a-445c-b682-2a61a3e6248e")
+	)
+	(text "Driver temperature (on-board NTCs, see DriverTempSense sheet):\nTemp_DrvXY = PC5 (CN10-6, ADC2_IN11), Temp_DrvYZ = PB2 (CN10-22, ADC2_IN12).\n~{FAULT}_CoilZ moved from PB2 to PB10 (CN10-25) to free PB2 for the ADC."
+		(exclude_from_sim no)
+		(at 186.69 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "5d769331-2cc6-4a7c-a680-b0c55053b3ba")
+	)
+	(text "DRV_DISABLE goes to the DISABLE pin of all three drivers.\nR103 fitted (default): DISABLE = GND, bridges on whenever the drivers are awake.\nMCU control: remove R103, fit R104. PB5 (CN10-29) high = all outputs Hi-Z.\nNever fit both: PB5 would drive into GND.\n100k pull-up to 5 V inside each driver: with R103 removed the bridges\nstay off until PB5 pulls the net low (use push-pull or open-drain).\n\nIPROPI_X / Y / Z: spare driver current monitors, 0.30 V/A, magnitude only.\nX = PC3 (CN7-37, ADC1/2_IN9), Y = PB13 (CN10-30, ADC3_IN5),\nZ = PC4 (CN10-34, ADC2_IN5). See the H-bridge sheet for how to read them."
+		(exclude_from_sim no)
+		(at 186.69 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "901498be-46ba-4595-8fad-c19fe52efcb2")
 	)
 	(text "STM32 pinout used by this board"
 		(exclude_from_sim no)
@@ -2026,6 +2199,12 @@
 			(justify left)
 		)
 		(uuid "9033f42d-a5b0-4573-a314-b1c070c7f3da")
+	)
+	(junction
+		(at 205.74 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7402331c-300d-4099-82e1-37de192168b1")
 	)
 	(junction
 		(at 113.03 54.61)
@@ -2162,6 +2341,26 @@
 			(type default)
 		)
 		(uuid "1ab40b80-9fed-4fb7-b341-0002d8b79a1a")
+	)
+	(wire
+		(pts
+			(xy 205.74 107.95) (xy 205.74 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ade03f9-0b70-4ad9-a00c-74d280da6781")
+	)
+	(wire
+		(pts
+			(xy 205.74 97.79) (xy 213.36 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1af8fb62-65c3-41f7-92cf-fcc65188139b")
 	)
 	(wire
 		(pts
@@ -2615,6 +2814,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 100.33) (xy 205.74 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1744874-d481-4a89-b3e0-c8ecca0ff894")
+	)
+	(wire
+		(pts
 			(xy 247.65 34.29) (xy 252.73 34.29)
 		)
 		(stroke
@@ -2852,6 +3061,16 @@
 			(type default)
 		)
 		(uuid "fad2e1a0-6c71-4af3-beef-72c6262b1b75")
+	)
+	(wire
+		(pts
+			(xy 205.74 111.76) (xy 213.36 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd63bcf8-4582-4dad-9956-4131e27cb462")
 	)
 	(image
 		(at 53.34 58.42)
@@ -16777,7 +16996,7 @@
 				)
 				(uuid "3dc3436a-5e80-42cb-ae87-22083937bd1d")
 			)
-			(table_cell "PB2"
+			(table_cell "PB10"
 				(exclude_from_sim no)
 				(at 44.45 153.162 0)
 				(size 15.24 2.794)
@@ -16794,7 +17013,7 @@
 				)
 				(uuid "07b222a5-b56e-4d7a-8a00-f20a5235e143")
 			)
-			(table_cell "CN10-22"
+			(table_cell "CN10-25"
 				(exclude_from_sim no)
 				(at 59.69 153.162 0)
 				(size 38.1 2.794)
@@ -18037,6 +18256,17 @@
 			)
 		)
 	)
+	(hierarchical_label "PB5"
+		(shape passive)
+		(at 213.36 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0a486719-43c8-4412-b7c3-1b74432c5df3")
+	)
 	(hierarchical_label "PC13"
 		(shape passive)
 		(at 88.9 59.69 180)
@@ -18234,6 +18464,17 @@
 			(justify left)
 		)
 		(uuid "66c97aed-44b4-44ef-b2e7-22bcc74e468b")
+	)
+	(hierarchical_label "DRV_DISABLE"
+		(shape output)
+		(at 213.36 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e442baf-7bf2-49c5-b686-e62eaf996480")
 	)
 	(hierarchical_label "PB0"
 		(shape input)
@@ -18918,6 +19159,109 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 205.74 104.14 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp yes)
+		(uuid "50ac602f-ef63-43c5-af31-5b2336cbfd2a")
+		(property "Reference" "R104"
+			(at 208.28 101.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 208.28 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 207.518 104.14 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0 ohm link, 0603: DRV8873S DISABLE to MCU (PB5). Fit only with R103 removed"
+			(at 205.74 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "jumper"
+			(at 208.28 106.44 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 205.74 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "721078ad-0025-42d5-98c4-32bc57bb2151")
+		)
+		(pin "2"
+			(uuid "d628ad92-14e5-4369-a3b9-c1d5a6224fe7")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/008a0aa4-0abb-4344-ae13-e1bf04066029"
+					(reference "R104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 264.16 55.88 0)
 		(unit 1)
@@ -19068,6 +19412,109 @@
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/008a0aa4-0abb-4344-ae13-e1bf04066029"
 					(reference "#PWR0202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 205.74 118.11 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9bc866c1-e441-4f86-874d-794edfedbc59")
+		(property "Reference" "R103"
+			(at 208.28 115.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0R"
+			(at 208.28 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 207.518 118.11 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "0 ohm link, 0603: DRV8873S DISABLE to GND (bridges always enabled)"
+			(at 205.74 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "jumper"
+			(at 208.28 120.41 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "LCSC" "C21189"
+			(at 205.74 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7192b08b-ba73-4000-ace2-258c8888f406")
+		)
+		(pin "2"
+			(uuid "bf02157c-c79e-496a-b18c-60a286cf2173")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/008a0aa4-0abb-4344-ae13-e1bf04066029"
+					(reference "R103")
 					(unit 1)
 				)
 			)
@@ -19344,6 +19791,83 @@
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/008a0aa4-0abb-4344-ae13-e1bf04066029"
 					(reference "#PWR0210")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 205.74 121.92 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aee64342-36bf-4012-976e-dd38434c73ff")
+		(property "Reference" "#PWR0211"
+			(at 205.74 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 205.74 125.984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 205.74 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 205.74 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bda90c5d-65a6-4940-b965-3ed21b1ed850")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/008a0aa4-0abb-4344-ae13-e1bf04066029"
+					(reference "#PWR0211")
 					(unit 1)
 				)
 			)
