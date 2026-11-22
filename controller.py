@@ -9,8 +9,12 @@ class HelmholtzController:
         self.is_calibrated = False
         self.mcu = None
 
+        self._rx_buffer = b"" #--------#--------#--------#--------#--------#--------#--------
+        self.last_data = {"x": 0.0, "y": 0.0, "z": 0.0} #--------#--------#--------#--------#--------
+        self.last_command = None #--------#--------#--------#--------#--------#--------#--------
+
         try:
-            self.mcu = serial.Serial('COM3', baudrate=115200, timeout = 1)
+            self.mcu = serial.Serial('COM5', baudrate=115200, timeout = 1)
             time.sleep(2)
         except serial.SerialException as e:
             print("Initial connection failed.")
@@ -20,32 +24,65 @@ class HelmholtzController:
         if self.mcu and self.mcu.is_open:
             return True
         return False
-
+#--------#--------#--------#--------#--------#--------#--------#--------#--------#--------#--------#--------#--------#--------#--------#--------#--------#--------#--------#--------#--------
     # Reads and stores the MCU coil values from the serial port
     def read_mcu_data(self):
+        if not self.mcu or not self.mcu.is_open:
+            return self.last_data.copy()
 
-        # Logic to request and parse the X, Y, Z B-field data from the MCU
-        if not self.mcu or not self.mcu.in_waiting:
-            x=0
-            y=0
-            z=0
-
-        #Stores and decodes the data from teh MCU
         try:
-            raw_data = self.mcu.readline().decode('utf-8').strip()
-            if raw_data.startswith("DATA:"):
-                values = raw_data.replace("DATA:", "").split(",")
+            available = self.mcu.in_waiting
 
-                return {
-                    "x": float(values[0]),
-                    "y": float(values[1]),
-                    "z": float(values[2])
-                }
-        except (ValueError, IndexError) as e:
-            print(f"Error parsing MCU data: {e}")
+            if available:
+                chunk = self.mcu.read(available)
+                self._rx_buffer += chunk
 
-        return {"x": 0, "y": 0, "z": 0}
+        except (serial.SerialException, OSError) as e:
+            print(f"MCU read failed: {e}")
+            return self.last_data.copy()
 
+        while b"\n" in self._rx_buffer:
+            raw_line, self._rx_buffer = self._rx_buffer.split(b"\n", 1)
+
+            try:
+                line = raw_line.decode("ascii").strip()
+
+                if line.startswith("CMD:"):
+                    fields = line[4:].split(",")
+
+                    if len(fields) != 4:
+                        raise ValueError("CMD requires four values")
+
+                    b_des, i_cmd, duty1, duty2 = map(float, fields)
+
+                    self.last_command = {
+                        "b_des_uT": b_des,
+                        "i_cmd_A": i_cmd,
+                        "duty1": duty1,
+                        "duty2": duty2,
+                    }
+
+                    print(
+                        f"Received: B_des = {b_des:.3f} uT, "
+                        f"I_cmd = {i_cmd:.3f} A, "
+                        f"duty1 = {duty1:.3f}, "
+                        f"duty2 = {duty2:.3f}"
+                    )
+
+                elif line.startswith("DATA:"):
+                    fields = line[5:].split(",")
+
+                    if len(fields) != 3:
+                        raise ValueError("DATA requires three values")
+
+                    x, y, z = map(float, fields)
+                    self.last_data = {"x": x, "y": y, "z": z}
+
+            except (UnicodeDecodeError, ValueError) as e:
+                print(f"Invalid MCU message: {raw_line!r}: {e}")
+
+        return self.last_data.copy()
+#--------#--------#--------#--------#--------#--------#--------#--------#--------#--------#--------#--------#--------#--------#--------#--------#--------#--------#--------#--------#--------
     # Sends the coil magnetic field to the MCU
     def send_values(self, x, y, z):
 

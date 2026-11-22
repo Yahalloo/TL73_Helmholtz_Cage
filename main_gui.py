@@ -203,9 +203,14 @@ class GUI(QWidget):
 # Check the connection of the MCU and reads the coils if connected.
     def update_routine(self):
         mcu_work = self.backend.check_mcu()
+        mcu_work = self.backend.check_mcu()
+
         if mcu_work:
             if not self.calib.is_connected:
                 self.read_coils()
+            else:
+                self.backend.read_mcu_data()
+
             self.mcu_box.setText("MCU Connected")
         else:
             self.mcu_box.setText("MCU Not Connected")
