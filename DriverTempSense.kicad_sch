@@ -833,7 +833,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TH1401: between drivers X and Y"
+	(text "TH1401: at driver X, end facing Y"
 		(exclude_from_sim no)
 		(at 67.31 100.33 0)
 		(effects
@@ -844,7 +844,7 @@
 		)
 		(uuid "1f93d3ba-5518-468e-8bdc-ce6a4b23a9b1")
 	)
-	(text "TH1402: between drivers Y and Z"
+	(text "TH1402: at driver Y, end facing Z"
 		(exclude_from_sim no)
 		(at 158.75 100.33 0)
 		(effects
@@ -855,7 +855,7 @@
 		)
 		(uuid "36f507a8-9eb4-408d-b60c-d850de626fb3")
 	)
-	(text "DRIVER TEMP SENSE NOTES\nDivider: 3.3 V, 10k (0.1 %) on top, NTC to GND. Vadc at 25 °C = 1.65 V.\nNTC: Vishay NTCS0805E3103JHT, 10k at 25 °C, B25/85 = 3940 K, rated to 150 °C.\nRntc = 10k * Vadc / (3.3 - Vadc)\nT = 1 / (1/298.15 + ln(Rntc/10k) / 3940) - 273.15\nTemp_DrvXY = PC5 (ADC2_IN11), Temp_DrvYZ = PB2 (ADC2_IN12).\n\nThe NTC reads board copper next to the drivers, not the junction: expect it to sit\nwell below the die temperature. Suggested limits: warn at 85 °C, shut down at 100 °C.\nRntc is about 1.5k at 85 °C and 0.9k at 100 °C (Vadc about 0.43 V and 0.27 V).\nThe DRV8873S thermal warning and shutdown flags (SPI) stay the real junction protection.\nPlace each NTC on the GND copper between two drivers, away from the OUT switch nodes."
+	(text "DRIVER TEMP SENSE\n10k (0.1 %) to 3.3 V, 10k NTC (B = 3940 K) to GND: 1.65 V at 25 °C\nRntc = 10k x Vadc / (3.3 - Vadc)\nEach NTC sits on the ground copper at the end of a DRV8873 thermal pad.\nIt reads board copper, not the junction: warn at 85 °C, shut down at 100 °C."
 		(exclude_from_sim no)
 		(at 17.78 118.11 0)
 		(effects

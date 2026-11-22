@@ -2165,7 +2165,7 @@
 		)
 		(uuid "4710790f-e46a-445c-b682-2a61a3e6248e")
 	)
-	(text "Driver temperature (on-board NTCs, see DriverTempSense sheet):\nTemp_DrvXY = PC5 (CN10-6, ADC2_IN11), Temp_DrvYZ = PB2 (CN10-22, ADC2_IN12).\n~{FAULT}_CoilZ moved from PB2 to PB10 (CN10-25) to free PB2 for the ADC."
+	(text "Temp_DrvXY = PC5 (CN10-6), Temp_DrvYZ = PB2 (CN10-22)."
 		(exclude_from_sim no)
 		(at 186.69 156.21 0)
 		(effects
@@ -2176,7 +2176,7 @@
 		)
 		(uuid "5d769331-2cc6-4a7c-a680-b0c55053b3ba")
 	)
-	(text "DRV_DISABLE goes to the DISABLE pin of all three drivers.\nR103 fitted (default): DISABLE = GND, bridges on whenever the drivers are awake.\nMCU control: remove R103, fit R104. PB5 (CN10-29) high = all outputs Hi-Z.\nNever fit both: PB5 would drive into GND.\n100k pull-up to 5 V inside each driver: with R103 removed the bridges\nstay off until PB5 pulls the net low (use push-pull or open-drain).\n\nIPROPI_X / Y / Z: spare driver current monitors, 0.30 V/A, magnitude only.\nX = PC3 (CN7-37, ADC1/2_IN9), Y = PB13 (CN10-30, ADC3_IN5),\nZ = PC4 (CN10-34, ADC2_IN5). See the H-bridge sheet for how to read them."
+	(text "R103 fitted (default): DISABLE = GND, bridges enabled.\nFor MCU control remove R103 and fit R104: PB5 high = outputs Hi-Z.\nNever fit both."
 		(exclude_from_sim no)
 		(at 186.69 132.08 0)
 		(effects

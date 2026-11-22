@@ -2113,17 +2113,6 @@
 		)
 		(uuid "24660b66-de58-4be9-958b-ec9238e068ea")
 	)
-	(text "On the Magnetometer sheet:\nJ1301 (I2C) and J1302 (SPI) connectors,\nI2C pull-ups R1301, R1302,\nsupply select links R1303 to R1306\n(3.3 V fitted, 5 V not fitted).\n\nI2C1: PA15 = SCL, PB7 = SDA\nDRDY = PC2, SPI CS = PD2\nSPI1 is shared with the drivers."
-		(exclude_from_sim no)
-		(at 245.11 191.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "29810e90-98f3-4668-afa4-0ac57e797e71")
-	)
 	(text "Top Level"
 		(exclude_from_sim no)
 		(at 27.94 23.622 0)
@@ -2149,7 +2138,7 @@
 		)
 		(uuid "3b736cdb-e6a6-41a6-8c01-3e2e0ad59810")
 	)
-	(text "Plated pads tied to\nGND: they close the\nvia fence at corners."
+	(text "Plated holes,\ntied to GND."
 		(exclude_from_sim no)
 		(at 144.78 210.82 0)
 		(effects
@@ -2173,7 +2162,7 @@
 		)
 		(uuid "66cfa04d-4237-41ab-9b0b-42fc87cdf816")
 	)
-	(text "U101: K7805-1000R3, 8-36 V in (sets the 36 V max supply),\n5 V / 1 A out, 500 kHz, max C load 680 uF\nE5V -> Nucleo E5V pin (CN7-6):\nset Nucleo JP5 to E5V\nDRV8873S runs from +24V only (no 12 V)\nC101, C102: place at the module pins"
+	(text "U101: K7805-1000R3\n8 to 36 V in, 5 V / 1 A out\nE5V feeds the Nucleo E5V pin (JP5 = E5V)"
 		(exclude_from_sim no)
 		(at 16.51 221.615 0)
 		(effects
@@ -2184,7 +2173,7 @@
 		)
 		(uuid "7b69c339-1beb-401b-9b1b-d556b84982f5")
 	)
-	(text "Coil temperature (off-board NTC):\nPA1 = X (ADC1_IN2),\nPC1 = Y (ADC1_IN7),\nPC0 = Z (ADC1_IN6)\nDriver temperature (on-board NTC):\nPC5 = X/Y gap (ADC2_IN11),\nPB2 = Y/Z gap (ADC2_IN12)"
+	(text "Coil NTC (off board):\nPA1 = X, PC1 = Y, PC0 = Z\nDriver NTC (on board):\nPC5, PB2"
 		(exclude_from_sim no)
 		(at 96.52 137.16 0)
 		(effects
@@ -2258,7 +2247,7 @@
 		)
 		(uuid "efae0e91-cddd-476f-b2dc-5a79cf208402")
 	)
-	(text "DRV8873S SPI bus (SPI1):\nPA5 = SCLK, PA6 = SDO (MISO),\nPA7 = SDI (MOSI)\n~{SCS}: PB11 = X, PB14 = Y, PB1 = Z"
+	(text "SPI1: PA5 = SCLK,\nPA6 = SDO, PA7 = SDI\n~{SCS}: PB11 = X, PB14 = Y, PB1 = Z"
 		(exclude_from_sim no)
 		(at 96.52 157.48 0)
 		(effects

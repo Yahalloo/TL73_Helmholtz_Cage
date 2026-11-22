@@ -896,7 +896,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "CURRENT SENSE NOTES (per axis)\n- Shunt: 10 mOhm 4-terminal Kelvin (WSK2512, 1 W), in series with coil + (H-bridge OUT_A)\n- Amp: INA240A1, gain 20 V/V -> 0.2 V/A (200 mV/A)\n- REF1 = 3.3 V, REF2 = GND -> Vout = 1.65 V at 0 A (bidirectional)\n- Vout = 1.65 V + 0.2 V/A x I_coil   (+I = current from Icoil1 -> Icoil2)\n\nMEASUREMENT RANGE\n- Full scale: +/-1.65 V / 0.2 V/A = +/-8.25 A (ideal)\n- Usable: approx. +/-8.0 A (INA240 output swing limits near rails)\n- Shunt loss at 8 A: I^2 x R = 0.64 W (rated 1 W)\n\n12-BIT ADC RESOLUTION (VREF+ = VDDA = 3.3 V)\n- 1 LSB = 3.3 V / 4096 = 0.806 mV -> 0.806 mV / 0.2 V/A = approx. 4.0 mA per count\n- 0 A = code 2048,  I_coil [A] = (code - 2048) x 4.03 mA\n- Ratiometric: REF1 and VDDA share 3.3 V, so the 0 A point tracks supply drift\n- ADC pins: X = PA0 (ADC1_IN1), Y = PA4 (ADC2_IN17), Z = PB0 (ADC3_IN12)"
+	(text "CURRENT SENSE (per axis)\nShunt 10 mOhm Kelvin + INA240A1 (gain 20): 0.2 V/A\nVout = 1.65 V + 0.2 V/A x I_coil, range about +/-8 A\n12-bit ADC: 4.0 mA per count, 0 A = code 2048"
 		(exclude_from_sim no)
 		(at 19.558 175.26 0)
 		(effects

@@ -852,7 +852,7 @@
 		)
 		(uuid "3aba7c2e-1180-41a4-b06a-84cbd7ea7a04")
 	)
-	(text "J1302 (SPI): 1 GND, 2 VCC, 3 CS, 4 MISO, 5 MOSI, 6 SCK\nShares SPI1 (PA5/PA6/PA7) with the DRV8873S drivers.\nCS = PD2 (CN7-4). DRV8873S uses SPI mode 1, the RM3100\nmode 0 or 3: switch CPHA per device.\nKeep the clock at 1 MHz or less on a long cable.\nBreakout: tie I2CEN low. No DRDY pin here: poll STATUS,\nor wire DRDY to J1301 pin 5.\nUse J1301 (I2C) or J1302 (SPI), not both at once."
+	(text "J1302 (SPI): 1 GND, 2 VCC, 3 CS, 4 MISO, 5 MOSI, 6 SCK\nShares SPI1 with the drivers (they use mode 1, the RM3100 mode 0 or 3). CS = PD2.\nUse J1301 or J1302, not both."
 		(exclude_from_sim no)
 		(at 19.05 101.6 0)
 		(effects
@@ -863,7 +863,7 @@
 		)
 		(uuid "64b6ddfa-96cc-4856-b4d8-42094a778a38")
 	)
-	(text "J1301 pinout: 1 GND, 2 VCC, 3 SCL, 4 SDA, 5 DRDY, 6 NC\nI2C1: PA15 = SCL (CN7-17), PB7 = SDA (CN7-21)\nDRDY: PC2 (CN7-35), EXTI rising edge\nOn the breakout: tie I2CEN high, set SA0/SA1 for the address.\nR1301, R1302: bus pull-ups (cable up to about 1 m at 100 kHz)."
+	(text "J1301 (I2C): 1 GND, 2 VCC, 3 SCL, 4 SDA, 5 DRDY, 6 NC\nSCL = PA15, SDA = PB7, DRDY = PC2. R1301, R1302: bus pull-ups."
 		(exclude_from_sim no)
 		(at 19.05 81.93 0)
 		(effects
@@ -874,7 +874,7 @@
 		)
 		(uuid "75ea49e3-957c-4d8a-b1af-942632c84fb1")
 	)
-	(text "Fit ONE link per connector.\nJ1301 (I2C): R1303 = 3.3 V (fitted), R1304 = 5 V (not fitted).\nJ1302 (SPI): R1305 = 3.3 V (fitted), R1306 = 5 V (not fitted).\n5 V is the E5V buck rail, so it is only live with 24 V applied.\nThe RM3100 itself is a 3.3 V part: use 5 V only with a breakout\nthat has its own regulator. Logic stays at 3.3 V either way."
+	(text "One link per connector:\nR1303 / R1305 = 3.3 V (fitted), R1304 / R1306 = 5 V (not fitted).\nUse 5 V only with a breakout that has its own regulator."
 		(exclude_from_sim no)
 		(at 143.51 68.58 0)
 		(effects
