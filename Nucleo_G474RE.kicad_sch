@@ -2165,7 +2165,7 @@
 		)
 		(uuid "4710790f-e46a-445c-b682-2a61a3e6248e")
 	)
-	(text "Temp_DrvX = PC5 (CN10-6), Temp_DrvY = PB13 (CN10-30), Temp_DrvZ = PB1 (CN10-24), IPROPI_Y = PB2 (CN10-22)."
+	(text "Not in the table: Temp_DrvX = PC5 (CN10-6), Temp_DrvY = PB13 (CN10-30), Temp_DrvZ = PB1 (CN10-24),\nIPROPI_X = PC3 (CN7-37), IPROPI_Y = PB2 (CN10-22), IPROPI_Z = PC4 (CN10-34). All analog inputs."
 		(exclude_from_sim no)
 		(at 186.69 156.21 0)
 		(effects

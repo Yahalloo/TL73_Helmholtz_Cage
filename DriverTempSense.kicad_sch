@@ -2345,7 +2345,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb529136-96ae-435f-be42-4362b7ff1d13")
-		(property "Reference" "#PWR1409"
+		(property "Reference" "#PWR1407"
 			(at 217.17 67.31 0)
 			(hide yes)
 			(show_name no)
@@ -2405,7 +2405,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5463738a-9fa4-4f16-a3de-0a4f9ff552f6"
-					(reference "#PWR1409")
+					(reference "#PWR1407")
 					(unit 1)
 				)
 			)
