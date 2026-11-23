@@ -1,0 +1,7 @@
+config load "C:\Users\Samuel\Documents\MATLAB\ELEC491_M2\M2_open_loop\M2_open_loop.ioc"
+project setCustomFWPath "C:\Users\Samuel\STM32Cube\Repository\STM32Cube_FW_G4_V1.6.1"
+
+config save "C:\Users\Samuel\Documents\MATLAB\ELEC491_M2\M2_open_loop\M2_open_loop.ioc"
+project generate 
+
+exit wait

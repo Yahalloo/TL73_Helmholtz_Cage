@@ -1,6 +1,6 @@
 % 1. INITIALIZE
 % All physical parameters below are provisional until measured/validated.
-R = 6;                       % Coil resistance at reference temperature [ohm]
+R = 7.8;                       % Coil resistance at reference temperature [ohm]
 L = 10e-3;                   % Coil inductance [H]: 0.01 H, NOT 0.1 H
 k = 50e-6;                   % Coil field/current gain [T/A]
 Vmax = 24;                   % DC bus [V]
