@@ -846,7 +846,7 @@
 	)
 	(text "TH1402: at driver Y, end facing Z"
 		(exclude_from_sim no)
-		(at 158.75 100.33 0)
+		(at 135.89 100.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -886,7 +886,7 @@
 		(uuid "05f653b3-ec2f-4db4-80e0-205172887935")
 	)
 	(junction
-		(at 185.42 77.47)
+		(at 162.56 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23163aa9-86ab-4982-a724-c73c7c20dc68")
@@ -898,14 +898,14 @@
 		(uuid "88ad1365-a696-45f4-8e00-5795e7167a4d")
 	)
 	(junction
-		(at 171.45 77.47)
+		(at 148.59 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a33cee8e-e5d4-48e9-94cf-f5378b804570")
 	)
 	(wire
 		(pts
-			(xy 171.45 73.66) (xy 171.45 77.47)
+			(xy 148.59 73.66) (xy 148.59 77.47)
 		)
 		(stroke
 			(width 0)
@@ -925,7 +925,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 87.63) (xy 185.42 90.17)
+			(xy 162.56 87.63) (xy 162.56 90.17)
 		)
 		(stroke
 			(width 0)
@@ -945,7 +945,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 77.47) (xy 185.42 80.01)
+			(xy 162.56 77.47) (xy 162.56 80.01)
 		)
 		(stroke
 			(width 0)
@@ -955,7 +955,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 77.47) (xy 185.42 77.47)
+			(xy 148.59 77.47) (xy 162.56 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1005,7 +1005,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 63.5) (xy 171.45 66.04)
+			(xy 148.59 63.5) (xy 148.59 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1015,7 +1015,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 77.47) (xy 191.77 77.47)
+			(xy 162.56 77.47) (xy 168.91 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1035,7 +1035,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 77.47) (xy 171.45 80.01)
+			(xy 148.59 77.47) (xy 148.59 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1043,7 +1043,7 @@
 		)
 		(uuid "df7b091e-d993-440f-a365-d7291faecda6")
 	)
-	(hierarchical_label "Temp_DrvXY"
+	(hierarchical_label "Temp_DrvX"
 		(shape output)
 		(at 100.33 77.47 0)
 		(effects
@@ -1054,9 +1054,9 @@
 		)
 		(uuid "7d50d7d7-5db2-4c56-b63e-b4a5486bd9ec")
 	)
-	(hierarchical_label "Temp_DrvYZ"
+	(hierarchical_label "Temp_DrvY"
 		(shape output)
-		(at 191.77 77.47 0)
+		(at 168.91 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1067,7 +1067,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 171.45 63.5 0)
+		(at 148.59 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1078,7 +1078,7 @@
 		(fields_autoplaced yes)
 		(uuid "0545d7dd-3e89-4c17-aaea-bd320d27967b")
 		(property "Reference" "#PWR1404"
-			(at 171.45 67.31 0)
+			(at 148.59 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1089,7 +1089,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 171.45 58.42 0)
+			(at 148.59 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1099,7 +1099,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 63.5 0)
+			(at 148.59 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1110,7 +1110,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 63.5 0)
+			(at 148.59 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1121,7 +1121,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 171.45 63.5 0)
+			(at 148.59 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1145,7 +1145,7 @@
 	)
 	(symbol
 		(lib_id "Device:Thermistor_NTC")
-		(at 171.45 83.82 0)
+		(at 148.59 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1155,7 +1155,7 @@
 		(dnp no)
 		(uuid "0818ba88-b149-47a5-8352-82c77877479b")
 		(property "Reference" "TH1402"
-			(at 173.99 81.52 0)
+			(at 151.13 81.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1166,7 +1166,7 @@
 			)
 		)
 		(property "Value" "10k NTC"
-			(at 173.99 83.82 0)
+			(at 151.13 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1177,7 +1177,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 173.228 83.82 90)
+			(at 150.368 83.82 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1188,7 +1188,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/29044/ntcs0805e3t.pdf"
-			(at 171.45 83.82 0)
+			(at 148.59 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1199,7 +1199,7 @@
 			)
 		)
 		(property "Description" "NTC thermistor, 10 kΩ at 25 °C, B25/85 = 3940 K ±1 %, -40 to 150 °C, 0805, Vishay NTCS0805E3103JHT"
-			(at 171.45 83.82 0)
+			(at 148.59 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1210,7 +1210,7 @@
 			)
 		)
 		(property "Rating" "B 3940K"
-			(at 173.99 86.12 0)
+			(at 151.13 86.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1221,7 +1221,7 @@
 			)
 		)
 		(property "LCSC" "C511025"
-			(at 171.45 83.82 0)
+			(at 148.59 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1326,7 +1326,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 171.45 87.63 0)
+		(at 148.59 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1337,7 +1337,7 @@
 		(fields_autoplaced yes)
 		(uuid "3aeb5bb0-c4a2-4096-a773-35ea0adbf8fe")
 		(property "Reference" "#PWR1405"
-			(at 171.45 93.98 0)
+			(at 148.59 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1348,7 +1348,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 171.45 92.71 0)
+			(at 148.59 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1358,7 +1358,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.45 87.63 0)
+			(at 148.59 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1369,7 +1369,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 87.63 0)
+			(at 148.59 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1380,7 +1380,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 87.63 0)
+			(at 148.59 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1766,7 +1766,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 185.42 90.17 0)
+		(at 162.56 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1777,7 +1777,7 @@
 		(fields_autoplaced yes)
 		(uuid "972d049e-2136-4b41-947c-618a6e75cfe9")
 		(property "Reference" "#PWR1406"
-			(at 185.42 96.52 0)
+			(at 162.56 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1788,7 +1788,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 185.42 95.25 0)
+			(at 162.56 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1798,7 +1798,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 185.42 90.17 0)
+			(at 162.56 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1809,7 +1809,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 90.17 0)
+			(at 162.56 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1820,7 +1820,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 90.17 0)
+			(at 162.56 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1844,7 +1844,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 185.42 83.82 0)
+		(at 162.56 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1854,7 +1854,7 @@
 		(dnp no)
 		(uuid "b2de5a05-ea5f-46e0-90f7-ca32e3f0a8d2")
 		(property "Reference" "C1402"
-			(at 189.23 81.52 0)
+			(at 166.37 81.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1865,7 +1865,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 189.23 83.82 0)
+			(at 166.37 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1876,7 +1876,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 186.3852 87.63 0)
+			(at 163.5252 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1887,7 +1887,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 83.82 0)
+			(at 162.56 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1898,7 +1898,7 @@
 			)
 		)
 		(property "Description" "Ceramic capacitor (MLCC), 100 nF, 50 V, X7R, ±5 %, 0603, Samsung CL10B104JB8NNNC"
-			(at 185.42 83.82 0)
+			(at 162.56 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1909,7 +1909,7 @@
 			)
 		)
 		(property "Rating" "50V X7R"
-			(at 189.23 86.12 0)
+			(at 166.37 86.12 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1920,7 +1920,7 @@
 			)
 		)
 		(property "LCSC" "C24452"
-			(at 185.42 83.82 0)
+			(at 162.56 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2050,7 +2050,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 171.45 69.85 180)
+		(at 148.59 69.85 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2060,7 +2060,7 @@
 		(dnp no)
 		(uuid "da4a915c-b339-4bcc-a2a1-8901980e5c51")
 		(property "Reference" "R1402"
-			(at 173.99 67.55 0)
+			(at 151.13 67.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2071,7 +2071,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 173.99 69.85 0)
+			(at 151.13 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2082,7 +2082,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 173.228 69.85 90)
+			(at 150.368 69.85 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2093,7 +2093,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 69.85 0)
+			(at 148.59 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2104,7 +2104,7 @@
 			)
 		)
 		(property "Description" "Thin-film chip resistor, 10 kΩ, ±0.1 %, 0.1 W, 75 V, 25 ppm/°C, 0603, Yageo RT0603BRD0710KL"
-			(at 171.45 69.85 0)
+			(at 148.59 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2115,7 +2115,7 @@
 			)
 		)
 		(property "Rating" "0.1%"
-			(at 173.99 72.15 0)
+			(at 151.13 72.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2126,7 +2126,7 @@
 			)
 		)
 		(property "LCSC" "C95204"
-			(at 171.45 69.85 0)
+			(at 148.59 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2146,6 +2146,653 @@
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5463738a-9fa4-4f16-a3de-0a4f9ff552f6"
 					(reference "R1402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(text "TH1403: at driver Z, end facing the board edge"
+		(exclude_from_sim no)
+		(at 204.47 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d9cc2f75-2deb-4a5c-b40e-852ac7fff525")
+	)
+	(junction
+		(at 217.17 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62abe769-386c-4d55-9bf4-cadce3ce4f10")
+	)
+	(junction
+		(at 231.14 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1e1f4c1-5f65-4411-b604-741d757ff8d7")
+	)
+	(wire
+		(pts
+			(xy 217.17 73.66) (xy 217.17 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a46d2d3-c8eb-4faa-b1f4-38946ad252d1")
+	)
+	(wire
+		(pts
+			(xy 217.17 77.47) (xy 217.17 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57fb24d2-e923-4926-9d8c-eaddea7b2d69")
+	)
+	(wire
+		(pts
+			(xy 217.17 77.47) (xy 231.14 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5170f59-e8db-4f01-9460-2c0043a207d2")
+	)
+	(wire
+		(pts
+			(xy 231.14 77.47) (xy 231.14 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04ff6084-c793-4cba-bbf4-972d92e3db23")
+	)
+	(wire
+		(pts
+			(xy 217.17 63.5) (xy 217.17 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be581153-6f60-4cdb-b75c-75c7b85e548c")
+	)
+	(wire
+		(pts
+			(xy 231.14 87.63) (xy 231.14 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf67013b-d285-49bd-b08c-5da0a30f817d")
+	)
+	(wire
+		(pts
+			(xy 231.14 77.47) (xy 237.49 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da8ed9bd-2fdd-4f79-b462-fcac03439a19")
+	)
+	(hierarchical_label "Temp_DrvZ"
+		(shape output)
+		(at 237.49 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0b3b1fdb-f99b-4c60-9588-5e3731cca145")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 217.17 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38bed2e8-e19c-4c22-bfc3-498dc54a3950")
+		(property "Reference" "#PWR1408"
+			(at 217.17 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 217.17 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 217.17 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "be2fd0e8-750a-495c-b8c3-8cced1aa6c4c")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5463738a-9fa4-4f16-a3de-0a4f9ff552f6"
+					(reference "#PWR1408")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 217.17 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb529136-96ae-435f-be42-4362b7ff1d13")
+		(property "Reference" "#PWR1409"
+			(at 217.17 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 217.17 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 217.17 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "665812ee-d391-4432-a5ea-1115a4f2e32f")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5463738a-9fa4-4f16-a3de-0a4f9ff552f6"
+					(reference "#PWR1409")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 231.14 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8eeef382-f52a-42a2-a138-bcef9c384ee3")
+		(property "Reference" "#PWR1409"
+			(at 231.14 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 231.14 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 231.14 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 231.14 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b4b2111-7550-4ee3-8c52-8746f863524c")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5463738a-9fa4-4f16-a3de-0a4f9ff552f6"
+					(reference "#PWR1409")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 217.17 69.85 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e4f7de5a-3a79-4030-8c7f-1993c85915a4")
+		(property "Reference" "R1403"
+			(at 219.71 67.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k"
+			(at 219.71 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 218.948 69.85 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 217.17 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Thin-film chip resistor, 10 kΩ, ±0.1 %, 0.1 W, 75 V, 25 ppm/°C, 0603, Yageo RT0603BRD0710KL"
+			(at 217.17 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "0.1%"
+			(at 219.71 72.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify right)
+			)
+		)
+		(property "LCSC" "C95204"
+			(at 217.17 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b7d4d5d0-601f-4b06-a30a-559a0b5f2c9a")
+		)
+		(pin "2"
+			(uuid "85ca66e8-d5b2-4d61-a3c9-944c5990328b")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5463738a-9fa4-4f16-a3de-0a4f9ff552f6"
+					(reference "R1403")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 231.14 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8907b266-1aff-44c8-8462-11615b1defe0")
+		(property "Reference" "C1403"
+			(at 234.95 81.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 234.95 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 232.1052 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ceramic capacitor (MLCC), 100 nF, 50 V, X7R, ±5 %, 0603, Samsung CL10B104JB8NNNC"
+			(at 231.14 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "50V X7R"
+			(at 234.95 86.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C24452"
+			(at 231.14 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c5e519e0-9ebd-4d87-9b51-9ee8ec77196d")
+		)
+		(pin "1"
+			(uuid "71fcb728-d4bc-43a4-8602-856c2066a546")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5463738a-9fa4-4f16-a3de-0a4f9ff552f6"
+					(reference "C1403")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Thermistor_NTC")
+		(at 217.17 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e7695502-044f-4347-a409-9e52d72de320")
+		(property "Reference" "TH1403"
+			(at 219.71 81.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k NTC"
+			(at 219.71 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 218.948 83.82 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/29044/ntcs0805e3t.pdf"
+			(at 217.17 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "NTC thermistor, 10 kΩ at 25 °C, B25/85 = 3940 K ±1 %, -40 to 150 °C, 0805, Vishay NTCS0805E3103JHT"
+			(at 217.17 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Rating" "B 3940K"
+			(at 219.71 86.12 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(justify left)
+			)
+		)
+		(property "LCSC" "C511025"
+			(at 217.17 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "62d176fe-9e25-4aa4-8eec-8e2be63ec02d")
+		)
+		(pin "2"
+			(uuid "5235842f-01c4-4a80-8ecf-bc4b42310ec8")
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5463738a-9fa4-4f16-a3de-0a4f9ff552f6"
+					(reference "TH1403")
 					(unit 1)
 				)
 			)

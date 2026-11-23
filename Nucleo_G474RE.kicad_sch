@@ -2165,7 +2165,7 @@
 		)
 		(uuid "4710790f-e46a-445c-b682-2a61a3e6248e")
 	)
-	(text "Temp_DrvXY = PC5 (CN10-6), Temp_DrvYZ = PB2 (CN10-22)."
+	(text "Temp_DrvX = PC5 (CN10-6), Temp_DrvY = PB13 (CN10-30), Temp_DrvZ = PB1 (CN10-24), IPROPI_Y = PB2 (CN10-22)."
 		(exclude_from_sim no)
 		(at 186.69 156.21 0)
 		(effects
@@ -15551,7 +15551,7 @@
 				)
 				(uuid "61afde51-30e2-4db0-bf19-143733f7b418")
 			)
-			(table_cell "PA8"
+			(table_cell "PA9"
 				(exclude_from_sim no)
 				(at 44.45 105.664 0)
 				(size 15.24 2.794)
@@ -15568,7 +15568,7 @@
 				)
 				(uuid "0fd5f624-b40f-45f8-83b7-f634eb832e0a")
 			)
-			(table_cell "CN10-23"
+			(table_cell "CN10-21"
 				(exclude_from_sim no)
 				(at 59.69 105.664 0)
 				(size 38.1 2.794)
@@ -15602,7 +15602,7 @@
 				)
 				(uuid "3f64fd89-2e8d-4e5c-a698-f9be3bb3527c")
 			)
-			(table_cell "TIM1_CH1"
+			(table_cell "TIM1_CH2"
 				(exclude_from_sim no)
 				(at 120.65 105.664 0)
 				(size 54.61 2.794)
@@ -15636,7 +15636,7 @@
 				)
 				(uuid "a3f97025-e8e4-496a-8f2a-4d11afc60291")
 			)
-			(table_cell "PA9"
+			(table_cell "PA11"
 				(exclude_from_sim no)
 				(at 44.45 108.458 0)
 				(size 15.24 2.794)
@@ -15653,7 +15653,7 @@
 				)
 				(uuid "47e93f70-a333-4b4e-82ad-03e264adf852")
 			)
-			(table_cell "CN10-21"
+			(table_cell "CN10-14"
 				(exclude_from_sim no)
 				(at 59.69 108.458 0)
 				(size 38.1 2.794)
@@ -15687,7 +15687,7 @@
 				)
 				(uuid "29f3e31d-51ee-415f-8bf7-cf916d0e1be8")
 			)
-			(table_cell "TIM1_CH2"
+			(table_cell "TIM1_CH4"
 				(exclude_from_sim no)
 				(at 120.65 108.458 0)
 				(size 54.61 2.794)
@@ -16231,7 +16231,7 @@
 				)
 				(uuid "e8d4f222-81a2-4ffb-89ce-6c747e6a39d7")
 			)
-			(table_cell "PA11"
+			(table_cell "PA8"
 				(exclude_from_sim no)
 				(at 44.45 128.016 0)
 				(size 15.24 2.794)
@@ -16248,7 +16248,7 @@
 				)
 				(uuid "41b10e82-01aa-48a7-92e7-1d63d617272d")
 			)
-			(table_cell "CN10-14"
+			(table_cell "CN10-23"
 				(exclude_from_sim no)
 				(at 59.69 128.016 0)
 				(size 38.1 2.794)
@@ -16282,7 +16282,7 @@
 				)
 				(uuid "8e0c1b51-1735-42b3-bd23-9bef2920423b")
 			)
-			(table_cell "TIM1_CH4"
+			(table_cell "TIM1_CH1"
 				(exclude_from_sim no)
 				(at 120.65 128.016 0)
 				(size 54.61 2.794)
@@ -17081,7 +17081,7 @@
 				)
 				(uuid "3359c445-01e5-482c-815d-80badb3000b6")
 			)
-			(table_cell "PB1"
+			(table_cell "PA12"
 				(exclude_from_sim no)
 				(at 44.45 155.956 0)
 				(size 15.24 2.794)
@@ -17098,7 +17098,7 @@
 				)
 				(uuid "8b90b580-3398-4cd6-a528-7fca138dd6de")
 			)
-			(table_cell "CN10-24"
+			(table_cell "CN10-12"
 				(exclude_from_sim no)
 				(at 59.69 155.956 0)
 				(size 38.1 2.794)
@@ -18554,7 +18554,7 @@
 		(uuid "83590c71-9c43-467d-919d-3ae327a385c0")
 	)
 	(hierarchical_label "PA12"
-		(shape passive)
+		(shape output)
 		(at 252.73 44.45 0)
 		(effects
 			(font
@@ -18609,7 +18609,7 @@
 		(uuid "970bb3c6-8b05-477b-8fc0-03cdfd773f6a")
 	)
 	(hierarchical_label "PB1"
-		(shape output)
+		(shape input)
 		(at 252.73 59.69 0)
 		(effects
 			(font

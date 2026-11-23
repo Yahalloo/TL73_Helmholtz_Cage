@@ -2173,7 +2173,7 @@
 		)
 		(uuid "7b69c339-1beb-401b-9b1b-d556b84982f5")
 	)
-	(text "Coil NTC (off board):\nPA1 = X, PC1 = Y, PC0 = Z\nDriver NTC (on board):\nPC5, PB2"
+	(text "Coil NTC (off board):\nPA1 = X, PC1 = Y, PC0 = Z\nDriver NTC (on board):\nPC5 = X, PB13 = Y, PB1 = Z"
 		(exclude_from_sim no)
 		(at 96.52 137.16 0)
 		(effects
@@ -2247,7 +2247,7 @@
 		)
 		(uuid "efae0e91-cddd-476f-b2dc-5a79cf208402")
 	)
-	(text "SPI1: PA5 = SCLK,\nPA6 = SDO, PA7 = SDI\n~{SCS}: PB11 = X, PB14 = Y, PB1 = Z"
+	(text "SPI1: PA5 = SCLK,\nPA6 = SDO, PA7 = SDI\n~{SCS}: PB11 = X, PB14 = Y, PA12 = Z"
 		(exclude_from_sim no)
 		(at 96.52 157.48 0)
 		(effects
@@ -3133,7 +3133,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 130.81) (xy 110.49 130.81)
+			(xy 96.52 129.54) (xy 110.49 129.54)
 		)
 		(stroke
 			(width 0)
@@ -5037,7 +5037,7 @@
 		)
 		(uuid "484333ed-b491-4766-930d-f58633b9b034")
 	)
-	(label "Temp_DrvXY"
+	(label "Temp_DrvX"
 		(at 26.67 130.81 180)
 		(effects
 			(font
@@ -5277,7 +5277,7 @@
 		)
 		(uuid "857e9244-905c-48ec-aab7-825f3e651be3")
 	)
-	(label "Temp_DrvYZ"
+	(label "Temp_DrvY"
 		(at 81.28 90.17 180)
 		(effects
 			(font
@@ -5287,7 +5287,7 @@
 		)
 		(uuid "8b46a565-783e-4831-88da-524146a279a2")
 	)
-	(label "Temp_DrvXY"
+	(label "Temp_DrvX"
 		(at 96.52 127 0)
 		(effects
 			(font
@@ -5307,8 +5307,8 @@
 		)
 		(uuid "951ee4fb-e6f8-4ffc-92bb-70ba2f5a4d5e")
 	)
-	(label "Temp_DrvYZ"
-		(at 96.52 130.81 0)
+	(label "Temp_DrvY"
+		(at 96.52 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5646,6 +5646,46 @@
 			(justify left bottom)
 		)
 		(uuid "f97f63d4-91d7-4ba3-9ced-06510127478f")
+	)
+	(label "Temp_DrvZ"
+		(at 96.52 132.08 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "359a20f4-b7a8-466f-8edc-559400787292")
+	)
+	(label "Temp_DrvZ"
+		(at 26.67 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4d73d0ce-5cdb-4712-a9e5-046082fe46db")
+	)
+	(wire
+		(pts
+			(xy 26.67 62.23) (xy 34.29 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2923382c-67d9-4755-92cb-b0d04c3fe8e7")
+	)
+	(wire
+		(pts
+			(xy 96.52 132.08) (xy 110.49 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4f82917-c1bb-4b3a-805d-511519657ace")
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
@@ -8670,7 +8710,7 @@
 				(justify left top)
 			)
 		)
-		(pin "PA8" output
+		(pin "PA9" output
 			(at 55.88 54.61 0)
 			(uuid "94007942-979c-4fa5-bc99-f1f40fa8259e")
 			(effects
@@ -8680,7 +8720,7 @@
 				(justify right)
 			)
 		)
-		(pin "PA9" output
+		(pin "PA11" output
 			(at 55.88 57.15 0)
 			(uuid "e9d493d0-7f04-4d4a-aff1-b78c82ea589f")
 			(effects
@@ -8730,7 +8770,7 @@
 				(justify right)
 			)
 		)
-		(pin "PA11" output
+		(pin "PA8" output
 			(at 55.88 72.39 0)
 			(uuid "36758cc7-6258-4762-8142-aaac8911e3cc")
 			(effects
@@ -8790,7 +8830,7 @@
 				(justify right)
 			)
 		)
-		(pin "PB2" input
+		(pin "PB13" input
 			(at 55.88 90.17 0)
 			(uuid "64ce0428-5608-4d53-a688-1df618a61951")
 			(effects
@@ -8800,7 +8840,7 @@
 				(justify right)
 			)
 		)
-		(pin "PB1" output
+		(pin "PA12" output
 			(at 55.88 92.71 0)
 			(uuid "39ecde32-a887-44f5-9c9e-bab22b2f3412")
 			(effects
@@ -8890,7 +8930,7 @@
 				(justify left)
 			)
 		)
-		(pin "PA12" passive
+		(pin "PB1" input
 			(at 34.29 62.23 180)
 			(uuid "43343879-cd42-4f76-95f7-5d3185074b1b")
 			(effects
@@ -8990,7 +9030,7 @@
 				(justify left)
 			)
 		)
-		(pin "PB13" passive
+		(pin "PB2" passive
 			(at 34.29 87.63 180)
 			(uuid "f7ea59fd-d59e-4657-b541-eeb241b530ff")
 			(effects
@@ -9846,7 +9886,7 @@
 				(justify left top)
 			)
 		)
-		(pin "Temp_DrvXY" output
+		(pin "Temp_DrvX" output
 			(at 110.49 127 180)
 			(uuid "12badb87-d74a-45ae-804c-846e964a1829")
 			(effects
@@ -9856,9 +9896,19 @@
 				(justify left)
 			)
 		)
-		(pin "Temp_DrvYZ" output
-			(at 110.49 130.81 180)
+		(pin "Temp_DrvY" output
+			(at 110.49 129.54 180)
 			(uuid "af061d04-e6dd-4761-9c9d-29d9ce6d4f59")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Temp_DrvZ" output
+			(at 110.49 132.08 180)
+			(uuid "5d6f3e57-c6f4-4e17-a112-3dfb5b251a42")
 			(effects
 				(font
 					(size 1.27 1.27)
