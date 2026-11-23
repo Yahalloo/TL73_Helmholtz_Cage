@@ -1,0 +1,9 @@
+CalTest_CT4397-01-2_red model size mm 14.6 x 14.6 x 33.8, axis z, collar towards +
+CalTest_CT4397-01-0_black model size mm 14.6 x 14.6 x 33.8, axis z, collar towards +
+placed 8 CT4397-01 jacks from the Cal Test STEP models
+drew the Adafruit 4259 USB adapter from its published sizes (approximate)
+drew 4 Switchcraft EN3 connectors from the customer drawing
+imported TL73_Shield_PCB_KiCad.step, repositioned 12 models
+imported NUCLEO_G474RE.step
+OK Enclosure_Base bbox mm: 162.0 x 246.0 x 90.0, volume cm3 330.5
+OK Enclosure_Lid bbox mm: 130.0 x 246.0 x 3.0, volume cm3 80.4

@@ -2388,7 +2388,7 @@
 		)
 		(uuid "4744e2b8-3f38-4b7c-ba1c-61bbfe869301")
 	)
-	(text "24 V coil supply\n(parallel with CN1/CN2)"
+	(text "30 V coil supply\n(parallel with CN1/CN2)"
 		(exclude_from_sim no)
 		(at 110.49 69.85 0)
 		(effects
@@ -2488,7 +2488,7 @@
 		)
 		(uuid "a65862ba-afc4-44c9-a6c1-e8f80f042c89")
 	)
-	(text "+24 V in"
+	(text "+30 V in"
 		(exclude_from_sim no)
 		(at 22.86 45.72 0)
 		(effects
@@ -2509,7 +2509,7 @@
 		)
 		(uuid "ba4c943c-d428-4657-9df0-241a11d3fa6b")
 	)
-	(text "24 V SUPPLY INPUT (36 V MAX)"
+	(text "30 V SUPPLY INPUT (36 V MAX)"
 		(exclude_from_sim no)
 		(at 22.86 31.75 0)
 		(effects
@@ -5209,7 +5209,7 @@
 				)
 			)
 		)
-		(property "Value" "+24V"
+		(property "Value" "+30V"
 			(at 118.11 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5241,7 +5241,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" "Power symbol creates a global label with name \"+30V\""
 			(at 118.11 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -7329,7 +7329,7 @@
 				)
 			)
 		)
-		(property "Value" "+24V"
+		(property "Value" "+30V"
 			(at 63.5 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7361,7 +7361,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" "Power symbol creates a global label with name \"+30V\""
 			(at 63.5 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -8823,7 +8823,7 @@
 				)
 			)
 		)
-		(property "Description" "Ceramic capacitor (MLCC), 100 nF, 50 V, X7R, ±5 %, 0603, Samsung CL10B104JB8NNNC. 24 V input HF decoupling, place at the supply jacks"
+		(property "Description" "Ceramic capacitor (MLCC), 100 nF, 50 V, X7R, ±5 %, 0603, Samsung CL10B104JB8NNNC. 30 V input HF decoupling, place at the supply jacks"
 			(at 86.36 54.61 0)
 			(hide yes)
 			(show_name no)

@@ -1467,7 +1467,7 @@
 				)
 			)
 		)
-		(property "Value" "INA240A1D"
+		(property "Value" "INA240A1DR"
 			(at 158.75 92.6398 0)
 			(show_name no)
 			(do_not_autoplace no)

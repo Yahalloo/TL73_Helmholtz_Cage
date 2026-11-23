@@ -585,7 +585,7 @@
       "version": 5
     },
     "net_colors": {
-      "+24V": "rgb(230, 40, 40)",
+      "+30V": "rgb(230, 40, 40)",
       "+3V3": "rgb(255, 150, 0)",
       "+5V": "rgb(240, 215, 0)",
       "/CurrentSense_CoilX/Icoil1": "rgb(0, 215, 215)",
@@ -603,7 +603,7 @@
     "netclass_patterns": [
       {
         "netclass": "Power",
-        "pattern": "+24V"
+        "pattern": "+30V"
       },
       {
         "netclass": "Power",

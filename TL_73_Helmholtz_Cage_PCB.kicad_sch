@@ -2127,7 +2127,7 @@
 	)
 	(text "TEST POINTS (oscilloscope)"
 		(exclude_from_sim no)
-		(at 298.45 43.18 0)
+		(at 292.1 40.132 0)
 		(effects
 			(font
 				(size 2 2)
@@ -2197,7 +2197,7 @@
 		)
 		(uuid "95b4751c-b849-4463-801f-74296bb8abf0")
 	)
-	(text "POWER BLOCK: 24 V to 5 V buck"
+	(text "POWER BLOCK: 30 V to 5 V buck"
 		(exclude_from_sim no)
 		(at 16.51 181.61 0)
 		(effects
@@ -4653,7 +4653,7 @@
 				)
 				(uuid "2ffb0b80-330b-446a-9939-a9e100c26ac2")
 			)
-			(table_cell "Probe ground, by the 24 V cap"
+			(table_cell "Probe ground, by the 30 V cap"
 				(exclude_from_sim no)
 				(at 361.95 153.162 0)
 				(size 35.56 2.794)
@@ -8617,7 +8617,7 @@
 				)
 			)
 		)
-		(property "Value" "+24V"
+		(property "Value" "+30V"
 			(at 22.86 190.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8649,7 +8649,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+24V\""
+		(property "Description" "Power symbol creates a global label with name \"+30V\""
 			(at 22.86 195.58 0)
 			(hide yes)
 			(show_name no)
