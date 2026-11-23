@@ -22,9 +22,7 @@ from controller import HelmholtzController
 from calibration import Helmholtz_Calibration
 from data_collector import data_collection
 
-# Output file names
 MAGNETOMETER_FILE = "mag_data.csv"
-MCU_FILE = "mcu_data.csv"
 
 class MplCanvas(FigureCanvasQTAgg):
     def __init__(self, parent=None, width=5, height=4, dpi=100):
@@ -63,6 +61,8 @@ class GUI(QWidget):
         self.result_X = QLineEdit()
         self.result_X.setReadOnly(True)
         layout.addWidget(self.result_X, 1, 1, 1, 1)
+        self.unit_label1 = QLabel("μT")
+        layout.addWidget(self.unit_label1, 1, 2)
 
         #Y-axis
         self.label3 = QLabel("Y-axis")
@@ -70,6 +70,8 @@ class GUI(QWidget):
         self.result_Y = QLineEdit()
         self.result_Y.setReadOnly(True)
         layout.addWidget(self.result_Y, 2, 1, 1, 1)
+        self.unit_label2 = QLabel("μT")
+        layout.addWidget(self.unit_label2, 2, 2)
 
         #Z-axis
         self.label4 = QLabel("Z-axis")
@@ -77,6 +79,8 @@ class GUI(QWidget):
         self.result_Z = QLineEdit()
         self.result_Z.setReadOnly(True)
         layout.addWidget(self.result_Z, 3, 1, 1, 1)
+        self.unit_label3 = QLabel("μT")
+        layout.addWidget(self.unit_label3, 3, 2)
 
     #Calibration GUI Section
         self.label5 = QLabel("Calibration")
@@ -107,18 +111,24 @@ class GUI(QWidget):
         layout.addWidget(self.label7, 8, 0)
         self.entry1 = QLineEdit()
         layout.addWidget(self.entry1, 8, 1)
+        self.unit_label4 = QLabel("μT")
+        layout.addWidget(self.unit_label4, 8, 2)
 
         #Y-axis
         self.label8 = QLabel("Y-axis")
         layout.addWidget(self.label8, 9, 0)
         self.entry2 = QLineEdit()
         layout.addWidget(self.entry2, 9, 1)
+        self.unit_label5 = QLabel("μT")
+        layout.addWidget(self.unit_label5, 9, 2)
 
         #Z-axis
         self.label9 = QLabel("Z-axis")
         layout.addWidget(self.label9, 10, 0)
         self.entry3 = QLineEdit()
         layout.addWidget(self.entry3, 10, 1)
+        self.unit_label6 = QLabel("μT")
+        layout.addWidget(self.unit_label6, 10, 2)
 
         #Submit Button
         self.submit_button = QPushButton("Submit")
@@ -181,7 +191,7 @@ class GUI(QWidget):
         self.submit_file.clicked.connect(self.save_recorded_data)
         layout.addWidget(self.submit_file, 1, 6, 1, 1)
 
-        self.clear_file = QPushButton("Save Data")
+        self.clear_file = QPushButton("Clear Data")
         self.clear_file.clicked.connect(self.clear_recorded_data)
         layout.addWidget(self.clear_file, 1, 7, 1, 1)
 
@@ -241,15 +251,39 @@ class GUI(QWidget):
 
                 self.calibrate_box.setText("Success")
 
-
             else:
                 self.calibrate_box.setText("Error: Check Connection")
 
     def save_recorded_data(self):
         self.save_box.clear()
-        data_ok, count = self.collector.save_csv(MAGNETOMETER_FILE)
-        if data_ok:
-            self.save_box(f"Saved: {count}")
+        has_values = len(self.collector.records) > 0
+
+        if not has_values:
+            self.save_box.setText("No data collected")
+            return
+
+        saved_messages = []
+        if has_values:
+            filepath, _ = QFileDialog.getSaveFileName(self, "Save Magnetometer data ",MAGNETOMETER_FILE,"CSV Files (*.csv);;All Files (*)")
+
+            if filepath:
+                if not filepath.lower().endswith(".csv"):
+                    filepath += ".csv"
+                try:
+                    data_ok, count = self.collector.save_csv(filepath)
+                    
+                    if data_ok:
+                        saved_messages.append(f"Mag ({count}): {filepath}")
+
+                except Exception as e:
+                    self.save_box.setText("Error saving file")
+                    print(f"Error saving magnetometer CSV: {e}")
+                    return
+
+        if saved_messages:
+            self.save_box.setText("Saved " + " | ".join(saved_messages))
+        else:
+            self.save_box.setText("Save cancelled")
 
     def clear_recorded_data(self, filepath):
         self.save_box.clear()
@@ -268,15 +302,19 @@ class GUI(QWidget):
     def set_coils(self):
         
         self.static_box.clear()
-        try:
-            x_num = float(self.entry1.text())
-            y_num = float(self.entry2.text())
-            z_num = float(self.entry3.text())
+        mcu_work = self.backend.check_mcu()
+        if mcu_work:
+            try:
+                x_num = float(self.entry1.text())
+                y_num = float(self.entry2.text())
+                z_num = float(self.entry3.text())
 
-            self.backend.send_values(x_num, y_num, z_num)
-            self.static_box.setText("Success")
-        except ValueError:
-            self.static_box.setText("Error: Incorrect Value")
+                if self.backend.send_values(x_num, y_num, z_num):
+                    self.static_box.setText("Success")
+                else:
+                    self.static_box.setText("Error: MCU Not Connected")
+            except ValueError:
+                self.static_box.setText("Error: Incorrect Value")
 
 #Opens file explorer to find the file to be opened and stores it
     def upload(self):

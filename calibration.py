@@ -1,3 +1,6 @@
+# Not used anymore :(
+
+
 # Code for Phone Magnetometer and GUI Connection
 
 import requests
