@@ -12,6 +12,7 @@ class HelmholtzController:
         self._rx_buffer = b"" #--------#--------#--------#--------#--------#--------#--------
         self.last_data = {"x": 0.0, "y": 0.0, "z": 0.0} #--------#--------#--------#--------#--------
         self.last_command = None #--------#--------#--------#--------#--------#--------#--------
+        self._pending_command = None #--------#--------#--------#--------#--------#--------#--------
 
         try:
             self.mcu = serial.Serial('COM5', baudrate=115200, timeout = 1)
@@ -25,18 +26,14 @@ class HelmholtzController:
             return True
         return False
 #--------#--------#--------#--------#--------#--------#--------#--------#--------#--------#--------#--------#--------#--------#--------#--------#--------#--------#--------#--------#--------
-    # Reads and stores the MCU coil values from the serial port
     def read_mcu_data(self):
         if not self.mcu or not self.mcu.is_open:
             return self.last_data.copy()
 
         try:
             available = self.mcu.in_waiting
-
             if available:
-                chunk = self.mcu.read(available)
-                self._rx_buffer += chunk
-
+                self._rx_buffer += self.mcu.read(available)
         except (serial.SerialException, OSError) as e:
             print(f"MCU read failed: {e}")
             return self.last_data.copy()
@@ -48,6 +45,7 @@ class HelmholtzController:
                 line = raw_line.decode("ascii").strip()
 
                 if line.startswith("CMD:"):
+                    self._pending_command = None
                     fields = line[4:].split(",")
 
                     if len(fields) != 4:
@@ -61,13 +59,42 @@ class HelmholtzController:
                         "duty1": duty1,
                         "duty2": duty2,
                     }
+                    self._pending_command = self.last_command.copy()
 
-                    print(
-                        f"Received: B_des = {b_des:.3f} uT, "
-                        f"I_cmd = {i_cmd:.3f} A, "
-                        f"duty1 = {duty1:.3f}, "
-                        f"duty2 = {duty2:.3f}"
-                    )
+                elif line.startswith("MAG:"):
+                    command = self._pending_command
+                    self._pending_command = None
+                    fields = [v.strip() for v in line[4:].split(",")]
+
+                    if fields[0] == "FAILED_TO_READ":
+                        if len(fields) != 2:
+                            raise ValueError("MAG failure requires a status code")
+
+                        status = int(fields[1])
+                        mag_text = f"MAG = FAILED_TO_READ ({status})"
+
+                    else:
+                        if len(fields) != 3:
+                            raise ValueError("MAG requires three values")
+
+                        x, y, z = map(float, fields)
+                        self.last_data = {"x": x, "y": y, "z": z}
+
+                        mag_text = (
+                            f"Bx = {x:.12g} uT, "
+                            f"By = {y:.12g} uT, "
+                            f"Bz = {z:.12g} uT"
+                        )
+
+                    if command is not None:
+                        print(
+                            f"Received: B_des = {command['b_des_uT']:.12g} uT, "
+                            f"I_cmd = {command['i_cmd_A']:.12g} A, "
+                            f"duty1 = {command['duty1']:.12g}, "
+                            f"duty2 = {command['duty2']:.12g}, "
+                            f"{mag_text}",
+                            flush=True,
+                        )
 
                 elif line.startswith("DATA:"):
                     fields = line[5:].split(",")
