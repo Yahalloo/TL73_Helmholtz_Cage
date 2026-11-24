@@ -15,7 +15,7 @@ class HelmholtzController:
         self._pending_command = None #--------#--------#--------#--------#--------#--------#--------
 
         try:
-            self.mcu = serial.Serial('COM5', baudrate=115200, timeout = 1)
+            self.mcu = serial.Serial('COM4', baudrate=115200, timeout = 1)
             time.sleep(2)
         except serial.SerialException as e:
             print("Initial connection failed.")
