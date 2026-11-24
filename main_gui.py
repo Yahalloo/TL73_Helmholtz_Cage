@@ -297,6 +297,7 @@ class GUI(QWidget):
         self.result_X.setText(str(data["x"]))
         self.result_Y.setText(str(data["y"]))
         self.result_Z.setText(str(data["z"]))
+        self.update_plot(data)
 
 #Set coil values for the static test
     def set_coils(self):
