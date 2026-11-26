@@ -29,6 +29,7 @@ extern "C" {
 /* Includes ------------------------------------------------------------------*/
 #include "stm32g4xx_hal.h"
 #include "stm32g4xx_ll_dma.h"
+#include "stm32g4xx_ll_i2c.h"
 #include "stm32g4xx_ll_lpuart.h"
 #include "stm32g4xx_ll_rcc.h"
 #include "stm32g4xx_ll_bus.h"
@@ -67,6 +68,7 @@ void MX_GPIO_Init(void);
 void MX_DMA_Init(void);
 void MX_LPUART1_UART_Init(void);
 void MX_TIM1_Init(void);
+void MX_I2C1_Init(void);
 
 /* USER CODE BEGIN EFP */
 
