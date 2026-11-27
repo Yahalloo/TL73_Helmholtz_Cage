@@ -1501,10 +1501,10 @@
 	)
 	(text "IPROPI (spare current monitor): 330 Ohm gives 0.30 V/A, magnitude only.\nCalibrate against the INA240."
 		(exclude_from_sim no)
-		(at 16.51 177.292 0)
+		(at 16.256 157.988 0)
 		(effects
 			(font
-				(size 1 1)
+				(size 1.27 1.27)
 			)
 			(justify left top)
 		)
@@ -1523,7 +1523,7 @@
 	)
 	(text "LIMITS\nITRIP 6.5 A at power-up, OCP 10 A (latched).\nRds(on) 150 mOhm total: plan for about 3.5 A continuous per axis."
 		(exclude_from_sim no)
-		(at 182.626 135.128 0)
+		(at 16.256 149.098 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1554,7 +1554,7 @@
 		)
 		(uuid "f15d0a6d-649e-4eeb-b980-5d4405e906f4")
 	)
-	(text "DRV8873S (per axis)\nVM = +30 V (36 V max). PWM_A -> IN2 -> OUT2 = coil +, PWM_B -> IN1 -> OUT1 = coil -.\nPower-up default is PWM mode; write MODE = 10b over SPI for independent half bridges.\nSPI mode 1, 16-bit frames, one ~{SCS} per axis. Set ~{SLEEP} high, wait 1.5 ms, then configure.\n~{FAULT} is open drain (low = fault). Clear with CLR_FLT or a short low pulse on ~{SLEEP}.\nDISABLE is shared by all three drivers: see the Nucleo sheet."
+	(text "DRV8873S (per axis)\nVM = +34 V (36 V max). PWM_A -> IN2 -> OUT2 = coil +, PWM_B -> IN1 -> OUT1 = coil -.\nPower-up default is PWM mode; write MODE = 10b over SPI for independent half bridges.\nSPI mode 1, 16-bit frames, one ~{SCS} per axis. Set ~{SLEEP} high, wait 1.5 ms, then configure.\n~{FAULT} is open drain (low = fault). Clear with CLR_FLT or a short low pulse on ~{SLEEP}.\nDISABLE is shared by all three drivers: see the Panel_IO sheet."
 		(exclude_from_sim no)
 		(at 16.256 132.588 0)
 		(effects
@@ -2781,7 +2781,7 @@
 				)
 			)
 		)
-		(property "Value" "+30V"
+		(property "Value" "+34V"
 			(at 259.08 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2813,7 +2813,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+30V\""
+		(property "Description" "Power symbol creates a global label with name \"+34V\""
 			(at 259.08 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -4356,7 +4356,7 @@
 				)
 			)
 		)
-		(property "Value" "+30V"
+		(property "Value" "+34V"
 			(at 181.61 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4388,7 +4388,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+30V\""
+		(property "Description" "Power symbol creates a global label with name \"+34V\""
 			(at 181.61 105.41 0)
 			(hide yes)
 			(show_name no)

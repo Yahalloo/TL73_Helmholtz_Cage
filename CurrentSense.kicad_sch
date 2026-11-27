@@ -945,6 +945,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 105.41) (xy 129.54 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a0d661f-217d-4683-ae3b-3edc1f8a0560")
+	)
+	(wire
+		(pts
 			(xy 116.84 99.06) (xy 116.84 109.22)
 		)
 		(stroke
@@ -1117,7 +1127,7 @@
 	)
 	(hierarchical_label "Icoil1"
 		(shape bidirectional)
-		(at 132.08 105.41 180)
+		(at 129.54 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)

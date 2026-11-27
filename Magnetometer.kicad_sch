@@ -816,8 +816,8 @@
 		)
 	)
 	(rectangle
-		(start 138.43 30.48)
-		(end 243.84 83.82)
+		(start 158.75 55.88)
+		(end 264.16 109.22)
 		(stroke
 			(width 0)
 			(type dash)
@@ -828,8 +828,8 @@
 		(uuid "153bbfd3-3c7f-4c3c-a9dc-2ff40ab6985e")
 	)
 	(rectangle
-		(start 13.97 30.48)
-		(end 135.89 114.3)
+		(start 34.29 55.88)
+		(end 156.21 139.7)
 		(stroke
 			(width 0)
 			(type dash)
@@ -841,7 +841,7 @@
 	)
 	(text "RM3100 SUPPLY SELECT (0R links)"
 		(exclude_from_sim no)
-		(at 143.51 34.29 0)
+		(at 163.83 59.69 0)
 		(effects
 			(font
 				(size 2 2)
@@ -854,7 +854,7 @@
 	)
 	(text "J1302 (SPI): 1 GND, 2 VCC, 3 CS, 4 MISO, 5 MOSI, 6 SCK\nShares SPI1 with the drivers (they use mode 1, the RM3100 mode 0 or 3). CS = PD2.\nUse J1301 or J1302, not both."
 		(exclude_from_sim no)
-		(at 19.05 101.6 0)
+		(at 39.37 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -865,7 +865,7 @@
 	)
 	(text "J1301 (I2C): 1 GND, 2 VCC, 3 SCL, 4 SDA, 5 DRDY, 6 NC\nSCL = PA15, SDA = PB7, DRDY = PC2. R1301, R1302: bus pull-ups."
 		(exclude_from_sim no)
-		(at 19.05 81.93 0)
+		(at 39.37 107.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -876,7 +876,7 @@
 	)
 	(text "One link per connector:\nR1303 / R1305 = 3.3 V (fitted), R1304 / R1306 = 5 V (not fitted).\nUse 5 V only with a breakout that has its own regulator."
 		(exclude_from_sim no)
-		(at 143.51 68.58 0)
+		(at 163.83 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -900,7 +900,7 @@
 	)
 	(text "MAGNETOMETER: PNI RM3100 breakout"
 		(exclude_from_sim no)
-		(at 16.51 34.29 0)
+		(at 36.83 59.69 0)
 		(effects
 			(font
 				(size 2 2)
@@ -912,12 +912,42 @@
 		(uuid "d5df954f-fb52-4163-9549-27862d70e2bc")
 	)
 	(no_connect
-		(at 73.66 57.15)
+		(at 93.98 82.55)
 		(uuid "b43506d6-3a5b-4b37-a7f9-ddd840e695f6")
 	)
 	(wire
 		(pts
-			(xy 107.95 45.72) (xy 107.95 38.1)
+			(xy 93.98 74.93) (xy 91.44 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01801f1f-ed14-452b-9a5f-c16d6d90e532")
+	)
+	(wire
+		(pts
+			(xy 137.16 81.28) (xy 134.62 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04d9333a-70bd-460f-8c44-4e5bc4f340a3")
+	)
+	(wire
+		(pts
+			(xy 137.16 76.2) (xy 134.62 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29c22ada-cba5-4e59-a4f6-b88844478218")
+	)
+	(wire
+		(pts
+			(xy 128.27 71.12) (xy 128.27 63.5)
 		)
 		(stroke
 			(width 0)
@@ -927,7 +957,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 53.34) (xy 191.77 58.42)
+			(xy 212.09 78.74) (xy 212.09 83.82)
 		)
 		(stroke
 			(width 0)
@@ -937,7 +967,17 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 53.34) (xy 36.83 58.42)
+			(xy 137.16 73.66) (xy 134.62 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62d57df2-d462-4a69-bb0a-7b540217978e")
+	)
+	(wire
+		(pts
+			(xy 57.15 78.74) (xy 57.15 83.82)
 		)
 		(stroke
 			(width 0)
@@ -947,7 +987,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 53.34) (xy 148.59 58.42)
+			(xy 168.91 78.74) (xy 168.91 83.82)
 		)
 		(stroke
 			(width 0)
@@ -957,7 +997,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 44.45) (xy 55.88 62.23)
+			(xy 76.2 69.85) (xy 76.2 87.63)
 		)
 		(stroke
 			(width 0)
@@ -967,7 +1007,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 45.72) (xy 107.95 45.72)
+			(xy 137.16 71.12) (xy 128.27 71.12)
 		)
 		(stroke
 			(width 0)
@@ -977,7 +1017,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 44.45) (xy 55.88 44.45)
+			(xy 93.98 69.85) (xy 76.2 69.85)
 		)
 		(stroke
 			(width 0)
@@ -987,7 +1027,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 43.18) (xy 99.06 63.5)
+			(xy 119.38 68.58) (xy 119.38 88.9)
 		)
 		(stroke
 			(width 0)
@@ -997,7 +1037,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 46.99) (xy 64.77 39.37)
+			(xy 85.09 72.39) (xy 85.09 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1007,7 +1047,17 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 46.99) (xy 64.77 46.99)
+			(xy 137.16 78.74) (xy 134.62 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0d3da51-d744-49ea-ab1f-4de6e52e1574")
+	)
+	(wire
+		(pts
+			(xy 93.98 72.39) (xy 85.09 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1017,7 +1067,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 53.34) (xy 24.13 58.42)
+			(xy 44.45 78.74) (xy 44.45 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1027,7 +1077,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 53.34) (xy 161.29 58.42)
+			(xy 181.61 78.74) (xy 181.61 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1037,7 +1087,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 53.34) (xy 179.07 58.42)
+			(xy 199.39 78.74) (xy 199.39 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1047,7 +1097,27 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 43.18) (xy 99.06 43.18)
+			(xy 93.98 80.01) (xy 91.44 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ead3d398-be4d-4ff7-bbca-94b0e5c718cc")
+	)
+	(wire
+		(pts
+			(xy 93.98 77.47) (xy 91.44 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe069aa9-2c1d-4691-8c55-38a6cbc0cfac")
+	)
+	(wire
+		(pts
+			(xy 137.16 68.58) (xy 119.38 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1056,7 +1126,7 @@
 		(uuid "fe4a1fde-4864-4645-bc55-e883b6bc5b7d")
 	)
 	(label "MAG_VCC2"
-		(at 107.95 38.1 0)
+		(at 128.27 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1066,7 +1136,7 @@
 		(uuid "3046bd6f-7a48-4e23-8b5e-463c7e83fbb4")
 	)
 	(label "MAG_SCL"
-		(at 24.13 58.42 0)
+		(at 44.45 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1076,7 +1146,7 @@
 		(uuid "4cd00115-c39a-42b3-9b48-945539724d36")
 	)
 	(label "MAG_VCC1"
-		(at 64.77 39.37 0)
+		(at 85.09 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1086,7 +1156,7 @@
 		(uuid "a0eac5c6-63ad-4815-bb01-e8816d00ce84")
 	)
 	(label "MAG_SDA"
-		(at 36.83 58.42 0)
+		(at 57.15 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1096,7 +1166,7 @@
 		(uuid "b7ea3cd0-4334-44a9-b178-7e72dc586c65")
 	)
 	(label "MAG_VCC1"
-		(at 161.29 58.42 0)
+		(at 181.61 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1106,7 +1176,7 @@
 		(uuid "b820d172-8868-41fb-b38d-d1ea3dbba6f5")
 	)
 	(label "MAG_VCC2"
-		(at 191.77 58.42 0)
+		(at 212.09 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1116,7 +1186,7 @@
 		(uuid "b8f518c9-ca6a-48e8-9ddd-430e93911240")
 	)
 	(label "MAG_VCC1"
-		(at 148.59 58.42 0)
+		(at 168.91 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1126,7 +1196,7 @@
 		(uuid "bbddfea4-b11f-4cb5-865e-01488bc6281a")
 	)
 	(label "MAG_VCC2"
-		(at 179.07 58.42 0)
+		(at 199.39 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1137,7 +1207,7 @@
 	)
 	(hierarchical_label "MAG_SCL"
 		(shape bidirectional)
-		(at 73.66 49.53 180)
+		(at 91.44 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1148,7 +1218,7 @@
 	)
 	(hierarchical_label "SPI_SDO"
 		(shape output)
-		(at 116.84 50.8 180)
+		(at 134.62 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1159,7 +1229,7 @@
 	)
 	(hierarchical_label "SPI_SDI"
 		(shape input)
-		(at 116.84 53.34 180)
+		(at 134.62 78.74 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1170,7 +1240,7 @@
 	)
 	(hierarchical_label "MAG_DRDY"
 		(shape output)
-		(at 73.66 54.61 180)
+		(at 91.44 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1181,7 +1251,7 @@
 	)
 	(hierarchical_label "MAG_SDA"
 		(shape bidirectional)
-		(at 73.66 52.07 180)
+		(at 91.44 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1192,7 +1262,7 @@
 	)
 	(hierarchical_label "MAG_CS"
 		(shape input)
-		(at 116.84 48.26 180)
+		(at 134.62 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1203,7 +1273,7 @@
 	)
 	(hierarchical_label "SPI_SCLK"
 		(shape input)
-		(at 116.84 55.88 180)
+		(at 134.62 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1214,7 +1284,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 55.88 62.23 0)
+		(at 76.2 87.63 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1224,7 +1294,7 @@
 		(dnp no)
 		(uuid "0b80f996-5185-43f8-9cd1-461bb0f38507")
 		(property "Reference" "#PWR1301"
-			(at 55.88 68.58 0)
+			(at 76.2 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1235,7 +1305,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 55.88 66.294 0)
+			(at 76.2 91.694 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1245,7 +1315,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 62.23 0)
+			(at 76.2 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1256,7 +1326,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 62.23 0)
+			(at 76.2 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1267,7 +1337,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 55.88 62.23 0)
+			(at 76.2 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1291,7 +1361,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 161.29 45.72 0)
+		(at 181.61 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1302,7 +1372,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c9ab9c4-41d3-40d6-8325-82a2eb278fdf")
 		(property "Reference" "#PWR1302"
-			(at 161.29 49.53 0)
+			(at 181.61 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1313,7 +1383,7 @@
 			)
 		)
 		(property "Value" "E5V"
-			(at 163.83 44.45 0)
+			(at 184.15 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1324,7 +1394,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 161.29 45.72 0)
+			(at 181.61 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1335,7 +1405,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 45.72 0)
+			(at 181.61 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1346,7 +1416,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"E5V\" (5 V buck output to Nucleo E5V)"
-			(at 161.29 45.72 0)
+			(at 181.61 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1370,7 +1440,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 36.83 49.53 180)
+		(at 57.15 74.93 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1380,7 +1450,7 @@
 		(dnp no)
 		(uuid "53e5f9db-8790-411b-845a-bd0829b1b5d2")
 		(property "Reference" "R1302"
-			(at 39.37 47.23 0)
+			(at 59.69 72.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1391,7 +1461,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 39.37 49.53 0)
+			(at 59.69 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1402,7 +1472,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 38.608 49.53 90)
+			(at 58.928 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1413,7 +1483,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 49.53 0)
+			(at 57.15 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1424,7 +1494,7 @@
 			)
 		)
 		(property "Description" "I2C pull-up resistor, 2.2 kΩ, 1 %, 0.1 W, 0603"
-			(at 36.83 49.53 0)
+			(at 57.15 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1435,7 +1505,7 @@
 			)
 		)
 		(property "Rating" "1%"
-			(at 39.37 51.83 0)
+			(at 59.69 77.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1446,7 +1516,7 @@
 			)
 		)
 		(property "LCSC" "C4190"
-			(at 36.83 49.53 0)
+			(at 57.15 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1473,7 +1543,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
-		(at 78.74 49.53 0)
+		(at 99.06 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1483,7 +1553,7 @@
 		(dnp no)
 		(uuid "5a670821-2988-40b6-9792-0f2b52cfebfd")
 		(property "Reference" "J1301"
-			(at 81.28 48.768 0)
+			(at 101.6 74.168 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1494,7 +1564,7 @@
 			)
 		)
 		(property "Value" "RM3100_JST_XH"
-			(at 81.28 51.308 0)
+			(at 101.6 76.708 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1505,7 +1575,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
-			(at 78.74 49.53 0)
+			(at 99.06 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1516,7 +1586,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.pnisensor.com/rm3100-breakout-board/"
-			(at 78.74 49.53 0)
+			(at 99.06 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1527,7 +1597,7 @@
 			)
 		)
 		(property "Description" "JST XH 6-pin header for the off-board PNI RM3100 magnetometer breakout (I2C mode, pin 6 not connected); mates with XH2.54-6Y housing"
-			(at 78.74 49.53 0)
+			(at 99.06 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1538,7 +1608,7 @@
 			)
 		)
 		(property "Mating part" "XH2.54-6Y"
-			(at 78.74 49.53 0)
+			(at 99.06 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1549,7 +1619,7 @@
 			)
 		)
 		(property "LCSC" "C144397"
-			(at 78.74 49.53 0)
+			(at 99.06 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1588,7 +1658,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 179.07 49.53 180)
+		(at 199.39 74.93 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1598,7 +1668,7 @@
 		(dnp no)
 		(uuid "63fda3b1-94bd-4f5c-8cc2-eec2a1589820")
 		(property "Reference" "R1305"
-			(at 181.61 47.23 0)
+			(at 201.93 72.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1609,7 +1679,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 181.61 49.53 0)
+			(at 201.93 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1620,7 +1690,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 180.848 49.53 90)
+			(at 201.168 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1631,7 +1701,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 49.53 0)
+			(at 199.39 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1642,7 +1712,7 @@
 			)
 		)
 		(property "Description" "0 ohm link, 0603: RM3100 supply select"
-			(at 179.07 49.53 0)
+			(at 199.39 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1653,7 +1723,7 @@
 			)
 		)
 		(property "Rating" "jumper"
-			(at 181.61 51.83 0)
+			(at 201.93 77.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1664,7 +1734,7 @@
 			)
 		)
 		(property "LCSC" "C21189"
-			(at 179.07 49.53 0)
+			(at 199.39 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1691,7 +1761,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 179.07 45.72 0)
+		(at 199.39 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1702,7 +1772,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a7d392f-5f9b-4705-b12c-a94b03f4fc0d")
 		(property "Reference" "#PWR1303"
-			(at 179.07 49.53 0)
+			(at 199.39 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1713,7 +1783,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 179.07 40.64 0)
+			(at 199.39 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1723,7 +1793,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 45.72 0)
+			(at 199.39 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1734,7 +1804,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 45.72 0)
+			(at 199.39 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1745,7 +1815,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 179.07 45.72 0)
+			(at 199.39 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1769,7 +1839,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 36.83 45.72 0)
+		(at 57.15 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1780,7 +1850,7 @@
 		(fields_autoplaced yes)
 		(uuid "84461788-4ab1-4669-b5b7-9030f2388b6f")
 		(property "Reference" "#PWR1304"
-			(at 36.83 49.53 0)
+			(at 57.15 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1791,7 +1861,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 36.83 40.64 0)
+			(at 57.15 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1801,7 +1871,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 45.72 0)
+			(at 57.15 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1812,7 +1882,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 45.72 0)
+			(at 57.15 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1823,7 +1893,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 36.83 45.72 0)
+			(at 57.15 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1847,7 +1917,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 24.13 45.72 0)
+		(at 44.45 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1858,7 +1928,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a24534c-7abc-46c1-96d0-2cfda82360ad")
 		(property "Reference" "#PWR1305"
-			(at 24.13 49.53 0)
+			(at 44.45 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1869,7 +1939,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 24.13 40.64 0)
+			(at 44.45 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1879,7 +1949,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 45.72 0)
+			(at 44.45 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1890,7 +1960,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 45.72 0)
+			(at 44.45 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1901,7 +1971,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 24.13 45.72 0)
+			(at 44.45 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1925,7 +1995,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 191.77 45.72 0)
+		(at 212.09 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1936,7 +2006,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf60fbd8-03b4-44ba-aa7c-4421c096d903")
 		(property "Reference" "#PWR1306"
-			(at 191.77 49.53 0)
+			(at 212.09 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1947,7 +2017,7 @@
 			)
 		)
 		(property "Value" "E5V"
-			(at 194.31 44.45 0)
+			(at 214.63 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1958,7 +2028,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 45.72 0)
+			(at 212.09 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1969,7 +2039,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 45.72 0)
+			(at 212.09 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1980,7 +2050,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"E5V\" (5 V buck output to Nucleo E5V)"
-			(at 191.77 45.72 0)
+			(at 212.09 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2004,7 +2074,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 161.29 49.53 180)
+		(at 181.61 74.93 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2014,7 +2084,7 @@
 		(dnp yes)
 		(uuid "c27a4e80-ebe9-4b9b-8d1a-3a40c7938755")
 		(property "Reference" "R1304"
-			(at 163.83 47.23 0)
+			(at 184.15 72.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2025,7 +2095,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 163.83 49.53 0)
+			(at 184.15 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2036,7 +2106,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 163.068 49.53 90)
+			(at 183.388 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2047,7 +2117,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 49.53 0)
+			(at 181.61 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2058,7 +2128,7 @@
 			)
 		)
 		(property "Description" "0 ohm link, 0603: RM3100 supply select"
-			(at 161.29 49.53 0)
+			(at 181.61 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2069,7 +2139,7 @@
 			)
 		)
 		(property "Rating" "jumper"
-			(at 163.83 51.83 0)
+			(at 184.15 77.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2080,7 +2150,7 @@
 			)
 		)
 		(property "LCSC" "C21189"
-			(at 161.29 49.53 0)
+			(at 181.61 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2107,7 +2177,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x06")
-		(at 121.92 48.26 0)
+		(at 142.24 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2117,7 +2187,7 @@
 		(dnp no)
 		(uuid "c68fc480-5a92-41f1-bb50-94c2713d7c7f")
 		(property "Reference" "J1302"
-			(at 123.698 48.006 0)
+			(at 144.018 73.406 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2128,7 +2198,7 @@
 			)
 		)
 		(property "Value" "RM3100_SPI"
-			(at 123.698 50.546 0)
+			(at 144.018 75.946 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2139,7 +2209,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical"
-			(at 121.92 48.26 0)
+			(at 142.24 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2150,7 +2220,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.pnisensor.com/rm3100-breakout-board/"
-			(at 121.92 48.26 0)
+			(at 142.24 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2161,7 +2231,7 @@
 			)
 		)
 		(property "Description" "JST XH 6-pin header for the off-board PNI RM3100 magnetometer breakout (SPI mode); mates with XH2.54-6Y housing"
-			(at 121.92 48.26 0)
+			(at 142.24 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2172,7 +2242,7 @@
 			)
 		)
 		(property "Mating part" "XH2.54-6Y"
-			(at 121.92 48.26 0)
+			(at 142.24 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2183,7 +2253,7 @@
 			)
 		)
 		(property "LCSC" "C144397"
-			(at 121.92 48.26 0)
+			(at 142.24 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2222,7 +2292,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 191.77 49.53 180)
+		(at 212.09 74.93 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2232,7 +2302,7 @@
 		(dnp yes)
 		(uuid "d3e1114d-71bf-43b4-8923-47944ef29334")
 		(property "Reference" "R1306"
-			(at 194.31 47.23 0)
+			(at 214.63 72.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2243,7 +2313,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 194.31 49.53 0)
+			(at 214.63 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2254,7 +2324,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 193.548 49.53 90)
+			(at 213.868 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2265,7 +2335,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 191.77 49.53 0)
+			(at 212.09 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2276,7 +2346,7 @@
 			)
 		)
 		(property "Description" "0 ohm link, 0603: RM3100 supply select"
-			(at 191.77 49.53 0)
+			(at 212.09 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2287,7 +2357,7 @@
 			)
 		)
 		(property "Rating" "jumper"
-			(at 194.31 51.83 0)
+			(at 214.63 77.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2298,7 +2368,7 @@
 			)
 		)
 		(property "LCSC" "C21189"
-			(at 191.77 49.53 0)
+			(at 212.09 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2325,7 +2395,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 24.13 49.53 180)
+		(at 44.45 74.93 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2335,7 +2405,7 @@
 		(dnp no)
 		(uuid "d89a7e7b-c5bf-4ee8-b378-9bb580ea7c7a")
 		(property "Reference" "R1301"
-			(at 26.67 47.23 0)
+			(at 46.99 72.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2346,7 +2416,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 26.67 49.53 0)
+			(at 46.99 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2357,7 +2427,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 25.908 49.53 90)
+			(at 46.228 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2368,7 +2438,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 49.53 0)
+			(at 44.45 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2379,7 +2449,7 @@
 			)
 		)
 		(property "Description" "I2C pull-up resistor, 2.2 kΩ, 1 %, 0.1 W, 0603"
-			(at 24.13 49.53 0)
+			(at 44.45 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2390,7 +2460,7 @@
 			)
 		)
 		(property "Rating" "1%"
-			(at 26.67 51.83 0)
+			(at 46.99 77.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2401,7 +2471,7 @@
 			)
 		)
 		(property "LCSC" "C4190"
-			(at 24.13 49.53 0)
+			(at 44.45 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2428,7 +2498,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 148.59 45.72 0)
+		(at 168.91 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2439,7 +2509,7 @@
 		(fields_autoplaced yes)
 		(uuid "e709a04f-117a-40f0-831d-8ead2addda0d")
 		(property "Reference" "#PWR1307"
-			(at 148.59 49.53 0)
+			(at 168.91 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2450,7 +2520,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 148.59 40.64 0)
+			(at 168.91 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2460,7 +2530,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 45.72 0)
+			(at 168.91 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2471,7 +2541,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 45.72 0)
+			(at 168.91 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2482,7 +2552,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 148.59 45.72 0)
+			(at 168.91 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2506,7 +2576,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 99.06 63.5 0)
+		(at 119.38 88.9 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2516,7 +2586,7 @@
 		(dnp no)
 		(uuid "ec317d87-0b04-44b8-852c-babffc2b2ec0")
 		(property "Reference" "#PWR1308"
-			(at 99.06 69.85 0)
+			(at 119.38 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2527,7 +2597,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 67.564 0)
+			(at 119.38 92.964 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2537,7 +2607,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 63.5 0)
+			(at 119.38 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2548,7 +2618,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 63.5 0)
+			(at 119.38 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2559,7 +2629,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 63.5 0)
+			(at 119.38 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2583,7 +2653,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 148.59 49.53 180)
+		(at 168.91 74.93 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2593,7 +2663,7 @@
 		(dnp no)
 		(uuid "f134bb3f-286e-4955-970d-26c968059dd1")
 		(property "Reference" "R1303"
-			(at 151.13 47.23 0)
+			(at 171.45 72.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2604,7 +2674,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 151.13 49.53 0)
+			(at 171.45 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2615,7 +2685,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 150.368 49.53 90)
+			(at 170.688 74.93 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2626,7 +2696,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 49.53 0)
+			(at 168.91 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2637,7 +2707,7 @@
 			)
 		)
 		(property "Description" "0 ohm link, 0603: RM3100 supply select"
-			(at 148.59 49.53 0)
+			(at 168.91 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2648,7 +2718,7 @@
 			)
 		)
 		(property "Rating" "jumper"
-			(at 151.13 51.83 0)
+			(at 171.45 77.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2659,7 +2729,7 @@
 			)
 		)
 		(property "LCSC" "C21189"
-			(at 148.59 49.53 0)
+			(at 168.91 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

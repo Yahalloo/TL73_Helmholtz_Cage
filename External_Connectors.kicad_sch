@@ -2296,17 +2296,6 @@
 		)
 		(uuid "dd02b15f-5de5-499d-83e4-4c496163429d")
 	)
-	(text "5 V rail\n(Nucleo 5V pin, after JP5)"
-		(exclude_from_sim no)
-		(at 191.77 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "044e493a-4615-4566-ae81-e3e4dc9683a4")
-	)
 	(text "Y+"
 		(exclude_from_sim no)
 		(at 133.35 125.73 0)
@@ -2388,7 +2377,7 @@
 		)
 		(uuid "4744e2b8-3f38-4b7c-ba1c-61bbfe869301")
 	)
-	(text "30 V coil supply\n(parallel with CN1/CN2)"
+	(text "34 V coil supply\n(parallel with CN1/CN2)"
 		(exclude_from_sim no)
 		(at 110.49 69.85 0)
 		(effects
@@ -2429,17 +2418,6 @@
 			)
 		)
 		(uuid "721d6d7b-a87d-4f37-bac8-ab4026fb8093")
-	)
-	(text "3.3 V rail\n(Nucleo 3V3 pin)"
-		(exclude_from_sim no)
-		(at 232.41 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7b4f1c90-943c-41be-b4e9-706db8dbd2e2")
 	)
 	(text "Shrouded 4 mm banana jacks (Amass 24.245).\nSupply 36 V max (U101 input, D1201 clamp)."
 		(exclude_from_sim no)
@@ -2488,7 +2466,7 @@
 		)
 		(uuid "a65862ba-afc4-44c9-a6c1-e8f80f042c89")
 	)
-	(text "+30 V in"
+	(text "+34 V in"
 		(exclude_from_sim no)
 		(at 22.86 45.72 0)
 		(effects
@@ -2509,7 +2487,7 @@
 		)
 		(uuid "ba4c943c-d428-4657-9df0-241a11d3fa6b")
 	)
-	(text "30 V SUPPLY INPUT (36 V MAX)"
+	(text "34 V SUPPLY INPUT (36 V MAX)"
 		(exclude_from_sim no)
 		(at 22.86 31.75 0)
 		(effects
@@ -2843,16 +2821,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 54.61) (xy 240.03 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "175af476-f64a-44bf-b981-f3beff6b9cad")
-	)
-	(wire
-		(pts
 			(xy 45.72 156.21) (xy 52.07 156.21)
 		)
 		(stroke
@@ -2870,16 +2838,6 @@
 			(type default)
 		)
 		(uuid "19c52664-1baa-4e9e-8482-6e950df581c1")
-	)
-	(wire
-		(pts
-			(xy 240.03 52.07) (xy 240.03 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e14c80b-8518-4894-b9b2-7b4d5e1fb8f3")
 	)
 	(wire
 		(pts
@@ -2910,16 +2868,6 @@
 			(type default)
 		)
 		(uuid "21b2fa16-c1a2-4b44-97a0-1d7f5c34231d")
-	)
-	(wire
-		(pts
-			(xy 245.11 52.07) (xy 240.03 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "224059b3-0681-4088-9d4b-529385a44f75")
 	)
 	(wire
 		(pts
@@ -3053,16 +3001,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 52.07) (xy 199.39 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f391a3d-e64d-4dfa-a5b0-e737174ca662")
-	)
-	(wire
-		(pts
 			(xy 146.05 138.43) (xy 154.94 138.43)
 		)
 		(stroke
@@ -3083,16 +3021,6 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 54.61) (xy 199.39 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44af106f-1de9-48ab-9792-7d117bbf64ac")
-	)
-	(wire
-		(pts
 			(xy 55.88 58.42) (xy 55.88 64.77)
 		)
 		(stroke
@@ -3110,16 +3038,6 @@
 			(type default)
 		)
 		(uuid "539541c4-32ba-420e-98a7-0beb3b0b0356")
-	)
-	(wire
-		(pts
-			(xy 204.47 52.07) (xy 199.39 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55a73a40-18d5-4ae5-a057-b691199fb6e0")
 	)
 	(wire
 		(pts
@@ -3663,16 +3581,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 54.61) (xy 199.39 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d78df3ff-ba2d-4476-9ae9-97b8f43d56b5")
-	)
-	(wire
-		(pts
 			(xy 176.53 120.65) (xy 172.72 120.65)
 		)
 		(stroke
@@ -3770,16 +3678,6 @@
 			(type default)
 		)
 		(uuid "eb9c2f8d-7a8f-400d-92be-549688b18123")
-	)
-	(wire
-		(pts
-			(xy 245.11 54.61) (xy 240.03 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee09d0ae-df91-46dc-bc68-a5cdef02d0fe")
 	)
 	(wire
 		(pts
@@ -4201,120 +4099,6 @@
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
 					(reference "#PWR01206")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyEDA:KF128-5.08-2P")
-		(at 208.28 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1d957675-f683-42eb-99eb-791840ed43fe")
-		(property "Reference" "U1205"
-			(at 213.36 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "KF128-5.08-2P"
-			(at 213.36 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TL73_Local:CONN-TH_P5.08_KF128-5.08-2P_TL73_b"
-			(at 208.28 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/New-Quadratic-Unclassified-Data_Cixi-Kefa-Elec-KF128-5-08-2P_C474952.html"
-			(at 208.28 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 208.28 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "KEFA(科发)"
-			(at 208.28 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "KF128-5.08-2P-AA"
-			(at 208.28 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C474952"
-			(at 208.28 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2c59f11c-19ce-4e7a-ae53-44851f8d01c4")
-		)
-		(pin "2"
-			(uuid "8f4547a7-0a21-4e44-adad-75aa2c87b441")
-		)
-		(instances
-			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
-					(reference "U1205")
 					(unit 1)
 				)
 			)
@@ -5209,7 +4993,7 @@
 				)
 			)
 		)
-		(property "Value" "+30V"
+		(property "Value" "+34V"
 			(at 118.11 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5241,7 +5025,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+30V\""
+		(property "Description" "Power symbol creates a global label with name \"+34V\""
 			(at 118.11 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -5259,83 +5043,6 @@
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
 					(reference "#PWR01203")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 199.39 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3a6bf30c-bdd8-407c-b1a3-19a65173dedb")
-		(property "Reference" "#PWR01208"
-			(at 199.39 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 199.39 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d48f9304-ced4-4685-8acc-67b928d8706b")
-		)
-		(instances
-			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
-					(reference "#PWR01208")
 					(unit 1)
 				)
 			)
@@ -5550,83 +5257,6 @@
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
 					(reference "R1201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 199.39 49.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4899f8d3-f12c-44fc-8c7a-d94ee69d576d")
-		(property "Reference" "#PWR01207"
-			(at 199.39 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 199.39 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 199.39 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "baae18e4-24ec-4115-859a-335016521ea2")
-		)
-		(instances
-			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
-					(reference "#PWR01207")
 					(unit 1)
 				)
 			)
@@ -5916,83 +5546,6 @@
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
 					(reference "CN1206")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 240.03 57.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7713f219-1394-44cb-b5e1-6c0519c449fc")
-		(property "Reference" "#PWR01210"
-			(at 240.03 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 240.03 62.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 240.03 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "16f67cec-85c6-435f-b501-014829d77eaa")
-		)
-		(instances
-			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
-					(reference "#PWR01210")
 					(unit 1)
 				)
 			)
@@ -6398,120 +5951,6 @@
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
 					(reference "CN1204")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "EasyEDA:KF128-5.08-2P")
-		(at 248.92 53.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "924ba047-2168-4f0f-95c8-2f6ce55f75c6")
-		(property "Reference" "U1207"
-			(at 254 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "KF128-5.08-2P"
-			(at 254 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "EasyEDA:CONN-TH_P5.08_KF128-5.08-2P"
-			(at 248.92 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://lcsc.com/product-detail/New-Quadratic-Unclassified-Data_Cixi-Kefa-Elec-KF128-5-08-2P_C474952.html"
-			(at 248.92 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 248.92 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "KEFA(科发)"
-			(at 248.92 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "KF128-5.08-2P-AA"
-			(at 248.92 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC Part" "C474952"
-			(at 248.92 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0a32706d-b608-4321-891c-85aad0702ef1")
-		)
-		(pin "2"
-			(uuid "d78deff1-1e6a-41f7-83b0-90e17f3c2fd3")
-		)
-		(instances
-			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
-					(reference "U1207")
 					(unit 1)
 				)
 			)
@@ -7329,7 +6768,7 @@
 				)
 			)
 		)
-		(property "Value" "+30V"
+		(property "Value" "+34V"
 			(at 63.5 36.83 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7361,7 +6800,7 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+30V\""
+		(property "Description" "Power symbol creates a global label with name \"+34V\""
 			(at 63.5 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -8079,83 +7518,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 240.03 49.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d23c2cce-6f1e-42e8-996b-a945a19baec4")
-		(property "Reference" "#PWR01209"
-			(at 240.03 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 240.03 44.45 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 240.03 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 240.03 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d461c59e-0426-4b0d-98b0-76bcf6481f87")
-		)
-		(instances
-			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5"
-					(reference "#PWR01209")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 73.66 147.32 90)
 		(unit 1)
@@ -8823,7 +8185,7 @@
 				)
 			)
 		)
-		(property "Description" "Ceramic capacitor (MLCC), 100 nF, 50 V, X7R, ±5 %, 0603, Samsung CL10B104JB8NNNC. 30 V input HF decoupling, place at the supply jacks"
+		(property "Description" "Ceramic capacitor (MLCC), 100 nF, 50 V, X7R, ±5 %, 0603, Samsung CL10B104JB8NNNC. 34 V input HF decoupling, place at the supply jacks"
 			(at 86.36 54.61 0)
 			(hide yes)
 			(show_name no)
