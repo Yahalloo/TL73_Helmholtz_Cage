@@ -1,0 +1,7 @@
+kicad-cli rc 0 STEP file 'D:/GoogleDrive_Personal/Documents/Uni Courses/Final Year/T1/ELEC 491/Project_Design_Files/Repositry/PCB_V1.0/TL73_Helmholtz_Cage/Mechanical/TL73_Coil_Driver_PCB.step' created.
+
+Export time 14.582 s
+ 
+moved 12 models
+components: ANT-TH_L33.0-W12.0_BLACK (1) x4, ANT-TH_L33.0-W12.0_RED (1) x4, CAP-TH_BD10.0-P5.00-D0.6-FD (1) x1, CAP-TH_BD10.0-P5.00-D0.6-FD-A (1) x3, CONN-TH_4P-P5.08_MX128-5.08-04P-GN01-CU- x4, CONN-TH_P5.08_KF128-5.08-2P x4, C_0603_1608Metric x29, C_0603_1608Metric (1) x29, C_1206_3216Metric x11, C_1206_3216Metric (1) x11, HTSSOP-24_L7.8-W4.4-P0.65-LS6.4-TL-EP x3, HTSSOP-24_L7.8-W4.4-P0.65-LS6.4-TL-EP (1 x3, JST_B2B_XH_A x3, JST_B6B_XH_A x2, JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical x3, JST_XH_B6B-XH-A_1x06_P2.50mm_Vertical x2, PWRM-TH_YLPTEC_K78XX-1000R3 x1, PWRM-TH_YLPTEC_K78XX-1000R3 (1) x1, PinSocket_2x19_P2.54mm_Vertical x2, PinSocket_2x19_P2.54mm_Vertical (1) x2, RES-SMD_L6.4-W3.2_WSK2512R0100FEA x3, RES-SMD_L6.4-W3.2_WSK2512R0100FEA (1) x3, R_0603_1608Metric x26, R_0603_1608Metric (1) x26, R_0805_2012Metric x3, R_0805_2012Metric (1) x3, R_1206_3216Metric x9, R_1206_3216Metric (1) x9, SMC_L7.1-W6.2-LS8.1-RD x7, SMC_L7.1-W6.2-LS8.1-RD (1) x7, SOIC-8_3.9x4.9mm_P1.27mm x3, SOIC-8_3.9x4.9mm_P1.27mm (1) x3, TESTPOINT-TH_BD3.2-D1.6 x15, TESTPOINT-TH_BD3.2-D1.6_RED x15, TL_73_Helmholtz_Cage_PCB_PCB x1
+ok size mm 99.0 x 114.6 x 35.2

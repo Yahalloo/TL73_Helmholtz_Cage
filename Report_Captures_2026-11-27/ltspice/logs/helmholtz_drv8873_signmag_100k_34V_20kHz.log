@@ -1,0 +1,19 @@
+LTspice 24.1.4 for Windows
+Circuit: C:\Users\adars\AppData\Local\Temp\claude\d195a441006425e2\2cd0b001-3510-43e3-a3c9-5e3aa1fc306e\scratchpad\ltrun\helmholtz_drv8873_signmag_100k_34V_20kHz.net
+Start Time: Fri Nov 27 02:14:11 2026
+solver = Normal
+Maximum thread count: 22
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 2.985 seconds.
+
+Files loaded:
+C:\Users\adars\AppData\Local\Temp\claude\d195a441006425e2\2cd0b001-3510-43e3-a3c9-5e3aa1fc306e\scratchpad\ltrun\helmholtz_drv8873_signmag_100k_34V_20kHz.net
+C:\Users\adars\AppData\Local\LTspice\lib\cmp\standard.mos
+
+Iavg: AVG(I(Rcoil))=3.10725417337 FROM 0.058 TO 0.06
+Iripple: PP(I(Rcoil))=0.0239882469177 FROM 0.058 TO 0.06
+Pdrv: AVG(V(VBUS)-V(A))*Id(M1)+V(A)*Id(M2)+(V(VBUS)-V(B))*Id(M3)+V(B)*Id(M4)=14.31752303 FROM 0.058 TO 0.06
+Tj: {Tamb+RthJA*(Pdrv+Pq)}=431.363140234

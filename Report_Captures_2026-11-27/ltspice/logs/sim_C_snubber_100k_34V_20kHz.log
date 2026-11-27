@@ -1,0 +1,103 @@
+LTspice 24.1.4 for Windows
+Circuit: C:\Users\adars\AppData\Local\Temp\claude\d195a441006425e2\2cd0b001-3510-43e3-a3c9-5e3aa1fc306e\scratchpad\ltrun\sim_C_snubber_100k_34V_20kHz.net
+Start Time: Fri Nov 27 02:11:17 2026
+solver = Normal
+Maximum thread count: 22
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+Gmin = 1.89714e-08
+Gmin = 2.03704e-09
+Gmin = 2.18725e-10
+Gmin = 2.34854e-11
+Gmin = 2.52173e-12
+Gmin = 2.70769e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+.step cfg=0
+.step cfg=1
+.step cfg=2
+Total elapsed time: 8.873 seconds.
+
+Files loaded:
+C:\Users\adars\AppData\Local\Temp\claude\d195a441006425e2\2cd0b001-3510-43e3-a3c9-5e3aa1fc306e\scratchpad\ltrun\sim_C_snubber_100k_34V_20kHz.net
+C:\Users\adars\AppData\Local\LTspice\lib\cmp\standard.mos
+
+
+Measurement: Iavg
+  step	AVG(I(Lcoil))	FROM	TO
+     1	3.12941685598	0.0005	0.001
+     2	3.12939397767	0.0005	0.001
+     3	3.12939025147	0.0005	0.001
+
+Measurement: Iripple
+  step	PP(I(Lcoil))	FROM	TO
+     1	0.016925573349	0.0005	0.001
+     2	0.0169305801392	0.0005	0.001
+     3	0.0169353485107	0.0005	0.001
+
+Measurement: Vcoil_max
+  step	MAX(V(X,Z))	FROM	TO
+     1	35.5672427416	0.0005	0.001
+     2	35.6343228817	0.0005	0.001
+     3	34.9127347767	0.0005	0.001
+
+Measurement: Vcoil_min
+  step	MIN(V(X,Z))	FROM	TO
+     1	-7.65244269371	0.0005	0.001
+     2	-7.57011055946	0.0005	0.001
+     3	-5.46503984928	0.0005	0.001
+
+Measurement: Vbus_pp
+  step	PP(V(VBUS))	FROM	TO
+     1	0.211875915527	0.0005	0.001
+     2	0.21427154541	0.0005	0.001
+     3	0.211982727051	0.0005	0.001
+
+Measurement: Pdrv
+  step	AVG(V(VBUS)-V(A))*Id(M1)+V(A)*Id(M2)+(V(VBUS)-V(B))*Id(M3)+V(B)*Id(M4)	FROM	TO
+     1	3.44848259529	0.0005	0.001
+     2	3.45003576913	0.0005	0.001
+     3	3.44935062378	0.0005	0.001
+
+Measurement: Psnub_diff
+  step	AVG(I(RsD)*I(RsD)*{RsD})	FROM	TO
+     1	3.83687121925e-15	0.0005	0.001
+     2	0.000805879831959	0.0005	0.001
+     3	3.86377365014e-15	0.0005	0.001
+
+Measurement: Psnub_cm
+  step	AVG((I(RcmP)*I(RcmP)+I(RcmN)*I(RcmN))*{RsCM})	FROM	TO
+     1	3.83854951107e-15	0.0005	0.001
+     2	0.000806104958005	0.0005	0.001
+     3	3.87214336811e-15	0.0005	0.001
+
+Measurement: Psnub_vm
+  step	AVG(I(R304)*I(R304)*{RsV})	FROM	TO
+     1	1.97871286418e-06	0.0005	0.001
+     2	1.92793788915e-06	0.0005	0.001
+     3	1.84754688778e-06	0.0005	0.001
+
+Measurement: Psnub_coil
+  step	AVG(I(RsE)*I(RsE)*{RsE})	FROM	TO
+     1	2.31205821012e-13	0.0005	0.001
+     2	2.26153370758e-13	0.0005	0.001
+     3	0.0152362425391	0.0005	0.001
+
+Measurement: Tj
+  step	{Tamb+RthJA*(Pdrv+Pq)}
+     1	129.203816149
+     2	129.246994382
+     3	129.227947341

@@ -2945,7 +2945,7 @@
 		)
 		(uuid "632167da-33fe-4497-bf74-cbb02f2b469b")
 	)
-	(text "J203 IDLE, J207 RUN, J208 FAULT:\nJST XH, 2 pin, one header per LED\n1 LED anode (+)     2 GND\n\nLEDs: Lumex SSI-LXH312 (2 V),\nabout 8 mA each.\nLED_IDLE = PC9, LED_RUN = PC8,\nLED_FAULT = PB9.\nOutput high = LED on."
+	(text "J203 IDLE, J207 RUN, J208 FAULT:\nJST XH, 2 pin, one header per LED\n1 LED anode (+)     2 GND\n\nLEDs: Lumex SSI-LXH312 (2 V),\nabout 8 mA each.\nIDLE = yellow (SSI-LXH312YD-150),\nRUN = green (SSI-LXH312GD-150),\nFAULT = red (SSI-LXH312ID-150).\nLED_IDLE = PC9, LED_RUN = PC8,\nLED_FAULT = PB9.\nOutput high = LED on."
 		(exclude_from_sim no)
 		(at 100.33 50.8 0)
 		(effects

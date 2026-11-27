@@ -1,0 +1,720 @@
+** Drc report for TL_73_Helmholtz_Cage_PCB.kicad_pcb **
+** Created on 2026-11-27T01:50:47 **
+** Report includes: Errors, Warnings **
+
+** Found 211 DRC violations **
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(149.0000 mm, 62.0000 mm): Arc on Edge.Cuts
+    @(149.4500 mm, 59.0200 mm): Segment of CN1201 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(124.0000 mm, 62.0000 mm): Arc on Edge.Cuts
+    @(123.5000 mm, 59.0200 mm): Segment of CN1202 on F.Silkscreen
+[lib_footprint_mismatch]: Footprint 'BUZ-TH_BD9.0-P5.00-D0.6-L-FD' does not match copy in library 'EasyEDA'
+    Local override; warning
+    @(116.5000 mm, 83.2000 mm): Footprint BZ201
+[text_thickness]: Text thickness out of range (rule 'Silkscreen text' min thickness 0.1500 mm; actual 0.1375 mm)
+    Rule: Silkscreen text; warning
+    @(97.3000 mm, 100.5500 mm): PCB text 'SDA' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(97.3000 mm, 100.5500 mm): PCB text 'SDA' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(96.4000 mm, 89.3000 mm): PCB text '5V' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(98.5000 mm, 89.3000 mm): PCB text '3V3' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(123.2000 mm, 97.8000 mm): PCB text '3V3' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(128.5000 mm, 98.3000 mm): PCB text '5V' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(97.5000 mm, 93.3000 mm): PCB text 'GND' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(97.5000 mm, 95.5000 mm): PCB text 'VCC' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(97.5000 mm, 98.0000 mm): PCB text 'SCL' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(97.5000 mm, 103.0000 mm): PCB text 'RDY' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(108.8500 mm, 62.2400 mm): PCB text 'PC11' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(108.8500 mm, 64.7800 mm): PCB text 'PD2' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(108.8500 mm, 74.9400 mm): PCB text 'IORF' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(108.8500 mm, 77.4800 mm): PCB text 'RST' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(108.8500 mm, 80.0200 mm): PCB text '3V3' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(108.8500 mm, 82.5600 mm): PCB text '5V' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(108.8500 mm, 85.1000 mm): PCB text 'GND' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(108.8500 mm, 87.6400 mm): PCB text 'GND' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(108.8500 mm, 90.1800 mm): PCB text 'VIN' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(169.8100 mm, 64.7800 mm): PCB text 'PC6' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(169.8100 mm, 67.3200 mm): PCB text 'PC5' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(169.8100 mm, 69.8600 mm): PCB text 'U5V' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(169.8100 mm, 74.9400 mm): PCB text 'PA12' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(169.8100 mm, 77.4800 mm): PCB text 'PA11' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(169.8100 mm, 80.0200 mm): PCB text 'PB12' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(169.8100 mm, 82.5600 mm): PCB text 'PB11' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(169.8100 mm, 85.1000 mm): PCB text 'GND' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(169.8100 mm, 87.6400 mm): PCB text 'PB2' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(169.8100 mm, 90.1800 mm): PCB text 'PB1' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(169.8100 mm, 92.7200 mm): PCB text 'PB15' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(169.8100 mm, 95.2600 mm): PCB text 'PB14' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(169.8100 mm, 97.8000 mm): PCB text 'PB13' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(169.8100 mm, 100.3400 mm): PCB text 'AGND' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(169.8100 mm, 102.8800 mm): PCB text 'PC4' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(173.7500 mm, 107.3000 mm): PCB text 'PB5' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(173.7500 mm, 108.4500 mm): PCB text 'OFF' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(103.2000 mm, 62.2400 mm): PCB text 'PC10' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(103.2000 mm, 64.7800 mm): PCB text 'PC12' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(103.2000 mm, 67.3200 mm): PCB text 'VDD' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(103.2000 mm, 69.8600 mm): PCB text 'BOOT' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(103.2000 mm, 77.4800 mm): PCB text 'PA13' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(103.2000 mm, 80.0200 mm): PCB text 'PA14' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(103.2000 mm, 82.5600 mm): PCB text 'PA15' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(103.2000 mm, 85.1000 mm): PCB text 'GND' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(103.2000 mm, 87.6400 mm): PCB text 'PB7' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(103.2000 mm, 90.1800 mm): PCB text 'PC13' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(103.2000 mm, 92.7200 mm): PCB text 'PC14' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(103.2000 mm, 95.2600 mm): PCB text 'PC15' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(103.2000 mm, 97.8000 mm): PCB text 'PF0' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(103.2000 mm, 100.3400 mm): PCB text 'PF1' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(103.2000 mm, 102.8800 mm): PCB text 'VBAT' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(103.2000 mm, 105.4200 mm): PCB text 'PC2' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(103.2000 mm, 107.9600 mm): PCB text 'PC3' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(164.1600 mm, 62.2400 mm): PCB text 'PC9' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(164.1600 mm, 64.7800 mm): PCB text 'PB8' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(164.1600 mm, 67.3200 mm): PCB text 'PB9' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(164.1600 mm, 69.8600 mm): PCB text 'AVDD' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(164.1600 mm, 72.4000 mm): PCB text 'GND' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(164.1600 mm, 74.9400 mm): PCB text 'PA5' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(164.1600 mm, 77.4800 mm): PCB text 'PA6' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(164.1600 mm, 80.0200 mm): PCB text 'PA7' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(164.1600 mm, 82.5600 mm): PCB text 'PB6' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(164.1600 mm, 85.1000 mm): PCB text 'PC7' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(164.1600 mm, 87.6400 mm): PCB text 'PA9' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(164.1600 mm, 90.1800 mm): PCB text 'PA8' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(164.1600 mm, 92.7200 mm): PCB text 'PB10' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(164.1600 mm, 95.2600 mm): PCB text 'PB4' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(164.1600 mm, 97.8000 mm): PCB text 'PB5' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(164.1600 mm, 100.3400 mm): PCB text 'PB3' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(164.1600 mm, 102.8800 mm): PCB text 'PA10' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(164.1600 mm, 105.4200 mm): PCB text 'PA2' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(164.1600 mm, 107.9600 mm): PCB text 'PA3' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(114.7500 mm, 94.9500 mm): PCB text 'SCK' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(117.2500 mm, 94.9500 mm): PCB text 'MOSI' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(119.7500 mm, 94.9500 mm): PCB text 'MISO' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(122.2500 mm, 94.9500 mm): PCB text 'CS' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(124.7500 mm, 94.9500 mm): PCB text 'VCC' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(127.2500 mm, 94.9500 mm): PCB text 'GND' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(148.2000 mm, 96.6000 mm): PCB text 'GND' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(98.6000 mm, 104.3000 mm): PCB text 'IX' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(177.2000 mm, 107.1000 mm): PCB text 'SCK' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(183.0000 mm, 104.6000 mm): PCB text 'SDI' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(98.3000 mm, 61.1000 mm): PCB text 'GND' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(114.6000 mm, 121.2000 mm): PCB text 'AX' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(114.6000 mm, 125.5000 mm): PCB text 'IY' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(114.6000 mm, 129.8000 mm): PCB text 'SDO' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(117.7000 mm, 113.9000 mm): PCB text 'BX' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(147.2000 mm, 121.2000 mm): PCB text 'AY' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(147.2000 mm, 125.5000 mm): PCB text 'IZ' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(147.2000 mm, 129.8000 mm): PCB text 'GND' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(150.3000 mm, 113.9000 mm): PCB text 'BY' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(179.6000 mm, 121.2000 mm): PCB text 'AZ' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(182.9000 mm, 113.9000 mm): PCB text 'BZ' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(111.3000 mm, 119.7500 mm): PCB text 'TEMP X' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(118.3000 mm, 78.0000 mm): PCB text 'BUZ' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(123.3000 mm, 108.6000 mm): PCB text 'ESTOP' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(126.4000 mm, 75.5000 mm): PCB text 'GND' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(127.4000 mm, 84.8000 mm): PCB text 'FAN' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(130.8000 mm, 75.5000 mm): PCB text 'E5V' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(138.3000 mm, 104.0000 mm): PCB text 'SET NUCLEO JP5 TO E5V' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(139.2900 mm, 76.0000 mm): PCB text 'GND' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(143.9000 mm, 119.7500 mm): PCB text 'TEMP Y' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(146.3700 mm, 76.0000 mm): PCB text '+34V' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(175.2000 mm, 68.4000 mm): PCB text '3V3' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(175.2000 mm, 70.9000 mm): PCB text 'NC' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(175.2000 mm, 73.4000 mm): PCB text 'PB4' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(175.2000 mm, 75.9000 mm): PCB text 'GND' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(176.5000 mm, 119.7500 mm): PCB text 'TEMP Z' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(179.0000 mm, 64.7500 mm): PCB text 'SPARE IO' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(177.0000 mm, 100.6000 mm): PCB text 'LEDs
+' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(103.9000 mm, 145.3000 mm): PCB text 'TVS + RC ON BACK (DNP)' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(136.5000 mm, 145.3000 mm): PCB text 'TVS + RC ON BACK (DNP)' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(162.6000 mm, 58.4000 mm): PCB text 'CN10' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(169.1000 mm, 145.3000 mm): PCB text 'TVS + RC ON BACK (DNP)' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(174.9000 mm, 81.3000 mm): PCB text 'IDLE' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(174.9000 mm, 88.3000 mm): PCB text 'RUN' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(174.9000 mm, 94.6000 mm): PCB text 'FAULT' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(116.4000 mm, 108.0000 mm): PCB text 'NTC RC' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.9000 mm)
+    Rule: Silkscreen text; warning
+    @(96.2000 mm, 57.9000 mm): PCB text 'ELEC' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.9000 mm)
+    Rule: Silkscreen text; warning
+    @(96.2000 mm, 59.5000 mm): PCB text '491' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8500 mm)
+    Rule: Silkscreen text; warning
+    @(91.9000 mm, 89.3500 mm): PCB text 'MAG I2C' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8500 mm)
+    Rule: Silkscreen text; warning
+    @(119.2000 mm, 100.4000 mm): PCB text 'RM3100 SPI' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8500 mm)
+    Rule: Silkscreen text; warning
+    @(93.9000 mm, 65.3000 mm): PCB text 'COIL NTC 10k' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8500 mm)
+    Rule: Silkscreen text; warning
+    @(136.5000 mm, 101.3000 mm): PCB text '5V BUCK -> E5V' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.9000 mm)
+    Rule: Silkscreen text; warning
+    @(145.0000 mm, 87.0000 mm): PCB text 'TVS' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.9000 mm)
+    Rule: Silkscreen text; warning
+    @(170.9000 mm, 57.4000 mm): PCB text '34V IN, 36V MAX' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.9000 mm)
+    Rule: Silkscreen text; warning
+    @(171.2000 mm, 59.8000 mm): PCB text 'V1.0' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.9000 mm)
+    Rule: Silkscreen text; warning
+    @(145.7000 mm, 89.7000 mm): PCB text 'Y' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.9000 mm)
+    Rule: Silkscreen text; warning
+    @(148.1000 mm, 90.5000 mm): PCB text 'Z' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.9000 mm)
+    Rule: Silkscreen text; warning
+    @(149.7000 mm, 93.7000 mm): PCB text 'X' on F.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(96.4000 mm, 147.2000 mm): PCB text 'TVS X+' on B.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(103.9000 mm, 149.7000 mm): PCB text 'TVS+RC' on B.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(103.9000 mm, 151.0000 mm): PCB text 'DNP' on B.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(111.4000 mm, 147.2000 mm): PCB text 'TVS X-' on B.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(129.0000 mm, 147.2000 mm): PCB text 'TVS Y+' on B.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(136.5000 mm, 131.0000 mm): PCB text 'JLCJLCJLCJLC' on B.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(136.5000 mm, 149.7000 mm): PCB text 'TVS+RC' on B.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(136.5000 mm, 151.0000 mm): PCB text 'DNP' on B.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(144.0000 mm, 147.2000 mm): PCB text 'TVS Y-' on B.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(161.6000 mm, 147.2000 mm): PCB text 'TVS Z+' on B.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(169.1000 mm, 149.7000 mm): PCB text 'TVS+RC' on B.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(169.1000 mm, 151.0000 mm): PCB text 'DNP' on B.Silkscreen
+[text_height]: Text height out of range (rule 'Silkscreen text' min height 1.0000 mm; actual 0.8000 mm)
+    Rule: Silkscreen text; warning
+    @(176.6000 mm, 147.2000 mm): PCB text 'TVS Z-' on B.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: board setup constraints silk; warning
+    @(111.4500 mm, 59.0200 mm): Segment of CN1202 on F.Silkscreen
+    @(108.8500 mm, 62.2400 mm): PCB text 'PC11' on F.Silkscreen
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)
+    Rule: Pad to Silkscreen; warning
+    @(135.0000 mm, 82.4600 mm): Segment of D1201 on F.Silkscreen
+    @(135.1700 mm, 84.6000 mm): Pad 2 [GND] of D1201 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)
+    Rule: Pad to Silkscreen; warning
+    @(135.0000 mm, 87.7100 mm): Segment of D1201 on F.Silkscreen
+    @(135.1700 mm, 84.6000 mm): Pad 2 [GND] of D1201 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)
+    Rule: Pad to Silkscreen; warning
+    @(142.2000 mm, 82.4600 mm): Segment of D1201 on F.Silkscreen
+    @(142.0300 mm, 84.6000 mm): Pad 1 [+34V] of D1201 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)
+    Rule: Pad to Silkscreen; warning
+    @(142.2000 mm, 87.7100 mm): Segment of D1201 on F.Silkscreen
+    @(142.0300 mm, 84.6000 mm): Pad 1 [+34V] of D1201 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1250 mm)
+    Rule: Pad to Silkscreen; warning
+    @(98.9000 mm, 109.3000 mm): Segment on F.Silkscreen
+    @(103.6000 mm, 109.9875 mm): Pad 2 [GND] of R303 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)
+    Rule: Pad to Silkscreen; warning
+    @(129.5900 mm, 128.9500 mm): Segment of R701 on F.Silkscreen
+    @(133.8900 mm, 129.4000 mm): Pad 3 [/CurrentSense_CoilY/SENSE_P] of R701 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1101 mm)
+    Rule: Pad to Silkscreen; warning
+    @(129.5900 mm, 128.9500 mm): Segment of R701 on F.Silkscreen
+    @(128.2100 mm, 129.9700 mm): Pad 1 [/CurrentSense_CoilY/Icoil2] of R701 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0150 mm)
+    Rule: Pad to Silkscreen; warning
+    @(128.0000 mm, 129.0000 mm): Circle of R701 on F.Silkscreen
+    @(128.2100 mm, 129.9700 mm): Pad 1 [/CurrentSense_CoilY/Icoil2] of R701 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0559 mm)
+    Rule: Pad to Silkscreen; warning
+    @(122.3440 mm, 111.7441 mm): Polygon of C407 on F.Silkscreen
+    @(125.9000 mm, 112.8000 mm): PTH pad 2 [GND] of C407
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0950 mm)
+    Rule: Pad to Silkscreen; warning
+    @(133.5200 mm, 115.4300 mm): Segment of U401 on F.Silkscreen
+    @(137.5000 mm, 117.2000 mm): Pad 25 [GND] of U401 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0950 mm)
+    Rule: Pad to Silkscreen; warning
+    @(141.4800 mm, 118.9700 mm): Segment of U401 on F.Silkscreen
+    @(137.5000 mm, 117.2000 mm): Pad 25 [GND] of U401 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1383 mm)
+    Rule: Pad to Silkscreen; warning
+    @(96.4000 mm, 89.3000 mm): PCB text '5V' on F.Silkscreen
+    @(96.4000 mm, 90.3250 mm): Pad 2 [E5V] of R1304 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1260 mm)
+    Rule: Pad to Silkscreen; warning
+    @(98.5000 mm, 89.3000 mm): PCB text '3V3' on F.Silkscreen
+    @(98.4000 mm, 90.3250 mm): Pad 2 [+3V3] of R1303 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1498 mm)
+    Rule: Pad to Silkscreen; warning
+    @(97.5000 mm, 93.3000 mm): PCB text 'GND' on F.Silkscreen
+    @(98.4000 mm, 92.1500 mm): Pad 1 [/Magnetometer/MAG_VCC1] of R1303 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.15 mm; actual 0.149999 mm)
+    Rule: Pad to Silkscreen; warning
+    @(109.4500 mm, 116.6500 mm): Rectangle on F.Silkscreen
+    @(112.3000 mm, 117.6000 mm): Pad 1 [/Temp_DrvX] of TH1401 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1101 mm)
+    Rule: Pad to Silkscreen; warning
+    @(129.5900 mm, 132.2500 mm): Segment of R701 on F.Silkscreen
+    @(134.1900 mm, 131.2300 mm): Pad 4 [/CurrentSense_CoilY/Icoil1] of R701 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)
+    Rule: Pad to Silkscreen; warning
+    @(129.5900 mm, 132.2500 mm): Segment of R701 on F.Silkscreen
+    @(128.5100 mm, 131.8000 mm): Pad 2 [/CurrentSense_CoilY/SENSE_N] of R701 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1250 mm)
+    Rule: Pad to Silkscreen; warning
+    @(128.6000 mm, 109.3000 mm): Segment on F.Silkscreen
+    @(168.8000 mm, 109.9875 mm): Pad 2 [GND] of R503 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1250 mm)
+    Rule: Pad to Silkscreen; warning
+    @(128.6000 mm, 109.3000 mm): Segment on F.Silkscreen
+    @(136.2000 mm, 109.9875 mm): Pad 2 [GND] of R403 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1101 mm)
+    Rule: Pad to Silkscreen; warning
+    @(96.9900 mm, 128.9500 mm): Segment of R601 on F.Silkscreen
+    @(95.6100 mm, 129.9700 mm): Pad 1 [/CurrentSense_CoilX/Icoil2] of R601 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)
+    Rule: Pad to Silkscreen; warning
+    @(96.9900 mm, 128.9500 mm): Segment of R601 on F.Silkscreen
+    @(101.2900 mm, 129.4000 mm): Pad 3 [/CurrentSense_CoilX/SENSE_P] of R601 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0150 mm)
+    Rule: Pad to Silkscreen; warning
+    @(95.4000 mm, 129.0000 mm): Circle of R601 on F.Silkscreen
+    @(95.6100 mm, 129.9700 mm): Pad 1 [/CurrentSense_CoilX/Icoil2] of R601 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)
+    Rule: Pad to Silkscreen; warning
+    @(96.9900 mm, 132.2500 mm): Segment of R601 on F.Silkscreen
+    @(95.9100 mm, 131.8000 mm): Pad 2 [/CurrentSense_CoilX/SENSE_N] of R601 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1101 mm)
+    Rule: Pad to Silkscreen; warning
+    @(96.9900 mm, 132.2500 mm): Segment of R601 on F.Silkscreen
+    @(101.5900 mm, 131.2300 mm): Pad 4 [/CurrentSense_CoilX/Icoil1] of R601 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1185 mm)
+    Rule: Pad to Silkscreen; warning
+    @(108.8000 mm, 114.0000 mm): Circle of U301 on F.Silkscreen
+    @(108.4800 mm, 114.3300 mm): Pad 1 [Net-(U301-1DVDD)] of U301 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0559 mm)
+    Rule: Pad to Silkscreen; warning
+    @(89.7440 mm, 111.7441 mm): Polygon of C307 on F.Silkscreen
+    @(93.3000 mm, 112.8000 mm): PTH pad 2 [GND] of C307
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0950 mm)
+    Rule: Pad to Silkscreen; warning
+    @(100.9200 mm, 115.4300 mm): Segment of U301 on F.Silkscreen
+    @(104.9000 mm, 117.2000 mm): Pad 25 [GND] of U301 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0950 mm)
+    Rule: Pad to Silkscreen; warning
+    @(108.8800 mm, 118.9700 mm): Segment of U301 on F.Silkscreen
+    @(104.9000 mm, 117.2000 mm): Pad 25 [GND] of U301 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1250 mm)
+    Rule: Pad to Silkscreen; warning
+    @(103.5000 mm, 60.9000 mm): Segment on F.Silkscreen
+    @(103.6000 mm, 109.9875 mm): Pad 2 [GND] of R303 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0557 mm)
+    Rule: Pad to Silkscreen; warning
+    @(159.0560 mm, 84.9557 mm): Polygon of C1201 on F.Silkscreen
+    @(155.5000 mm, 83.9000 mm): PTH pad 2 [GND] of C1201
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)
+    Rule: Pad to Silkscreen; warning
+    @(162.1900 mm, 128.9500 mm): Segment of R801 on F.Silkscreen
+    @(166.4900 mm, 129.4000 mm): Pad 3 [/CurrentSense_CoilZ/SENSE_P] of R801 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1101 mm)
+    Rule: Pad to Silkscreen; warning
+    @(162.1900 mm, 128.9500 mm): Segment of R801 on F.Silkscreen
+    @(160.8100 mm, 129.9700 mm): Pad 1 [/CurrentSense_CoilZ/Icoil2] of R801 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1101 mm)
+    Rule: Pad to Silkscreen; warning
+    @(162.1900 mm, 132.2500 mm): Segment of R801 on F.Silkscreen
+    @(166.7900 mm, 131.2300 mm): Pad 4 [/CurrentSense_CoilZ/Icoil1] of R801 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)
+    Rule: Pad to Silkscreen; warning
+    @(162.1900 mm, 132.2500 mm): Segment of R801 on F.Silkscreen
+    @(161.1100 mm, 131.8000 mm): Pad 2 [/CurrentSense_CoilZ/SENSE_N] of R801 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0150 mm)
+    Rule: Pad to Silkscreen; warning
+    @(160.6000 mm, 129.0000 mm): Circle of R801 on F.Silkscreen
+    @(160.8100 mm, 129.9700 mm): Pad 1 [/CurrentSense_CoilZ/Icoil2] of R801 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1185 mm)
+    Rule: Pad to Silkscreen; warning
+    @(141.4000 mm, 114.0000 mm): Circle of U401 on F.Silkscreen
+    @(141.0800 mm, 114.3300 mm): Pad 1 [Net-(U401-1DVDD)] of U401 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0559 mm)
+    Rule: Pad to Silkscreen; warning
+    @(154.9440 mm, 111.7441 mm): Polygon of C507 on F.Silkscreen
+    @(158.5000 mm, 112.8000 mm): PTH pad 2 [GND] of C507
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1185 mm)
+    Rule: Pad to Silkscreen; warning
+    @(174.0000 mm, 114.0000 mm): Circle of U501 on F.Silkscreen
+    @(173.6800 mm, 114.3300 mm): Pad 1 [Net-(U501-1DVDD)] of U501 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0950 mm)
+    Rule: Pad to Silkscreen; warning
+    @(166.1200 mm, 115.4300 mm): Segment of U501 on F.Silkscreen
+    @(170.1000 mm, 117.2000 mm): Pad 25 [GND] of U501 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.0950 mm)
+    Rule: Pad to Silkscreen; warning
+    @(174.0800 mm, 118.9700 mm): Segment of U501 on F.Silkscreen
+    @(170.1000 mm, 117.2000 mm): Pad 25 [GND] of U501 on F.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)
+    Rule: Pad to Silkscreen; warning
+    @(92.8000 mm, 147.8900 mm): Segment of D1202 on B.Silkscreen
+    @(92.9700 mm, 151.0000 mm): Pad 2 [GND] of D1202 on B.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)
+    Rule: Pad to Silkscreen; warning
+    @(92.8000 mm, 153.1400 mm): Segment of D1202 on B.Silkscreen
+    @(92.9700 mm, 151.0000 mm): Pad 2 [GND] of D1202 on B.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)
+    Rule: Pad to Silkscreen; warning
+    @(100.0000 mm, 153.1400 mm): Segment of D1202 on B.Silkscreen
+    @(99.8300 mm, 151.0000 mm): Pad 1 [/CurrentSense_CoilX/Icoil2] of D1202 on B.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)
+    Rule: Pad to Silkscreen; warning
+    @(100.0000 mm, 147.8900 mm): Segment of D1202 on B.Silkscreen
+    @(99.8300 mm, 151.0000 mm): Pad 1 [/CurrentSense_CoilX/Icoil2] of D1202 on B.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)
+    Rule: Pad to Silkscreen; warning
+    @(107.8000 mm, 148.8600 mm): Segment of D1203 on B.Silkscreen
+    @(107.9700 mm, 151.0000 mm): Pad 1 [/External_Connectors/CoilX-] of D1203 on B.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)
+    Rule: Pad to Silkscreen; warning
+    @(107.8000 mm, 154.1100 mm): Segment of D1203 on B.Silkscreen
+    @(107.9700 mm, 151.0000 mm): Pad 1 [/External_Connectors/CoilX-] of D1203 on B.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)
+    Rule: Pad to Silkscreen; warning
+    @(115.0000 mm, 154.1100 mm): Segment of D1203 on B.Silkscreen
+    @(114.8300 mm, 151.0000 mm): Pad 2 [GND] of D1203 on B.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)
+    Rule: Pad to Silkscreen; warning
+    @(115.0000 mm, 148.8600 mm): Segment of D1203 on B.Silkscreen
+    @(114.8300 mm, 151.0000 mm): Pad 2 [GND] of D1203 on B.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)
+    Rule: Pad to Silkscreen; warning
+    @(125.4000 mm, 147.8900 mm): Segment of D1204 on B.Silkscreen
+    @(125.5700 mm, 151.0000 mm): Pad 2 [GND] of D1204 on B.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)
+    Rule: Pad to Silkscreen; warning
+    @(132.6000 mm, 147.8900 mm): Segment of D1204 on B.Silkscreen
+    @(132.4300 mm, 151.0000 mm): Pad 1 [/CurrentSense_CoilY/Icoil2] of D1204 on B.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)
+    Rule: Pad to Silkscreen; warning
+    @(125.4000 mm, 153.1400 mm): Segment of D1204 on B.Silkscreen
+    @(125.5700 mm, 151.0000 mm): Pad 2 [GND] of D1204 on B.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)
+    Rule: Pad to Silkscreen; warning
+    @(132.6000 mm, 153.1400 mm): Segment of D1204 on B.Silkscreen
+    @(132.4300 mm, 151.0000 mm): Pad 1 [/CurrentSense_CoilY/Icoil2] of D1204 on B.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)
+    Rule: Pad to Silkscreen; warning
+    @(140.4000 mm, 148.8600 mm): Segment of D1205 on B.Silkscreen
+    @(140.5700 mm, 151.0000 mm): Pad 1 [/External_Connectors/CoilY-] of D1205 on B.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)
+    Rule: Pad to Silkscreen; warning
+    @(140.4000 mm, 154.1100 mm): Segment of D1205 on B.Silkscreen
+    @(140.5700 mm, 151.0000 mm): Pad 1 [/External_Connectors/CoilY-] of D1205 on B.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)
+    Rule: Pad to Silkscreen; warning
+    @(147.6000 mm, 148.8600 mm): Segment of D1205 on B.Silkscreen
+    @(147.4300 mm, 151.0000 mm): Pad 2 [GND] of D1205 on B.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)
+    Rule: Pad to Silkscreen; warning
+    @(147.6000 mm, 154.1100 mm): Segment of D1205 on B.Silkscreen
+    @(147.4300 mm, 151.0000 mm): Pad 2 [GND] of D1205 on B.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)
+    Rule: Pad to Silkscreen; warning
+    @(173.0000 mm, 154.1100 mm): Segment of D1207 on B.Silkscreen
+    @(173.1700 mm, 151.0000 mm): Pad 1 [/External_Connectors/CoilZ-] of D1207 on B.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)
+    Rule: Pad to Silkscreen; warning
+    @(173.0000 mm, 148.8600 mm): Segment of D1207 on B.Silkscreen
+    @(173.1700 mm, 151.0000 mm): Pad 1 [/External_Connectors/CoilZ-] of D1207 on B.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)
+    Rule: Pad to Silkscreen; warning
+    @(180.2000 mm, 148.8600 mm): Segment of D1207 on B.Silkscreen
+    @(180.0300 mm, 151.0000 mm): Pad 2 [GND] of D1207 on B.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)
+    Rule: Pad to Silkscreen; warning
+    @(180.2000 mm, 154.1100 mm): Segment of D1207 on B.Silkscreen
+    @(180.0300 mm, 151.0000 mm): Pad 2 [GND] of D1207 on B.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)
+    Rule: Pad to Silkscreen; warning
+    @(158.0000 mm, 147.8900 mm): Segment of D1206 on B.Silkscreen
+    @(158.1700 mm, 151.0000 mm): Pad 2 [GND] of D1206 on B.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)
+    Rule: Pad to Silkscreen; warning
+    @(158.0000 mm, 153.1400 mm): Segment of D1206 on B.Silkscreen
+    @(158.1700 mm, 151.0000 mm): Pad 2 [GND] of D1206 on B.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)
+    Rule: Pad to Silkscreen; warning
+    @(165.2000 mm, 147.8900 mm): Segment of D1206 on B.Silkscreen
+    @(165.0300 mm, 151.0000 mm): Pad 1 [/CurrentSense_CoilZ/Icoil2] of D1206 on B.Cu
+[silk_overlap]: Silkscreen clearance (rule 'Pad to Silkscreen' clearance 0.1500 mm; actual 0.1050 mm)
+    Rule: Pad to Silkscreen; warning
+    @(165.2000 mm, 153.1400 mm): Segment of D1206 on B.Silkscreen
+    @(165.0300 mm, 151.0000 mm): Pad 1 [/CurrentSense_CoilZ/Icoil2] of D1206 on B.Cu
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - PTH inside courtyard
+    - NPTH inside courtyard
+
+** End of Report **

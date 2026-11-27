@@ -1,0 +1,4354 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-27T04:11:55",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.6",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/da5a1e6a-2605-436b-a30c-1027586d5c0a",
+            "violations": [
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Hierarchical Sheet Pin 'AVDD'",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 0.3937
+                            },
+                            "uuid": "b5025371-0f7d-4514-a4a5-081d1d76548f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Hierarchical Sheet Pin 'E5V'",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 0.4191
+                            },
+                            "uuid": "2df06344-fe59-4114-8054-a75c955f4e18"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Hierarchical Sheet Pin 'IOREF'",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 0.4445
+                            },
+                            "uuid": "70234e96-1146-46e8-ae88-cb4c19100fb0"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Hierarchical Sheet Pin 'PA13'",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 0.5207
+                            },
+                            "uuid": "eaa0bfcd-2177-4b4a-baaf-53a935b7f7da"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Hierarchical Sheet Pin 'PA14'",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 0.5461
+                            },
+                            "uuid": "1fa398ae-dbed-4bc8-b922-b328c0ed4169"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Hierarchical Sheet Pin 'PA2'",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 0.5969
+                            },
+                            "uuid": "52fcaeba-7d3c-4cc2-9767-73058b2e6286"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Hierarchical Sheet Pin 'PA3'",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 0.6223
+                            },
+                            "uuid": "070176db-6712-46c2-be6e-55ec61d8361b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Hierarchical Sheet Pin 'BOOT0'",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 0.9017
+                            },
+                            "uuid": "e030d33a-8215-46e9-b718-e043d40b08ec"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Hierarchical Sheet Pin 'PB8-BOOT0'",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 0.9271
+                            },
+                            "uuid": "7c268576-3045-4228-9a68-d5bf51c4b71d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Hierarchical Sheet Pin 'PC13'",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 1.0287
+                            },
+                            "uuid": "df05736d-e9ce-4f01-9bfb-6eec2a9603a7"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Hierarchical Sheet Pin 'PC14'",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 1.0541
+                            },
+                            "uuid": "c5941e7a-bd6d-4e07-ae9d-8a44d42e72c5"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Hierarchical Sheet Pin 'PC15'",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 1.0795
+                            },
+                            "uuid": "43e24bf8-a2df-4f85-b847-f66254f4dbe6"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Hierarchical Sheet Pin 'PF0'",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 1.2827
+                            },
+                            "uuid": "f9df9af3-ef40-4af9-a955-9c331f14f551"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Hierarchical Sheet Pin 'PF1'",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 1.3081
+                            },
+                            "uuid": "74106b12-6cbd-491f-820a-47e30fcbe355"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Hierarchical Sheet Pin 'U5V'",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 1.3335
+                            },
+                            "uuid": "1c5b8e5d-2e82-491a-be5e-777172b2886a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Hierarchical Sheet Pin 'VBAT'",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 1.3589
+                            },
+                            "uuid": "0d7d3f52-5c1f-4930-a303-0fd941293659"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Hierarchical Sheet Pin 'VDD'",
+                            "pos": {
+                                "x": 0.3556,
+                                "y": 1.3843
+                            },
+                            "uuid": "02b7fa7d-3766-41c1-a4b8-3750d58081c5"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR1301 [GND]",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 0.8763
+                            },
+                            "uuid": "0b80f996-5185-43f8-9cd1-461bb0f38507"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR1308 [GND]",
+                            "pos": {
+                                "x": 1.1938,
+                                "y": 0.889
+                            },
+                            "uuid": "ec317d87-0b04-44b8-852c-babffc2b2ec0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0201 [GND]",
+                            "pos": {
+                                "x": 0.762,
+                                "y": 0.5588
+                            },
+                            "uuid": "15c8791f-b2dc-49a7-8518-86c65bdb849a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Hierarchical Label 'VDD'",
+                            "pos": {
+                                "x": 0.889,
+                                "y": 0.3683
+                            },
+                            "uuid": "add66c88-b363-4dd9-831d-6cfc03c07713"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Hierarchical Label 'BOOT0'",
+                            "pos": {
+                                "x": 0.889,
+                                "y": 0.3937
+                            },
+                            "uuid": "55bdf92b-b407-41ef-80ba-95436cf24a07"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Hierarchical Label 'PA13'",
+                            "pos": {
+                                "x": 0.889,
+                                "y": 0.4699
+                            },
+                            "uuid": "d3ac1334-c9de-43e2-a877-76fdecf8a575"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Hierarchical Label 'PA14'",
+                            "pos": {
+                                "x": 0.889,
+                                "y": 0.4953
+                            },
+                            "uuid": "273b7263-56d5-4126-8fd2-6cc84bee81c9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Hierarchical Label 'PC13'",
+                            "pos": {
+                                "x": 0.889,
+                                "y": 0.5969
+                            },
+                            "uuid": "0b045e57-0d40-46cb-9a51-75179c17e67e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Hierarchical Label 'PC14'",
+                            "pos": {
+                                "x": 0.889,
+                                "y": 0.6223
+                            },
+                            "uuid": "4c6495b3-0879-4f7f-9d7e-4c7a3ca7201b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Hierarchical Label 'PC15'",
+                            "pos": {
+                                "x": 0.889,
+                                "y": 0.6477
+                            },
+                            "uuid": "fcc84774-84da-4545-a545-cbdc3109a828"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Hierarchical Label 'PF0'",
+                            "pos": {
+                                "x": 0.889,
+                                "y": 0.6731
+                            },
+                            "uuid": "da17cd41-1fed-4a3a-8ee3-b53c02cdf9a7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Hierarchical Label 'PF1'",
+                            "pos": {
+                                "x": 0.889,
+                                "y": 0.6985
+                            },
+                            "uuid": "75edd4c2-3643-4965-8caf-a6131301a0cd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Hierarchical Label 'VBAT'",
+                            "pos": {
+                                "x": 0.889,
+                                "y": 0.7239
+                            },
+                            "uuid": "5896a39a-72c0-46d1-bb03-abfe0be5b3e4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Hierarchical Label 'IOREF'",
+                            "pos": {
+                                "x": 1.1303,
+                                "y": 0.4445
+                            },
+                            "uuid": "bf56bad0-c1b5-4254-95e5-f90bac78dd3e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Hierarchical Label '~{RST}'",
+                            "pos": {
+                                "x": 1.1303,
+                                "y": 0.4699
+                            },
+                            "uuid": "bf5e4979-e707-4067-8b13-321d0dee2bf0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0202 Hidden pin 1 [+3V3, Power input, Line]",
+                            "pos": {
+                                "x": 1.21285,
+                                "y": 0.4826
+                            },
+                            "uuid": "92b2a1d5-2133-4aeb-b1ae-2806d35e6708"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol '+3V3' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0202 [+3V3]",
+                            "pos": {
+                                "x": 1.21285,
+                                "y": 0.4826
+                            },
+                            "uuid": "9180ef4f-eae3-4991-a340-92b6ac37dc40"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0127 mm",
+                            "pos": {
+                                "x": 1.21285,
+                                "y": 0.4953
+                            },
+                            "uuid": "0ed20f94-edbe-47fe-9bac-89e337ed331b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.1080 mm",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 0.4953
+                            },
+                            "uuid": "a725faf1-9658-40a3-bcfa-1d96f3ca8501"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0203 [GND]",
+                            "pos": {
+                                "x": 1.27,
+                                "y": 0.5715
+                            },
+                            "uuid": "b8a76448-b146-4cf3-902d-0203740972cc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0204 Hidden pin 1 [+5V, Power input, Line]",
+                            "pos": {
+                                "x": 1.27635,
+                                "y": 0.4826
+                            },
+                            "uuid": "95b87a01-d8dc-4de1-9d31-5cf9072921b8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol '+5V' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0204 [+5V]",
+                            "pos": {
+                                "x": 1.27635,
+                                "y": 0.4826
+                            },
+                            "uuid": "061e338c-701b-47f9-8f31-0a50caba0a39"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Horizontal Wire, length 0.1714 mm",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 0.5207
+                            },
+                            "uuid": "578fe32a-af2f-4151-9d7d-a49a69a45d27"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol pin or wire end off connection grid",
+                    "items": [
+                        {
+                            "description": "Vertical Wire, length 0.0381 mm",
+                            "pos": {
+                                "x": 1.27635,
+                                "y": 0.5207
+                            },
+                            "uuid": "931b4e67-3a20-45ba-bcba-d5d28d1c853f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "endpoint_off_grid"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0205 [GND]",
+                            "pos": {
+                                "x": 1.3335,
+                                "y": 0.4191
+                            },
+                            "uuid": "d154d85e-8410-4167-b598-4fc22f8dbb4a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0207 [GND]",
+                            "pos": {
+                                "x": 1.3335,
+                                "y": 0.7493
+                            },
+                            "uuid": "17b94a3a-1e03-4772-9252-9d1b016a5be0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0208 [GND]",
+                            "pos": {
+                                "x": 2.1463,
+                                "y": 0.4445
+                            },
+                            "uuid": "cfa3bc1b-86f9-4fcb-b164-e50a458317f5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Hierarchical Label 'PB8-BOOT0'",
+                            "pos": {
+                                "x": 2.2606,
+                                "y": 0.3429
+                            },
+                            "uuid": "52c79051-2668-4a73-a724-b262b73ce267"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Hierarchical Label 'AVDD'",
+                            "pos": {
+                                "x": 2.2606,
+                                "y": 0.3937
+                            },
+                            "uuid": "793af92d-ae2e-4083-ad82-d96388461763"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Hierarchical Label 'PA2'",
+                            "pos": {
+                                "x": 2.2606,
+                                "y": 0.7493
+                            },
+                            "uuid": "9a46137f-dbc2-4a59-bf0c-10cecacccb5b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Hierarchical Label 'PA3'",
+                            "pos": {
+                                "x": 2.2606,
+                                "y": 0.7747
+                            },
+                            "uuid": "e2faef32-3984-499f-b218-5758c86fde0b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Hierarchical Label 'U5V'",
+                            "pos": {
+                                "x": 2.5273,
+                                "y": 0.3937
+                            },
+                            "uuid": "6040edf2-5639-4cb8-a64f-ba41c2fa9c8b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0209 [GND]",
+                            "pos": {
+                                "x": 2.6416,
+                                "y": 0.5588
+                            },
+                            "uuid": "90658c0a-80ae-4f63-b991-8dbfc40d1124"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GNDA' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0210 [GNDA]",
+                            "pos": {
+                                "x": 2.6416,
+                                "y": 0.7112
+                            },
+                            "uuid": "a8e2eeb0-32ad-433c-808c-7dcdc282290c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0113 [GND]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 0.9906
+                            },
+                            "uuid": "b526382f-a380-4e33-9a76-7a70a4ef2d2d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0114 [GND]",
+                            "pos": {
+                                "x": 0.8128,
+                                "y": 0.9906
+                            },
+                            "uuid": "626a7df3-adde-411d-ba72-541d59f0cc9d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0115 [GND]",
+                            "pos": {
+                                "x": 1.0668,
+                                "y": 0.9906
+                            },
+                            "uuid": "1daef9f6-bceb-4026-8363-b15ea47dcb95"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0102 [GND]",
+                            "pos": {
+                                "x": 1.8034,
+                                "y": 0.5842
+                            },
+                            "uuid": "e48ab9c4-4ba1-42d3-b759-ae9455c23187"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0106 [GND]",
+                            "pos": {
+                                "x": 1.8415,
+                                "y": 1.4097
+                            },
+                            "uuid": "dc7b62af-391c-475f-beb4-7387293d34c4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0103 [GND]",
+                            "pos": {
+                                "x": 1.8923,
+                                "y": 0.6731
+                            },
+                            "uuid": "3091f73b-11b0-40f3-bb3e-ff6b5562b6d6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0104 [GND]",
+                            "pos": {
+                                "x": 2.1717,
+                                "y": 0.8128
+                            },
+                            "uuid": "e53fc2f5-c0d5-4aed-b866-d13f95dfc29f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0231 [GND]",
+                            "pos": {
+                                "x": 0.7493,
+                                "y": 1.1303
+                            },
+                            "uuid": "5398b6a4-fc51-4c77-8ca9-d3aa57bb7209"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0232 [GND]",
+                            "pos": {
+                                "x": 0.8763,
+                                "y": 1.1303
+                            },
+                            "uuid": "9add36b0-8581-43f6-a6eb-4038bb8be8ed"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0234 [GND]",
+                            "pos": {
+                                "x": 1.3081,
+                                "y": 0.9398
+                            },
+                            "uuid": "670c17fe-083a-4feb-aeb4-a4e30a24498a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0235 [GND]",
+                            "pos": {
+                                "x": 2.0193,
+                                "y": 1.1303
+                            },
+                            "uuid": "7946388b-f081-4ab4-bd91-024fc064e787"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0236 [GND]",
+                            "pos": {
+                                "x": 2.1463,
+                                "y": 1.1303
+                            },
+                            "uuid": "061973a5-097f-4c7d-b3ae-be5fc685592d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol '+3V3' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0213 [+3V3]",
+                            "pos": {
+                                "x": 0.5715,
+                                "y": 1.0922
+                            },
+                            "uuid": "6e0a53c6-360f-4dab-9755-db17e25fa0d8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0212 [GND]",
+                            "pos": {
+                                "x": 0.7239,
+                                "y": 0.5715
+                            },
+                            "uuid": "0a2a22bf-6126-447f-9f13-f1500f71de3b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0218 [GND]",
+                            "pos": {
+                                "x": 0.7239,
+                                "y": 0.6223
+                            },
+                            "uuid": "69a17d7c-7572-4c9d-94a4-ae2a34db9e9b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0219 [GND]",
+                            "pos": {
+                                "x": 0.7239,
+                                "y": 0.6731
+                            },
+                            "uuid": "a13a082e-86f2-4c58-a4ad-57192ad919b4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0214 [GND]",
+                            "pos": {
+                                "x": 0.7747,
+                                "y": 1.2954
+                            },
+                            "uuid": "191d5d47-f1ca-431f-b790-87f8ddbab364"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0215 [GND]",
+                            "pos": {
+                                "x": 0.9144,
+                                "y": 1.2954
+                            },
+                            "uuid": "2c08442c-8337-4a7c-987a-97fe49031dd8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol '+3V3' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0216 [+3V3]",
+                            "pos": {
+                                "x": 1.6637,
+                                "y": 0.5334
+                            },
+                            "uuid": "8548489e-4b4b-47cc-b5e4-b29804305f55"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                },
+                {
+                    "description": "Symbol 'GND' doesn't match copy in library 'power'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0217 [GND]",
+                            "pos": {
+                                "x": 1.6637,
+                                "y": 0.6858
+                            },
+                            "uuid": "ea7f0a5b-d2d3-4f1f-a8b6-919614b1492e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                }
+            ]
+        },
+        {
+            "path": "/Nucleo_G474RE/",
+            "uuid_path": "/da5a1e6a-2605-436b-a30c-1027586d5c0a/008a0aa4-0abb-4344-ae13-e1bf04066029",
+            "violations": [
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J201 Pin 9 [Pin_9, Passive, Line]",
+                            "pos": {
+                                "x": 0.9779,
+                                "y": 0.4191
+                            },
+                            "uuid": "758b04a7-2909-443f-a3b2-8b2273d1d3cf"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J201 Pin 11 [Pin_11, Passive, Line]",
+                            "pos": {
+                                "x": 0.9779,
+                                "y": 0.4445
+                            },
+                            "uuid": "bf947fb0-c565-472c-98d7-a5574f0421ec"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J201 Pin 10 [Pin_10, Passive, Line]",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 0.4191
+                            },
+                            "uuid": "cdb463d9-33b5-4afc-8412-04e8402e9f87"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J201 Pin 26 [Pin_26, Passive, Line]",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 0.6223
+                            },
+                            "uuid": "3a45936a-f122-4636-bfaa-afef599e1fe8"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Hierarchical label ~{RST} has no matching sheet pin in the parent sheet",
+                    "items": [
+                        {
+                            "description": "Hierarchical Label '~{RST}'",
+                            "pos": {
+                                "x": 1.1303,
+                                "y": 0.4699
+                            },
+                            "uuid": "bf5e4979-e707-4067-8b13-321d0dee2bf0"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "hier_label_mismatch"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0202 Hidden pin 1 [+3V3, Power input, Line]",
+                            "pos": {
+                                "x": 1.21285,
+                                "y": 0.4826
+                            },
+                            "uuid": "92b2a1d5-2133-4aeb-b1ae-2806d35e6708"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0204 Hidden pin 1 [+5V, Power input, Line]",
+                            "pos": {
+                                "x": 1.27635,
+                                "y": 0.4826
+                            },
+                            "uuid": "95b87a01-d8dc-4de1-9d31-5cf9072921b8"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J202 Pin 10 [Pin_10, Passive, Line]",
+                            "pos": {
+                                "x": 2.4765,
+                                "y": 0.4191
+                            },
+                            "uuid": "55a3937c-d2a2-4751-b26f-9e881e1da3ab"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J202 Pin 36 [Pin_36, Passive, Line]",
+                            "pos": {
+                                "x": 2.4765,
+                                "y": 0.7493
+                            },
+                            "uuid": "6adec796-fa54-4dda-a914-245dc7f83054"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Pin not connected",
+                    "items": [
+                        {
+                            "description": "Symbol J202 Pin 38 [Pin_38, Passive, Line]",
+                            "pos": {
+                                "x": 2.4765,
+                                "y": 0.7747
+                            },
+                            "uuid": "b2f13df5-ba1c-4e7c-a29c-73c7c2d051dc"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_connected"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0210 Hidden pin 1 [GNDA, Power input, Line]",
+                            "pos": {
+                                "x": 2.6416,
+                                "y": 0.7112
+                            },
+                            "uuid": "601e895a-58e7-4644-8b06-210d6802d8b8"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/Power_TestPoints/",
+            "uuid_path": "/da5a1e6a-2605-436b-a30c-1027586d5c0a/40fc9f2b-fbf6-44a0-a232-eaa46ab64621",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0101 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.7145,
+                                "y": 0.508
+                            },
+                            "uuid": "c9cdc6be-1c68-4284-9197-3f89e9e572c6"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0102 Hidden pin 1 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 1.8034,
+                                "y": 0.5842
+                            },
+                            "uuid": "3041df9d-63e4-45ac-ad37-5ad0af983c4c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR0105 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 2.2733,
+                                "y": 0.7366
+                            },
+                            "uuid": "a247f7fa-84d9-40d9-8735-9e2906167df1"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Pins of type Unspecified and Output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol TP1 Pin 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 0.6096
+                            },
+                            "uuid": "a6a04244-aed6-46f5-9d98-f95736677513"
+                        },
+                        {
+                            "description": "Symbol U601 Pin 5 [Output, Line]",
+                            "pos": {
+                                "x": 1.5494,
+                                "y": 0.9652
+                            },
+                            "uuid": "6753b158-1985-4f09-8cd8-dddd7c062f93"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol TP5 Pin 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 0.7366
+                            },
+                            "uuid": "c2ebe466-b628-4ff6-9e0e-f9361792f2ff"
+                        },
+                        {
+                            "description": "Symbol U301 Pin 8 [8PH/IN2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.8763
+                            },
+                            "uuid": "f223df03-942e-4f23-82df-1a16077b8178"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol TP9 Pin 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 0.8636
+                            },
+                            "uuid": "80838d1d-3d66-4d9a-8288-1022a179a642"
+                        },
+                        {
+                            "description": "Symbol U501 Pin 8 [8PH/IN2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.8763
+                            },
+                            "uuid": "f223df03-942e-4f23-82df-1a16077b8178"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Power input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol TP13 Pin 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 0.9906
+                            },
+                            "uuid": "7a3bd0d1-b637-458f-a45a-84db3edbdd94"
+                        },
+                        {
+                            "description": "Symbol #PWR0113 Hidden pin 1 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 0.9906
+                            },
+                            "uuid": "da78dbd0-11ee-4a42-bda3-f75f4d541c4a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol TP2 Pin 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 0.8128,
+                                "y": 0.6096
+                            },
+                            "uuid": "e262870a-46ac-4cdb-8d9d-b99de21a819a"
+                        },
+                        {
+                            "description": "Symbol U701 Pin 5 [Output, Line]",
+                            "pos": {
+                                "x": 1.5494,
+                                "y": 0.9652
+                            },
+                            "uuid": "6753b158-1985-4f09-8cd8-dddd7c062f93"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol TP6 Pin 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 0.8128,
+                                "y": 0.7366
+                            },
+                            "uuid": "bba3f328-b883-497f-9118-e7650959d25f"
+                        },
+                        {
+                            "description": "Symbol U301 Pin 7 [7EN/IN1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.8509
+                            },
+                            "uuid": "64b5d4ff-2bb5-4cce-b9a9-8d598be63109"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol TP10 Pin 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 0.8128,
+                                "y": 0.8636
+                            },
+                            "uuid": "517113b7-fa95-49d1-82ea-2fb7e85c9333"
+                        },
+                        {
+                            "description": "Symbol U501 Pin 7 [7EN/IN1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.8509
+                            },
+                            "uuid": "64b5d4ff-2bb5-4cce-b9a9-8d598be63109"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Power input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol TP14 Pin 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 0.8128,
+                                "y": 0.9906
+                            },
+                            "uuid": "072e4743-3328-466b-a6f1-afc6209a78dc"
+                        },
+                        {
+                            "description": "Symbol #PWR0114 Hidden pin 1 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 0.8128,
+                                "y": 0.9906
+                            },
+                            "uuid": "01732f09-3fcf-4ed3-a7f7-9c9de57b4085"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Output are connected",
+                    "items": [
+                        {
+                            "description": "Symbol TP3 Pin 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.0668,
+                                "y": 0.6096
+                            },
+                            "uuid": "d83dcff4-5a0c-4272-a12b-8237bd9e3c98"
+                        },
+                        {
+                            "description": "Symbol U801 Pin 5 [Output, Line]",
+                            "pos": {
+                                "x": 1.5494,
+                                "y": 0.9652
+                            },
+                            "uuid": "6753b158-1985-4f09-8cd8-dddd7c062f93"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol TP7 Pin 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.0668,
+                                "y": 0.7366
+                            },
+                            "uuid": "03e78d0a-8252-456d-874f-36cb3c372533"
+                        },
+                        {
+                            "description": "Symbol U401 Pin 8 [8PH/IN2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.8763
+                            },
+                            "uuid": "f223df03-942e-4f23-82df-1a16077b8178"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol TP11 Pin 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.0668,
+                                "y": 0.8636
+                            },
+                            "uuid": "029b24ec-a9f2-44cf-a477-b23889cb042d"
+                        },
+                        {
+                            "description": "Symbol U501 Pin 3 [3SDO, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.7493
+                            },
+                            "uuid": "ca721328-bb28-42ca-a9e1-104a987ff0b0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Power input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol TP15 Pin 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.0668,
+                                "y": 0.9906
+                            },
+                            "uuid": "45905f90-8725-4855-b737-cab4d7704a8f"
+                        },
+                        {
+                            "description": "Symbol #PWR0115 Hidden pin 1 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 1.0668,
+                                "y": 0.9906
+                            },
+                            "uuid": "f0677f20-2689-4021-bf43-9e5963eeb45b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol TP4 Pin 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.3208,
+                                "y": 0.6096
+                            },
+                            "uuid": "90b44473-212d-4647-bccf-7f1ea09da279"
+                        },
+                        {
+                            "description": "Symbol U501 Pin 5 [5SCLK, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.8001
+                            },
+                            "uuid": "43387b33-517f-4068-9137-846e6b683cf0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol TP8 Pin 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.3208,
+                                "y": 0.7366
+                            },
+                            "uuid": "6f66e55a-98ba-4ed8-94e5-fb5af0386144"
+                        },
+                        {
+                            "description": "Symbol U401 Pin 7 [7EN/IN1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.8509
+                            },
+                            "uuid": "64b5d4ff-2bb5-4cce-b9a9-8d598be63109"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol TP12 Pin 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.3208,
+                                "y": 0.8636
+                            },
+                            "uuid": "a1a760f8-e3fe-47fe-9d50-e03f92cf5543"
+                        },
+                        {
+                            "description": "Symbol U501 Pin 4 [4SDI, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.7747
+                            },
+                            "uuid": "b9d0cd37-22c7-4a0c-a6ca-f228c953bbeb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U101 Pin 1 [VIN, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.9558,
+                                "y": 0.5842
+                            },
+                            "uuid": "73258735-6840-49d1-9904-553a873afeef"
+                        },
+                        {
+                            "description": "Symbol C101 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 1.8034,
+                                "y": 0.508
+                            },
+                            "uuid": "5a2b0f97-7ba7-4b7b-82e4-d5cdc12242e6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Power input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U101 Pin 2 [GND, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.9558,
+                                "y": 0.6096
+                            },
+                            "uuid": "da747651-d46f-4a7c-acaf-dfb423f5633a"
+                        },
+                        {
+                            "description": "Symbol #PWR0103 Hidden pin 1 [GND, Power input, Line]",
+                            "pos": {
+                                "x": 1.8923,
+                                "y": 0.6731
+                            },
+                            "uuid": "437f3919-e897-495c-ac8a-c996b3a88024"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U101 Pin 3 [+VO, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.9558,
+                                "y": 0.635
+                            },
+                            "uuid": "6088dc74-3606-456a-b7a4-f07fb47c56aa"
+                        },
+                        {
+                            "description": "Symbol C102 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 2.1717,
+                                "y": 0.7366
+                            },
+                            "uuid": "773f22a4-c0b1-46ef-881c-947685eef469"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                }
+            ]
+        },
+        {
+            "path": "/HBridge_CoilX/",
+            "uuid_path": "/da5a1e6a-2605-436b-a30c-1027586d5c0a/dcdfd9d8-a9f5-4430-a96e-6e68f170d674",
+            "violations": [
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U301 Pin 1 [1DVDD, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.6985
+                            },
+                            "uuid": "adaedecd-5cf4-4da1-9b3f-1c7066b8108c"
+                        },
+                        {
+                            "description": "Symbol C301 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 1.0795,
+                                "y": 0.5461
+                            },
+                            "uuid": "dc10c346-81da-4865-a6b0-7ad3dc833cf4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U301 Pin 2 [2nFAULT, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.7239
+                            },
+                            "uuid": "dbfc20fb-b3e1-4a8c-82e9-95a67eea64c7"
+                        },
+                        {
+                            "description": "Symbol R301 Pin 2 [Passive, Line]",
+                            "pos": {
+                                "x": 0.8255,
+                                "y": 0.6858
+                            },
+                            "uuid": "77eca23c-42ac-47eb-aa54-47492b2d17e5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U301 Pin 3 [3SDO, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.7493
+                            },
+                            "uuid": "ca721328-bb28-42ca-a9e1-104a987ff0b0"
+                        },
+                        {
+                            "description": "Symbol U501 Pin 3 [3SDO, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.7493
+                            },
+                            "uuid": "ca721328-bb28-42ca-a9e1-104a987ff0b0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U301 Pin 4 [4SDI, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.7747
+                            },
+                            "uuid": "b9d0cd37-22c7-4a0c-a6ca-f228c953bbeb"
+                        },
+                        {
+                            "description": "Symbol U501 Pin 4 [4SDI, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.7747
+                            },
+                            "uuid": "b9d0cd37-22c7-4a0c-a6ca-f228c953bbeb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U301 Pin 5 [5SCLK, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.8001
+                            },
+                            "uuid": "43387b33-517f-4068-9137-846e6b683cf0"
+                        },
+                        {
+                            "description": "Symbol U501 Pin 5 [5SCLK, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.8001
+                            },
+                            "uuid": "43387b33-517f-4068-9137-846e6b683cf0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U301 Pin 6 [6nSCS, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.8255
+                            },
+                            "uuid": "26994b95-d1ee-4570-b19c-383ce8dd54f3"
+                        },
+                        {
+                            "description": "Symbol J202 Pin 18 [Pin_18, Passive, Line]",
+                            "pos": {
+                                "x": 2.4765,
+                                "y": 0.5207
+                            },
+                            "uuid": "e6a781f2-b2c0-4d72-89dc-775877de8296"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U301 Pin 7 [7EN/IN1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.8509
+                            },
+                            "uuid": "64b5d4ff-2bb5-4cce-b9a9-8d598be63109"
+                        },
+                        {
+                            "description": "Symbol J202 Pin 14 [Pin_14, Passive, Line]",
+                            "pos": {
+                                "x": 2.4765,
+                                "y": 0.4699
+                            },
+                            "uuid": "ecedfcd0-71a3-40cf-8754-d13cb392ae98"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U301 Pin 8 [8PH/IN2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.8763
+                            },
+                            "uuid": "f223df03-942e-4f23-82df-1a16077b8178"
+                        },
+                        {
+                            "description": "Symbol J202 Pin 21 [Pin_21, Passive, Line]",
+                            "pos": {
+                                "x": 2.3495,
+                                "y": 0.5715
+                            },
+                            "uuid": "0f63f7e6-7704-4949-981f-7a274f984f78"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U301 Pin 9 [9DISABLE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.9017
+                            },
+                            "uuid": "a3fd1544-0d51-437e-95fb-fe24cf8e1bd3"
+                        },
+                        {
+                            "description": "Symbol U501 Pin 9 [9DISABLE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.9017
+                            },
+                            "uuid": "a3fd1544-0d51-437e-95fb-fe24cf8e1bd3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U301 Pin 10 [10IPROPL, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.9271
+                            },
+                            "uuid": "7b706d42-2267-458e-a098-4433c126ef67"
+                        },
+                        {
+                            "description": "Symbol U301 Pin 12 [12IPROPI2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.9779
+                            },
+                            "uuid": "01345de6-a87b-4ec9-b47b-14588dbe0302"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U301 Pin 11 [11NSLEEP, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.9525
+                            },
+                            "uuid": "aa0e35cb-1e40-44bd-bb58-2e64b00852cb"
+                        },
+                        {
+                            "description": "Symbol R302 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 0.9779,
+                                "y": 0.9525
+                            },
+                            "uuid": "bba91e32-40e1-4722-858c-f4ac94cbb346"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U301 Pin 12 [12IPROPI2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.9779
+                            },
+                            "uuid": "01345de6-a87b-4ec9-b47b-14588dbe0302"
+                        },
+                        {
+                            "description": "Symbol R303 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 1.2065,
+                                "y": 1.0287
+                            },
+                            "uuid": "e1060d32-d6da-4466-8868-5b1c8b17c488"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Power input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U301 Pin 25 [EP, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.4224,
+                                "y": 0.6223
+                            },
+                            "uuid": "e6505c4d-cba8-4974-b931-f2d781660e4f"
+                        },
+                        {
+                            "description": "Symbol #PWR0306 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.4859,
+                                "y": 0.6223
+                            },
+                            "uuid": "c3ceb24c-aa06-4506-aa8c-4c0f1bb9028d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Power input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U301 Pin 24 [24GND, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.6985
+                            },
+                            "uuid": "bcdc9218-f2cc-4618-a1d4-d0d6908f42f1"
+                        },
+                        {
+                            "description": "Symbol #PWR0306 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.4859,
+                                "y": 0.6223
+                            },
+                            "uuid": "c3ceb24c-aa06-4506-aa8c-4c0f1bb9028d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U301 Pin 23 [23CPL, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.7239
+                            },
+                            "uuid": "10ab73f3-9f85-4723-8762-1281fea7b4b9"
+                        },
+                        {
+                            "description": "Symbol C303 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 1.7399,
+                                "y": 0.6731
+                            },
+                            "uuid": "4bf9c1b6-51fe-4f38-ad59-08ad6c7f7605"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U301 Pin 22 [22CPH, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.7493
+                            },
+                            "uuid": "2bf45c5a-2b21-464c-8772-ba92babdaa4e"
+                        },
+                        {
+                            "description": "Symbol C303 Pin 2 [Passive, Line]",
+                            "pos": {
+                                "x": 1.7399,
+                                "y": 0.7493
+                            },
+                            "uuid": "2efb4531-9f24-4a09-8af7-668127cf96c3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U301 Pin 21 [21VCP, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.7747
+                            },
+                            "uuid": "c16ca138-9a1d-4b62-8bc2-1a8f684712d2"
+                        },
+                        {
+                            "description": "Symbol C304 Pin 2 [Passive, Line]",
+                            "pos": {
+                                "x": 1.9431,
+                                "y": 0.7747
+                            },
+                            "uuid": "4c6aaaa9-05e6-45b6-bfea-8f2b25c1dd75"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U301 Pin 20 [20VM, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.8001
+                            },
+                            "uuid": "42f7ad7f-35af-44e2-9a85-c5f41daf51d7"
+                        },
+                        {
+                            "description": "Symbol C302 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 1.7145,
+                                "y": 1.0541
+                            },
+                            "uuid": "fbb7199b-6cae-4e2f-9c89-440b33306d78"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U301 Pin 19 [19OUT1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.8255
+                            },
+                            "uuid": "bec126af-1168-4af9-83c2-daf566a6683e"
+                        },
+                        {
+                            "description": "Symbol R1205 Pin 2 [Passive, Line]",
+                            "pos": {
+                                "x": 0.8636,
+                                "y": 1.4732
+                            },
+                            "uuid": "040485da-f3c1-427a-a1ac-bd018bf9dcfd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U301 Pin 18 [18OUT1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.8509
+                            },
+                            "uuid": "1552bbcb-450c-4187-b00d-2b62150a6470"
+                        },
+                        {
+                            "description": "Symbol U301 Pin 19 [19OUT1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.8255
+                            },
+                            "uuid": "bec126af-1168-4af9-83c2-daf566a6683e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U301 Pin 17 [17SRC, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.8763
+                            },
+                            "uuid": "1f0fa696-ddee-44d0-addc-97073c0aa258"
+                        },
+                        {
+                            "description": "Symbol U301 Pin 24 [24GND, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.6985
+                            },
+                            "uuid": "bcdc9218-f2cc-4618-a1d4-d0d6908f42f1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U301 Pin 16 [16SRC, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.9017
+                            },
+                            "uuid": "1330bdca-a7a5-414a-8c86-ac87c7eb0fdf"
+                        },
+                        {
+                            "description": "Symbol U301 Pin 17 [17SRC, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.8763
+                            },
+                            "uuid": "1f0fa696-ddee-44d0-addc-97073c0aa258"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U301 Pin 14 [14OUT2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.9525
+                            },
+                            "uuid": "a0587207-fd00-4aaf-a95f-d72bc22806aa"
+                        },
+                        {
+                            "description": "Symbol U301 Pin 15 [15OUT2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.9271
+                            },
+                            "uuid": "6078cb6e-d25c-400a-aa39-3e507ad687e2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U301 Pin 13 [13VM, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.9779
+                            },
+                            "uuid": "fb85140f-9f01-4a2f-8575-5608cf9e5e1f"
+                        },
+                        {
+                            "description": "Symbol C302 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 1.7145,
+                                "y": 1.0541
+                            },
+                            "uuid": "fbb7199b-6cae-4e2f-9c89-440b33306d78"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                }
+            ]
+        },
+        {
+            "path": "/HBridge_CoilY/",
+            "uuid_path": "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2634befd-172e-4560-88ca-90378e166481",
+            "violations": [
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U401 Pin 1 [1DVDD, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.6985
+                            },
+                            "uuid": "adaedecd-5cf4-4da1-9b3f-1c7066b8108c"
+                        },
+                        {
+                            "description": "Symbol C401 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 1.0795,
+                                "y": 0.5461
+                            },
+                            "uuid": "dc10c346-81da-4865-a6b0-7ad3dc833cf4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U401 Pin 2 [2nFAULT, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.7239
+                            },
+                            "uuid": "dbfc20fb-b3e1-4a8c-82e9-95a67eea64c7"
+                        },
+                        {
+                            "description": "Symbol R401 Pin 2 [Passive, Line]",
+                            "pos": {
+                                "x": 0.8255,
+                                "y": 0.6858
+                            },
+                            "uuid": "77eca23c-42ac-47eb-aa54-47492b2d17e5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U401 Pin 3 [3SDO, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.7493
+                            },
+                            "uuid": "ca721328-bb28-42ca-a9e1-104a987ff0b0"
+                        },
+                        {
+                            "description": "Symbol U501 Pin 3 [3SDO, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.7493
+                            },
+                            "uuid": "ca721328-bb28-42ca-a9e1-104a987ff0b0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U401 Pin 4 [4SDI, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.7747
+                            },
+                            "uuid": "b9d0cd37-22c7-4a0c-a6ca-f228c953bbeb"
+                        },
+                        {
+                            "description": "Symbol U501 Pin 4 [4SDI, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.7747
+                            },
+                            "uuid": "b9d0cd37-22c7-4a0c-a6ca-f228c953bbeb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U401 Pin 5 [5SCLK, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.8001
+                            },
+                            "uuid": "43387b33-517f-4068-9137-846e6b683cf0"
+                        },
+                        {
+                            "description": "Symbol U501 Pin 5 [5SCLK, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.8001
+                            },
+                            "uuid": "43387b33-517f-4068-9137-846e6b683cf0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U401 Pin 6 [6nSCS, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.8255
+                            },
+                            "uuid": "26994b95-d1ee-4570-b19c-383ce8dd54f3"
+                        },
+                        {
+                            "description": "Symbol J202 Pin 28 [Pin_28, Passive, Line]",
+                            "pos": {
+                                "x": 2.4765,
+                                "y": 0.6477
+                            },
+                            "uuid": "6c1e6f46-cea3-4c0b-9646-5abe2aa64a9d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U401 Pin 7 [7EN/IN1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.8509
+                            },
+                            "uuid": "64b5d4ff-2bb5-4cce-b9a9-8d598be63109"
+                        },
+                        {
+                            "description": "Symbol J202 Pin 23 [Pin_23, Passive, Line]",
+                            "pos": {
+                                "x": 2.3495,
+                                "y": 0.5969
+                            },
+                            "uuid": "1c22f6a2-8891-4736-b3ab-8e6bb4963a50"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U401 Pin 8 [8PH/IN2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.8763
+                            },
+                            "uuid": "f223df03-942e-4f23-82df-1a16077b8178"
+                        },
+                        {
+                            "description": "Symbol J202 Pin 33 [Pin_33, Passive, Line]",
+                            "pos": {
+                                "x": 2.3495,
+                                "y": 0.7239
+                            },
+                            "uuid": "5b4cb255-857a-4002-aef4-000b8fe28057"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U401 Pin 9 [9DISABLE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.9017
+                            },
+                            "uuid": "a3fd1544-0d51-437e-95fb-fe24cf8e1bd3"
+                        },
+                        {
+                            "description": "Symbol U501 Pin 9 [9DISABLE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.9017
+                            },
+                            "uuid": "a3fd1544-0d51-437e-95fb-fe24cf8e1bd3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U401 Pin 10 [10IPROPL, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.9271
+                            },
+                            "uuid": "7b706d42-2267-458e-a098-4433c126ef67"
+                        },
+                        {
+                            "description": "Symbol U401 Pin 12 [12IPROPI2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.9779
+                            },
+                            "uuid": "01345de6-a87b-4ec9-b47b-14588dbe0302"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U401 Pin 11 [11NSLEEP, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.9525
+                            },
+                            "uuid": "aa0e35cb-1e40-44bd-bb58-2e64b00852cb"
+                        },
+                        {
+                            "description": "Symbol R402 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 0.9779,
+                                "y": 0.9525
+                            },
+                            "uuid": "bba91e32-40e1-4722-858c-f4ac94cbb346"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U401 Pin 12 [12IPROPI2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.9779
+                            },
+                            "uuid": "01345de6-a87b-4ec9-b47b-14588dbe0302"
+                        },
+                        {
+                            "description": "Symbol R403 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 1.2065,
+                                "y": 1.0287
+                            },
+                            "uuid": "e1060d32-d6da-4466-8868-5b1c8b17c488"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Power input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U401 Pin 25 [EP, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.4224,
+                                "y": 0.6223
+                            },
+                            "uuid": "e6505c4d-cba8-4974-b931-f2d781660e4f"
+                        },
+                        {
+                            "description": "Symbol #PWR0406 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.4859,
+                                "y": 0.6223
+                            },
+                            "uuid": "c3ceb24c-aa06-4506-aa8c-4c0f1bb9028d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Power input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U401 Pin 24 [24GND, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.6985
+                            },
+                            "uuid": "bcdc9218-f2cc-4618-a1d4-d0d6908f42f1"
+                        },
+                        {
+                            "description": "Symbol #PWR0406 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.4859,
+                                "y": 0.6223
+                            },
+                            "uuid": "c3ceb24c-aa06-4506-aa8c-4c0f1bb9028d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U401 Pin 23 [23CPL, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.7239
+                            },
+                            "uuid": "10ab73f3-9f85-4723-8762-1281fea7b4b9"
+                        },
+                        {
+                            "description": "Symbol C403 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 1.7399,
+                                "y": 0.6731
+                            },
+                            "uuid": "4bf9c1b6-51fe-4f38-ad59-08ad6c7f7605"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U401 Pin 22 [22CPH, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.7493
+                            },
+                            "uuid": "2bf45c5a-2b21-464c-8772-ba92babdaa4e"
+                        },
+                        {
+                            "description": "Symbol C403 Pin 2 [Passive, Line]",
+                            "pos": {
+                                "x": 1.7399,
+                                "y": 0.7493
+                            },
+                            "uuid": "2efb4531-9f24-4a09-8af7-668127cf96c3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U401 Pin 21 [21VCP, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.7747
+                            },
+                            "uuid": "c16ca138-9a1d-4b62-8bc2-1a8f684712d2"
+                        },
+                        {
+                            "description": "Symbol C404 Pin 2 [Passive, Line]",
+                            "pos": {
+                                "x": 1.9431,
+                                "y": 0.7747
+                            },
+                            "uuid": "4c6aaaa9-05e6-45b6-bfea-8f2b25c1dd75"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U401 Pin 20 [20VM, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.8001
+                            },
+                            "uuid": "42f7ad7f-35af-44e2-9a85-c5f41daf51d7"
+                        },
+                        {
+                            "description": "Symbol C402 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 1.7145,
+                                "y": 1.0541
+                            },
+                            "uuid": "fbb7199b-6cae-4e2f-9c89-440b33306d78"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U401 Pin 19 [19OUT1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.8255
+                            },
+                            "uuid": "bec126af-1168-4af9-83c2-daf566a6683e"
+                        },
+                        {
+                            "description": "Symbol R1207 Pin 2 [Passive, Line]",
+                            "pos": {
+                                "x": 1.7018,
+                                "y": 1.4732
+                            },
+                            "uuid": "0381af62-c184-4aee-8e32-5720811be0f3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U401 Pin 18 [18OUT1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.8509
+                            },
+                            "uuid": "1552bbcb-450c-4187-b00d-2b62150a6470"
+                        },
+                        {
+                            "description": "Symbol U401 Pin 19 [19OUT1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.8255
+                            },
+                            "uuid": "bec126af-1168-4af9-83c2-daf566a6683e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U401 Pin 17 [17SRC, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.8763
+                            },
+                            "uuid": "1f0fa696-ddee-44d0-addc-97073c0aa258"
+                        },
+                        {
+                            "description": "Symbol U401 Pin 24 [24GND, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.6985
+                            },
+                            "uuid": "bcdc9218-f2cc-4618-a1d4-d0d6908f42f1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U401 Pin 16 [16SRC, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.9017
+                            },
+                            "uuid": "1330bdca-a7a5-414a-8c86-ac87c7eb0fdf"
+                        },
+                        {
+                            "description": "Symbol U401 Pin 17 [17SRC, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.8763
+                            },
+                            "uuid": "1f0fa696-ddee-44d0-addc-97073c0aa258"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U401 Pin 14 [14OUT2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.9525
+                            },
+                            "uuid": "a0587207-fd00-4aaf-a95f-d72bc22806aa"
+                        },
+                        {
+                            "description": "Symbol U401 Pin 15 [15OUT2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.9271
+                            },
+                            "uuid": "6078cb6e-d25c-400a-aa39-3e507ad687e2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U401 Pin 13 [13VM, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.9779
+                            },
+                            "uuid": "fb85140f-9f01-4a2f-8575-5608cf9e5e1f"
+                        },
+                        {
+                            "description": "Symbol C402 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 1.7145,
+                                "y": 1.0541
+                            },
+                            "uuid": "fbb7199b-6cae-4e2f-9c89-440b33306d78"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                }
+            ]
+        },
+        {
+            "path": "/HBridge_CoilZ/",
+            "uuid_path": "/da5a1e6a-2605-436b-a30c-1027586d5c0a/16a57c3f-6b6d-45ec-b052-267fd99256d8",
+            "violations": [
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U501 Pin 1 [1DVDD, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.6985
+                            },
+                            "uuid": "adaedecd-5cf4-4da1-9b3f-1c7066b8108c"
+                        },
+                        {
+                            "description": "Symbol C501 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 1.0795,
+                                "y": 0.5461
+                            },
+                            "uuid": "dc10c346-81da-4865-a6b0-7ad3dc833cf4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U501 Pin 2 [2nFAULT, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.7239
+                            },
+                            "uuid": "dbfc20fb-b3e1-4a8c-82e9-95a67eea64c7"
+                        },
+                        {
+                            "description": "Symbol R501 Pin 2 [Passive, Line]",
+                            "pos": {
+                                "x": 0.8255,
+                                "y": 0.6858
+                            },
+                            "uuid": "77eca23c-42ac-47eb-aa54-47492b2d17e5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U501 Pin 3 [3SDO, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.7493
+                            },
+                            "uuid": "ca721328-bb28-42ca-a9e1-104a987ff0b0"
+                        },
+                        {
+                            "description": "Symbol J1302 Pin 4 [Pin_4, Passive, Line]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 0.762
+                            },
+                            "uuid": "98e3c209-ecdb-4aa6-ba6e-5271206448b3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U501 Pin 4 [4SDI, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.7747
+                            },
+                            "uuid": "b9d0cd37-22c7-4a0c-a6ca-f228c953bbeb"
+                        },
+                        {
+                            "description": "Symbol J1302 Pin 5 [Pin_5, Passive, Line]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 0.7874
+                            },
+                            "uuid": "39d64ddc-ceec-443a-b5a5-a585927e8b59"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U501 Pin 5 [5SCLK, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.8001
+                            },
+                            "uuid": "43387b33-517f-4068-9137-846e6b683cf0"
+                        },
+                        {
+                            "description": "Symbol J1302 Pin 6 [Pin_6, Passive, Line]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 0.8128
+                            },
+                            "uuid": "6b3a7eaf-44b4-4c4c-b6d1-2ceca3e48e88"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U501 Pin 6 [6nSCS, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.8255
+                            },
+                            "uuid": "26994b95-d1ee-4570-b19c-383ce8dd54f3"
+                        },
+                        {
+                            "description": "Symbol J202 Pin 12 [Pin_12, Passive, Line]",
+                            "pos": {
+                                "x": 2.4765,
+                                "y": 0.4445
+                            },
+                            "uuid": "bf66158a-b56c-45c3-87f8-9e45a6f42649"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U501 Pin 7 [7EN/IN1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.8509
+                            },
+                            "uuid": "64b5d4ff-2bb5-4cce-b9a9-8d598be63109"
+                        },
+                        {
+                            "description": "Symbol J202 Pin 19 [Pin_19, Passive, Line]",
+                            "pos": {
+                                "x": 2.3495,
+                                "y": 0.5461
+                            },
+                            "uuid": "4708570f-59e5-403b-b613-b01e74543748"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U501 Pin 8 [8PH/IN2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.8763
+                            },
+                            "uuid": "f223df03-942e-4f23-82df-1a16077b8178"
+                        },
+                        {
+                            "description": "Symbol J202 Pin 4 [Pin_4, Passive, Line]",
+                            "pos": {
+                                "x": 2.4765,
+                                "y": 0.3429
+                            },
+                            "uuid": "a1bb6f96-e83c-4c93-b76d-7690e78fbe1b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U501 Pin 9 [9DISABLE, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.9017
+                            },
+                            "uuid": "a3fd1544-0d51-437e-95fb-fe24cf8e1bd3"
+                        },
+                        {
+                            "description": "Symbol R205 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 0.6223,
+                                "y": 1.1938
+                            },
+                            "uuid": "8d43a94a-d79c-46b8-be03-568e93df8496"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U501 Pin 10 [10IPROPL, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.9271
+                            },
+                            "uuid": "7b706d42-2267-458e-a098-4433c126ef67"
+                        },
+                        {
+                            "description": "Symbol U501 Pin 12 [12IPROPI2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.9779
+                            },
+                            "uuid": "01345de6-a87b-4ec9-b47b-14588dbe0302"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U501 Pin 11 [11NSLEEP, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.9525
+                            },
+                            "uuid": "aa0e35cb-1e40-44bd-bb58-2e64b00852cb"
+                        },
+                        {
+                            "description": "Symbol R502 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 0.9779,
+                                "y": 0.9525
+                            },
+                            "uuid": "bba91e32-40e1-4722-858c-f4ac94cbb346"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U501 Pin 12 [12IPROPI2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.9779
+                            },
+                            "uuid": "01345de6-a87b-4ec9-b47b-14588dbe0302"
+                        },
+                        {
+                            "description": "Symbol R503 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 1.2065,
+                                "y": 1.0287
+                            },
+                            "uuid": "e1060d32-d6da-4466-8868-5b1c8b17c488"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Power input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U501 Pin 25 [EP, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.4224,
+                                "y": 0.6223
+                            },
+                            "uuid": "e6505c4d-cba8-4974-b931-f2d781660e4f"
+                        },
+                        {
+                            "description": "Symbol #PWR0506 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.4859,
+                                "y": 0.6223
+                            },
+                            "uuid": "c3ceb24c-aa06-4506-aa8c-4c0f1bb9028d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Power input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U501 Pin 24 [24GND, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.6985
+                            },
+                            "uuid": "bcdc9218-f2cc-4618-a1d4-d0d6908f42f1"
+                        },
+                        {
+                            "description": "Symbol #PWR0506 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.4859,
+                                "y": 0.6223
+                            },
+                            "uuid": "c3ceb24c-aa06-4506-aa8c-4c0f1bb9028d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U501 Pin 23 [23CPL, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.7239
+                            },
+                            "uuid": "10ab73f3-9f85-4723-8762-1281fea7b4b9"
+                        },
+                        {
+                            "description": "Symbol C503 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 1.7399,
+                                "y": 0.6731
+                            },
+                            "uuid": "4bf9c1b6-51fe-4f38-ad59-08ad6c7f7605"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U501 Pin 22 [22CPH, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.7493
+                            },
+                            "uuid": "2bf45c5a-2b21-464c-8772-ba92babdaa4e"
+                        },
+                        {
+                            "description": "Symbol C503 Pin 2 [Passive, Line]",
+                            "pos": {
+                                "x": 1.7399,
+                                "y": 0.7493
+                            },
+                            "uuid": "2efb4531-9f24-4a09-8af7-668127cf96c3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U501 Pin 21 [21VCP, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.7747
+                            },
+                            "uuid": "c16ca138-9a1d-4b62-8bc2-1a8f684712d2"
+                        },
+                        {
+                            "description": "Symbol C504 Pin 2 [Passive, Line]",
+                            "pos": {
+                                "x": 1.9431,
+                                "y": 0.7747
+                            },
+                            "uuid": "4c6aaaa9-05e6-45b6-bfea-8f2b25c1dd75"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U501 Pin 20 [20VM, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.8001
+                            },
+                            "uuid": "42f7ad7f-35af-44e2-9a85-c5f41daf51d7"
+                        },
+                        {
+                            "description": "Symbol C502 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 1.7145,
+                                "y": 1.0541
+                            },
+                            "uuid": "fbb7199b-6cae-4e2f-9c89-440b33306d78"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U501 Pin 19 [19OUT1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.8255
+                            },
+                            "uuid": "bec126af-1168-4af9-83c2-daf566a6683e"
+                        },
+                        {
+                            "description": "Symbol R1209 Pin 2 [Passive, Line]",
+                            "pos": {
+                                "x": 2.54,
+                                "y": 1.4732
+                            },
+                            "uuid": "c3ea88dc-a11d-4acf-83d5-193123e3a03c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U501 Pin 18 [18OUT1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.8509
+                            },
+                            "uuid": "1552bbcb-450c-4187-b00d-2b62150a6470"
+                        },
+                        {
+                            "description": "Symbol U501 Pin 19 [19OUT1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.8255
+                            },
+                            "uuid": "bec126af-1168-4af9-83c2-daf566a6683e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U501 Pin 17 [17SRC, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.8763
+                            },
+                            "uuid": "1f0fa696-ddee-44d0-addc-97073c0aa258"
+                        },
+                        {
+                            "description": "Symbol U501 Pin 24 [24GND, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.6985
+                            },
+                            "uuid": "bcdc9218-f2cc-4618-a1d4-d0d6908f42f1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U501 Pin 16 [16SRC, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.9017
+                            },
+                            "uuid": "1330bdca-a7a5-414a-8c86-ac87c7eb0fdf"
+                        },
+                        {
+                            "description": "Symbol U501 Pin 17 [17SRC, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.8763
+                            },
+                            "uuid": "1f0fa696-ddee-44d0-addc-97073c0aa258"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U501 Pin 14 [14OUT2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.9525
+                            },
+                            "uuid": "a0587207-fd00-4aaf-a95f-d72bc22806aa"
+                        },
+                        {
+                            "description": "Symbol U501 Pin 15 [15OUT2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.9271
+                            },
+                            "uuid": "6078cb6e-d25c-400a-aa39-3e507ad687e2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U501 Pin 13 [13VM, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.9779
+                            },
+                            "uuid": "fb85140f-9f01-4a2f-8575-5608cf9e5e1f"
+                        },
+                        {
+                            "description": "Symbol C502 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 1.7145,
+                                "y": 1.0541
+                            },
+                            "uuid": "fbb7199b-6cae-4e2f-9c89-440b33306d78"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                }
+            ]
+        },
+        {
+            "path": "/CurrentSense_CoilX/",
+            "uuid_path": "/da5a1e6a-2605-436b-a30c-1027586d5c0a/2eed623f-9341-4bd1-969c-3ef84ade38e9",
+            "violations": [
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U601 Pin 8 [+, Input, Line]",
+                            "pos": {
+                                "x": 1.397,
+                                "y": 0.9398
+                            },
+                            "uuid": "2494b30f-34cb-4968-ae90-27f8fbd38d9a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U601 Pin 1 [-, Input, Line]",
+                            "pos": {
+                                "x": 1.397,
+                                "y": 0.9906
+                            },
+                            "uuid": "0c053872-33a8-491a-9972-5e3ed0f1ddef"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol R601 Pin 1 [I2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.9398
+                            },
+                            "uuid": "564b51a3-fe60-4b92-b5ae-b6f85b3ed015"
+                        },
+                        {
+                            "description": "Symbol R1204 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 0.4826,
+                                "y": 1.4732
+                            },
+                            "uuid": "92f28a51-acb0-4e26-91cd-6828b2bd37d8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol R601 Pin 2 [E2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.9906
+                            },
+                            "uuid": "3fdf9bd1-995c-4628-b963-89f9bb582eb0"
+                        },
+                        {
+                            "description": "Symbol U601 Pin 1 [-, Input, Line]",
+                            "pos": {
+                                "x": 1.397,
+                                "y": 0.9906
+                            },
+                            "uuid": "0c053872-33a8-491a-9972-5e3ed0f1ddef"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol R601 Pin 3 [E1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.3208,
+                                "y": 0.9398
+                            },
+                            "uuid": "a6a67269-850f-4a96-a84e-ccb70116391b"
+                        },
+                        {
+                            "description": "Symbol U601 Pin 8 [+, Input, Line]",
+                            "pos": {
+                                "x": 1.397,
+                                "y": 0.9398
+                            },
+                            "uuid": "2494b30f-34cb-4968-ae90-27f8fbd38d9a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol R601 Pin 4 [I1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.3208,
+                                "y": 0.9906
+                            },
+                            "uuid": "8cb3c526-f2f4-4095-88c0-bbed908ac7e3"
+                        },
+                        {
+                            "description": "Symbol U301 Pin 15 [15OUT2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.9271
+                            },
+                            "uuid": "6078cb6e-d25c-400a-aa39-3e507ad687e2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                }
+            ]
+        },
+        {
+            "path": "/CurrentSense_CoilY/",
+            "uuid_path": "/da5a1e6a-2605-436b-a30c-1027586d5c0a/f2451772-ffcd-467e-a9f4-f4404e3fd9f4",
+            "violations": [
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U701 Pin 8 [+, Input, Line]",
+                            "pos": {
+                                "x": 1.397,
+                                "y": 0.9398
+                            },
+                            "uuid": "2494b30f-34cb-4968-ae90-27f8fbd38d9a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U701 Pin 1 [-, Input, Line]",
+                            "pos": {
+                                "x": 1.397,
+                                "y": 0.9906
+                            },
+                            "uuid": "0c053872-33a8-491a-9972-5e3ed0f1ddef"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol R701 Pin 1 [I2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.9398
+                            },
+                            "uuid": "564b51a3-fe60-4b92-b5ae-b6f85b3ed015"
+                        },
+                        {
+                            "description": "Symbol R1206 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 1.3208,
+                                "y": 1.4732
+                            },
+                            "uuid": "f105d14f-3a74-4bc2-9efc-616fc635b7f0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol R701 Pin 2 [E2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.9906
+                            },
+                            "uuid": "3fdf9bd1-995c-4628-b963-89f9bb582eb0"
+                        },
+                        {
+                            "description": "Symbol U701 Pin 1 [-, Input, Line]",
+                            "pos": {
+                                "x": 1.397,
+                                "y": 0.9906
+                            },
+                            "uuid": "0c053872-33a8-491a-9972-5e3ed0f1ddef"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol R701 Pin 3 [E1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.3208,
+                                "y": 0.9398
+                            },
+                            "uuid": "a6a67269-850f-4a96-a84e-ccb70116391b"
+                        },
+                        {
+                            "description": "Symbol U701 Pin 8 [+, Input, Line]",
+                            "pos": {
+                                "x": 1.397,
+                                "y": 0.9398
+                            },
+                            "uuid": "2494b30f-34cb-4968-ae90-27f8fbd38d9a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol R701 Pin 4 [I1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.3208,
+                                "y": 0.9906
+                            },
+                            "uuid": "8cb3c526-f2f4-4095-88c0-bbed908ac7e3"
+                        },
+                        {
+                            "description": "Symbol U401 Pin 15 [15OUT2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.9271
+                            },
+                            "uuid": "6078cb6e-d25c-400a-aa39-3e507ad687e2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                }
+            ]
+        },
+        {
+            "path": "/CurrentSense_CoilZ/",
+            "uuid_path": "/da5a1e6a-2605-436b-a30c-1027586d5c0a/36b6b46a-4b54-41ec-ae14-d8a056066e0a",
+            "violations": [
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U801 Pin 8 [+, Input, Line]",
+                            "pos": {
+                                "x": 1.397,
+                                "y": 0.9398
+                            },
+                            "uuid": "2494b30f-34cb-4968-ae90-27f8fbd38d9a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol U801 Pin 1 [-, Input, Line]",
+                            "pos": {
+                                "x": 1.397,
+                                "y": 0.9906
+                            },
+                            "uuid": "0c053872-33a8-491a-9972-5e3ed0f1ddef"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol R801 Pin 1 [I2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.9398
+                            },
+                            "uuid": "564b51a3-fe60-4b92-b5ae-b6f85b3ed015"
+                        },
+                        {
+                            "description": "Symbol R1208 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 2.159,
+                                "y": 1.4732
+                            },
+                            "uuid": "e10f84b0-7b67-4c4a-946e-e86c5e9a3488"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol R801 Pin 2 [E2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.1684,
+                                "y": 0.9906
+                            },
+                            "uuid": "3fdf9bd1-995c-4628-b963-89f9bb582eb0"
+                        },
+                        {
+                            "description": "Symbol U801 Pin 1 [-, Input, Line]",
+                            "pos": {
+                                "x": 1.397,
+                                "y": 0.9906
+                            },
+                            "uuid": "0c053872-33a8-491a-9972-5e3ed0f1ddef"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol R801 Pin 3 [E1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.3208,
+                                "y": 0.9398
+                            },
+                            "uuid": "a6a67269-850f-4a96-a84e-ccb70116391b"
+                        },
+                        {
+                            "description": "Symbol U801 Pin 8 [+, Input, Line]",
+                            "pos": {
+                                "x": 1.397,
+                                "y": 0.9398
+                            },
+                            "uuid": "2494b30f-34cb-4968-ae90-27f8fbd38d9a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol R801 Pin 4 [I1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.3208,
+                                "y": 0.9906
+                            },
+                            "uuid": "8cb3c526-f2f4-4095-88c0-bbed908ac7e3"
+                        },
+                        {
+                            "description": "Symbol U501 Pin 15 [15OUT2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.9271
+                            },
+                            "uuid": "6078cb6e-d25c-400a-aa39-3e507ad687e2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                }
+            ]
+        },
+        {
+            "path": "/External_Connectors/",
+            "uuid_path": "/da5a1e6a-2605-436b-a30c-1027586d5c0a/8849db54-3fc8-473e-8cbb-04716cd495b5",
+            "violations": [
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol CN1201 Pin 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 0.4445,
+                                "y": 0.4445
+                            },
+                            "uuid": "347d72b5-1f39-42ec-b1e6-85ff4e64febf"
+                        },
+                        {
+                            "description": "Symbol CN1201 Pin 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 0.4445,
+                                "y": 0.4699
+                            },
+                            "uuid": "9bf9e99b-b8c7-4adf-b2d2-c605259f22c1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol CN1201 Pin 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 0.4445,
+                                "y": 0.4699
+                            },
+                            "uuid": "9bf9e99b-b8c7-4adf-b2d2-c605259f22c1"
+                        },
+                        {
+                            "description": "Symbol D1201 Pin 1 [K, Passive, Line]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 0.508
+                            },
+                            "uuid": "0799bd99-756e-4b90-9b57-73c968152cce"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol CN1202 Pin 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 0.4445,
+                                "y": 0.6223
+                            },
+                            "uuid": "f2c086e5-802f-4fe9-89c4-53e96e135c53"
+                        },
+                        {
+                            "description": "Symbol CN1202 Pin 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 0.4445,
+                                "y": 0.6477
+                            },
+                            "uuid": "2b813cab-db4d-4f43-9a7f-e19e43e72284"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol CN1202 Pin 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 0.4445,
+                                "y": 0.6477
+                            },
+                            "uuid": "2b813cab-db4d-4f43-9a7f-e19e43e72284"
+                        },
+                        {
+                            "description": "Symbol D1201 Pin 2 [A, Passive, Line]",
+                            "pos": {
+                                "x": 0.5588,
+                                "y": 0.5842
+                            },
+                            "uuid": "b7891525-9bcb-4b76-a59e-76b328bdd341"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol CN1203 Pin 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 0.5461,
+                                "y": 1.1811
+                            },
+                            "uuid": "b08dd87a-b20a-48d6-9f44-07f471bed2d0"
+                        },
+                        {
+                            "description": "Symbol CN1203 Pin 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 0.5461,
+                                "y": 1.2065
+                            },
+                            "uuid": "4928ca36-e888-49b5-80a2-f75662feaba2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol CN1203 Pin 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 0.5461,
+                                "y": 1.2065
+                            },
+                            "uuid": "4928ca36-e888-49b5-80a2-f75662feaba2"
+                        },
+                        {
+                            "description": "Symbol R1201 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 0.5461,
+                                "y": 1.3843
+                            },
+                            "uuid": "70186719-d26b-45f6-aa7b-14ef61db28e6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol CN1204 Pin 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 0.9271,
+                                "y": 1.1811
+                            },
+                            "uuid": "9596a3ca-9ce8-4e99-88b7-3aa09c038e0c"
+                        },
+                        {
+                            "description": "Symbol CN1204 Pin 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 0.9271,
+                                "y": 1.2065
+                            },
+                            "uuid": "43ef551b-88ed-4a94-9bdc-2a9c93c2ec6f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol CN1204 Pin 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 0.9271,
+                                "y": 1.2065
+                            },
+                            "uuid": "43ef551b-88ed-4a94-9bdc-2a9c93c2ec6f"
+                        },
+                        {
+                            "description": "Symbol C1203 Pin 2 [Passive, Line]",
+                            "pos": {
+                                "x": 0.7874,
+                                "y": 1.3843
+                            },
+                            "uuid": "b98c8182-00c4-4e15-95bc-34f8fa1e4e24"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Power input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1202 Pin 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.5207
+                            },
+                            "uuid": "b285f3cb-deab-4a75-8de5-0e764c43ea6a"
+                        },
+                        {
+                            "description": "Symbol #PWR01203 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 0.4953
+                            },
+                            "uuid": "ee93fa8f-520e-4dc9-bb24-bd085c482512"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Power input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1202 Pin 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.2319,
+                                "y": 0.5461
+                            },
+                            "uuid": "76466fe1-d75b-4141-86fc-0035cd5c45d4"
+                        },
+                        {
+                            "description": "Symbol #PWR01204 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.1811,
+                                "y": 0.5715
+                            },
+                            "uuid": "2e6728ba-1773-406b-acfa-a19d152ff170"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol CN1205 Pin 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.3843,
+                                "y": 1.1811
+                            },
+                            "uuid": "ad716d9c-fcb2-4e67-bc38-cdc6ca04d314"
+                        },
+                        {
+                            "description": "Symbol CN1205 Pin 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.3843,
+                                "y": 1.2065
+                            },
+                            "uuid": "dd79f4d8-3227-409b-bf76-130837b26c4b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol CN1205 Pin 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.3843,
+                                "y": 1.2065
+                            },
+                            "uuid": "dd79f4d8-3227-409b-bf76-130837b26c4b"
+                        },
+                        {
+                            "description": "Symbol R1202 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 1.3843,
+                                "y": 1.3843
+                            },
+                            "uuid": "bbbf83bf-59f2-4f3d-90e7-2528215a7e98"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Power input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1204 Pin 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 0.5207
+                            },
+                            "uuid": "c8886da4-977c-42d4-b395-63f6f45de230"
+                        },
+                        {
+                            "description": "Symbol #PWR01205 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.4953
+                            },
+                            "uuid": "fe66cbde-a0ee-4dda-bf1b-d7b4d8a5bdd3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Power input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol U1204 Pin 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.6383,
+                                "y": 0.5461
+                            },
+                            "uuid": "da631395-960d-4034-9fa1-8164446a4cc3"
+                        },
+                        {
+                            "description": "Symbol #PWR01206 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.5715
+                            },
+                            "uuid": "8bdb4580-3b06-4ade-8845-0fa1ce07ad70"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol CN1206 Pin 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.7653,
+                                "y": 1.1811
+                            },
+                            "uuid": "0a68f361-6569-4fdb-aab5-96f38f27a0a8"
+                        },
+                        {
+                            "description": "Symbol CN1206 Pin 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.7653,
+                                "y": 1.2065
+                            },
+                            "uuid": "697c95dc-a7d0-4e27-b4ca-51edf6606e5b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol CN1206 Pin 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.7653,
+                                "y": 1.2065
+                            },
+                            "uuid": "697c95dc-a7d0-4e27-b4ca-51edf6606e5b"
+                        },
+                        {
+                            "description": "Symbol C1204 Pin 2 [Passive, Line]",
+                            "pos": {
+                                "x": 1.6256,
+                                "y": 1.3843
+                            },
+                            "uuid": "3547175b-5e75-4864-b8c9-7a397a5e3cbc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol CN1207 Pin 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 2.2225,
+                                "y": 1.1811
+                            },
+                            "uuid": "d99d1a40-5def-4f4d-a414-af6b26bc44c3"
+                        },
+                        {
+                            "description": "Symbol CN1207 Pin 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 2.2225,
+                                "y": 1.2065
+                            },
+                            "uuid": "6d3101c2-185a-422e-a3e1-7d33e316afd2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol CN1207 Pin 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 2.2225,
+                                "y": 1.2065
+                            },
+                            "uuid": "6d3101c2-185a-422e-a3e1-7d33e316afd2"
+                        },
+                        {
+                            "description": "Symbol R1203 Pin 1 [Passive, Line]",
+                            "pos": {
+                                "x": 2.2225,
+                                "y": 1.3843
+                            },
+                            "uuid": "d00628a8-fd66-4ceb-9319-02582988f6c1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Unspecified are connected",
+                    "items": [
+                        {
+                            "description": "Symbol CN1208 Pin 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 2.6035,
+                                "y": 1.1811
+                            },
+                            "uuid": "a0984119-1d6e-4ff1-b0a7-2f4e2806a417"
+                        },
+                        {
+                            "description": "Symbol CN1208 Pin 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 2.6035,
+                                "y": 1.2065
+                            },
+                            "uuid": "ab378066-5a05-44d3-b974-95f177f55a3c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol CN1208 Pin 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 2.6035,
+                                "y": 1.2065
+                            },
+                            "uuid": "ab378066-5a05-44d3-b974-95f177f55a3c"
+                        },
+                        {
+                            "description": "Symbol C1205 Pin 2 [Passive, Line]",
+                            "pos": {
+                                "x": 2.4638,
+                                "y": 1.3843
+                            },
+                            "uuid": "91536d8d-d7d3-457e-9ba1-9bca02b14fbb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                }
+            ]
+        },
+        {
+            "path": "/TempSense_CoilX/",
+            "uuid_path": "/da5a1e6a-2605-436b-a30c-1027586d5c0a/6c2f18c8-62eb-4719-98a1-27b0a6c718ec",
+            "violations": []
+        },
+        {
+            "path": "/TempSense_CoilY/",
+            "uuid_path": "/da5a1e6a-2605-436b-a30c-1027586d5c0a/1dfee8fe-c16d-4378-a19e-4bd5aa1552e6",
+            "violations": []
+        },
+        {
+            "path": "/TempSense_CoilZ/",
+            "uuid_path": "/da5a1e6a-2605-436b-a30c-1027586d5c0a/f797f9cc-0c4d-427c-9c5e-46a6bff8afb0",
+            "violations": []
+        },
+        {
+            "path": "/DriverTempSense_X/",
+            "uuid_path": "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5463738a-9fa4-4f16-a3de-0a4f9ff552f6",
+            "violations": []
+        },
+        {
+            "path": "/DriverTempSense_Y/",
+            "uuid_path": "/da5a1e6a-2605-436b-a30c-1027586d5c0a/413af613-34fb-4e32-9e7f-c5e73253150f",
+            "violations": []
+        },
+        {
+            "path": "/DriverTempSense_Z/",
+            "uuid_path": "/da5a1e6a-2605-436b-a30c-1027586d5c0a/1f5d4ec5-dd7b-4f93-9bd3-f78d2a8b5995",
+            "violations": []
+        },
+        {
+            "path": "/Magnetometer/",
+            "uuid_path": "/da5a1e6a-2605-436b-a30c-1027586d5c0a/5896f0a2-ff28-4722-9863-97baa642a737",
+            "violations": []
+        },
+        {
+            "path": "/Panel_IO/",
+            "uuid_path": "/da5a1e6a-2605-436b-a30c-1027586d5c0a/fca239fd-3240-414d-b3da-ca7c3fa44f7d",
+            "violations": []
+        },
+        {
+            "path": "/Panel_Drivers/",
+            "uuid_path": "/da5a1e6a-2605-436b-a30c-1027586d5c0a/e823a879-06fc-4578-883e-684616d0bde8",
+            "violations": [
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol BZ201 Pin 1 [1, Unspecified, Line]",
+                            "pos": {
+                                "x": 2.2479,
+                                "y": 0.8509
+                            },
+                            "uuid": "a61d2b12-03ce-40d0-a041-ff0c69376c76"
+                        },
+                        {
+                            "description": "Symbol D204 Pin 1 [K, Passive, Line]",
+                            "pos": {
+                                "x": 2.1463,
+                                "y": 0.8382
+                            },
+                            "uuid": "22743f35-1d24-461f-bc87-61fa05dc2d01"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol BZ201 Pin 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 2.2479,
+                                "y": 0.9017
+                            },
+                            "uuid": "7afa0feb-e422-4530-bb1e-46433d4ed1ae"
+                        },
+                        {
+                            "description": "Symbol D204 Pin 2 [A, Passive, Line]",
+                            "pos": {
+                                "x": 2.1463,
+                                "y": 0.9144
+                            },
+                            "uuid": "3011ee8f-e7ee-42e1-b86a-95fe46b5268b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                }
+            ]
+        }
+    ],
+    "source": "TL_73_Helmholtz_Cage_PCB.kicad_sch"
+}

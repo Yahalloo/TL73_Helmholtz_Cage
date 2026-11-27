@@ -1,4 +1,6 @@
 # Saves pictures of the open Fusion design (run after TL73_Enclosure.py) into Mechanical/enclosure_views
+# 2026-11-27: views for the report (lid parked beside the box at x = 217 mm, control pod on the +x side).
+# Fusion works in cm: box centre (0, 0), pod deck at x 7.5 .. 12.2, z 9.3; parked lid centre x 21.7.
 import adsk.core, os
 OUT = r"D:\GoogleDrive_Personal\Documents\Uni Courses\Final Year\T1\ELEC 491\Project_Design_Files\Repositry\PCB_V1.0\TL73_Helmholtz_Cage\Mechanical\enclosure_views"
 os.makedirs(OUT, exist_ok=True)
@@ -16,14 +18,8 @@ def shot(name, eye, target, up=(0, 0, 1), fit=True):
     _vp.refresh()
     adsk.doEvents()
     _vp.saveAsImageFile(os.path.join(OUT, name + ".png"), 1800, 1100)
-shot("iso_back_right", (75, 80, 55), (8, 0, 3))
-shot("front", (0, -100, 4), (0, 0, 4))
-shot("back", (0, 100, 4), (0, 0, 4))
-shot("left", (-100, 0, 4), (0, 0, 4))
-shot("right", (100, 0, 4), (0, 0, 4))
-shot("top", (8, 0, 100), (8, 0, 0), (0, 1, 0))
-shot("iso_front_left", (-50, -70, 55), (8, 0, 3))
-shot("ntc_close", (-30, 14, 14), (-6.5, 1.5, 5.5), fit=False)
-shot("inside", (4, -2, 60), (0, 0, 3), (0, 1, 0), fit=False)
-shot("front_close", (-6, -30, 12), (0, -12.8, 5), fit=False)
-shot("iso_front_left", (-50, -70, 55), (8, 0, 3))
+shot("r34_iso_front_right", (40, -75, 55), (9, 0, 3))      # coil side, pod and parked lid with the fan
+shot("r34_iso_back_right", (45, 75, 55), (9, 0, 3))        # supply side, pod deck, USB-C
+shot("r34_top", (9, 0, 120), (9, 0, 0), (0, 1, 0))         # from above: inside of the box, pod deck, lid beside it
+shot("r34_pod_close", (24, -22, 24), (9.7, -1.5, 8.5), fit=False)   # stop switch and LEDs on the pod deck
+shot("r34_pod_inside", (-3, -14, 16), (9, -1.5, 6), fit=False)      # through the access window into the pod

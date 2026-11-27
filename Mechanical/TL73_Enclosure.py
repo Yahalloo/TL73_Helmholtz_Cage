@@ -18,7 +18,8 @@ LID_T         = 3.0
 X_IN          = 72.0    # inner half width  (PCB half width is 49.5: 22.5 mm each side for cables, fan and stop switch)
 Y_FRONT_IN    = -125.0  # inner face of the front wall (coil side). PCB jack mouth is near y = -63:
                         # leaves about 60 mm for the internal plug and its cable bend
-Y_BACK_IN     = 124.0   # inner face of the back wall (34 V supply side). PCB supply jack mouth is at y = 62: about 60 mm for the plug
+Y_BACK_IN     = 124.0   # inner face of the back wall (34 V supply side). PCB supply jacks CN1201 / CN1202 reach y = 62.2
+                        # (board file of 27 Nov, after the 11.2 mm move): 61.8 mm left for the plug and its cable bend
 Z_TOP         = 90.0    # top of the walls (lid sits on this)
 CORNER_R      = 5.0
 # Banana jacks: Cal Test CT4397-01-x, 4 mm sheathed (shrouded) panel jack with M4 stud. Datasheet CT4397 rev H.
@@ -62,32 +63,65 @@ LID_VENT_Y    = (-52.0, 34.0)        # lid slots over the drivers, the 5 V buck 
 LID_VENT_W    = 3.0
 LOGO_C        = (0.0, -89.0)         # team logo centre on the lid
 LOGO_W        = 44.0                 # team logo width
-LID_PARK      = (170.0, 0.0)         # in the assembly the lid is laid beside the box so the inside is visible
+LID_PARK_GAP  = 20.0                 # in the assembly the lid (with its fan and guard) is laid beside the box, this far
+                                     # beyond the outer face of the control pod; LID_PARK is worked out below the pod parameters
 POST          = 10.0    # lid screw posts: two in the back corners, two on the side walls near the front
 # The posts are in the four corners again: with X_IN = 72 they start at x = 62, clear of the outer coil jacks
 # (x = +/-51.5, body 12 mm, nut about 17 mm, so the nut ends near x = 60).
-# ---- right wall (+x) panel parts: stop switch, fan, status LEDs (then the USB adapter) ----
-# Fan: 40 x 40 x 10 mm, 5 V, inside the wall, blowing in across the drivers. Screws go through guard, wall and fan.
-FAN_Y, FAN_Z  = -8.0, 52.0           # centre: lower edge just above the shield PCB (z = 30.6)
+# ---- fan in the lid, directly above the three DRV8873S drivers (2026-11-27 layout) ----
+# Fan: Sunon MF40100V1-1000U-A99, 40 x 40 x 10 mm, 5 V, 136 mA, under the lid blowing DOWN onto the drivers;
+# Qualtek 08149 guard on top of the lid. M3 screws go through guard, lid and fan frame, nuts under the fan.
+# Centre = centroid of U301 / U401 / U501 in TL_73_Helmholtz_Cage_PCB.kicad_pcb (board centre origin, +y = supply end):
+# U301 (-31.6, -12.2), U401 (1.0, -12.2), U501 (33.6, -12.2). The drivers span 65 mm, so a 40 mm fan sits right over
+# U401 and blows on the edges of U301 / U501; the wall vents are the exhaust (no lid vent slots any more).
+FAN_X, FAN_Y  = 1.0, -12.2
 FAN_SIZE, FAN_T = 40.0, 10.0
-FAN_HOLE_D    = 38.0                 # air opening
+FAN_HOLE_D    = 38.0                 # air opening in the lid
 FAN_SCREW_PITCH, FAN_SCREW_D = 32.0, 3.4   # M3 clearance on the standard 32 mm square
+FAN_LEAD_MIN  = 250.0                # fan lead needed to reach J206 (-7.5, 26.0) with the lid lifted off and set beside the box
+USE_LID_VENTS = False                # the lid slots of the old layout would short-circuit the fan inlet
+# ---- control pod: an annex of the BASE on the right (+x) side, next to the LED headers J203 / J207 / J208 ----
+# Its top is a fixed horizontal deck (part of the base, NOT the lid) that carries the stop switch and the three LEDs
+# facing up. The pod is open to the main cavity through a window in the right wall, so the leads run straight to the
+# headers; the lid covers only the main box and lifts off without touching them.
+# Print: base floor-down. The deck rests on the right wall, the pod outer wall and the two end walls; 45 degree chamfers
+# under its two long edges leave a POD_BRIDGE wide strip that bridges (no other horizontal overhang).
+POD_Y0, POD_Y1 = -70.0, 40.0         # outer extent along y (clear of the wall-mount ears and of the USB adapter)
+POD_W_IN      = 44.0                 # inside width (x) from the outer face of the right wall
+POD_DECK_Z    = Z_TOP + LID_T        # top of the deck flush with the top of the lid (more visible); the deck is still base
+# parked lid: its -x edge LID_PARK_GAP beyond the pod's outer face (the pod is the part of the base furthest out in +x,
+# past the right mounting ears); raised by FAN_T so the fan hanging under it rests on the floor plane z = 0
+LID_PARK      = ((X_IN + WALL_T) + POD_W_IN + WALL_T + LID_PARK_GAP + (X_IN + WALL_T), 0.0, FAN_T - Z_TOP)
+GUARD_T       = 2.0                  # stand-in thickness of the Qualtek 08149 guard on top of the lid
+LID_GAP       = 0.3                  # fit gap between the lid edge and the pod wall above the lid seam (lid lifts straight up)
+DECK_T        = 4.5                  # deck thickness, stiff enough for a hard palm strike on the stop switch. The parts
+                                     # need thinner panels, made by counterbores from below: EAO 1 to 3 mm (STOP_PANEL_T),
+                                     # Lumex 2.5 mm max (LED_PANEL_T)
+STOP_PANEL_T  = 3.0                  # deck left at the stop switch: top of the EAO panel range, inside a STOP_NUT_POCKET_D counterbore
+POD_CHAMFER   = 17.0                 # 45 degree support under both long edges -> bridge = POD_W_IN - 2 * POD_CHAMFER
+RIB_T         = 3.0                  # ribs across the pod under the deck, either side of the stop switch, tying the deck
+RIB_Y         = (-48.0, -12.0)       # to both pod walls; bottom edge is a 45 degree inverted V (prints without support)
+RIB_DEPTH_MID = 6.0                  # rib depth under the deck centre line (it grows to 6 + half the pod width at the walls)
+POD_WIN_W, POD_WIN_Z0, POD_WIN_Z1 = 80.0, 10.0, 20.0   # wire / hand-access window in the right wall: width, sill height,
+                                     # top of its vertical sides (45 degree gable above, apex at POD_WIN_Z1 + POD_WIN_W / 2)
 # Stop switch: EAO 51-256.025 (16 mm emergency stop, twist to unlock, 1 NC + 1 NO gold contacts, solder terminals).
 # Datasheet in vendor_models. Cut-out: hole 16.2 +0.2 with an anti-rotation lug that sticks INTO the hole:
-# 1.7 -0.1 wide, 15.0 +0.1 from the lug face to the far side of the hole. Panel 1 to 3 mm (the wall is 3.0).
-STOP_Y, STOP_Z = -70.0, 62.0
+# 1.7 -0.1 wide, 15.0 +0.1 from the lug face to the far side of the hole. Panel 1 to 3 mm. Behind the panel 26.3 mm
+# to the end of the solder terminals (drawing), head 19 mm above it, 30 mm minimum spacing to the next device.
+STOP_Y        = -30.0                      # along the pod deck (x is the deck centre line)
+STOP_NUT_POCKET_D, STOP_NUT_POCKET_H = 28.0, 6.0   # clear pocket under the deck for the fixing nut and fingers
 STOP_HOLE_D   = 16.4                       # 16.2 + 0.2 for printing
 STOP_LUG_W    = 1.5                        # 1.6 to 1.7 on the drawing, a little under so it can be filed to fit
 STOP_LUG_GAP  = 15.2                       # lug face to the opposite side of the hole (15.0 + 0.2 for printing)
-STOP_HEAD_D, STOP_HEAD_L, STOP_DEPTH = 24.5, 19.0, 23.3   # mushroom head; depth behind the inner wall face with terminals (26.3 - 3)
+STOP_HEAD_D, STOP_HEAD_L, STOP_DEPTH = 24.5, 19.0, 26.3   # mushroom head; depth behind the panel incl. terminals
+STOP_WIRE_BEND = 15.0                      # room under the terminals for the soldered leads
 # Status LEDs: Lumex SSI-LXH312xD-150 snap-in indicators (3 mm LED, 150 mm leads). Distributor data: hole 0.170 to
-# 0.174 in, panel 2.5 mm max. The wall is 3 mm, so each LED sits in a recess on the inside that leaves LED_PANEL_T.
-# Check both numbers against the part before printing.
+# 0.174 in, panel 2.5 mm max. A recess under each hole leaves LED_PANEL_T. Check both numbers against the part.
 LED_HOLE_D    = 4.4
 LED_PANEL_T   = 2.0
 LED_RECESS_D  = 10.0
-LED_Y         = [("IDLE", 22.0), ("RUN", 38.0), ("FAULT", 54.0)]
-LED_Z         = 70.0
+LED_BODY_DEPTH = 12.0                      # clear space under each LED for the body and its leads
+LED_Y         = [("FAULT", -2.0), ("RUN", 9.0), ("IDLE", 20.0)]   # same order as J208 / J207 / J203 on the board
 # Lid screws: M3 machine screws into M3 heat-set brass inserts (standard 5.7 mm long, about 4.6 mm outside
 # diameter) pressed into the posts with a soldering iron. Check INSERT_D against the insert maker's hole size.
 INSERT_D      = 4.0     # hole for the insert
@@ -117,6 +151,9 @@ NUC_HOLES    = [(43.89, 2.5), (10.87, 54.57), (59.13, 53.3)]
 MODEL_FIXES  = {"ANT-TH_L33.0-W12.0": (-9.71, 0.0, 6.55),
                 "CAP-TH_BD10.0-P5.00-D0.6-FD": (0.0, 0.0, 8.01),
                 "CAP-TH_BD10.0-P5.00-D0.6-FD-A": (0.0, 0.0, 0.0)}
+# The buzzer BZ201 (EasyEDA model "BUZ-TH_BD9.0-P5.00-D0.6-L-FD") is new in the 27 Nov STEP. It sits on the board in
+# KiCad's own 3D view; if Fusion shows it floating or sunk like the radial capacitors, add its offset here, e.g.
+# MODEL_FIXES["BUZ-TH_BD9.0-P5.00-D0.6-L-FD"] = (0.0, 0.0, dz)
 PCB_STEP     = "TL73_Shield_PCB_KiCad.step"
 NUC_STEP     = "NUCLEO_G474RE.step"
 
@@ -593,62 +630,104 @@ def run(context):
         except Exception:
             log.append("left wall failed: " + traceback.format_exc())
 
-        # ---- right wall (+x): stop switch, fan, status LEDs, USB adapter, vents ----
+        # ---- right wall (+x): USB adapter, wire window into the control pod, vents ----
         try:
             wu = WallSketch(basec, "x", xo, "USB_Hole")
             wu.circle((xo, USB_Y, USB_Z), USB_HOLE_D)
             wu.cut(base, 2 * WALL_T + 2)
-            # fan: air opening and four M3 holes
-            wf = WallSketch(basec, "x", xo, "Fan_Opening")
-            wf.circle((xo, FAN_Y, FAN_Z), FAN_HOLE_D)
-            for sy in (-1, 1):
-                for sz in (-1, 1):
-                    wf.circle((xo, FAN_Y + sy * FAN_SCREW_PITCH / 2, FAN_Z + sz * FAN_SCREW_PITCH / 2), FAN_SCREW_D)
-            wf.cut(base, 2 * WALL_T + 2)
-            # stop switch: round hole plus the anti-rotation notch at the top
-            wsw = WallSketch(basec, "x", xo, "Stop_Switch_Hole")
-            wsw.circle((xo, STOP_Y, STOP_Z), STOP_HOLE_D)
-            wsw.cut(base, 2 * WALL_T + 2)
-            # anti-rotation lug: a small block added back into the hole on its left side (seen from outside, -y),
-            # full wall thickness. It starts 0.6 mm inside the wall material so the join is solid.
-            xm = xo - WALL_T / 2
-            wsn = WallSketch(basec, "x", xm, "Stop_Switch_Lug")
-            y_edge = STOP_Y - STOP_HOLE_D / 2
-            y_face = STOP_Y + STOP_HOLE_D / 2 - STOP_LUG_GAP
-            wsn.quad([(xm, y_edge - 0.6, STOP_Z - STOP_LUG_W / 2), (xm, y_face, STOP_Z - STOP_LUG_W / 2),
-                      (xm, y_face, STOP_Z + STOP_LUG_W / 2), (xm, y_edge - 0.6, STOP_Z + STOP_LUG_W / 2)])
-            wsn.join(base, WALL_T)
-            # status LEDs
-            wl = WallSketch(basec, "x", xo, "LED_Holes")
-            for (nme, ly) in LED_Y:
-                wl.circle((xo, ly, LED_Z), LED_HOLE_D)
-            wl.cut(base, 2 * WALL_T + 2)
-            # recess on the inside so the snap-in bezels see a LED_PANEL_T thick panel
-            wr = WallSketch(basec, "x", X_IN, "LED_Recess")
-            for (nme, ly) in LED_Y:
-                wr.circle((X_IN, ly, LED_Z), LED_RECESS_D)
-            c = adsk.core.ObjectCollection.create()
-            for pr in wr.sk.profiles:
-                c.add(pr)
-            wr.cut(base, 2 * (WALL_T - LED_PANEL_T), c)
             wt = WallSketch(basec, "x", xo, "Right_Text")
             # seen from the right (+x side), -y is on the left
             wt.label(base, "USB-C", (xo, USB_Y - 14, USB_Z + 17), (xo, USB_Y + 14, USB_Z + 17), "right", (1, 0, 0), 4.5)
-            wt.label(base, "STOP", (xo, STOP_Y - 14, STOP_Z + 16), (xo, STOP_Y + 14, STOP_Z + 16), "right", (1, 0, 0), 5.0)
-            for (nme, ly) in LED_Y:
-                wt.label(base, nme, (xo, ly - 8, LED_Z + 8), (xo, ly + 8, LED_Z + 8), "right", (1, 0, 0), 3.5)
-            wt.label(base, "FAN", (xo, FAN_Y - 10, FAN_Z + FAN_SIZE / 2 + 4), (xo, FAN_Y + 10, FAN_Z + FAN_SIZE / 2 + 4), "right", (1, 0, 0), 3.5)
             ws = WallSketch(basec, "x", xo, "Right_Vents")
             for vy in VENT_Y:
                 if abs(vy - USB_Y) < USB_LIP_D / 2 + 4:
                     continue          # no vents under the USB adapter
-                if abs(vy - FAN_Y) < FAN_SIZE / 2 + VENT_W / 2 + 2:
-                    continue          # the fan frame covers this part of the wall
+                if POD_Y0 - VENT_W < vy < POD_Y1 + VENT_W:
+                    continue          # this part of the wall is inside the control pod
                 ws.quad([(xo, vy - VENT_W / 2, VENT_Z0), (xo, vy + VENT_W / 2, VENT_Z0),
                          (xo, vy + VENT_W / 2, VENT_Z0 + VENT_H), (xo, vy - VENT_W / 2, VENT_Z0 + VENT_H)])
             ws.cut(base, 2 * WALL_T + 2)
         except Exception:
             log.append("right wall failed: " + traceback.format_exc())
+
+        # ================= CONTROL POD (stop switch and status LEDs facing up) =================
+        try:
+            px0 = xo                                  # outer face of the right wall
+            pxi = xo + POD_W_IN                       # inner face of the pod outer wall
+            px1 = pxi + WALL_T                        # outer face of the pod
+            zd = POD_DECK_Z
+            zu = zd - DECK_T                          # underside of the deck
+            yi0, yi1 = POD_Y0 + WALL_T, POD_Y1 - WALL_T
+            ym = (POD_Y0 + POD_Y1) / 2.0
+            # solid block from the floor to the deck top, 1 mm into the right wall so the join is solid
+            sk = sketch(basec, "Pod_Block"); rect(sk, px0 - 1.0, POD_Y0, px1, POD_Y1)
+            extrude(basec, sk, 0, zd, JOIN, [base])
+            # hollow it out between the floor and the deck (the right wall itself is not touched)
+            sk = sketch(basec, "Pod_Cavity"); rect(sk, px0, yi0, pxi, yi1)
+            extrude(basec, sk, FLOOR_T, zu - FLOOR_T, CUT, [base])
+            # wire window through the right wall: vertical sides, 45 degree gable on top (prints without support)
+            xw = X_IN + WALL_T / 2.0
+            ww = WallSketch(basec, "x", xw, "Pod_Wire_Window")
+            h = POD_WIN_W / 2.0
+            ww.poly([(xw, ym - h, POD_WIN_Z0), (xw, ym + h, POD_WIN_Z0), (xw, ym + h, POD_WIN_Z1),
+                     (xw, ym, POD_WIN_Z1 + h), (xw, ym - h, POD_WIN_Z1)])
+            ww.cut(base, WALL_T + 2.0)
+            # 45 degree supports under the deck: along both long edges and both ends
+            c = POD_CHAMFER
+            wc = WallSketch(basec, "y", ym, "Pod_Deck_Support_Long")
+            wc.poly([(px0 - 0.5, ym, zu + 0.5), (px0 + c, ym, zu + 0.5), (px0 + c, ym, zu), (px0 - 0.5, ym, zu - c - 0.5)])
+            wc.join(base, yi1 - yi0 + 1.0)
+            wc2 = wc.again("Pod_Deck_Support_Long_2")
+            wc2.poly([(pxi + 0.5, ym, zu + 0.5), (pxi - c, ym, zu + 0.5), (pxi - c, ym, zu), (pxi + 0.5, ym, zu - c - 0.5)])
+            wc2.join(base, yi1 - yi0 + 1.0)
+            xm = (px0 + pxi) / 2.0
+            we = WallSketch(basec, "x", xm, "Pod_Deck_Support_Ends")
+            for (yw, sgn) in ((yi0, 1), (yi1, -1)):
+                we.poly([(xm, yw - sgn * 0.5, zu + 0.5), (xm, yw + sgn * c, zu + 0.5), (xm, yw + sgn * c, zu),
+                         (xm, yw - sgn * 0.5, zu - c - 0.5)])
+            we.join(base, pxi - px0 + 1.0)
+            # above the lid seam the lid edge sits at x = xo: clear everything up to xo + LID_GAP over the pod length so
+            # the lid lifts straight up past the pod wall (below the seam the right wall and the chamfer stay joined)
+            sk = sketch(basec, "Lid_Gap_At_Pod"); rect(sk, X_IN - 1.0, POD_Y0 - 0.5, xo + LID_GAP, POD_Y1 + 0.5)
+            extrude(basec, sk, Z_TOP, zd - Z_TOP + 1.0, CUT, [base])
+            xc = (px0 + pxi) / 2.0                    # deck centre line
+            # ribs across the pod under the deck: full width between the walls, bottom edge rising at 45 degrees from
+            # each wall to RIB_DEPTH_MID under the centre line (inverted V), joined 0.5 mm into deck and walls
+            hw = (pxi - px0) / 2.0
+            for k, yr in enumerate(RIB_Y):
+                wr = WallSketch(basec, "y", yr, "Pod_Deck_Rib_%d" % k)
+                wr.poly([(px0 - 0.5, yr, zu + 0.5), (pxi + 0.5, yr, zu + 0.5), (pxi + 0.5, yr, zu - RIB_DEPTH_MID - hw - 0.5),
+                         (xc, yr, zu - RIB_DEPTH_MID), (px0 - 0.5, yr, zu - RIB_DEPTH_MID - hw - 0.5)])
+                wr.join(base, RIB_T)
+            # stop switch: clear space for the body, terminals and leads, the nut pocket, the panel hole, the lug
+            sk = sketch(basec, "Stop_Body_Clearance"); circles(sk, [(xc, STOP_Y)], STOP_HOLE_D + 0.6)
+            z_body = zd - STOP_DEPTH - 1.0
+            extrude(basec, sk, z_body, zu - z_body, CUT, [base])
+            sk = sketch(basec, "Stop_Nut_Pocket"); circles(sk, [(xc, STOP_Y)], STOP_NUT_POCKET_D)
+            # the pocket reaches up into the deck so the switch sees a STOP_PANEL_T panel (counterbore from below)
+            z_pk = zu - STOP_NUT_POCKET_H
+            extrude(basec, sk, z_pk, (zd - STOP_PANEL_T) - z_pk, CUT, [base])
+            sk = sketch(basec, "Stop_Switch_Hole"); circles(sk, [(xc, STOP_Y)], STOP_HOLE_D)
+            extrude(basec, sk, zu - 0.1, DECK_T + 0.2, CUT, [base])
+            # anti-rotation lug on the +x side of the hole (towards the pod outer wall), deck thickness only
+            x_face = xc - STOP_HOLE_D / 2 + STOP_LUG_GAP
+            sk = sketch(basec, "Stop_Switch_Lug")
+            rect(sk, x_face, STOP_Y - STOP_LUG_W / 2, xc + STOP_HOLE_D / 2 + 0.6, STOP_Y + STOP_LUG_W / 2)
+            extrude(basec, sk, zd - STOP_PANEL_T, STOP_PANEL_T, JOIN, [base])
+            # status LEDs: space for the body under the deck, recess to LED_PANEL_T, then the hole
+            pts = [(xc, ly) for (nme, ly) in LED_Y]
+            sk = sketch(basec, "LED_Body_Clearance"); circles(sk, pts, LED_RECESS_D)
+            extrude(basec, sk, zu - LED_BODY_DEPTH, LED_BODY_DEPTH + (DECK_T - LED_PANEL_T), CUT, [base])
+            sk = sketch(basec, "LED_Holes"); circles(sk, pts, LED_HOLE_D)
+            extrude(basec, sk, zu - 0.1, DECK_T + 0.2, CUT, [base])
+            # engraved labels on the deck, read from the coil (front, -y) side like the lid text
+            wt = WallSketch(basec, "z", zd, "Pod_Text")
+            wt.label(base, "STOP", (xc - 12, STOP_Y - 20, zd), (xc + 12, STOP_Y - 20, zd), "top", (0, 0, 1), 5.0)
+            for (nme, ly) in LED_Y:
+                wt.label(base, nme, (xc + 5.5, ly - 1.75, zd), (pxi, ly - 1.75, zd), "top", (0, 0, 1), 3.5)
+            log.append("control pod: deck z %.1f, %d LEDs, stop switch at y %.1f" % (zd, len(LED_Y), STOP_Y))
+        except Exception:
+            log.append("control pod failed: " + traceback.format_exc())
 
         # ================= LID =================
         lidc = new_comp(root, "Enclosure_Lid")
@@ -658,9 +737,15 @@ def run(context):
         fillet_vertical(lidc, lid, LID_T, CORNER_R)
         sk = sketch(lidc, "Lid_Screws"); circles(sk, posts, M3_CLEAR_D)
         extrude(lidc, sk, Z_TOP, LID_T, CUT, [lid])
-        sk = sketch(lidc, "Lid_Vents")
-        for vx in LID_VENT_X:
-            rect(sk, vx - LID_VENT_W / 2, LID_VENT_Y[0], vx + LID_VENT_W / 2, LID_VENT_Y[1])
+        if USE_LID_VENTS:
+            sk = sketch(lidc, "Lid_Vents")
+            for vx in LID_VENT_X:
+                rect(sk, vx - LID_VENT_W / 2, LID_VENT_Y[0], vx + LID_VENT_W / 2, LID_VENT_Y[1])
+            extrude(lidc, sk, Z_TOP, LID_T, CUT, [lid])
+        # fan over the drivers: air opening and the four M3 holes on the 32 mm square
+        sk = sketch(lidc, "Fan_Opening")
+        circles(sk, [(FAN_X, FAN_Y)], FAN_HOLE_D)
+        circles(sk, [(FAN_X + sx * FAN_SCREW_PITCH / 2, FAN_Y + sy * FAN_SCREW_PITCH / 2) for sx in (-1, 1) for sy in (-1, 1)], FAN_SCREW_D)
         extrude(lidc, sk, Z_TOP, LID_T, CUT, [lid])
         try:
             zt = Z_TOP + LID_T
@@ -670,7 +755,7 @@ def run(context):
             wt.label(lid, "34 V IN  -  36 V MAX", (-52, 46, zt), (52, 46, zt), "top", (0, 0, 1))
             wt.label(lid, "34 V IN AT THIS END", (-52, 100, zt), (52, 100, zt), "top", (0, 0, 1), 4.0)
             wt.label(lid, "COILS X  Y  Z AT THIS END", (-52, -119, zt), (52, -119, zt), "top", (0, 0, 1), 4.0)
-            wt.label(lid, "KEEP VENTS CLEAR", (-52, -62, zt), (52, -62, zt), "top", (0, 0, 1), 4.0)
+            wt.label(lid, "FAN INTAKE  KEEP CLEAR", (FAN_X - 40, FAN_Y - FAN_SIZE / 2 - 10, zt), (FAN_X + 40, FAN_Y - FAN_SIZE / 2 - 10, zt), "top", (0, 0, 1), 4.0)
         except Exception:
             log.append("lid text failed: " + traceback.format_exc())
         try:
@@ -728,44 +813,47 @@ def run(context):
         except Exception:
             log.append("USB adapter failed: " + traceback.format_exc())
         try:
-            # stand-in models (published sizes, not vendor CAD) so the assembly shows what is behind the right wall
-            pc = new_comp(root, "Right_wall_panel_parts_approx")
-            xi = X_IN
-            # fan body inside the wall
-            mid = xi - FAN_T / 2
-            wsf = WallSketch(pc, "x", mid, "Fan_body")
+            # stand-in models (published sizes, not vendor CAD). The fan and its guard are their own component so they
+            # move with the lid when it is parked; the stop switch and LEDs stay on the pod deck.
+            fc = new_comp(root, "Fan_lid_mounted_approx")
             hs = FAN_SIZE / 2
-            wsf.quad([(mid, FAN_Y - hs, FAN_Z - hs), (mid, FAN_Y + hs, FAN_Z - hs), (mid, FAN_Y + hs, FAN_Z + hs), (mid, FAN_Y - hs, FAN_Z + hs)])
-            wsf.circle((mid, FAN_Y, FAN_Z), FAN_HOLE_D - 1.0)
-            c = adsk.core.ObjectCollection.create()
-            for pr in wsf.sk.profiles:
-                if pr.profileLoops.count > 1:
-                    c.add(pr)
-            inp = pc.features.extrudeFeatures.createInput(c, NEW)
-            inp.setSymmetricExtent(VI.createByReal(FAN_T * mm), True)
-            f = pc.features.extrudeFeatures.add(inp)
-            for k in range(f.bodies.count):
-                f.bodies.item(k).name = "Fan_40x40x10_frame"
-            paint(design, f, "black")
-            # stop switch: mushroom head outside, body and terminals inside
-            for part, dia, a, b, col in (("head", STOP_HEAD_D, xo + 3.0, xo + STOP_HEAD_L, "red"),
-                                         ("bezel", 20.0, xo, xo + 3.0, "black"),
-                                         ("body", 16.0, xo - WALL_T - STOP_DEPTH, xo, "black")):
-                mid = (a + b) / 2.0
-                wss = WallSketch(pc, "x", mid, "Stop_" + part)
-                wss.circle((mid, STOP_Y, STOP_Z), dia)
-                paint(design, wss.solid(abs(b - a), "Stop_switch_" + part), col)
-            # LED indicators: bezel outside, body inside
+            for nm, z0, h, hole in (("Fan_40x40x10_frame", Z_TOP - FAN_T, FAN_T, FAN_HOLE_D - 1.0),
+                                    ("Fan_guard_Qualtek_08149", Z_TOP + LID_T, GUARD_T, FAN_HOLE_D)):
+                sk = sketch(fc, nm)
+                rect(sk, FAN_X - hs, FAN_Y - hs, FAN_X + hs, FAN_Y + hs)
+                circles(sk, [(FAN_X, FAN_Y)], hole)
+                c = adsk.core.ObjectCollection.create()
+                for pr in sk.profiles:
+                    if pr.profileLoops.count > 1:
+                        c.add(pr)
+                inp = fc.features.extrudeFeatures.createInput(c, NEW)
+                inp.startExtent = adsk.fusion.OffsetStartDefinition.create(VI.createByReal(z0 * mm))
+                inp.setDistanceExtent(False, VI.createByReal(h * mm))
+                f = fc.features.extrudeFeatures.add(inp)
+                for k in range(f.bodies.count):
+                    f.bodies.item(k).name = nm
+                paint(design, f, "black" if nm.startswith("Fan_40") else "metal")
+            pc = new_comp(root, "Control_pod_parts_approx")
+            xc = xo + POD_W_IN / 2.0
+            zd = POD_DECK_Z
+            for part, dia, z0, h, col in (("head", STOP_HEAD_D, zd + 3.0, STOP_HEAD_L - 3.0, "red"),
+                                          ("bezel", 20.0, zd, 3.0, "black"),
+                                          ("body", 16.0, zd - STOP_DEPTH, STOP_DEPTH - DECK_T, "black")):
+                sk = sketch(pc, "Stop_" + part); circles(sk, [(xc, STOP_Y)], dia)
+                f = extrude(pc, sk, z0, h, NEW)
+                for k in range(f.bodies.count):
+                    f.bodies.item(k).name = "Stop_switch_" + part
+                paint(design, f, col)
             for (nme, ly) in LED_Y:
-                for part, dia, a, b, col in (("bezel", LED_HOLE_D + 2.5, xo, xo + 1.5, "black"),
-                                             ("body", LED_HOLE_D - 0.2, xo - 12.0, xo, "black")):
-                    mid = (a + b) / 2.0
-                    wsl = WallSketch(pc, "x", mid, "LED_%s_%s" % (nme, part))
-                    wsl.circle((mid, ly, LED_Z), dia)
-                    paint(design, wsl.solid(abs(b - a), "LED_%s_%s" % (nme, part)), col)
-            log.append("drew the fan, stop switch and 3 status LEDs as stand-in models")
+                for part, dia, z0, h in (("bezel", LED_HOLE_D + 2.5, zd, 1.5), ("body", LED_HOLE_D - 0.2, zd - 12.0, 12.0 - DECK_T)):
+                    sk = sketch(pc, "LED_%s_%s" % (nme, part)); circles(sk, [(xc, ly)], dia)
+                    f = extrude(pc, sk, z0, h, NEW)
+                    for k in range(f.bodies.count):
+                        f.bodies.item(k).name = "LED_%s_%s" % (nme, part)
+                    paint(design, f, "black")
+            log.append("drew the lid fan, the stop switch and 3 status LEDs as stand-in models")
         except Exception:
-            log.append("right wall panel parts failed: " + traceback.format_exc())
+            log.append("fan / pod parts failed: " + traceback.format_exc())
         en3c = None
         try:
             en3c = new_comp(root, "Switchcraft_EN3_from_drawing")
@@ -835,12 +923,16 @@ def run(context):
             em.execute(em.createSTEPExportOptions(os.path.join(OUT_DIR, "TL73_Enclosure_Lid.step"), lidc))
             if en3c:
                 em.execute(em.createSTEPExportOptions(os.path.join(OUT_DIR, "vendor_models", "Switchcraft_EN3P_from_drawing.step"), en3c))
-            # lay the lid beside the box (text up) so the inside is visible in the assembly
+            # lay the lid beside the box (text up) so the inside is visible in the assembly; the fan and its guard get
+            # the same move so they stay on the lid at the fan hole
             try:
-                lo = OCC["Enclosure_Lid"]
-                t = lo.transform
-                t.translation = adsk.core.Vector3D.create(LID_PARK[0] * mm, LID_PARK[1] * mm, -Z_TOP * mm)
-                lo.transform = t
+                for key in ("Enclosure_Lid", "Fan_lid_mounted_approx"):
+                    if key not in OCC:
+                        continue
+                    lo = OCC[key]
+                    t = lo.transform
+                    t.translation = adsk.core.Vector3D.create(LID_PARK[0] * mm, LID_PARK[1] * mm, LID_PARK[2] * mm)
+                    lo.transform = t
                 if design.snapshots.hasPendingSnapshot:
                     design.snapshots.add()
             except Exception:

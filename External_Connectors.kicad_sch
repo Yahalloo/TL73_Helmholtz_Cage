@@ -2377,7 +2377,7 @@
 		)
 		(uuid "4744e2b8-3f38-4b7c-ba1c-61bbfe869301")
 	)
-	(text "34 V coil supply\n(parallel with CN1/CN2)"
+	(text "34 V coil supply\n(parallel with CN1201/CN1202)"
 		(exclude_from_sim no)
 		(at 110.49 69.85 0)
 		(effects

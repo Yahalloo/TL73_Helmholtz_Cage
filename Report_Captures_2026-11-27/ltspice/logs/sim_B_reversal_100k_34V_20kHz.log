@@ -1,0 +1,39 @@
+LTspice 24.1.4 for Windows
+Circuit: C:\Users\adars\AppData\Local\Temp\claude\d195a441006425e2\2cd0b001-3510-43e3-a3c9-5e3aa1fc306e\scratchpad\ltrun\sim_B_reversal_100k_34V_20kHz.net
+Start Time: Fri Nov 27 02:11:38 2026
+solver = Normal
+Maximum thread count: 22
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+Gmin = 1.89714e-08
+Gmin = 2.03704e-09
+Gmin = 2.18725e-10
+Gmin = 2.34854e-11
+Gmin = 2.52173e-12
+Gmin = 2.70769e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+.step mode=0
+.step mode=1
+Total elapsed time: 65.580 seconds.
+
+Files loaded:
+C:\Users\adars\AppData\Local\Temp\claude\d195a441006425e2\2cd0b001-3510-43e3-a3c9-5e3aa1fc306e\scratchpad\ltrun\sim_B_reversal_100k_34V_20kHz.net
+C:\Users\adars\AppData\Local\LTspice\lib\cmp\standard.mos
+
+C:\Users\adars\AppData\Local\Temp\claude\d195a441006425e2\2cd0b001-3510-43e3-a3c9-5e3aa1fc306e\scratchpad\ltrun\sim_B_reversal_100k_34V_20kHz.net(83): Voltage not found.
+.meas TRAN Vbus_pp PP V(VBUS) FROM {tstop-tsave-0.5m} TO {tstop-tsave}
+                      ^^^^^^^

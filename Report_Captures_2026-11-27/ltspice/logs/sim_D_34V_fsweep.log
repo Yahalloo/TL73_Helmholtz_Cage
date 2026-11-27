@@ -1,0 +1,139 @@
+LTspice 24.1.4 for Windows
+Circuit: C:\Users\adars\AppData\Local\Temp\claude\d195a441006425e2\2cd0b001-3510-43e3-a3c9-5e3aa1fc306e\scratchpad\ltrun\sim_D_34V_fsweep.net
+Start Time: Fri Nov 27 02:12:17 2026
+solver = Normal
+Maximum thread count: 22
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+Gmin = 1.89714e-08
+Gmin = 2.03704e-09
+Gmin = 2.18725e-10
+Gmin = 2.34854e-11
+Gmin = 2.52173e-12
+Gmin = 2.70769e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+.step mode=0 fsw=10000
+.step mode=1 fsw=10000
+.step mode=0 fsw=20000
+.step mode=1 fsw=20000
+.step mode=0 fsw=100000
+.step mode=1 fsw=100000
+Total elapsed time: 14.284 seconds.
+
+Files loaded:
+C:\Users\adars\AppData\Local\Temp\claude\d195a441006425e2\2cd0b001-3510-43e3-a3c9-5e3aa1fc306e\scratchpad\ltrun\sim_D_34V_fsweep.net
+C:\Users\adars\AppData\Local\LTspice\lib\cmp\standard.mos
+
+
+Measurement: Iavg
+  step	AVG(I(Lcoil))	FROM	TO
+     1	3.12435255095	0.0005	0.001
+     2	3.13124426175	0.0005	0.001
+     3	3.13196523692	0.0005	0.001
+     4	3.14711028343	0.0005	0.001
+     5	2.99524421158	0.0005	0.001
+     6	2.38513336108	0.0005	0.001
+
+Measurement: Iripple
+  step	PP(I(Lcoil))	FROM	TO
+     1	0.0299742221832	0.0005	0.001
+     2	0.0168557167053	0.0005	0.001
+     3	0.0164682865143	0.0005	0.001
+     4	0.0125405788422	0.0005	0.001
+     5	0.0276203155518	0.0005	0.001
+     6	0.143980026245	0.0005	0.001
+
+Measurement: Vcoil_max
+  step	MAX(V(X,Z))	FROM	TO
+     1	34.9843522608	0.0005	0.001
+     2	35.7819602489	0.0005	0.001
+     3	35.8021563292	0.0005	0.001
+     4	37.5292819738	0.0005	0.001
+     5	38.2055673599	0.0005	0.001
+     6	38.0777831078	0.0005	0.001
+
+Measurement: Vcoil_min
+  step	MIN(V(X,Z))	FROM	TO
+     1	-7.6046872139	0.0005	0.001
+     2	-7.56527590752	0.0005	0.001
+     3	-7.74322891235	0.0005	0.001
+     4	-8.43100690842	0.0005	0.001
+     5	-9.59288787842	0.0005	0.001
+     6	-9.26030158997	0.0005	0.001
+
+Measurement: Vbus_pp
+  step	PP(V(VBUS))	FROM	TO
+     1	0.238182067871	0.0005	0.001
+     2	0.211841583252	0.0005	0.001
+     3	0.210193634033	0.0005	0.001
+     4	0.189659118652	0.0005	0.001
+     5	0.167037963867	0.0005	0.001
+     6	0.136653900146	0.0005	0.001
+
+Measurement: Pdrv
+  step	AVG(V(VBUS)-V(A))*Id(M1)+V(A)*Id(M2)+(V(VBUS)-V(B))*Id(M3)+V(B)*Id(M4)	FROM	TO
+     1	2.81851530116	0.0005	0.001
+     2	3.45341248736	0.0005	0.001
+     3	3.45463183647	0.0005	0.001
+     4	4.73618858799	0.0005	0.001
+     5	7.9464893248	0.0005	0.001
+     6	10.494229234	0.0005	0.001
+
+Measurement: Psnub_diff
+  step	AVG(I(RsD)*I(RsD)*{RsD})	FROM	TO
+     1	2.14660983236e-15	0.0005	0.001
+     2	4.20187802776e-15	0.0005	0.001
+     3	3.98395216864e-15	0.0005	0.001
+     4	8.27383037866e-15	0.0005	0.001
+     5	1.94435161331e-14	0.0005	0.001
+     6	3.90722521276e-14	0.0005	0.001
+
+Measurement: Psnub_cm
+  step	AVG((I(RcmP)*I(RcmP)+I(RcmN)*I(RcmN))*{RsCM})	FROM	TO
+     1	2.1630187703e-15	0.0005	0.001
+     2	4.21724353199e-15	0.0005	0.001
+     3	3.99044473996e-15	0.0005	0.001
+     4	8.30760938864e-15	0.0005	0.001
+     5	1.94469672279e-14	0.0005	0.001
+     6	3.90821074552e-14	0.0005	0.001
+
+Measurement: Psnub_vm
+  step	AVG(I(R304)*I(R304)*{RsV})	FROM	TO
+     1	9.83365758319e-07	0.0005	0.001
+     2	1.99587866668e-06	0.0005	0.001
+     3	2.00346318614e-06	0.0005	0.001
+     4	4.13392941023e-06	0.0005	0.001
+     5	9.40947780831e-06	0.0005	0.001
+     6	1.27342136326e-05	0.0005	0.001
+
+Measurement: Psnub_coil
+  step	AVG(I(RsE)*I(RsE)*{RsE})	FROM	TO
+     1	1.29484559026e-13	0.0005	0.001
+     2	2.19737902801e-13	0.0005	0.001
+     3	2.2883837266e-13	0.0005	0.001
+     4	4.31416707057e-13	0.0005	0.001
+     5	6.48171279299e-13	0.0005	0.001
+     6	8.54210572248e-13	0.0005	0.001
+
+Measurement: Tj
+  step	{Tamb+RthJA*(Pdrv+Pq)}
+     1	111.690725372
+     2	129.340867149
+     3	129.374765054
+     4	165.002042746
+     5	254.24840323
+     6	325.075572706

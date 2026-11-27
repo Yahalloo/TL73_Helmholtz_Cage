@@ -844,7 +844,7 @@
 		)
 		(uuid "1f93d3ba-5518-468e-8bdc-ce6a4b23a9b1")
 	)
-	(text "DRIVER TEMP SENSE\n10k (0.1 %) to 3.3 V, 10k NTC (B = 3940 K) to GND: 1.65 V at 25 °C\nRntc = 10k x Vadc / (3.3 - Vadc)\nEach NTC sits on the ground copper at the end of a DRV8873 thermal pad.\nIt reads board copper, not the junction: warn at 85 °C, shut down at 100 °C."
+	(text "DRIVER TEMP SENSE\n10k (0.1 %) to 3.3 V, 10k NTC (B = 3940 K) to GND: 1.65 V at 25 °C\nRntc = 10k x Vadc / (3.3 - Vadc)\nEach NTC sits on the ground copper at the end of a DRV8873 thermal pad.\nIt reads board copper, not the junction: warn at 85 °C, shut down at 120 °C."
 		(exclude_from_sim no)
 		(at 17.78 118.11 0)
 		(effects

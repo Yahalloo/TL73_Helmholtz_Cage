@@ -1,0 +1,25 @@
+LTspice 24.1.4 for Windows
+Circuit: C:\Users\adars\AppData\Local\Temp\claude\d195a441006425e2\2cd0b001-3510-43e3-a3c9-5e3aa1fc306e\scratchpad\ltrun\helmholtz_drv8873_100k_snubbers_34V_20kHz.net
+Start Time: Fri Nov 27 02:11:31 2026
+solver = Normal
+Maximum thread count: 22
+tnom = 27
+temp = 27
+method = trap
+Direct Newton iteration for .op point succeeded.
+Total elapsed time: 3.295 seconds.
+
+Files loaded:
+C:\Users\adars\AppData\Local\Temp\claude\d195a441006425e2\2cd0b001-3510-43e3-a3c9-5e3aa1fc306e\scratchpad\ltrun\helmholtz_drv8873_100k_snubbers_34V_20kHz.net
+C:\Users\adars\AppData\Local\LTspice\lib\cmp\standard.mos
+
+Measurement "Iavg" FAIL'ed
+Measurement "Iripple" FAIL'ed
+Measurement "Vcoil_max" FAIL'ed
+Measurement "Vcoil_min" FAIL'ed
+Measurement "Vbus_pp" FAIL'ed
+Measurement "Pdrv" FAIL'ed
+Measurement "Psnub_diff" FAIL'ed
+Measurement "Psnub_cm" FAIL'ed
+Measurement "Psnub_vm" FAIL'ed
+Measurement "Tj" FAIL'ed
