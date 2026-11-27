@@ -4876,7 +4876,7 @@
 				(justify left)
 			)
 		)
-		(pin "PB8-BOOT0" passive
+		(pin "BOOT0" passive
 			(at 35.56 90.17 180)
 			(uuid "e030d33a-8215-46e9-b718-e043d40b08ec")
 			(effects
