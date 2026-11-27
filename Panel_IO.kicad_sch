@@ -3047,6 +3047,10 @@
 		(color 0 0 0 0)
 		(uuid "d0d5aa63-c9eb-4005-9145-8f7121e28a1c")
 	)
+	(no_connect
+		(at 171.45 59.69)
+		(uuid "68918f7d-cbf3-4878-8faf-1c6354a79e96")
+	)
 	(wire
 		(pts
 			(xy 57.15 119.38) (xy 62.23 119.38)
@@ -3166,10 +3170,6 @@
 			(type default)
 		)
 		(uuid "6b94fa02-df88-4d70-9257-003ac981105e")
-	)
-	(no_connect
-		(at 171.45 59.69)
-		(uuid "68918f7d-cbf3-4878-8faf-1c6354a79e96")
 	)
 	(wire
 		(pts

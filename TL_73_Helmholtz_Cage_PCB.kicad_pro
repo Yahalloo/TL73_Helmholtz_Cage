@@ -881,6 +881,10 @@
     [
       "1f5d4ec5-dd7b-4f93-9bd3-f78d2a8b5995",
       "DriverTempSense_Z"
+    ],
+    [
+      "e823a879-06fc-4578-883e-684616d0bde8",
+      "Panel_Drivers"
     ]
   ],
   "text_variables": {},

@@ -2230,186 +2230,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 170.18) (xy 151.13 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f273bf18-0c3f-46f2-98b8-6ca3c95a01e7")
-	)
-	(label "LED_IDLE"
-		(at 134.62 170.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "be9d71bc-d7a2-4643-9b10-b4ce29025ea9")
-	)
-	(wire
-		(pts
-			(xy 134.62 172.72) (xy 151.13 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62c93503-465a-433d-838c-45ef2bbf3121")
-	)
-	(label "LED_RUN"
-		(at 134.62 172.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2da7e34e-2e2a-4b91-9631-c297364ad3e5")
-	)
-	(wire
-		(pts
-			(xy 134.62 175.26) (xy 151.13 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cc7dfe5-e79d-4789-a5a6-68a91f600393")
-	)
-	(label "LED_FAULT"
-		(at 134.62 175.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "63644f2a-78a7-4c5c-b5e6-a356b6ac2893")
-	)
-	(wire
-		(pts
-			(xy 134.62 177.8) (xy 151.13 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cd70da71-ea98-4863-9df9-4e994a6ba8a3")
-	)
-	(label "DRV_OFF"
-		(at 134.62 177.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "576a3cfc-f1e7-4c83-b459-5ddf25c250a2")
-	)
-	(wire
-		(pts
-			(xy 134.62 180.34) (xy 151.13 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53729abd-9092-414a-beee-9ed845b872fd")
-	)
-	(label "DRV_DISABLE"
-		(at 134.62 180.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "dc6dde0b-5313-4658-9958-f50803c85e79")
-	)
-	(wire
-		(pts
-			(xy 134.62 182.88) (xy 151.13 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f78a279-fd14-459e-99fc-925722f76a2c")
-	)
-	(label "SPARE_PB4"
-		(at 134.62 182.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "74187bae-b101-40f5-b6c8-2718ab58f412")
-	)
-	(wire
-		(pts
-			(xy 105.41 143.51) (xy 119.38 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a9f5abb-c2aa-4608-9f16-8df12579518b")
-	)
-	(label "FAN_EN"
-		(at 105.41 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1c7b913b-fa33-4455-aafc-32682eb69a45")
-	)
-	(wire
-		(pts
-			(xy 105.41 146.05) (xy 119.38 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "09f5deb0-25bd-4ddb-a328-6b20d13b937b")
-	)
-	(label "BUZZER"
-		(at 105.41 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "07c11e88-8cad-4d04-b5e1-2c41e03b552d")
-	)
-	(wire
-		(pts
-			(xy 17.78 77.47) (xy 35.56 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "26ab7cb2-bc91-4ae8-a8d0-ad8a59452b2c")
-	)
-	(label "BUZZER"
-		(at 17.78 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "06d99817-0280-4752-86b5-b38fdc2c84bd")
-	)
-	(wire
-		(pts
 			(xy 57.15 49.53) (xy 82.55 49.53)
 		)
 		(stroke
@@ -2427,6 +2247,16 @@
 			(type default)
 		)
 		(uuid "027d7ac5-009b-4291-94d2-09f9b8c2830f")
+	)
+	(wire
+		(pts
+			(xy 105.41 146.05) (xy 119.38 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09f5deb0-25bd-4ddb-a328-6b20d13b937b")
 	)
 	(wire
 		(pts
@@ -2577,6 +2407,16 @@
 			(type default)
 		)
 		(uuid "2438319e-3fea-4c7c-9d54-115f0f5b2d78")
+	)
+	(wire
+		(pts
+			(xy 17.78 77.47) (xy 35.56 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26ab7cb2-bc91-4ae8-a8d0-ad8a59452b2c")
 	)
 	(wire
 		(pts
@@ -2810,6 +2650,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 175.26) (xy 151.13 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4cc7dfe5-e79d-4789-a5a6-68a91f600393")
+	)
+	(wire
+		(pts
 			(xy 100.33 50.8) (xy 114.3 50.8)
 		)
 		(stroke
@@ -2817,6 +2667,16 @@
 			(type default)
 		)
 		(uuid "4e7c88d7-fb6e-4ea1-a7a9-c80e86562cdb")
+	)
+	(wire
+		(pts
+			(xy 134.62 180.34) (xy 151.13 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53729abd-9092-414a-beee-9ed845b872fd")
 	)
 	(wire
 		(pts
@@ -2867,6 +2727,16 @@
 			(type default)
 		)
 		(uuid "62329231-afe7-4082-bbcd-0f8ae458cf33")
+	)
+	(wire
+		(pts
+			(xy 134.62 172.72) (xy 151.13 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62c93503-465a-433d-838c-45ef2bbf3121")
 	)
 	(wire
 		(pts
@@ -2927,6 +2797,16 @@
 			(type default)
 		)
 		(uuid "772762c0-39c6-44cb-b377-947199d40103")
+	)
+	(wire
+		(pts
+			(xy 105.41 143.51) (xy 119.38 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a9f5abb-c2aa-4608-9f16-8df12579518b")
 	)
 	(wire
 		(pts
@@ -3037,6 +2917,16 @@
 			(type default)
 		)
 		(uuid "8eae85b9-c1df-4bf1-9fab-f441291123f9")
+	)
+	(wire
+		(pts
+			(xy 134.62 182.88) (xy 151.13 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f78a279-fd14-459e-99fc-925722f76a2c")
 	)
 	(wire
 		(pts
@@ -3227,6 +3117,16 @@
 			(type default)
 		)
 		(uuid "cc8b2725-bb44-4019-82ef-b2abd34c46ae")
+	)
+	(wire
+		(pts
+			(xy 134.62 177.8) (xy 151.13 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd70da71-ea98-4863-9df9-4e994a6ba8a3")
 	)
 	(wire
 		(pts
@@ -3440,6 +3340,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 170.18) (xy 151.13 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f273bf18-0c3f-46f2-98b8-6ca3c95a01e7")
+	)
+	(wire
+		(pts
 			(xy 17.78 172.72) (xy 33.02 172.72)
 		)
 		(stroke
@@ -3487,6 +3397,26 @@
 			(justify left bottom)
 		)
 		(uuid "03dd66bf-aa07-4996-81ef-c1be50d575e0")
+	)
+	(label "BUZZER"
+		(at 17.78 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "06d99817-0280-4752-86b5-b38fdc2c84bd")
+	)
+	(label "BUZZER"
+		(at 105.41 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07c11e88-8cad-4d04-b5e1-2c41e03b552d")
 	)
 	(label "~{SCS}_CoilZ"
 		(at 154.94 130.81 0)
@@ -3568,6 +3498,16 @@
 		)
 		(uuid "1371874c-0808-4417-b6e0-e4bfb70029ed")
 	)
+	(label "FAN_EN"
+		(at 105.41 143.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1c7b913b-fa33-4455-aafc-32682eb69a45")
+	)
 	(label "~{FAULT}_CoilZ"
 		(at 154.94 128.27 0)
 		(effects
@@ -3647,6 +3587,16 @@
 			(justify left bottom)
 		)
 		(uuid "2cdd1381-a995-456f-a434-e4fe60c2c219")
+	)
+	(label "LED_RUN"
+		(at 134.62 172.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2da7e34e-2e2a-4b91-9631-c297364ad3e5")
 	)
 	(label "SPI_SCLK"
 		(at 66.04 180.34 0)
@@ -3898,6 +3848,16 @@
 		)
 		(uuid "56a6c1cd-0791-48c4-bd58-474ba7db114f")
 	)
+	(label "DRV_OFF"
+		(at 134.62 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "576a3cfc-f1e7-4c83-b459-5ddf25c250a2")
+	)
 	(label "PWM_B_CoilX"
 		(at 154.94 43.18 0)
 		(effects
@@ -3927,6 +3887,16 @@
 			(justify left bottom)
 		)
 		(uuid "5cb94cc7-a2f7-4ec0-b20a-729d17efea07")
+	)
+	(label "LED_FAULT"
+		(at 134.62 175.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63644f2a-78a7-4c5c-b5e6-a356b6ac2893")
 	)
 	(label "PWM_A_CoilY"
 		(at 82.55 57.15 180)
@@ -3997,6 +3967,16 @@
 			(justify right bottom)
 		)
 		(uuid "73354079-e1d8-479c-95d9-72e3311dedd9")
+	)
+	(label "SPARE_PB4"
+		(at 134.62 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74187bae-b101-40f5-b6c8-2718ab58f412")
 	)
 	(label "MAG_DRDY"
 		(at 17.78 175.26 0)
@@ -4238,6 +4218,16 @@
 		)
 		(uuid "bb41670d-b68b-475e-bafc-bf337305c009")
 	)
+	(label "LED_IDLE"
+		(at 134.62 170.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "be9d71bc-d7a2-4643-9b10-b4ce29025ea9")
+	)
 	(label "SPI_SCLK"
 		(at 17.78 180.34 0)
 		(effects
@@ -4347,6 +4337,16 @@
 			(justify right bottom)
 		)
 		(uuid "dc4d1d86-6cb4-4c09-9e7a-bc380147ae0e")
+	)
+	(label "DRV_DISABLE"
+		(at 134.62 180.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc6dde0b-5313-4658-9958-f50803c85e79")
 	)
 	(label "~{FAULT}_CoilX"
 		(at 82.55 46.99 180)
@@ -5245,7 +5245,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(page "5")
+					(page "6")
 				)
 			)
 		)
@@ -5301,7 +5301,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(page "10")
+					(page "12")
 				)
 			)
 		)
@@ -5357,7 +5357,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(page "18")
+					(page "16")
 				)
 			)
 		)
@@ -5523,7 +5523,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(page "4")
+					(page "5")
 				)
 			)
 		)
@@ -5599,7 +5599,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(page "6")
+					(page "7")
 				)
 			)
 		)
@@ -5675,7 +5675,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(page "8")
+					(page "9")
 				)
 			)
 		)
@@ -5841,7 +5841,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(page "15")
+					(page "3")
 				)
 			)
 		)
@@ -5897,7 +5897,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(page "17")
+					(page "15")
 				)
 			)
 		)
@@ -6069,7 +6069,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(page "13")
+					(page "17")
 				)
 			)
 		)
@@ -6125,7 +6125,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(page "9")
+					(page "11")
 				)
 			)
 		)
@@ -6231,7 +6231,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(page "12")
+					(page "10")
 				)
 			)
 		)
@@ -6397,7 +6397,73 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(page "3")
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 119.38 140.97)
+		(size 20.32 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 170 0 0.5)
+		)
+		(uuid "e823a879-06fc-4578-883e-684616d0bde8")
+		(property "Sheetname" "Panel_Drivers"
+			(at 119.38 140.2584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Panel_Drivers.kicad_sch"
+			(at 119.38 149.1746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "FAN_EN" passive
+			(at 119.38 143.51 180)
+			(uuid "2079c91e-a20a-47ce-b47c-33faf5c83a5a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BUZZER" passive
+			(at 119.38 146.05 180)
+			(uuid "b3036a8f-d36a-4d73-8022-f397099a976e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "TL_73_Helmholtz_Cage_PCB"
+				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
+					(page "19")
 				)
 			)
 		)
@@ -6473,7 +6539,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(page "7")
+					(page "8")
 				)
 			)
 		)
@@ -6529,7 +6595,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(page "11")
+					(page "13")
 				)
 			)
 		)
@@ -6635,73 +6701,7 @@
 		(instances
 			(project "TL_73_Helmholtz_Cage_PCB"
 				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(page "16")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 119.38 140.97)
-		(size 20.32 7.62)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 255 170 0 0.5)
-		)
-		(uuid "e823a879-06fc-4578-883e-684616d0bde8")
-		(property "Sheetname" "Panel_Drivers"
-			(at 119.38 140.2584 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Panel_Drivers.kicad_sch"
-			(at 119.38 149.1746 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "FAN_EN" passive
-			(at 119.38 143.51 180)
-			(uuid "2079c91e-a20a-47ce-b47c-33faf5c83a5a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "BUZZER" passive
-			(at 119.38 146.05 180)
-			(uuid "b3036a8f-d36a-4d73-8022-f397099a976e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(instances
-			(project "TL_73_Helmholtz_Cage_PCB"
-				(path "/da5a1e6a-2605-436b-a30c-1027586d5c0a"
-					(page "19")
+					(page "18")
 				)
 			)
 		)
